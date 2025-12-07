@@ -1,0 +1,38 @@
+name: Daily Hebrew Words
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Runs at 6:00 AM UTC every day
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  send-words:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed for committing changes to history.json
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python main.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update history.json [skip ci]"
+          file_pattern: history.json
