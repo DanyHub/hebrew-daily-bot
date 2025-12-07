@@ -22,7 +22,6 @@ def save_history(history):
 
 def generate_words(history):
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-1.5-flash')
     
     # Create the prompt
     history_list = ", ".join(history[-50:]) # Send last 50 words to avoid recent duplicates
@@ -52,10 +51,19 @@ def generate_words(history):
     """
     
     try:
+        # Using gemini-1.5-flash-001 as requested
+        model = genai.GenerativeModel('gemini-1.5-flash-001')
         response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
         return json.loads(response.text)
     except Exception as e:
         print(f"Error generating words: {e}")
+        try:
+            print("Attempting to list available models for debugging:")
+            for m in genai.list_models():
+                if 'generateContent' in m.supported_generation_methods:
+                    print(m.name)
+        except Exception as list_e:
+            print(f"Could not list models: {list_e}")
         return None
 
 def format_message(words_data):
