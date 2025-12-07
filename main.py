@@ -50,21 +50,39 @@ def generate_words(history):
     Ensure the JSON is valid and the "word" field contains the Hebrew word with Nikud.
     """
     
-    try:
-        # Using gemini-2.0-flash as it is available in the user's list
-        model = genai.GenerativeModel('gemini-2.0-flash')
-        response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
-        return json.loads(response.text)
-    except Exception as e:
-        print(f"Error generating words: {e}")
+    # Candidate models to try in order
+    candidate_models = [
+        'gemini-2.0-flash-lite',
+        'gemini-2.0-flash-lite-preview-02-05',
+        'gemini-2.0-flash-exp',
+        'gemini-2.0-flash'
+    ]
+
+    import time
+    
+    for model_name in candidate_models:
+        print(f"Attempting to generate with model: {model_name}")
         try:
-            print("Attempting to list available models for debugging:")
-            for m in genai.list_models():
-                if 'generateContent' in m.supported_generation_methods:
-                    print(m.name)
-        except Exception as list_e:
-            print(f"Could not list models: {list_e}")
-        return None
+            model = genai.GenerativeModel(model_name)
+            response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
+            return json.loads(response.text)
+        except Exception as e:
+            print(f"Model {model_name} failed: {e}")
+            if "429" in str(e):
+                print("Rate limit encountered. Waiting 5 seconds...")
+                time.sleep(5)
+            continue
+
+    print("All candidate models failed.")
+    # Fallback to listing models if all failed
+    try:
+        print("Attempting to list available models for debugging:")
+        for m in genai.list_models():
+            if 'generateContent' in m.supported_generation_methods:
+                print(m.name)
+    except Exception as list_e:
+        print(f"Could not list models: {list_e}")
+    return None
 
 def format_message(words_data):
     message = "Here are 5 advanced Hebrew words for today:\n\n"
