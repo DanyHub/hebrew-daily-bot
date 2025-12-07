@@ -51,8 +51,8 @@ def generate_words(history):
     """
     
     try:
-        # Using gemini-1.5-flash-001 as requested
-        model = genai.GenerativeModel('gemini-1.5-flash-001')
+        # Using gemini-2.0-flash as it is available in the user's list
+        model = genai.GenerativeModel('gemini-2.0-flash')
         response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
         return json.loads(response.text)
     except Exception as e:
