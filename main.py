@@ -103,6 +103,17 @@ def format_message(words_data):
         
     return message
 
+def send_telegram_message(message):
+    """Sends a text message to the Telegram chat."""
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message,
+        "parse_mode": "Markdown"
+    }
+    response = requests.post(url, json=payload)
+    return response.json()
+
 def generate_quiz_content(words_list):
     """
     Generates quiz content for a list of words.
