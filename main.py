@@ -88,6 +88,21 @@ def generate_words(history):
 
     return None
 
+def format_message(words_data):
+    message = "📚 **Daily Hebrew Vocabulary** 🇮🇱\n\n"
+    
+    for i, item in enumerate(words_data, 1):
+        message += f"{i}. *{item['transliteration']}* (**{item['word']}**)\n"
+        message += f"🏷️ _Part of Speech:_ {item['part_of_speech']}\n\n"
+        message += f"📖 *Definition:*\n{item['definition']}\n\n"
+        message += "🗣️ *Example:*\n"
+        message += f"🇮🇱 {item['example_hebrew']}\n"
+        message += f"🔤 {item['example_transliteration']}\n"
+        message += f"🇬🇧 {item['example_translation']}\n\n"
+        message += "〰️〰️〰️〰️〰️\n\n"
+        
+    return message
+
 def generate_quiz_content(word):
     """Generates 3 incorrect definitions for the given word using Gemini."""
     prompt = f"""
