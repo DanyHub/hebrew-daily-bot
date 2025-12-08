@@ -2,7 +2,8 @@ name: Daily Hebrew Words
 
 on:
   schedule:
-    - cron: '30 6 * * 0-5' # Runs at 6:30 AM UTC (8:30 AM IL) Sunday-Friday (Skip Saturday)
+    - cron: '30 6 * * 0-5' # Daily Words: 8:30 AM IL (Sun-Fri)
+    - cron: '0 10 * * 5'   # Weekly Quiz: 12:00 PM IL (Friday only)
   workflow_dispatch: # Allows manual triggering
 
 jobs:
@@ -31,8 +32,29 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update history.json [skip ci]"
           file_pattern: history.json
+
+  weekly-quiz:
+    if: github.event_name == 'schedule' && github.event.schedule == '0 10 * * 5' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Quiz
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python main.py --quiz
