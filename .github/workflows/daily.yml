@@ -2,7 +2,7 @@ name: Daily Hebrew Words
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Runs at 6:00 AM UTC every day
+    - cron: '30 6 * * *' # Runs at 6:30 AM UTC (8:30 AM Israel Winter Time)
   workflow_dispatch: # Allows manual triggering
 
 jobs:
