@@ -103,29 +103,45 @@ def format_message(words_data):
         
     return message
 
-def generate_quiz_content(word):
-    """Generates 3 incorrect definitions for the given word using Gemini."""
+def generate_quiz_content(words_list):
+    """
+    Generates quiz content for a list of words.
+    Returns a list of objects, each containing quiz data + full card details.
+    """
+    words_str = ", ".join(words_list)
     prompt = f"""
-    Create a multiple-choice quiz for the Hebrew word: "{word}".
+    Create a multiple-choice quiz for the following Hebrew words: {words_str}.
     
-    1. Provide the CORRECT English definition.
-    2. Provide 3 PLAUSIBLE but INCORRECT English definitions (distractors).
+    For EACH word, provide:
+    1. The quiz data (Question, Correct Answer, 3 Distractors).
+    2. The full educational card (Word, Transliteration, Part of Speech, Definition, Example).
     
-    Output JSON format:
-    {{
-        "question": "What is the meaning of '{word}'?",
-        "correct_option": "The correct definition",
-        "options": [
-            "The correct definition",
-            "Distractor 1",
-            "Distractor 2",
-            "Distractor 3"
-        ]
-    }}
-    Important: The "options" list MUST contain the correct answer and the 3 distractors shuffled randomly.
+    Output JSON format (List of objects):
+    [
+        {{
+            "word": "HebrewWord",
+            "quiz": {{
+                "question": "What is the meaning of 'HebrewWord'?",
+                "correct_option": "The correct definition",
+                "options": ["The correct definition", "Distractor 1", "Distractor 2", "Distractor 3"]
+            }},
+            "card": {{
+                "transliteration": "Transliteration",
+                "part_of_speech": "Part of speech",
+                "definition": "The exact correct definition used above",
+                "example_hebrew": "Example sentence",
+                "example_transliteration": "Example transliteration",
+                "example_translation": "Example translation"
+            }}
+        }},
+        ...
+    ]
+    Important: 
+    1. The "options" list MUST contain the correct answer and 3 distractors shuffled.
+    2. Ensure the "card" details match the "correct_option".
     """
     
-    # Candidate models to try in order (Prioritizing newer 2.5 models)
+    # Candidate models
     candidate_models = [
         'gemini-2.5-flash-lite',
         'gemini-2.5-flash',
@@ -154,12 +170,9 @@ def send_telegram_poll(quiz_data):
     """Sends a native Telegram Quiz poll."""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPoll"
     
-    # Find the index of the correct option for Telegram to check the answer
-    # Note: Gemini is asked to shuffle, so we just need to find where the correct one landed.
     try:
         correct_option_id = quiz_data['options'].index(quiz_data['correct_option'])
     except ValueError:
-        print("Error: Correct option not found in options list.")
         return None
 
     payload = {
@@ -168,39 +181,82 @@ def send_telegram_poll(quiz_data):
         "options": json.dumps(quiz_data['options']),
         "type": "quiz",
         "correct_option_id": correct_option_id,
-        "is_anonymous": True # Anonymous voting by default
+        "is_anonymous": True
     }
     
-    response = requests.post(url, data=payload)
-    return response.json()
+    requests.post(url, data=payload)
+
+def send_telegram_spoiler(word, card_data):
+    """Sends the full card details hidden behind a spoiler."""
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    
+    message = f"||🎯 **Answer Key for {word}**\n\n"
+    message += f"*{card_data['transliteration']}* ({word})\n"
+    message += f"🏷️ {card_data['part_of_speech']}\n"
+    message += f"📖 {card_data['definition']}\n\n"
+    message += f"🗣️ **Example:**\n"
+    message += f"🇮🇱 {card_data['example_hebrew']}\n"
+    message += f"🇬🇧 {card_data['example_translation']}||"
+    
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message,
+        "parse_mode": "MarkdownV2" 
+    }
+    # Note: MarkdownV2 requires escaping certain characters, but for simplicity in this proto
+    # we might use standard Markdown if supported with spoilers, but Spoilers are usually MarkdownV2.
+    # Let's try standard Markdown first with explicit tags if Telegram supports it, 
+    # otherwise we might need a simple HTML parse_mode for <span class="tg-spoiler">.
+    
+    # Switch to HTML for easier spoiler handling without complex escaping
+    payload['parse_mode'] = 'HTML'
+    payload['text'] = f"""
+<span class="tg-spoiler">
+🎯 <b>Answer Key for {word}</b>
+
+<i>{card_data['transliteration']}</i> (<b>{word}</b>)
+🏷️ {card_data['part_of_speech']}
+📖 {card_data['definition']}
+
+🗣️ <b>Example:</b>
+🇮🇱 {card_data['example_hebrew']}
+🇬🇧 {card_data['example_translation']}
+</span>
+    """
+    
+    requests.post(url, json=payload)
 
 def run_quiz_mode():
     print("Starting Weekly Quiz Mode...")
     history = load_history()
     
     if not history:
-        print("No history found. Cannot generate quiz.")
+        print("No history found.")
         return
 
-    # Select a word from the last 7 days (or last 7 items if dates aren't tracked)
-    # Asking for a random word from the recent batch
     import random
-    recent_words = history[-35:] # Last week's words (5 per day * 7 days = 35)
-    if not recent_words:
-        recent_words = history # Fallback to all history
+    import time
     
-    target_word = random.choice(recent_words)
-    print(f"Selected word for quiz: {target_word}")
+    # Select 3 unique random words
+    recent_words = history[-35:] if len(history) >= 35 else history
+    # Ensure we don't crash if less than 3 words exist
+    sample_size = min(3, len(recent_words))
+    target_words = random.sample(recent_words, sample_size)
     
-    quiz_data = generate_quiz_content(target_word)
+    print(f"Selected words for quiz: {target_words}")
     
-    if quiz_data:
-        print("Sending quiz...")
-        result = send_telegram_poll(quiz_data)
-        if result.get('ok'):
-            print("Quiz sent successfully.")
-        else:
-            print(f"Failed to send quiz: {result}")
+    # Generate content for all 3 words in one go (more efficient)
+    quiz_items = generate_quiz_content(target_words)
+    
+    if quiz_items:
+        for item in quiz_items:
+            print(f"Sending quiz for: {item['word']}")
+            send_telegram_poll(item['quiz'])
+            time.sleep(1) # Small delay to ensure order
+            send_telegram_spoiler(item['word'], item['card'])
+            time.sleep(2) # Delay between questions
+            
+        print("All quizzes sent.")
     else:
         print("Failed to generate quiz content.")
 
