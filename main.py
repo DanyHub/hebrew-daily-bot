@@ -50,8 +50,10 @@ def generate_words(history):
     Ensure the JSON is valid and the "word" field contains the Hebrew word with Nikud.
     """
     
-    # Candidate models to try in order
+    # Candidate models to try in order (Prioritizing newer 2.5 models)
     candidate_models = [
+        'gemini-2.5-flash-lite',
+        'gemini-2.5-flash',
         'gemini-2.0-flash-lite',
         'gemini-2.0-flash-lite-preview-02-05',
         'gemini-2.0-flash-exp',
@@ -69,8 +71,8 @@ def generate_words(history):
         except Exception as e:
             print(f"Model {model_name} failed: {e}")
             if "429" in str(e):
-                print("Rate limit encountered. Waiting 5 seconds...")
-                time.sleep(5)
+                print("Rate limit encountered. Waiting 60 seconds before next model...")
+                time.sleep(60)
             continue
 
     print("All candidate models failed.")
