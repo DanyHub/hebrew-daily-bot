@@ -87,17 +87,17 @@ def generate_words(history):
     return None
 
 def format_message(words_data):
-    message = "Here are 5 advanced Hebrew words for today:\n\n"
+    message = "📚 **Daily Hebrew Vocabulary** 🇮🇱\n\n"
     
     for i, item in enumerate(words_data, 1):
-        message += f"{i}. {item['transliteration']} ({item['word']})\n"
-        message += f"Part of Speech: {item['part_of_speech']}\n\n"
-        message += f"{item['definition']}\n\n"
-        message += "Example:\n"
-        message += f"Hebrew: {item['example_hebrew']}\n"
-        message += f"Transliteration: {item['example_transliteration']}\n"
-        message += f"Translation: {item['example_translation']}\n\n"
-        message += "---\n\n"
+        message += f"{i}. *{item['transliteration']}* (**{item['word']}**)\n"
+        message += f"🏷️ _Part of Speech:_ {item['part_of_speech']}\n\n"
+        message += f"📖 *Definition:*\n{item['definition']}\n\n"
+        message += "🗣️ *Example:*\n"
+        message += f"🇮🇱 {item['example_hebrew']}\n"
+        message += f"🔤 {item['example_transliteration']}\n"
+        message += f"🇬🇧 {item['example_translation']}\n\n"
+        message += "〰️〰️〰️〰️〰️\n\n"
         
     return message
 
@@ -105,7 +105,8 @@ def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
-        "text": message
+        "text": message,
+        "parse_mode": "Markdown"
     }
     response = requests.post(url, json=payload)
     return response.json()
