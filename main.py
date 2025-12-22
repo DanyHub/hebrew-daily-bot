@@ -24,7 +24,7 @@ def generate_words(history):
     genai.configure(api_key=GEMINI_API_KEY)
     
     # Create the prompt
-    history_list = ", ".join(history[-50:]) # Send last 50 words to avoid recent duplicates
+    history_list = ", ".join(history) # Send ALL words to avoid any duplicates
     prompt = f"""
     You are a helpful Hebrew tutor. Generate 5 ADVANCED Hebrew words.
     
