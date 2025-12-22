@@ -8,6 +8,7 @@ on:
 
 jobs:
   send-words:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '30 6 * * 0-5')
     runs-on: ubuntu-latest
     permissions:
       contents: write # Needed for committing changes to history.json
