@@ -106,3 +106,22 @@ class OrderFileTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FallbackTests(unittest.TestCase):
+    def test_level_borrows_unseen_packs_from_other_levels_before_repeating(self):
+        from hebbot import content as content_lib
+        content = content_lib.load_content()
+        order = order_lib.load_order()
+        for level in content_lib.LEVELS:
+            pool, own = order_lib.pool_packs(content, level, True, order)
+            themes = [p["theme"] for p in pool]
+            self.assertEqual(len(themes), len(set(themes)), "no theme twice in the pool")
+            self.assertEqual([p["theme"] for p in pool[:own]],
+                             [p["theme"] for p in order_lib.ordered_packs(content, level, True, order)])
+            self.assertGreater(len(pool), own, "other levels add packs")
+
+    def test_fallback_prefers_higher_levels(self):
+        self.assertEqual(order_lib.fallback_levels(1), [2, 3])
+        self.assertEqual(order_lib.fallback_levels(2), [3, 1])
+        self.assertEqual(order_lib.fallback_levels(3), [2, 1])

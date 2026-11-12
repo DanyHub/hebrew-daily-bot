@@ -66,6 +66,30 @@ def ordered_packs(content, level, allow_draft, order):
     return [by_key[k] for k in keys if k in by_key and _usable(themes[by_key[k]["theme"]], allow_draft)]
 
 
+def fallback_levels(level):
+    """Other levels to borrow from when a level runs out: higher ones first, then lower ones (nearest first)."""
+    higher = [lv for lv in content_lib.LEVELS if lv > level]
+    lower = [lv for lv in reversed(content_lib.LEVELS) if lv < level]
+    return higher + lower
+
+
+def pool_packs(content, level, allow_draft, order):
+    """The level's own packs, then packs of other levels it has not had (themes already in the pool are skipped).
+
+    Index `i` of the send calendar walks this list, so once a level has used all its own packs it moves on to
+    fresh themes from another level instead of repeating. Returns (packs, own_count).
+    """
+    own = ordered_packs(content, level, allow_draft, order)
+    pool = list(own)
+    seen = {p["theme"] for p in own}
+    for other in fallback_levels(level):
+        for pack in ordered_packs(content, other, allow_draft, order):
+            if pack["theme"] not in seen:
+                seen.add(pack["theme"])
+                pool.append(pack)
+    return pool, len(own)
+
+
 def ordered_roots(content, allow_draft, order):
     """Usable roots, in the locked order (shared by all levels)."""
     by_id = {r["id"]: r for r in content_lib.all_roots(content)}
@@ -151,9 +175,14 @@ def runway(content, order, day, allow_draft):
         return 0 if n == 0 else max(0, n - max(index, 0)) if index < n else 0
 
     out["roots"] = (len(ordered_roots(content, allow_draft, order)), left(len(ordered_roots(content, allow_draft, order))))
+    out["fallback"] = {}
     for level in content_lib.LEVELS:
-        n = len(ordered_packs(content, level, allow_draft, order))
-        out["packs"][level] = (n, left(n))
+        pool, own = pool_packs(content, level, allow_draft, order)
+        out["packs"][level] = (own, left(own))
+        # extra send days a level can still cover by borrowing from other levels
+        out["fallback"][level] = (len(pool) - own, left(len(pool)))
+        out["pool"] = out.get("pool", {})
+        out["pool"][level] = len(pool)
     return out
 
 
@@ -199,9 +228,18 @@ def main(argv=None):
     lines = [f"roots (shared): {n} items, {left_} send days of unseen content left"]
     lines += [f"level {lv} packs: {n} items, {left_} send days left" for lv, (n, left_) in info["packs"].items()]
     print("\n".join(lines))
+    for level, (extra, total_left) in info["fallback"].items():
+        own_left = info["packs"][level][1]
+        if own_left < 14:
+            state = "ALREADY borrowing from other levels" if own_left == 0 else "will borrow from other levels"
+            print(f"level {level}: {extra} packs from other levels as fallback ({state}); "
+                  f"{total_left} send days left before any repeat")
     for line, (_n, left_) in zip(lines, [info["roots"], *info["packs"].values()]):
         if left_ < 14:
-            print(f"::warning::{line}: add content soon, items will start to repeat")
+            print(f"::warning::{line}: add content soon")
+    for level, (_extra, total_left) in info["fallback"].items():
+        if total_left < 14:
+            print(f"::warning::level {level} has only {total_left} send days left even with other levels' packs: items will repeat")
 
 
 if __name__ == "__main__":

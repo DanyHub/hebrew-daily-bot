@@ -216,7 +216,7 @@ test("choosing level 3 stores it and sends today's idiom pack plus the shared ro
   assert.equal(db.rows.get(42).level, 3);
   assert.match(edits(tg).at(-1).args[2], /Niveau : 3 · Avancé/);
   assert.deepEqual(lessonMessages(tg), messagesFor("fr", 3, TODAY));
-  assert.match(lessonMessages(tg)[0], /expr\./);
+  assert.match(messagesFor("fr", 3, "2026-11-15")[0], /expr\./); // first scheduled day: an idiom pack
   assert.equal(lessonMessages(tg)[1], messagesFor("fr", 1, TODAY)[1]); // same root as level 1
 });
 

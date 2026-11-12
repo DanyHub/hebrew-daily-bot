@@ -32,7 +32,7 @@ def build_bundle(content, allow_draft=daily.SEND_DRAFTS, order=None):
             "roots": [render.render_root(r, lang, show_source=False)
                       for r in order_lib.ordered_roots(content, allow_draft, order)],
             "packs": {
-                str(level): [render.render_pack(p, lang) for p in order_lib.ordered_packs(content, level, allow_draft, order)]
+                str(level): [render.render_pack(p, lang) for p in order_lib.pool_packs(content, level, allow_draft, order)[0]]
                 for level in content_lib.LEVELS
             },
         }

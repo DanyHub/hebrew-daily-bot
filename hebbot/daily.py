@@ -44,9 +44,9 @@ def _order(order):
 
 
 def pick_pack(content, level, day, allow_draft=False, order=None):
-    """The pack of the day for a level (from the locked order), or None if the level has none."""
+    """The pack of the day for a level (locked order, then other levels' fresh packs when the level runs out)."""
     order = _order(order)
-    packs = order_lib.ordered_packs(content, level, allow_draft, order)
+    packs, _own = order_lib.pool_packs(content, level, allow_draft, order)
     return order_lib.pick(packs, order_lib.send_index(day, order_lib.start_date(order)))
 
 
