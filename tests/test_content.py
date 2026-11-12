@@ -40,9 +40,13 @@ class ValidationTests(unittest.TestCase):
         self.content["themes"]["body"]["words"][0]["meaning"].pop("en")
         self.assertTrue(any("meaning.en" in e for e in content_lib.validate(self.content)))
 
-    def test_detects_missing_nikud(self):
+    def test_nikud_is_optional(self):
         self.content["themes"]["body"]["words"][0]["he"] = "ראש"
-        self.assertTrue(any("no nikud" in e for e in content_lib.validate(self.content)))
+        self.assertEqual(content_lib.validate(self.content), [])
+
+    def test_detects_non_hebrew_text(self):
+        self.content["themes"]["body"]["words"][0]["he"] = "head"
+        self.assertTrue(any("no Hebrew letters" in e for e in content_lib.validate(self.content)))
 
     def test_detects_duplicate_id(self):
         words = self.content["themes"]["body"]["words"]

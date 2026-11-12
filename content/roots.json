@@ -8,51 +8,51 @@
       "meaning": {"fr": "écrire", "en": "to write"},
       "words": [
         {
-          "id": "ktv-katav", "he": "כָּתַב", "pos": "v",
+          "id": "ktv-katav", "he": "כתב", "pos": "v",
           "translit": {"fr": "katav", "en": "katav"},
           "meaning": {"fr": "Écrire", "en": "To write"},
           "example": {
-            "he": "הִיא כָּתְבָה מִכְתָּב לַסַּבְתָּא.",
+            "he": "היא כתבה מכתב לסבתא.",
             "translit": {"fr": "Hi katva mikhtav lasavta.", "en": "Hi katva michtav lasavta."},
             "translation": {"fr": "Elle a écrit une lettre à sa grand-mère.", "en": "She wrote a letter to her grandma."}
           }
         },
         {
-          "id": "ktv-michtav", "he": "מִכְתָּב", "pos": "nm",
+          "id": "ktv-michtav", "he": "מכתב", "pos": "nm",
           "translit": {"fr": "mikhtav", "en": "michtav"},
           "meaning": {"fr": "Lettre", "en": "Letter"},
           "example": {
-            "he": "קִבַּלְתִּי מִכְתָּב מֵהַבַּנְק.",
+            "he": "קבלתי מכתב מהבנק.",
             "translit": {"fr": "Kibalti mikhtav mehabank.", "en": "Kibalti michtav mehabank."},
             "translation": {"fr": "J'ai reçu une lettre de la banque.", "en": "I received a letter from the bank."}
           }
         },
         {
-          "id": "ktv-ktiva", "he": "כְּתִיבָה", "pos": "nf",
+          "id": "ktv-ktiva", "he": "כתיבה", "pos": "nf",
           "translit": {"fr": "ktiva", "en": "ktiva"},
           "meaning": {"fr": "Écriture (action d'écrire)", "en": "Writing (the act of writing)"},
           "example": {
-            "he": "הַכְּתִיבָה בְּעִבְרִית הִיא מִיָּמִין לִשְׂמֹאל.",
+            "he": "הכתיבה בעברית היא מימין לשמאל.",
             "translit": {"fr": "Hak'tiva be'ivrit hi miyamine lismol.", "en": "Haktiva be'ivrit hi miyamin lismol."},
             "translation": {"fr": "L'écriture en hébreu va de droite à gauche.", "en": "Writing in Hebrew goes from right to left."}
           }
         },
         {
-          "id": "ktv-katav-reporter", "he": "כַּתָּב", "pos": "nm",
+          "id": "ktv-katav-reporter", "he": "כתב", "pos": "nm",
           "translit": {"fr": "katav", "en": "katav"},
           "meaning": {"fr": "Reporter, correspondant", "en": "Reporter, correspondent"},
           "example": {
-            "he": "הַכַּתָּב דִּוֵּחַ מֵהַשֶּׁטַח.",
+            "he": "הכתב דוח מהשטח.",
             "translit": {"fr": "Hakatav divéa'h mehashétah'.", "en": "Hakatav divéach mehashetach."},
             "translation": {"fr": "Le reporter a rapporté depuis le terrain.", "en": "The reporter reported from the field."}
           }
         },
         {
-          "id": "ktv-koteret", "he": "כּוֹתֶרֶת", "pos": "nf",
+          "id": "ktv-koteret", "he": "כותרת", "pos": "nf",
           "translit": {"fr": "koteret", "en": "koteret"},
           "meaning": {"fr": "Titre (d'article), gros titre", "en": "Headline, title"},
           "example": {
-            "he": "הַכּוֹתֶרֶת הָרָאשִׁית הָיְתָה מַפְתִּיעָה.",
+            "he": "הכותרת הראשית היתה מפתיעה.",
             "translit": {"fr": "Hakoteret harichit haïta mafti'a.", "en": "Hakoteret harashit hayta mafti'a."},
             "translation": {"fr": "Le gros titre principal était surprenant.", "en": "The main headline was surprising."}
           }
@@ -67,51 +67,51 @@
       "meaning": {"fr": "envoyer", "en": "to send"},
       "words": [
         {
-          "id": "shlh-shalach", "he": "שָׁלַח", "pos": "v",
+          "id": "shlh-shalach", "he": "שלח", "pos": "v",
           "translit": {"fr": "chalah'", "en": "shalach"},
           "meaning": {"fr": "Envoyer", "en": "To send"},
           "example": {
-            "he": "שָׁלַחְתִּי לְךָ הוֹדָעָה אֶתְמוֹל.",
+            "he": "שלחתי לך הודעה אתמול.",
             "translit": {"fr": "Chalah'ti lékha hoda'a étmol.", "en": "Shalachti lecha hoda'a etmol."},
             "translation": {"fr": "Je t'ai envoyé un message hier.", "en": "I sent you a message yesterday."}
           }
         },
         {
-          "id": "shlh-shaliach", "he": "שָׁלִיחַ", "pos": "nm",
+          "id": "shlh-shaliach", "he": "שליח", "pos": "nm",
           "translit": {"fr": "chalia'h", "en": "shaliach"},
           "meaning": {"fr": "Coursier, émissaire", "en": "Courier, messenger"},
           "example": {
-            "he": "הַשָּׁלִיחַ הִגִּיעַ עִם הַחֲבִילָה.",
+            "he": "השליח הגיע עם החבילה.",
             "translit": {"fr": "Hachalia'h higuia im ha'havila.", "en": "Hashaliach higia im hachavila."},
             "translation": {"fr": "Le coursier est arrivé avec le colis.", "en": "The courier arrived with the package."}
           }
         },
         {
-          "id": "shlh-mishlo-ach", "he": "מִשְׁלוֹחַ", "pos": "nm",
+          "id": "shlh-mishlo-ach", "he": "משלוח", "pos": "nm",
           "translit": {"fr": "michloa'h", "en": "mishlo'ach"},
           "meaning": {"fr": "Expédition (d'un envoi)", "en": "Shipment, dispatch"},
           "example": {
-            "he": "הַמִּשְׁלוֹחַ יֵצֵא מָחָר בַּבֹּקֶר.",
+            "he": "המשלוח יצא מחר בבקר.",
             "translit": {"fr": "Hamichloa'h yétsé ma'har baboker.", "en": "Hamishlo'ach yetze machar baboker."},
             "translation": {"fr": "L'expédition part demain matin.", "en": "The shipment goes out tomorrow morning."}
           }
         },
         {
-          "id": "shlh-mishlachat", "he": "מִשְׁלַחַת", "pos": "nf",
+          "id": "shlh-mishlachat", "he": "משלחת", "pos": "nf",
           "translit": {"fr": "michlaha't", "en": "mishlachat"},
           "meaning": {"fr": "Délégation", "en": "Delegation"},
           "example": {
-            "he": "מִשְׁלַחַת שֶׁל מַדְעָנִים בִּקְּרָה בַּמָּכוֹן.",
+            "he": "משלחת של מדענים בקרה במכון.",
             "translit": {"fr": "Michlaha't chel mad'anim bikra bamakhon.", "en": "Mishlachat shel mad'anim bikra bamachon."},
             "translation": {"fr": "Une délégation de scientifiques a visité l'institut.", "en": "A delegation of scientists visited the institute."}
           }
         },
         {
-          "id": "shlh-shlihut", "he": "שְׁלִיחוּת", "pos": "nf",
+          "id": "shlh-shlihut", "he": "שליחות", "pos": "nf",
           "translit": {"fr": "chlih'out", "en": "shlichut"},
           "meaning": {"fr": "Mission, course (commission)", "en": "Mission, errand"},
           "example": {
-            "he": "יָצָאתִי לִשְׁלִיחוּת קְצָרָה.",
+            "he": "יצאתי לשליחות קצרה.",
             "translit": {"fr": "Yatsati lichlih'out ktsara.", "en": "Yatzati lishlichut ketzara."},
             "translation": {"fr": "Je suis sorti faire une petite course.", "en": "I went out on a short errand."}
           }

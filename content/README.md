@@ -23,7 +23,7 @@ content/
 ```
 
 - `id`: unique and stable (progress and spaced repetition will key on it).
-- `he`: always with nikud.
+- `he`: plain Hebrew letters, no nikud (nikud is accepted but not required).
 - `pos`: `nm`/`nf` (masc./fem. noun), `nmp`/`nfp` (plural), `v`, `adj`, `adv`.
 - `translit` is per language on purpose: French uses `ou`, `h'`, `ch`; English uses `u`, `ch`, `sh`.
 - `root` (optional): id of an entry in `roots.json`; powers the future "Family" button.

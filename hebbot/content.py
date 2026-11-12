@@ -84,7 +84,7 @@ def _check_i18n(errors, where, obj, key):
             errors.append(f"{where}: '{key}.{lang}' missing or empty")
 
 
-def _check_hebrew(errors, where, text, require_nikud=True):
+def _check_hebrew(errors, where, text, require_nikud=False):
     if not isinstance(text, str) or not text.strip():
         errors.append(f"{where}: Hebrew text missing")
         return
