@@ -1,0 +1,38 @@
+{
+  "theme": "tech",
+  "status": "draft",
+  "emoji": "💻",
+  "title": {"fr": "La technologie", "en": "Technology"},
+  "words": [
+    {"id": "tech-01", "level": 1, "he": "אינטרנט", "pos": "nm", "translit": {"fr": "intèrnèt", "en": "internet"}, "meaning": {"fr": "Internet", "en": "Internet"}},
+    {"id": "tech-02", "level": 1, "he": "הודעה", "pos": "nf", "translit": {"fr": "hoda'a", "en": "hoda'a"}, "meaning": {"fr": "Message", "en": "Message"}},
+    {"id": "tech-03", "level": 1, "he": "תמונה", "pos": "nf", "translit": {"fr": "tmouna", "en": "tmuna"}, "meaning": {"fr": "Photo, image", "en": "Picture"}},
+    {"id": "tech-04", "level": 1, "he": "סרטון", "pos": "nm", "translit": {"fr": "sartone", "en": "sarton"}, "meaning": {"fr": "Vidéo", "en": "Video"}},
+    {"id": "tech-05", "level": 1, "he": "טלוויזיה", "pos": "nf", "translit": {"fr": "télèvizya", "en": "televizya"}, "meaning": {"fr": "Télévision", "en": "Television"}},
+    {"id": "tech-06", "level": 1, "he": "מסך", "pos": "nm", "translit": {"fr": "massakh", "en": "masach"}, "meaning": {"fr": "Écran", "en": "Screen"}},
+    {"id": "tech-07", "level": 1, "he": "מקלדת", "pos": "nf", "translit": {"fr": "mikladèt", "en": "mikledet"}, "meaning": {"fr": "Clavier", "en": "Keyboard"}},
+    {"id": "tech-08", "level": 1, "he": "סיסמה", "pos": "nf", "translit": {"fr": "sismah", "en": "sisma"}, "meaning": {"fr": "Mot de passe", "en": "Password"}},
+    {"id": "tech-09", "level": 1, "he": "אפליקציה", "pos": "nf", "translit": {"fr": "aplikatsya", "en": "aplikatzya"}, "meaning": {"fr": "Application", "en": "App"}},
+    {"id": "tech-10", "level": 1, "he": "מצלמה", "pos": "nf", "translit": {"fr": "matslema", "en": "matzlema"}, "meaning": {"fr": "Appareil photo", "en": "Camera"}},
+    {"id": "tech-11", "level": 2, "he": "רשת", "pos": "nf", "translit": {"fr": "rèchèt", "en": "reshet"}, "meaning": {"fr": "Réseau", "en": "Network"}},
+    {"id": "tech-12", "level": 2, "he": "שרת", "pos": "nm", "translit": {"fr": "chartè", "en": "sharet"}, "meaning": {"fr": "Serveur", "en": "Server"}},
+    {"id": "tech-13", "level": 2, "he": "קובץ", "pos": "nm", "translit": {"fr": "kovèts", "en": "kovetz"}, "meaning": {"fr": "Fichier", "en": "File"}},
+    {"id": "tech-14", "level": 2, "he": "תוכנה", "pos": "nf", "translit": {"fr": "tokhna", "en": "tochna"}, "meaning": {"fr": "Logiciel", "en": "Software"}},
+    {"id": "tech-15", "level": 2, "he": "מטען", "pos": "nm", "translit": {"fr": "mat'èn", "en": "mat'en"}, "meaning": {"fr": "Chargeur", "en": "Charger"}},
+    {"id": "tech-16", "level": 2, "he": "סוללה", "pos": "nf", "translit": {"fr": "soula", "en": "solela"}, "meaning": {"fr": "Batterie", "en": "Battery"}},
+    {"id": "tech-17", "level": 2, "he": "הורדה", "pos": "nf", "translit": {"fr": "horada", "en": "horada"}, "meaning": {"fr": "Téléchargement", "en": "Download"}},
+    {"id": "tech-18", "level": 2, "he": "עדכון", "pos": "nm", "translit": {"fr": "ikoune", "en": "ikun"}, "meaning": {"fr": "Mise à jour", "en": "Update"}},
+    {"id": "tech-19", "level": 2, "he": "פרטיות", "pos": "nf", "translit": {"fr": "pratiyout", "en": "pratiyut"}, "meaning": {"fr": "Vie privée", "en": "Privacy"}},
+    {"id": "tech-20", "level": 2, "he": "התחברות", "pos": "nf", "translit": {"fr": "hitkhabrout", "en": "hitchabrut"}, "meaning": {"fr": "Connexion", "en": "Login"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "שלחתי לך הודעה עם תמונה.", "translit": {"fr": "Chalah'ti lèkha hoda'a im tmouna.", "en": "Shalachti lecha hoda'a im tmuna."}, "translation": {"fr": "Je t'ai envoyé un message avec une photo.", "en": "I sent you a message with a picture."}},
+    {"level": 1, "he": "הילד מסתכל על סרטון במסך.", "translit": {"fr": "Hayéled missta'kèl al sartone bamassakh.", "en": "Hayeled mistakel al sarton bamasach."}, "translation": {"fr": "L'enfant regarde une vidéo sur l'écran.", "en": "The child watches a video on the screen."}},
+    {"level": 1, "he": "שכחתי את הסיסמה של האפליקציה.", "translit": {"fr": "Chakhah'ti èt hassismah chèl haaplikatsya.", "en": "Shachachti et hasisma shel ha'aplikatzya."}, "translation": {"fr": "J'ai oublié le mot de passe de l'application.", "en": "I forgot the app's password."}},
+    {"level": 1, "he": "יש מקלדת חדשה ליד המחשב.", "translit": {"fr": "Yèch miklèdèt h'adacha léyad hamakhchev.", "en": "Yesh mikledet chadasha leyad hamachshev."}, "translation": {"fr": "Il y a un nouveau clavier à côté de l'ordinateur.", "en": "There's a new keyboard next to the computer."}},
+    {"level": 2, "he": "הסוללה התרוקנה ואין לי מטען.", "translit": {"fr": "Hassoula hitrokna vèèïne li mat'èn.", "en": "Hasolela hitrokna ve'ein li mat'en."}, "translation": {"fr": "La batterie s'est vidée et je n'ai pas de chargeur.", "en": "The battery died and I don't have a charger."}},
+    {"level": 2, "he": "הורדתי קובץ ושמתי עדכון בתוכנה.", "translit": {"fr": "Horadti kovèts vèsamti ikoune batokhna.", "en": "Horadti kovetz vesamti ikun batochna."}, "translation": {"fr": "J'ai téléchargé un fichier et fait une mise à jour du logiciel.", "en": "I downloaded a file and updated the software."}},
+    {"level": 2, "he": "השרת נפל והרשת לא עבדה כל הבוקר.", "translit": {"fr": "Hassartè nafal vèharéchèt lo avda kol haboker.", "en": "Hasharet nafal vehareshet lo avda kol haboker."}, "translation": {"fr": "Le serveur est tombé et le réseau n'a pas marché toute la matinée.", "en": "The server went down and the network didn't work all morning."}},
+    {"level": 2, "he": "הפרטיות שלי חשובה לי, אז אני מחליף סיסמה בכל התחברות חשודה.", "translit": {"fr": "Hapratiyout chéli h'achouva li, az ani mah'liph' sismah bèkhol hitkhabrout h'achouda.", "en": "Hapratiyut sheli chashuva li, az ani machlif sisma bechol hitchabrut chashuda."}, "translation": {"fr": "Ma vie privée est importante pour moi, donc je change de mot de passe.", "en": "My privacy matters to me, so I change my password."}}
+  ]
+}

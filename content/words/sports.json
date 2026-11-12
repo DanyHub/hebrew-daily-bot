@@ -1,0 +1,38 @@
+{
+  "theme": "sports",
+  "status": "draft",
+  "emoji": "⚽",
+  "title": {"fr": "Le sport", "en": "Sports"},
+  "words": [
+    {"id": "sports-01", "level": 1, "he": "כדורגל", "pos": "nm", "translit": {"fr": "kadourègèl", "en": "kaduregel"}, "meaning": {"fr": "Football", "en": "Soccer"}},
+    {"id": "sports-02", "level": 1, "he": "כדורסל", "pos": "nm", "translit": {"fr": "kadoursal", "en": "kadursal"}, "meaning": {"fr": "Basket", "en": "Basketball"}},
+    {"id": "sports-03", "level": 1, "he": "שחייה", "pos": "nf", "translit": {"fr": "s'h'iya", "en": "schiya"}, "meaning": {"fr": "Natation", "en": "Swimming"}},
+    {"id": "sports-04", "level": 1, "he": "ריצה", "pos": "nf", "translit": {"fr": "ritsa", "en": "ritza"}, "meaning": {"fr": "Course", "en": "Running"}},
+    {"id": "sports-05", "level": 1, "he": "כדור", "pos": "nm", "translit": {"fr": "kadour", "en": "kadur"}, "meaning": {"fr": "Ballon", "en": "Ball"}},
+    {"id": "sports-06", "level": 1, "he": "משחק", "pos": "nm", "translit": {"fr": "misèh'ak", "en": "miskhak"}, "meaning": {"fr": "Match, jeu", "en": "Game"}},
+    {"id": "sports-07", "level": 1, "he": "שחקן", "pos": "nm", "translit": {"fr": "sah'akane", "en": "sachkan"}, "meaning": {"fr": "Joueur", "en": "Player"}},
+    {"id": "sports-08", "level": 1, "he": "קבוצה", "pos": "nf", "translit": {"fr": "kvoutsa", "en": "kvutza"}, "meaning": {"fr": "Équipe", "en": "Team"}},
+    {"id": "sports-09", "level": 1, "he": "אימון", "pos": "nm", "translit": {"fr": "imoune", "en": "imun"}, "meaning": {"fr": "Entraînement", "en": "Training"}},
+    {"id": "sports-10", "level": 1, "he": "מגרש", "pos": "nm", "translit": {"fr": "migrach", "en": "migrash"}, "meaning": {"fr": "Terrain", "en": "Field"}},
+    {"id": "sports-11", "level": 2, "he": "תחרות", "pos": "nf", "translit": {"fr": "ta'h'arout", "en": "tacharut"}, "meaning": {"fr": "Compétition", "en": "Competition"}},
+    {"id": "sports-12", "level": 2, "he": "אליפות", "pos": "nf", "translit": {"fr": "alifout", "en": "alifut"}, "meaning": {"fr": "Championnat", "en": "Championship"}},
+    {"id": "sports-13", "level": 2, "he": "שוער", "pos": "nm", "translit": {"fr": "chove'r", "en": "shoer"}, "meaning": {"fr": "Gardien de but", "en": "Goalkeeper"}},
+    {"id": "sports-14", "level": 2, "he": "שופט", "pos": "nm", "translit": {"fr": "chofèt", "en": "shofet"}, "meaning": {"fr": "Arbitre", "en": "Referee"}},
+    {"id": "sports-15", "level": 2, "he": "ניצחון", "pos": "nm", "translit": {"fr": "nitsah'one", "en": "nitzachon"}, "meaning": {"fr": "Victoire", "en": "Victory"}},
+    {"id": "sports-16", "level": 2, "he": "הפסד", "pos": "nm", "translit": {"fr": "hèfsèd", "en": "hefsed"}, "meaning": {"fr": "Défaite", "en": "Loss"}},
+    {"id": "sports-17", "level": 2, "he": "תיקו", "pos": "nm", "translit": {"fr": "tèkou", "en": "teku"}, "meaning": {"fr": "Match nul", "en": "Draw"}},
+    {"id": "sports-18", "level": 2, "he": "אוהד", "pos": "nm", "translit": {"fr": "ohèd", "en": "ohed"}, "meaning": {"fr": "Supporter", "en": "Fan"}},
+    {"id": "sports-19", "level": 2, "he": "מאמן", "pos": "nm", "translit": {"fr": "mèamèn", "en": "me'amen"}, "meaning": {"fr": "Entraîneur", "en": "Coach"}},
+    {"id": "sports-20", "level": 2, "he": "שיא", "pos": "nm", "translit": {"fr": "si", "en": "si"}, "meaning": {"fr": "Record", "en": "Record"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "הילדים משחקים כדורגל במגרש.", "translit": {"fr": "Hayéladim missah'akim kadourègèl bamigrach.", "en": "Hayeladim mesachakim kaduregel bamigrash."}, "translation": {"fr": "Les enfants jouent au football sur le terrain.", "en": "The kids play soccer on the field."}},
+    {"level": 1, "he": "השחקן זורק את הכדור לקבוצה.", "translit": {"fr": "Hasah'akane zorèk èt hakadour lakvoutsa.", "en": "Hasachkan zorek et hakadur lakvutza."}, "translation": {"fr": "Le joueur lance le ballon à l'équipe.", "en": "The player throws the ball to the team."}},
+    {"level": 1, "he": "אני אוהב שחייה וריצה.", "translit": {"fr": "Ani ohèv s'h'iya vèritsa.", "en": "Ani ohev schiya veritza."}, "translation": {"fr": "J'aime la natation et la course.", "en": "I like swimming and running."}},
+    {"level": 1, "he": "יש לנו אימון כדורסל ביום שלישי.", "translit": {"fr": "Yèch lanou imoune kadoursal bayom chlichi.", "en": "Yesh lanu imun kadursal beyom shlishi."}, "translation": {"fr": "Nous avons entraînement de basket le mardi.", "en": "We have basketball training on Tuesday."}},
+    {"level": 2, "he": "הקבוצה שלנו זכתה בניצחון גדול באליפות.", "translit": {"fr": "Hakvoutsa chélanou zakhta binitsah'one gadol baalifout.", "en": "Hakvutza shelanu zachta benitzachon gadol ba'alifut."}, "translation": {"fr": "Notre équipe a remporté une grande victoire au championnat.", "en": "Our team won a big victory in the championship."}},
+    {"level": 2, "he": "השופט שרק תיקו והאוהדים צעקו.", "translit": {"fr": "Hachofèt charak tèkou vèha'ohadim tsa'aqou.", "en": "Hashofet sharak teku vehohadim tza'aku."}, "translation": {"fr": "L'arbitre a sifflé match nul et les supporters ont crié.", "en": "The referee whistled a draw and the fans shouted."}},
+    {"level": 2, "he": "השוער הציל כדור והמאמן חיבק אותו.", "translit": {"fr": "Hachove'r hitsil kadour vèhamèamèn h'ibèk oto.", "en": "Hashoer hitzil kadur vehame'amen chibek oto."}, "translation": {"fr": "Le gardien a arrêté un tir et l'entraîneur l'a serré dans ses bras.", "en": "The goalkeeper saved a shot and the coach hugged him."}},
+    {"level": 2, "he": "אחרי הפסד כואב הוא שבר שיא בתחרות הבאה.", "translit": {"fr": "Ah'aré hèfsèd koév hou chavar si batah'arout haba'a.", "en": "Acharei hefsed ko'ev hu shavar si bataccharut haba'a."}, "translation": {"fr": "Après une défaite douloureuse il a battu un record à la compétition suivante.", "en": "After a painful loss he broke a record in the next competition."}}
+  ]
+}

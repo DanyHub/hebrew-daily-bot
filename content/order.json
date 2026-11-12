@@ -140,7 +140,13 @@
       "city",
       "time",
       "emotions",
-      "state"
+      "state",
+      "colors",
+      "school",
+      "sports",
+      "tech",
+      "travel",
+      "work"
     ],
     "2": [
       "family",
@@ -153,7 +159,13 @@
       "city",
       "time",
       "emotions",
-      "state"
+      "state",
+      "colors",
+      "school",
+      "sports",
+      "tech",
+      "travel",
+      "work"
     ],
     "3": [
       "idioms-feelings",

@@ -1,0 +1,38 @@
+{
+  "theme": "work",
+  "status": "draft",
+  "emoji": "💼",
+  "title": {"fr": "Le travail", "en": "Work"},
+  "words": [
+    {"id": "work-01", "level": 1, "he": "עבודה", "pos": "nf", "translit": {"fr": "avoda", "en": "avoda"}, "meaning": {"fr": "Travail", "en": "Work"}},
+    {"id": "work-02", "level": 1, "he": "משרד", "pos": "nm", "translit": {"fr": "misrad", "en": "misrad"}, "meaning": {"fr": "Bureau", "en": "Office"}},
+    {"id": "work-03", "level": 1, "he": "מחשב", "pos": "nm", "translit": {"fr": "makhchev", "en": "machshev"}, "meaning": {"fr": "Ordinateur", "en": "Computer"}},
+    {"id": "work-04", "level": 1, "he": "טלפון", "pos": "nm", "translit": {"fr": "télèfone", "en": "telefon"}, "meaning": {"fr": "Téléphone", "en": "Phone"}},
+    {"id": "work-05", "level": 1, "he": "פגישה", "pos": "nf", "translit": {"fr": "pguicha", "en": "pgisha"}, "meaning": {"fr": "Réunion, rendez-vous", "en": "Meeting"}},
+    {"id": "work-06", "level": 1, "he": "בוס", "pos": "nm", "translit": {"fr": "boss", "en": "bos"}, "meaning": {"fr": "Patron", "en": "Boss"}},
+    {"id": "work-07", "level": 1, "he": "עובד", "pos": "nm", "translit": {"fr": "ové'd", "en": "oved"}, "meaning": {"fr": "Employé", "en": "Employee"}},
+    {"id": "work-08", "level": 1, "he": "כסף", "pos": "nm", "translit": {"fr": "késsèf", "en": "kesef"}, "meaning": {"fr": "Argent", "en": "Money"}},
+    {"id": "work-09", "level": 1, "he": "משכורת", "pos": "nf", "translit": {"fr": "machkoret", "en": "maskoret"}, "meaning": {"fr": "Salaire", "en": "Salary"}},
+    {"id": "work-10", "level": 1, "he": "חברה", "pos": "nf", "translit": {"fr": "h'évra", "en": "chevra"}, "meaning": {"fr": "Entreprise", "en": "Company"}},
+    {"id": "work-11", "level": 2, "he": "ראיון", "pos": "nm", "translit": {"fr": "rayone", "en": "ra'ayon"}, "meaning": {"fr": "Entretien", "en": "Interview"}},
+    {"id": "work-12", "level": 2, "he": "קורות חיים", "pos": "nmp", "translit": {"fr": "korot h'ayim", "en": "korot chayim"}, "meaning": {"fr": "CV", "en": "Résumé"}},
+    {"id": "work-13", "level": 2, "he": "חוזה", "pos": "nm", "translit": {"fr": "h'oze", "en": "choze"}, "meaning": {"fr": "Contrat", "en": "Contract"}},
+    {"id": "work-14", "level": 2, "he": "לקוח", "pos": "nm", "translit": {"fr": "lakoua'h", "en": "lakoach"}, "meaning": {"fr": "Client", "en": "Client"}},
+    {"id": "work-15", "level": 2, "he": "מנהלת", "pos": "nf", "translit": {"fr": "menahélète", "en": "menahelet"}, "meaning": {"fr": "Directrice", "en": "Manager (f.)"}},
+    {"id": "work-16", "level": 2, "he": "שכר", "pos": "nm", "translit": {"fr": "sakhar", "en": "sachar"}, "meaning": {"fr": "Rémunération", "en": "Pay, wage"}},
+    {"id": "work-17", "level": 2, "he": "פרויקט", "pos": "nm", "translit": {"fr": "proyèkt", "en": "proyekt"}, "meaning": {"fr": "Projet", "en": "Project"}},
+    {"id": "work-18", "level": 2, "he": "דוח", "pos": "nm", "translit": {"fr": "dou'h'", "en": "du'ach"}, "meaning": {"fr": "Rapport", "en": "Report"}},
+    {"id": "work-19", "level": 2, "he": "מועד", "pos": "nm", "translit": {"fr": "mo'èd", "en": "mo'ed"}, "meaning": {"fr": "Échéance, date", "en": "Deadline, date"}},
+    {"id": "work-20", "level": 2, "he": "פנסיה", "pos": "nf", "translit": {"fr": "pènsya", "en": "pensya"}, "meaning": {"fr": "Retraite", "en": "Pension"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "אני עובד במשרד ליד הבית.", "translit": {"fr": "Ani ové'd bamisrad lèyad habayit.", "en": "Ani oved bamisrad leyad habayit."}, "translation": {"fr": "Je travaille dans un bureau près de la maison.", "en": "I work in an office near home."}},
+    {"level": 1, "he": "יש לנו פגישה עם הבוס בבוקר.", "translit": {"fr": "Yèch lanou pguicha im haboss baboker.", "en": "Yesh lanu pgisha im habos baboker."}, "translation": {"fr": "Nous avons une réunion avec le patron le matin.", "en": "We have a meeting with the boss in the morning."}},
+    {"level": 1, "he": "המחשב והטלפון על השולחן.", "translit": {"fr": "Hamakhchev vèhatèlèfone al hachoul'hane.", "en": "Hamachshev vehatelefon al hashulchan."}, "translation": {"fr": "L'ordinateur et le téléphone sont sur la table.", "en": "The computer and the phone are on the table."}},
+    {"level": 1, "he": "המשכורת נכנסת לחשבון בסוף החודש.", "translit": {"fr": "Hamaskoret nikhnéssèt lah'èchbone bèssof hah'odèch.", "en": "Hamaskoret nikhenet lacheshbon besof hachodesh."}, "translation": {"fr": "Le salaire arrive sur le compte à la fin du mois.", "en": "The salary goes into the account at the end of the month."}},
+    {"level": 2, "he": "הלקוח חתם על החוזה אחרי הראיון.", "translit": {"fr": "Halakoua'h h'atam al hah'oze ah'aré harayone.", "en": "Halakoach chatam al hachoze acharei hara'ayon."}, "translation": {"fr": "Le client a signé le contrat après l'entretien.", "en": "The client signed the contract after the interview."}},
+    {"level": 2, "he": "שלחתי את קורות החיים שלי למנהלת.", "translit": {"fr": "Chalah'ti èt korot hah'ayim chéli lamenahélète.", "en": "Shalachti et korot hachayim sheli lamenahelet."}, "translation": {"fr": "J'ai envoyé mon CV à la directrice.", "en": "I sent my résumé to the manager."}},
+    {"level": 2, "he": "הדוח על הפרויקט חייב להיות מוכן במועד.", "translit": {"fr": "Hadou'h' al haproyèkt h'ayav lihyot mokhane bamo'èd.", "en": "Hadu'ach al haproyekt chayav lihyot mochan bamo'ed."}, "translation": {"fr": "Le rapport sur le projet doit être prêt à l'échéance.", "en": "The report on the project must be ready on the deadline."}},
+    {"level": 2, "he": "אחרי שנים של עבודה הוא יצא לפנסיה עם שכר טוב.", "translit": {"fr": "Ah'aré chanim chèl avoda hou yatsa lèpènsya im sakhar tov.", "en": "Acharei shanim shel avoda hu yatza lepensya im sachar tov."}, "translation": {"fr": "Après des années de travail il est parti à la retraite avec un bon salaire.", "en": "After years of work he retired with a good salary."}}
+  ]
+}
