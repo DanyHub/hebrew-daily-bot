@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-work",
+  "status": "draft",
+  "emoji": "🛠️",
+  "title": {"fr": "Expressions : le travail", "en": "Idioms: work"},
+  "words": [
+    {"id": "idioms-work-01", "level": 3, "he": "לעבוד כמו חמור", "pos": "expr", "translit": {"fr": "Laavod kmo h'amor", "en": "La'avod kmo chamor"}, "meaning": {"fr": "Travailler comme un forçat", "en": "To work like a donkey"}, "literal": {"fr": "travailler comme un âne", "en": "to work like a donkey"}},
+    {"id": "idioms-work-02", "level": 3, "he": "עבודת נמלים", "pos": "expr", "translit": {"fr": "Avodat némalim", "en": "Avodat nemalim"}, "meaning": {"fr": "Un travail de fourmi", "en": "Painstaking work"}, "literal": {"fr": "travail de fourmis", "en": "work of ants"}},
+    {"id": "idioms-work-03", "level": 3, "he": "כל הכבוד", "pos": "expr", "translit": {"fr": "Kol hakavod", "en": "Kol hakavod"}, "meaning": {"fr": "Bravo ! Chapeau !", "en": "Well done!"}, "literal": {"fr": "tout l'honneur", "en": "all the honor"}},
+    {"id": "idioms-work-04", "level": 3, "he": "ללכת על בטוח", "pos": "expr", "translit": {"fr": "Lalèkhèt al batouah'", "en": "Lalechet al batu'ach"}, "meaning": {"fr": "Jouer la sécurité", "en": "To play it safe"}, "literal": {"fr": "aller sur du sûr", "en": "to go on sure"}},
+    {"id": "idioms-work-05", "level": 3, "he": "לשים את כל הביצים בסל אחד", "pos": "expr", "translit": {"fr": "Lassim èt kol habéitsim bésal èh'ad", "en": "Lasim et kol habeitzim besal echad"}, "meaning": {"fr": "Mettre tous ses œufs dans le même panier", "en": "To put all one's eggs in one basket"}, "literal": {"fr": "mettre tous les œufs dans un seul panier", "en": "to put all the eggs in one basket"}},
+    {"id": "idioms-work-06", "level": 3, "he": "ללכת עד הסוף", "pos": "expr", "translit": {"fr": "Lalèkhèt ad hasof", "en": "Lalechet ad hasof"}, "meaning": {"fr": "Aller jusqu'au bout", "en": "To go all the way"}, "literal": {"fr": "aller jusqu'à la fin", "en": "to go until the end"}},
+    {"id": "idioms-work-07", "level": 3, "he": "לפתוח דף חדש", "pos": "expr", "translit": {"fr": "Liftoa'h daf h'adach", "en": "Liftoach daf chadash"}, "meaning": {"fr": "Tourner la page, repartir à zéro", "en": "To turn over a new leaf"}, "literal": {"fr": "ouvrir une page nouvelle", "en": "to open a new page"}},
+    {"id": "idioms-work-08", "level": 3, "he": "יד רוחצת יד", "pos": "expr", "translit": {"fr": "Yad roh'étsèt yad", "en": "Yad rochetzet yad"}, "meaning": {"fr": "Un service en vaut un autre", "en": "You scratch my back, I'll scratch yours"}, "literal": {"fr": "une main lave une main", "en": "a hand washes a hand"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "הוא עובד כמו חמור, וזו עבודת נמלים.", "translit": {"fr": "Hou ovèd kmo h'amor, vézo avodat némalim.", "en": "Hu oved kmo chamor, vezo avodat nemalim."}, "translation": {"fr": "Il travaille comme un forçat, et c'est un travail de fourmi.", "en": "He works like a donkey, and it's painstaking work."}},
+    {"level": 3, "he": "כל הכבוד! החלטת ללכת עד הסוף ולא ללכת על בטוח.", "translit": {"fr": "Kol hakavod! Hèh'latta lalèkhèt ad hasof vélo lalèkhèt al batouah'.", "en": "Kol hakavod! Hechlata lalechet ad hasof velo lalechet al batu'ach."}, "translation": {"fr": "Bravo ! Tu as décidé d'aller jusqu'au bout et de ne pas jouer la sécurité.", "en": "Well done! You decided to go all the way and not play it safe."}},
+    {"level": 3, "he": "אל תשים את כל הביצים בסל אחד, ותפתח דף חדש.", "translit": {"fr": "Al tassim èt kol habéitsim bésal èh'ad, vétiftah' daf h'adach.", "en": "Al tasim et kol habeitzim besal echad, vetiftach daf chadash."}, "translation": {"fr": "Ne mets pas tous tes œufs dans le même panier, et tourne la page.", "en": "Don't put all your eggs in one basket, and turn over a new leaf."}},
+    {"level": 3, "he": "אני אעזור לך ואתה תעזור לי: יד רוחצת יד.", "translit": {"fr": "Ani a'azor lakh vé'ata ta'azor li: yad roh'étsèt yad.", "en": "Ani a'azor lecha ve'ata ta'azor li: yad rochetzet yad."}, "translation": {"fr": "Je t'aide et tu m'aides : un service en vaut un autre.", "en": "I'll help you and you'll help me: one hand washes the other."}}
+  ]
+}

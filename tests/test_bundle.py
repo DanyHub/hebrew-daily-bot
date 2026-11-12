@@ -4,17 +4,19 @@ from datetime import date, datetime, timedelta, timezone
 
 from hebbot import content as content_lib
 from hebbot import daily, export_bundle
+from hebbot import order as order_lib
 
 
 def pick_like_the_worker(bundle, lang, level, day):
-    """The Worker's rule (worker/src/daily.js): packs[n % len] then roots[n % len], n = day ordinal."""
-    entry = bundle[lang][str(level)]
-    n = day.toordinal()
+    """The Worker's rule (worker/src/daily.js): packs[index % len] for the level, then roots[index % len]."""
+    index = order_lib.send_index(day, date.fromisoformat(bundle["start"]))
+    packs = bundle[lang]["packs"][str(level)]
+    roots = bundle[lang]["roots"]
     out = []
-    if entry["packs"]:
-        out.append(entry["packs"][n % len(entry["packs"])])
-    if entry["roots"]:
-        out.append(entry["roots"][n % len(entry["roots"])])
+    if packs:
+        out.append(packs[index % len(packs)])
+    if roots:
+        out.append(roots[index % len(roots)])
     return out
 
 
@@ -34,21 +36,29 @@ class BundleTests(unittest.TestCase):
 
     def test_the_workers_pick_equals_the_scheduled_send_every_day_for_two_years(self):
         start = date(2026, 11, 1)
+        order = order_lib.load_order()
         for lang in content_lib.LANGS:
-            for level in content_lib.LEVELS:
-                for i in range(0, 730):
+            for level in self.bundle["levels"]:
+                for i in range(-30, 730):  # includes the days before the schedule starts, and every Saturday
                     day = start + timedelta(days=i)
                     self.assertEqual(
                         pick_like_the_worker(self.bundle, lang, level, day),
-                        daily.build_daily(self.content, level, lang, day, daily.SEND_DRAFTS),
+                        daily.build_daily(self.content, level, lang, day, daily.SEND_DRAFTS, order),
                         f"{lang} L{level} {day}",
                     )
 
     def test_every_bundled_message_fits_telegram(self):
-        for lang in self.bundle.values():
-            for entry in lang.values():
-                for m in entry["packs"] + entry["roots"]:
-                    self.assertLessEqual(len(m), content_lib.TELEGRAM_MAX_LEN)
+        for lang in content_lib.LANGS:
+            messages = self.bundle[lang]["roots"] + [m for packs in self.bundle[lang]["packs"].values() for m in packs]
+            self.assertTrue(messages)
+            for m in messages:
+                self.assertLessEqual(len(m), content_lib.TELEGRAM_MAX_LEN)
+
+    def test_a_level_is_only_offered_once_it_has_enough_packs(self):
+        order = order_lib.load_order()
+        for level in content_lib.LEVELS:
+            enough = len(order_lib.ordered_packs(self.content, level, daily.SEND_DRAFTS, order)) >= export_bundle.MIN_PACKS_TO_OFFER
+            self.assertEqual(level in self.bundle["levels"], enough, level)
 
     def test_ordinals_the_worker_tests_rely_on(self):
         # worker/test/bot.test.js asserts the same numbers for its JavaScript ordinal().

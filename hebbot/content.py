@@ -11,14 +11,15 @@ from pathlib import Path
 CONTENT_DIR = Path(__file__).resolve().parent.parent / "content"
 
 LANGS = ("fr", "en")
-LEVELS = (1, 2)
-POS = ("nm", "nf", "nmp", "nfp", "v", "adj", "adv")
+LEVELS = (1, 2, 3)
+POS = ("nm", "nf", "nmp", "nfp", "v", "adj", "adv", "expr")
+SENTENCES_PER_PACK = 4
 STATUSES = ("draft", "reviewed")
 MAX_PACK_SIZE = 15
 TELEGRAM_MAX_LEN = 4096
 
 _NIKUD = re.compile(r"[֑-ׇ]")
-_HEBREW_OK = re.compile(r"^[א-ת֑-ׇ \-'\"׳״]+$")
+_HEBREW_OK = re.compile(r"^[א-ת֑-ׇ \-'\"׳״,.?!:;]+$")
 _HEBREW_LETTER = re.compile(r"[א-ת]")
 
 
@@ -58,8 +59,9 @@ def build_packs(content, level):
     return packs
 
 
-def roots_for_level(content, level):
-    return [r for r in content["roots"] if r["level"] == level]
+def all_roots(content):
+    """Roots are shared by everyone, whatever their level."""
+    return list(content["roots"])
 
 
 def find_root(content, root_id):
@@ -146,12 +148,22 @@ def validate(content):
             _check_i18n(errors, swhere, sentence, "translit")
             _check_i18n(errors, swhere, sentence, "translation")
 
+    for level in LEVELS:
+        seen_words = {}
+        for pack in build_packs(content, level):
+            if len(pack["sentences"]) != SENTENCES_PER_PACK:
+                errors.append(f"pack {pack['theme']} level {level}: needs exactly {SENTENCES_PER_PACK} sentences, has {len(pack['sentences'])}")
+            for word in pack["words"]:
+                other = seen_words.setdefault(word["he"], pack["theme"])
+                if other != pack["theme"]:
+                    errors.append(f"level {level}: {word['he']!r} appears in both {other!r} and {pack['theme']!r}")
+
     if len(root_ids) != len(content["roots"]):
         errors.append("roots: duplicate root ids")
     for root in content["roots"]:
         where = f"root {root.get('id')}"
-        if root.get("level") not in LEVELS:
-            errors.append(f"{where}: level must be one of {LEVELS}")
+        if "level" in root and root["level"] not in LEVELS:
+            errors.append(f"{where}: level, when given, must be one of {LEVELS}")
         if root.get("status") not in STATUSES:
             errors.append(f"{where}: status must be one of {STATUSES}")
         letters = root.get("letters", "")
@@ -175,7 +187,9 @@ def validate(content):
             for pack in build_packs(content, level):
                 if len(render.render_pack(pack, lang)) > TELEGRAM_MAX_LEN:
                     errors.append(f"pack {pack['theme']} L{level} {lang}: exceeds {TELEGRAM_MAX_LEN} chars")
-            for root in roots_for_level(content, level):
-                if len(render.render_root(root, lang)) > TELEGRAM_MAX_LEN:
-                    errors.append(f"root {root['id']} {lang}: exceeds {TELEGRAM_MAX_LEN} chars")
+
+    for lang in LANGS:
+        for root in all_roots(content):
+            if len(render.render_root(root, lang)) > TELEGRAM_MAX_LEN:
+                errors.append(f"root {root['id']} {lang}: exceeds {TELEGRAM_MAX_LEN} chars")
     return errors

@@ -1,0 +1,38 @@
+{
+  "theme": "colors",
+  "status": "draft",
+  "emoji": "🎨",
+  "title": {"fr": "Les couleurs", "en": "Colors"},
+  "words": [
+    {"id": "colors-01", "level": 1, "he": "אדום", "pos": "adj", "translit": {"fr": "adom", "en": "adom"}, "meaning": {"fr": "Rouge", "en": "Red"}},
+    {"id": "colors-02", "level": 1, "he": "כחול", "pos": "adj", "translit": {"fr": "kahol", "en": "kachol"}, "meaning": {"fr": "Bleu", "en": "Blue"}},
+    {"id": "colors-03", "level": 1, "he": "ירוק", "pos": "adj", "translit": {"fr": "yarok", "en": "yarok"}, "meaning": {"fr": "Vert", "en": "Green"}},
+    {"id": "colors-04", "level": 1, "he": "צהוב", "pos": "adj", "translit": {"fr": "tsahov", "en": "tzahov"}, "meaning": {"fr": "Jaune", "en": "Yellow"}},
+    {"id": "colors-05", "level": 1, "he": "שחור", "pos": "adj", "translit": {"fr": "chah'or", "en": "shachor"}, "meaning": {"fr": "Noir", "en": "Black"}},
+    {"id": "colors-06", "level": 1, "he": "לבן", "pos": "adj", "translit": {"fr": "lavane", "en": "lavan"}, "meaning": {"fr": "Blanc", "en": "White"}},
+    {"id": "colors-07", "level": 1, "he": "כתום", "pos": "adj", "translit": {"fr": "katom", "en": "katom"}, "meaning": {"fr": "Orange", "en": "Orange"}},
+    {"id": "colors-08", "level": 1, "he": "סגול", "pos": "adj", "translit": {"fr": "sagol", "en": "sagol"}, "meaning": {"fr": "Violet", "en": "Purple"}},
+    {"id": "colors-09", "level": 1, "he": "ורוד", "pos": "adj", "translit": {"fr": "varod", "en": "varod"}, "meaning": {"fr": "Rose", "en": "Pink"}},
+    {"id": "colors-10", "level": 1, "he": "טורקיז", "pos": "adj", "translit": {"fr": "tourkiz", "en": "turkiz"}, "meaning": {"fr": "Turquoise", "en": "Turquoise"}},
+    {"id": "colors-11", "level": 2, "he": "אפור", "pos": "adj", "translit": {"fr": "afor", "en": "afor"}, "meaning": {"fr": "Gris", "en": "Gray"}},
+    {"id": "colors-12", "level": 2, "he": "תכלת", "pos": "adj", "translit": {"fr": "tkhélète", "en": "tchelet"}, "meaning": {"fr": "Bleu clair", "en": "Light blue"}},
+    {"id": "colors-13", "level": 2, "he": "בז'", "pos": "adj", "translit": {"fr": "béj", "en": "bezh"}, "meaning": {"fr": "Beige", "en": "Beige"}},
+    {"id": "colors-14", "level": 2, "he": "זהוב", "pos": "adj", "translit": {"fr": "zahov", "en": "zahov"}, "meaning": {"fr": "Doré", "en": "Golden"}},
+    {"id": "colors-15", "level": 2, "he": "כסוף", "pos": "adj", "translit": {"fr": "kassouf", "en": "kasuf"}, "meaning": {"fr": "Argenté", "en": "Silver"}},
+    {"id": "colors-16", "level": 2, "he": "בהיר", "pos": "adj", "translit": {"fr": "bahir", "en": "bahir"}, "meaning": {"fr": "Clair", "en": "Light, bright"}},
+    {"id": "colors-17", "level": 2, "he": "כהה", "pos": "adj", "translit": {"fr": "kéhé", "en": "kehe"}, "meaning": {"fr": "Foncé", "en": "Dark"}},
+    {"id": "colors-18", "level": 2, "he": "צבע", "pos": "nm", "translit": {"fr": "tséva", "en": "tzeva"}, "meaning": {"fr": "Couleur", "en": "Color"}},
+    {"id": "colors-19", "level": 2, "he": "גוון", "pos": "nm", "translit": {"fr": "govane", "en": "gavan"}, "meaning": {"fr": "Nuance", "en": "Shade"}},
+    {"id": "colors-20", "level": 2, "he": "דהוי", "pos": "adj", "translit": {"fr": "dahouy", "en": "dahuy"}, "meaning": {"fr": "Délavé, passé", "en": "Faded"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "השמיים כחולים והדשא ירוק.", "translit": {"fr": "Hachamayim kh'oulim vèhadéché yarok.", "en": "Hashamayim kchulim vehadeshe yarok."}, "translation": {"fr": "Le ciel est bleu et l'herbe est verte.", "en": "The sky is blue and the grass is green."}},
+    {"level": 1, "he": "יש לי כובע אדום וחולצה צהובה.", "translit": {"fr": "Yèch li kova adom vèh'oultsa tsehouva.", "en": "Yesh li kova adom vechultza tzehuva."}, "translation": {"fr": "J'ai un chapeau rouge et une chemise jaune.", "en": "I have a red hat and a yellow shirt."}},
+    {"level": 1, "he": "החתול שלנו שחור ולבן.", "translit": {"fr": "Hah'atoul chélanou chah'or vèlavane.", "en": "Hachatul shelanu shachor velavan."}, "translation": {"fr": "Notre chat est noir et blanc.", "en": "Our cat is black and white."}},
+    {"level": 1, "he": "הפרח הוורוד והסגול יפה מאוד.", "translit": {"fr": "Haprah' havarod vèhassagol yafé méod.", "en": "Haperach havarod vehasagol yafe me'od."}, "translation": {"fr": "La fleur rose et violette est très belle.", "en": "The pink and purple flower is very pretty."}},
+    {"level": 2, "he": "הצבע הזה בהיר מדי, אני מחפש גוון כהה יותר.", "translit": {"fr": "Hatséva hazé bahir midaï, ani mèh'apèsse gavane kéhé yotère.", "en": "Hatzeva haze bahir midai, ani mechapes gavan kehe yoter."}, "translation": {"fr": "Cette couleur est trop claire, je cherche une nuance plus foncée.", "en": "This color is too light, I'm looking for a darker shade."}},
+    {"level": 2, "he": "החולצה האפורה דהויה אחרי הכביסה.", "translit": {"fr": "Hah'oultsa haafora dahouya ah'aré hakvissa.", "en": "Hachultza ha'afora dahuya acharei hakvisa."}, "translation": {"fr": "La chemise grise a déteint après la lessive.", "en": "The gray shirt faded after the wash."}},
+    {"level": 2, "he": "הטבעת הזהובה והשרשרת הכסופה על השולחן.", "translit": {"fr": "Hataba'at hazehouva vèhacharchéret hakassoufa al hachoul'hane.", "en": "Hatabaat hazehuva vehasharsheret hakesufa al hashulchan."}, "translation": {"fr": "La bague dorée et le collier argenté sont sur la table.", "en": "The golden ring and the silver necklace are on the table."}},
+    {"level": 2, "he": "הים התכלת והחול בז' יוצרים נוף יפה.", "translit": {"fr": "Hayam hatkhélète vèhah'ol béj yotsrim nof yafé.", "en": "Hayam hatchelet vehachol bezh yotzrim nof yafe."}, "translation": {"fr": "La mer bleu clair et le sable beige forment un beau paysage.", "en": "The light blue sea and the beige sand make a lovely view."}}
+  ]
+}

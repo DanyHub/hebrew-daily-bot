@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import { handleUpdate, parseCommand } from "../src/bot.js";
-import { messagesFor, ordinal, todayInIsrael } from "../src/daily.js";
+import { messagesFor, offeredLevels, ordinal, sendIndex, todayInIsrael } from "../src/daily.js";
 import worker, { safeEqual } from "../src/index.js";
 
 const TODAY = "2026-11-12";
@@ -196,6 +196,43 @@ test("/start for an active person only shows their settings", async () => {
   assert.deepEqual(lessonMessages(tg), []);
 });
 
+// --- level 3 (advanced) ---------------------------------------------------------
+
+test("the real bundle offers all three levels, and the level picker lists them", async () => {
+  assert.deepEqual(offeredLevels(), [1, 2, 3]);
+  const db = fakeDb(), tg = fakeTg();
+  await run(msg("/start"), db, tg);
+  await run(press("lang:en"), db, tg);
+  const edit = edits(tg).at(-1);
+  assert.match(edit.args[2], /3 · Advanced : Israeli idioms and slang/);
+  assert.deepEqual(edit.args[3].reply_markup.inline_keyboard.map((row) => row[0].callback_data), ["lvl:1", "lvl:2", "lvl:3"]);
+});
+
+test("choosing level 3 stores it and sends today's idiom pack plus the shared root", async () => {
+  const db = fakeDb(), tg = fakeTg();
+  await run(msg("/start"), db, tg);
+  await run(press("lang:fr"), db, tg);
+  await run(press("lvl:3"), db, tg);
+  assert.equal(db.rows.get(42).level, 3);
+  assert.match(edits(tg).at(-1).args[2], /Niveau : 3 · Avancé/);
+  assert.deepEqual(lessonMessages(tg), messagesFor("fr", 3, TODAY));
+  assert.match(messagesFor("fr", 3, "2026-11-15")[0], /expr\./); // first scheduled day: an idiom pack
+  assert.equal(lessonMessages(tg)[1], messagesFor("fr", 1, TODAY)[1]); // same root as level 1
+});
+
+test("a level that is not offered yet is neither shown nor accepted", async () => {
+  const db = fakeDb(), tg = fakeTg();
+  const levels = [1, 2]; // level 3 not ready
+  const runWith = (update) => handleUpdate(update, {}, { db, tg, levels, today: () => TODAY, sleep: async () => {} });
+  await runWith(msg("/start"));
+  await runWith(press("lang:en"));
+  assert.doesNotMatch(edits(tg).at(-1).args[2], /Advanced/);
+  assert.equal(edits(tg).at(-1).args[3].reply_markup.inline_keyboard.length, 2);
+  await runWith(press("lvl:3")); // a stale or forged button
+  assert.equal(db.rows.get(42).level, null);
+  assert.deepEqual(lessonMessages(tg), []);
+});
+
 // --- other commands ----------------------------------------------------------
 
 test("/status shows settings, or asks to finish onboarding", async () => {
@@ -212,7 +249,7 @@ test("/level and /langue show keyboards in the user's language", async () => {
   const db = fakeDb(), tg = fakeTg();
   db.rows.set(42, { chat_id: 42, lang: "en", level: 1, active: 1, last_sent: null });
   await run(msg("/level"), db, tg);
-  assert.equal(tg.last().args[2].reply_markup.inline_keyboard.length, 2);
+  assert.equal(tg.last().args[2].reply_markup.inline_keyboard.length, 3);
   assert.match(tg.last().args[2].reply_markup.inline_keyboard[0][0].text, /Beginner/);
   await run(msg("/langue"), db, tg);
   assert.match(tg.last().args[1], /Choose your language/);
@@ -261,19 +298,49 @@ test("todayInIsrael uses the Israeli date, winter and summer", () => {
   assert.match(todayInIsrael(), /^\d{4}-\d{2}-\d{2}$/);
 });
 
-test("messagesFor rotates by day, wraps around, and is empty for unknown settings", () => {
-  const data = { fr: { 1: { packs: ["p0", "p1", "p2"], roots: ["r0", "r1"] } } };
-  const n = ordinal("2026-11-12");
-  assert.deepEqual(messagesFor("fr", 1, "2026-11-12", data), [`p${n % 3}`, `r${n % 2}`]);
-  assert.deepEqual(messagesFor("fr", 1, "2026-11-13", data), [`p${(n + 1) % 3}`, `r${(n + 1) % 2}`]);
-  assert.deepEqual(messagesFor("de", 1, "2026-11-12", data), []);
-  assert.deepEqual(messagesFor("fr", 9, "2026-11-12", data), []);
-  assert.deepEqual(messagesFor("fr", 1, "2026-11-12", { fr: { 1: { packs: [], roots: ["r0"] } } }), ["r0"]);
+test("sendIndex counts Sunday to Friday, shares Friday's index on Saturday, and matches Python", () => {
+  // tests/test_order.py asserts the same numbers for hebbot.order.send_index().
+  const start = "2026-11-15"; // a Sunday
+  const expected = {
+    "2026-11-15": 0, "2026-11-20": 5, "2026-11-21": 5, "2026-11-22": 6,
+    "2026-11-13": -1, "2026-11-14": -1, "2026-11-09": -5, "2026-11-12": -2, "2027-03-26": 113,
+  };
+  for (const [day, value] of Object.entries(expected)) assert.equal(sendIndex(day, start), value, day);
+});
+
+test("messagesFor follows the locked order, wraps around, and is empty for unknown settings", () => {
+  const data = {
+    start: "2026-11-15",
+    levels: [1],
+    fr: { roots: ["r0", "r1"], packs: { 1: ["p0", "p1", "p2"] } },
+  };
+  assert.deepEqual(messagesFor("fr", 1, "2026-11-15", data), ["p0", "r0"]);
+  assert.deepEqual(messagesFor("fr", 1, "2026-11-16", data), ["p1", "r1"]);
+  assert.deepEqual(messagesFor("fr", 1, "2026-11-17", data), ["p2", "r0"]);
+  assert.deepEqual(messagesFor("fr", 1, "2026-11-18", data), ["p0", "r1"]); // wraps
+  assert.deepEqual(messagesFor("fr", 1, "2026-11-13", data), ["p2", "r1"]); // before the start (index -1)
+  assert.deepEqual(messagesFor("de", 1, "2026-11-15", data), []);
+  assert.deepEqual(messagesFor("fr", 9, "2026-11-15", data), ["r0"]);        // no packs for that level: root only
+  assert.deepEqual(offeredLevels(data), [1]);
+});
+
+test("Saturday gets Friday's lesson, so registering on a Saturday still gives a lesson", () => {
+  for (const level of [1, 2, 3]) {
+    assert.deepEqual(messagesFor("en", level, "2026-11-21"), messagesFor("en", level, "2026-11-20"));
+    assert.notDeepEqual(messagesFor("en", level, "2026-11-22"), messagesFor("en", level, "2026-11-20"));
+  }
+});
+
+test("everyone gets the same root of the day, whatever their level", () => {
+  for (const day of ["2026-11-15", "2026-11-18", "2026-12-25"]) {
+    const roots = new Set([1, 2, 3].map((level) => messagesFor("fr", level, day).at(-1)));
+    assert.equal(roots.size, 1, day);
+  }
 });
 
 test("the real bundle serves both messages for every language and level, every day of a year", () => {
   for (const lang of ["fr", "en"]) {
-    for (const level of [1, 2]) {
+    for (const level of [1, 2, 3]) {
       for (let i = 0; i < 365; i++) {
         const day = new Date(Date.UTC(2026, 10, 12 + i)).toISOString().slice(0, 10);
         const messages = messagesFor(lang, level, day);

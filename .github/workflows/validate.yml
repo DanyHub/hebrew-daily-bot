@@ -22,11 +22,22 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # the append-only check compares with the base branch
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+      - name: Install Hspell (Hebrew spell-check)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq hspell
       - run: pip install -r requirements.txt
       - run: python -m hebbot.validate
+      - name: Spell-check the Hebrew
+        run: python -m hebbot.spell
+      - name: Check the locked order
+        run: python -m hebbot.order check
+      - name: The order may only grow (pull requests)
+        if: github.event_name == 'pull_request'
+        run: python -m hebbot.order check --base origin/${{ github.base_ref }}
       - run: python -m unittest discover -s tests -t .
 
   worker:

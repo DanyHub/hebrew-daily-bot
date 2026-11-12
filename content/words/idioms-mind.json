@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-mind",
+  "status": "draft",
+  "emoji": "🧠",
+  "title": {"fr": "Expressions : la pensée", "en": "Idioms: thinking"},
+  "words": [
+    {"id": "idioms-mind-01", "level": 3, "he": "תכל'ס", "pos": "expr", "translit": {"fr": "Tah'lèss", "en": "Tachles"}, "meaning": {"fr": "Au fait, concrètement", "en": "Bottom line, practically"}, "literal": {"fr": "pour aller à l'essentiel", "en": "to the point"}},
+    {"id": "idioms-mind-02", "level": 3, "he": "לא עלה בדעתי", "pos": "expr", "translit": {"fr": "Lo ala bèda'ati", "en": "Lo ala bedaati"}, "meaning": {"fr": "Ça ne m'est pas venu à l'esprit", "en": "It never crossed my mind"}, "literal": {"fr": "ça n'est pas monté dans mon esprit", "en": "it did not rise in my mind"}},
+    {"id": "idioms-mind-03", "level": 3, "he": "שבר לי את הראש", "pos": "expr", "translit": {"fr": "Chavar li èt harosh", "en": "Shavar li et harosh"}, "meaning": {"fr": "Ça m'a cassé la tête, j'ai beaucoup réfléchi", "en": "It was a headache to figure out"}, "literal": {"fr": "il m'a cassé la tête", "en": "it broke my head"}},
+    {"id": "idioms-mind-04", "level": 3, "he": "הוא איבד את זה", "pos": "expr", "translit": {"fr": "Hou ibèd èt zé", "en": "Hu ibed et ze"}, "meaning": {"fr": "Il a perdu les pédales", "en": "He lost it"}, "literal": {"fr": "il a perdu ça", "en": "he lost it"}},
+    {"id": "idioms-mind-05", "level": 3, "he": "לא הבנתי כלום", "pos": "expr", "translit": {"fr": "Lo hévanti klom", "en": "Lo hevanti klum"}, "meaning": {"fr": "Je n'ai rien compris", "en": "I didn't understand a thing"}, "literal": {"fr": "je n'ai rien compris", "en": "I understood nothing"}},
+    {"id": "idioms-mind-06", "level": 3, "he": "הלך לי הלוז", "pos": "expr", "translit": {"fr": "Halakh li halouz", "en": "Halach li haluz"}, "meaning": {"fr": "Je n'ai plus la tête, je suis perdu", "en": "I lost track"}, "literal": {"fr": "le planning m'est parti", "en": "my schedule went"}},
+    {"id": "idioms-mind-07", "level": 3, "he": "הוא מסובב לי את הראש", "pos": "expr", "translit": {"fr": "Hou mèssovèv li èt harosh", "en": "Hu mesovev li et harosh"}, "meaning": {"fr": "Il me tourne la tête, il m'embrouille", "en": "He's messing with my head"}, "literal": {"fr": "il me tourne la tête", "en": "he spins my head"}},
+    {"id": "idioms-mind-08", "level": 3, "he": "תפסיק לחפור", "pos": "expr", "translit": {"fr": "Tafssik lah'por", "en": "Tafsik lachpor"}, "meaning": {"fr": "Arrête de ressasser", "en": "Stop digging, stop going on about it"}, "literal": {"fr": "arrête de creuser", "en": "stop digging"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "תכל'ס, לא עלה בדעתי לשאול אותו.", "translit": {"fr": "Tah'lèss, lo ala bèda'ati lichol oto.", "en": "Tachles, lo ala bedaati lish'ol oto."}, "translation": {"fr": "Concrètement, l'idée de lui demander ne m'est pas venue.", "en": "Bottom line, it never crossed my mind to ask him."}},
+    {"level": 3, "he": "שבר לי את הראש, כי לא הבנתי כלום.", "translit": {"fr": "Chavar li èt harosh, ki lo hévanti klom.", "en": "Shavar li et harosh, ki lo hevanti klum."}, "translation": {"fr": "Ça m'a cassé la tête, parce que je n'ai rien compris.", "en": "It was a headache, because I didn't understand a thing."}},
+    {"level": 3, "he": "הוא איבד את זה, הוא מסובב לי את הראש.", "translit": {"fr": "Hou ibèd èt zé, hou mèssovèv li èt harosh.", "en": "Hu ibed et ze, hu mesovev li et harosh."}, "translation": {"fr": "Il a perdu les pédales, il m'embrouille.", "en": "He lost it, he's messing with my head."}},
+    {"level": 3, "he": "תפסיק לחפור, הלך לי הלוז כבר מזמן.", "translit": {"fr": "Tafssik lah'por, halakh li halouz kvar mizman.", "en": "Tafsik lachpor, halach li haluz kvar mizman."}, "translation": {"fr": "Arrête de ressasser, j'ai perdu le fil depuis longtemps.", "en": "Stop going on about it, I lost track long ago."}}
+  ]
+}

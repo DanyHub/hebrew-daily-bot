@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-feelings",
+  "status": "draft",
+  "emoji": "💭",
+  "title": {"fr": "Expressions : les émotions", "en": "Idioms: feelings"},
+  "words": [
+    {"id": "idioms-feelings-01", "level": 3, "he": "אל תקח את זה ללב", "pos": "expr", "translit": {"fr": "Al tikah et zé lalèv", "en": "Al tikach et ze lalev"}, "meaning": {"fr": "Ne prends pas ça trop à cœur", "en": "Don't take it too much to heart"}, "literal": {"fr": "ne le prends pas au cœur", "en": "don't take it to the heart"}},
+    {"id": "idioms-feelings-02", "level": 3, "he": "נמאס לי לטחון מים", "pos": "expr", "translit": {"fr": "Nim'as li lit'hon mayim", "en": "Nim'as li litchon mayim"}, "meaning": {"fr": "J'en ai assez de parler dans le vide", "en": "I'm tired of talking in circles"}, "literal": {"fr": "j'en ai assez de moudre de l'eau", "en": "I'm sick of grinding water"}},
+    {"id": "idioms-feelings-03", "level": 3, "he": "הוא תמיד עושה מזבוב פיל", "pos": "expr", "translit": {"fr": "Hou tamid ossé mizvouv pil", "en": "Hu tamid ose mizvuv pil"}, "meaning": {"fr": "Il fait toujours une montagne d'un rien", "en": "He always makes a mountain out of a molehill"}, "literal": {"fr": "il fait toujours d'une mouche un éléphant", "en": "he always makes an elephant out of a fly"}},
+    {"id": "idioms-feelings-04", "level": 3, "he": "יצאתי מזה בשן ועין", "pos": "expr", "translit": {"fr": "Yatsati mizé béchèn vaayin", "en": "Yatzati mize beshen va'ayin"}, "meaning": {"fr": "Je m'en suis sorti de justesse", "en": "I got out of it by the skin of my teeth"}, "literal": {"fr": "j'en suis sorti avec une dent et un œil", "en": "I came out of it with a tooth and an eye"}},
+    {"id": "idioms-feelings-05", "level": 3, "he": "ירד לי האסימון", "pos": "expr", "translit": {"fr": "Yarad li ha'assimone", "en": "Yarad li ha'asimon"}, "meaning": {"fr": "Ça y est, j'ai compris (le déclic)", "en": "The penny dropped"}, "literal": {"fr": "la pièce m'est tombée", "en": "the token dropped for me"}},
+    {"id": "idioms-feelings-06", "level": 3, "he": "עלה לי הדם לראש", "pos": "expr", "translit": {"fr": "Ala li hadam laroch", "en": "Ala li hadam larosh"}, "meaning": {"fr": "J'ai perdu mon calme, la colère m'a pris", "en": "My blood boiled, I lost my temper"}, "literal": {"fr": "le sang m'est monté à la tête", "en": "the blood rose to my head"}},
+    {"id": "idioms-feelings-07", "level": 3, "he": "יש לי פרפרים בבטן", "pos": "expr", "translit": {"fr": "Yèch li parparim babétène", "en": "Yesh li parparim baveten"}, "meaning": {"fr": "J'ai le trac, des papillons dans le ventre", "en": "I have butterflies in my stomach"}, "literal": {"fr": "j'ai des papillons dans le ventre", "en": "I have butterflies in my belly"}},
+    {"id": "idioms-feelings-08", "level": 3, "he": "אני על ענן", "pos": "expr", "translit": {"fr": "Ani al anane", "en": "Ani al anan"}, "meaning": {"fr": "Je suis aux anges", "en": "I'm on cloud nine"}, "literal": {"fr": "je suis sur un nuage", "en": "I'm on a cloud"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "אל תקח את זה ללב, הוא תמיד עושה מזבוב פיל.", "translit": {"fr": "Al tikah et zé lalèv, hou tamid ossé mizvouv pil.", "en": "Al tikach et ze lalev, hu tamid ose mizvuv pil."}, "translation": {"fr": "Ne prends pas ça à cœur, il fait toujours une montagne d'un rien.", "en": "Don't take it to heart, he always makes a mountain out of a molehill."}},
+    {"level": 3, "he": "נמאס לי לטחון מים, אני רוצה החלטה.", "translit": {"fr": "Nim'as li lit'hon mayim, ani rotsé h'alata.", "en": "Nim'as li litchon mayim, ani rotze hachlata."}, "translation": {"fr": "J'en ai assez de tourner en rond, je veux une décision.", "en": "I'm tired of going in circles, I want a decision."}},
+    {"level": 3, "he": "יצאתי מזה בשן ועין, ועכשיו ירד לי האסימון.", "translit": {"fr": "Yatsati mizé béchèn vaayin, vé'akhchav yarad li ha'assimone.", "en": "Yatzati mize beshen va'ayin, ve'achshav yarad li ha'asimon."}, "translation": {"fr": "Je m'en suis sorti de justesse, et maintenant j'ai compris.", "en": "I barely got out of it, and now the penny dropped."}},
+    {"level": 3, "he": "יש לי פרפרים בבטן, אבל אני על ענן.", "translit": {"fr": "Yèch li parparim babétène, aval ani al anane.", "en": "Yesh li parparim baveten, aval ani al anan."}, "translation": {"fr": "J'ai le trac, mais je suis aux anges.", "en": "I have butterflies in my stomach, but I'm on cloud nine."}}
+  ]
+}

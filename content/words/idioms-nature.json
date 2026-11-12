@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-nature",
+  "status": "draft",
+  "emoji": "⛈️",
+  "title": {"fr": "Expressions : la nature", "en": "Idioms: nature and weather"},
+  "words": [
+    {"id": "idioms-nature-01", "level": 3, "he": "אין חדש תחת השמש", "pos": "expr", "translit": {"fr": "Éïne h'adach tah'at hachémèch", "en": "Ein chadash tachat hashemesh"}, "meaning": {"fr": "Rien de nouveau sous le soleil", "en": "Nothing new under the sun"}, "literal": {"fr": "il n'y a rien de nouveau sous le soleil", "en": "there is nothing new under the sun"}},
+    {"id": "idioms-nature-02", "level": 3, "he": "סערה בכוס מים", "pos": "expr", "translit": {"fr": "Séara békos mayim", "en": "Se'ara bekos mayim"}, "meaning": {"fr": "Une tempête dans un verre d'eau", "en": "A storm in a teacup"}, "literal": {"fr": "une tempête dans un verre d'eau", "en": "a storm in a glass of water"}},
+    {"id": "idioms-nature-03", "level": 3, "he": "כרעם ביום בהיר", "pos": "expr", "translit": {"fr": "Kéra'am béyom bahir", "en": "Kera'am beyom bahir"}, "meaning": {"fr": "Comme un coup de tonnerre dans un ciel serein", "en": "Like a bolt from the blue"}, "literal": {"fr": "comme un tonnerre par jour clair", "en": "like thunder on a clear day"}},
+    {"id": "idioms-nature-04", "level": 3, "he": "בעין הסערה", "pos": "expr", "translit": {"fr": "Bé'èyne hasséara", "en": "Be'ein hase'ara"}, "meaning": {"fr": "Au cœur de la tempête", "en": "In the eye of the storm"}, "literal": {"fr": "dans l'œil de la tempête", "en": "in the eye of the storm"}},
+    {"id": "idioms-nature-05", "level": 3, "he": "אין עשן בלי אש", "pos": "expr", "translit": {"fr": "Éïne ashane bli èch", "en": "Ein ashan bli esh"}, "meaning": {"fr": "Il n'y a pas de fumée sans feu", "en": "There's no smoke without fire"}, "literal": {"fr": "il n'y a pas de fumée sans feu", "en": "there is no smoke without fire"}},
+    {"id": "idioms-nature-06", "level": 3, "he": "מים שקטים חודרים עמוק", "pos": "expr", "translit": {"fr": "Mayim chekètim h'odrim âmok", "en": "Mayim shketim chodrim amok"}, "meaning": {"fr": "Les eaux calmes sont les plus profondes", "en": "Still waters run deep"}, "literal": {"fr": "les eaux calmes pénètrent profondément", "en": "quiet water penetrates deep"}},
+    {"id": "idioms-nature-07", "level": 3, "he": "להזיז הרים", "pos": "expr", "translit": {"fr": "Léhaziz harim", "en": "Lehaziz harim"}, "meaning": {"fr": "Déplacer des montagnes", "en": "To move mountains"}, "literal": {"fr": "déplacer des montagnes", "en": "to move mountains"}},
+    {"id": "idioms-nature-08", "level": 3, "he": "ירח דבש", "pos": "expr", "translit": {"fr": "Yaréa'h dvach", "en": "Yareach dvash"}, "meaning": {"fr": "Lune de miel", "en": "Honeymoon"}, "literal": {"fr": "lune de miel", "en": "moon of honey"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "זו סערה בכוס מים, אין חדש תחת השמש.", "translit": {"fr": "Zo séara békos mayim, éïne h'adach tah'at hachémèch.", "en": "Zo se'ara bekos mayim, ein chadash tachat hashemesh."}, "translation": {"fr": "C'est une tempête dans un verre d'eau, rien de nouveau sous le soleil.", "en": "It's a storm in a teacup, nothing new under the sun."}},
+    {"level": 3, "he": "ההודעה הגיעה כרעם ביום בהיר, ועכשיו אנחנו בעין הסערה.", "translit": {"fr": "Hahoda'a higuia kéra'am béyom bahir, vé'akhchav anah'nou bé'èyne hasséara.", "en": "Hahoda'a higi'a kera'am beyom bahir, ve'achshav anachnu be'ein hase'ara."}, "translation": {"fr": "La nouvelle est tombée comme un coup de tonnerre, et nous voilà au cœur de la tempête.", "en": "The news came like a bolt from the blue, and now we're in the eye of the storm."}},
+    {"level": 3, "he": "אין עשן בלי אש, אבל מים שקטים חודרים עמוק.", "translit": {"fr": "Éïne ashane bli èch, aval mayim chekètim h'odrim âmok.", "en": "Ein ashan bli esh, aval mayim shketim chodrim amok."}, "translation": {"fr": "Il n'y a pas de fumée sans feu, mais les eaux calmes sont profondes.", "en": "There's no smoke without fire, but still waters run deep."}},
+    {"level": 3, "he": "בשביל האהבה הוא מוכן להזיז הרים, והם יוצאים לירח דבש.", "translit": {"fr": "Bichvil ha'ahava hou mékhone léhaziz harim, vèhèm yotsim léyaréa'h dvach.", "en": "Bishvil ha'ahava hu mochan lehaziz harim, vehem yotzim leyareach dvash."}, "translation": {"fr": "Pour l'amour il est prêt à déplacer des montagnes, et ils partent en lune de miel.", "en": "For love he's ready to move mountains, and they're off on their honeymoon."}}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-money",
+  "status": "draft",
+  "emoji": "💰",
+  "title": {"fr": "Expressions : l'argent", "en": "Idioms: money"},
+  "words": [
+    {"id": "idioms-money-01", "level": 3, "he": "אין לי גרוש", "pos": "expr", "translit": {"fr": "Éïne li groch", "en": "Ein li grush"}, "meaning": {"fr": "Je n'ai pas un sou", "en": "I'm flat broke"}, "literal": {"fr": "je n'ai pas un centime", "en": "I don't have a penny"}},
+    {"id": "idioms-money-02", "level": 3, "he": "הוא שורף כסף", "pos": "expr", "translit": {"fr": "Hou sorèf kèssèf", "en": "Hu soref kesef"}, "meaning": {"fr": "Il dépense sans compter", "en": "He burns through money"}, "literal": {"fr": "il brûle de l'argent", "en": "he burns money"}},
+    {"id": "idioms-money-03", "level": 3, "he": "זה עולה לי בעין", "pos": "expr", "translit": {"fr": "Zé olé li ba'ayine", "en": "Ze ole li ba'ayin"}, "meaning": {"fr": "Ça me coûte les yeux de la tête", "en": "It costs me an arm and a leg"}, "literal": {"fr": "ça me monte dans l'œil", "en": "it goes up in my eye"}},
+    {"id": "idioms-money-04", "level": 3, "he": "שווה כל שקל", "pos": "expr", "translit": {"fr": "Chavé kol chèkèl", "en": "Shave kol shekel"}, "meaning": {"fr": "Ça vaut chaque sou", "en": "Worth every penny"}, "literal": {"fr": "ça vaut chaque shekel", "en": "worth every shekel"}},
+    {"id": "idioms-money-05", "level": 3, "he": "הכסף לא גדל על העצים", "pos": "expr", "translit": {"fr": "Hakèssèf lo gadèl al ha'étsim", "en": "Hakesef lo gadel al ha'etzim"}, "meaning": {"fr": "L'argent ne pousse pas sur les arbres", "en": "Money doesn't grow on trees"}, "literal": {"fr": "l'argent ne pousse pas sur les arbres", "en": "money doesn't grow on trees"}},
+    {"id": "idioms-money-06", "level": 3, "he": "על הצד היקר", "pos": "expr", "translit": {"fr": "Al hatsad hayakar", "en": "Al hatzad hayakar"}, "meaning": {"fr": "Plutôt cher", "en": "On the pricey side"}, "literal": {"fr": "du côté cher", "en": "on the expensive side"}},
+    {"id": "idioms-money-07", "level": 3, "he": "הוא יושב על הכסף", "pos": "expr", "translit": {"fr": "Hou yochèv al hakèssèf", "en": "Hu yoshev al hakesef"}, "meaning": {"fr": "Il est radin, il garde son argent", "en": "He's sitting on his money"}, "literal": {"fr": "il est assis sur l'argent", "en": "he sits on the money"}},
+    {"id": "idioms-money-08", "level": 3, "he": "סגרנו חשבון", "pos": "expr", "translit": {"fr": "Sagarnou h'èchbone", "en": "Sagarnu cheshbon"}, "meaning": {"fr": "On est quittes", "en": "We're even"}, "literal": {"fr": "on a fermé le compte", "en": "we closed the account"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "אין לי גרוש, וזה עולה לי בעין.", "translit": {"fr": "Éïne li groch, vèzé olé li ba'ayine.", "en": "Ein li grush, vaze ole li ba'ayin."}, "translation": {"fr": "Je n'ai pas un sou, et ça me coûte les yeux de la tête.", "en": "I'm flat broke, and it costs me an arm and a leg."}},
+    {"level": 3, "he": "הוא שורף כסף, אבל הכסף לא גדל על העצים.", "translit": {"fr": "Hou sorèf kèssèf, aval hakèssèf lo gadèl al ha'étsim.", "en": "Hu soref kesef, aval hakesef lo gadel al ha'etzim."}, "translation": {"fr": "Il dépense sans compter, mais l'argent ne pousse pas sur les arbres.", "en": "He burns through money, but money doesn't grow on trees."}},
+    {"level": 3, "he": "המסעדה על הצד היקר, אבל שווה כל שקל.", "translit": {"fr": "Hamis'ada al hatsad hayakar, aval chavé kol chèkèl.", "en": "Hamis'ada al hatzad hayakar, aval shave kol shekel."}, "translation": {"fr": "Le restaurant est plutôt cher, mais ça vaut chaque sou.", "en": "The restaurant is on the pricey side, but worth every penny."}},
+    {"level": 3, "he": "הוא יושב על הכסף, אבל עכשיו סגרנו חשבון.", "translit": {"fr": "Hou yochèv al hakèssèf, aval a'khchav sagarnou h'èchbone.", "en": "Hu yoshev al hakesef, aval achshav sagarnu cheshbon."}, "translation": {"fr": "Il garde son argent, mais maintenant on est quittes.", "en": "He sits on his money, but now we're even."}}
+  ]
+}

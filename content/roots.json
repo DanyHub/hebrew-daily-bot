@@ -3,7 +3,6 @@
     {
       "id": "ktv",
       "letters": "כתב",
-      "level": 1,
       "status": "draft",
       "meaning": {"fr": "écrire", "en": "to write"},
       "words": [
@@ -62,7 +61,6 @@
     {
       "id": "shlh",
       "letters": "שלח",
-      "level": 2,
       "status": "draft",
       "meaning": {"fr": "envoyer", "en": "to send"},
       "words": [
@@ -121,7 +119,6 @@
     {
       "id": "lmd",
       "letters": "למד",
-      "level": 1,
       "status": "draft",
       "meaning": {"fr": "apprendre, enseigner", "en": "to learn, to teach"},
       "words": [
@@ -180,7 +177,6 @@
     {
       "id": "ahv",
       "letters": "אהב",
-      "level": 1,
       "status": "draft",
       "meaning": {"fr": "aimer", "en": "to love"},
       "words": [
@@ -239,7 +235,6 @@
     {
       "id": "ptch",
       "letters": "פתח",
-      "level": 2,
       "status": "draft",
       "meaning": {"fr": "ouvrir", "en": "to open"},
       "words": [
@@ -298,7 +293,6 @@
     {
       "id": "shmr",
       "letters": "שמר",
-      "level": 2,
       "status": "draft",
       "meaning": {"fr": "garder, protéger", "en": "to keep, to guard"},
       "words": [
@@ -357,7 +351,6 @@
     {
       "id": "hpk",
       "letters": "הפכ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "renverser, retourner", "en": "to turn over, to reverse"},
@@ -376,7 +369,6 @@
     {
       "id": "rgz",
       "letters": "רגז",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "colère, irriter", "en": "anger, to irritate"},
@@ -395,7 +387,6 @@
     {
       "id": "thl",
       "letters": "תחל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "commencer", "en": "to begin"},
@@ -411,7 +402,6 @@
     {
       "id": "atzm",
       "letters": "עצמ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "os, soi-même, indépendance", "en": "bone, self, independence"},
@@ -427,7 +417,6 @@
     {
       "id": "mms",
       "letters": "ממש",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "réaliser, concrétiser", "en": "to realize, to make real"},
@@ -443,7 +432,6 @@
     {
       "id": "tmd",
       "letters": "תמד",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "persévérer, toujours", "en": "to persevere, always"},
@@ -459,7 +447,6 @@
     {
       "id": "shgh",
       "letters": "שגה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "se tromper, erreur", "en": "to err, mistake"},
@@ -469,14 +456,13 @@
         {"id": "shgh-3", "he": "שגיאה", "pos": "nf", "translit": {"fr": "chguia", "en": "shgi'a"}, "meaning": {"fr": "Faute, erreur", "en": "Error, mistake"}},
         {"id": "shgh-4", "he": "שגגה", "pos": "nf", "translit": {"fr": "chguaga", "en": "shgaga"}, "meaning": {"fr": "Inadvertance", "en": "Inadvertence, oversight"}},
         {"id": "shgh-5", "he": "משגה", "pos": "nm", "translit": {"fr": "michgué", "en": "mishge"}, "meaning": {"fr": "Erreur, méprise", "en": "Blunder, error"}},
-        {"id": "shgh-6", "he": "שגיון", "pos": "nm", "translit": {"fr": "chiguyone", "en": "shigayon"}, "meaning": {"fr": "Obsession, lubie", "en": "Whim, craze"}},
+        {"id": "shgh-6", "he": "שיגיון", "pos": "nm", "translit": {"fr": "chiguyone", "en": "shigayon"}, "meaning": {"fr": "Obsession, lubie", "en": "Whim, craze"}},
         {"id": "shgh-7", "he": "בשוגג", "pos": "adv", "translit": {"fr": "bechougueg", "en": "beshogeg"}, "meaning": {"fr": "Par erreur", "en": "Unintentionally, by mistake"}}
       ]
     },
     {
       "id": "rzh",
       "letters": "רזה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "maigrir, mince", "en": "to slim down, thin"},
@@ -491,7 +477,6 @@
     {
       "id": "nth",
       "letters": "נטה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "pencher, tendance", "en": "to incline, tendency"},
@@ -508,7 +493,6 @@
     {
       "id": "ktm",
       "letters": "כתמ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "tacher", "en": "to stain"},
@@ -522,7 +506,6 @@
     {
       "id": "shq",
       "letters": "שקע",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "s'enfoncer, investir, coucher du soleil", "en": "to sink, to invest, sunset"},
@@ -541,7 +524,6 @@
     {
       "id": "avh",
       "letters": "עוה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "tordre, déformer, pervertir", "en": "to twist, to distort, to pervert"},
@@ -559,7 +541,6 @@
     {
       "id": "shtl",
       "letters": "שתל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "planter", "en": "to plant"},
@@ -577,7 +558,6 @@
     {
       "id": "tmh",
       "letters": "תמה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "s'étonner, surprise", "en": "to wonder, astonishment"},
@@ -587,15 +567,14 @@
         {"id": "tmh-3", "he": "תמה", "pos": "adj", "translit": {"fr": "tamé", "en": "tame"}, "meaning": {"fr": "Surpris", "en": "Astonished"}},
         {"id": "tmh-4", "he": "תמוה", "pos": "adj", "translit": {"fr": "tamouah", "en": "tamu'ah"}, "meaning": {"fr": "Curieux, étrange", "en": "Strange, puzzling"}},
         {"id": "tmh-5", "he": "תמיהה", "pos": "nf", "translit": {"fr": "timiha", "en": "timiha"}, "meaning": {"fr": "Étonnement, perplexité", "en": "Astonishment, puzzlement"}},
-        {"id": "tmh-6", "he": "תמהון", "pos": "nm", "translit": {"fr": "timahone", "en": "timahon"}, "meaning": {"fr": "Étonnement, stupeur", "en": "Bewilderment"}},
-        {"id": "tmh-7", "he": "תמהוני", "pos": "adj", "translit": {"fr": "timhoni", "en": "timhoni"}, "meaning": {"fr": "Excentrique", "en": "Eccentric"}},
+        {"id": "tmh-6", "he": "תימהון", "pos": "nm", "translit": {"fr": "timahone", "en": "timahon"}, "meaning": {"fr": "Étonnement, stupeur", "en": "Bewilderment"}},
+        {"id": "tmh-7", "he": "תימהוני", "pos": "adj", "translit": {"fr": "timhoni", "en": "timhoni"}, "meaning": {"fr": "Excentrique", "en": "Eccentric"}},
         {"id": "tmh-8", "he": "בתמיהה", "pos": "adv", "translit": {"fr": "bitmiha", "en": "bitmiha"}, "meaning": {"fr": "Avec surprise", "en": "With astonishment"}}
       ]
     },
     {
       "id": "pht",
       "letters": "פחת",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "diminuer, moins", "en": "to reduce, less"},
@@ -612,7 +591,6 @@
     {
       "id": "ntq",
       "letters": "נתק",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "couper, déconnecter", "en": "to cut off, to disconnect"},
@@ -630,7 +608,6 @@
     {
       "id": "rkv",
       "letters": "רכב",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "monter, véhicule, composer", "en": "to ride, vehicle, to assemble"},
@@ -652,7 +629,6 @@
     {
       "id": "pam",
       "letters": "פעמ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "battre (cœur), fois", "en": "to beat (heart), time (occasion)"},
@@ -671,7 +647,6 @@
     {
       "id": "hms",
       "letters": "חמס",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "violence, vol", "en": "violence, robbery"},
@@ -684,7 +659,6 @@
     {
       "id": "hrv",
       "letters": "חרב",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "détruire", "en": "to destroy"},
@@ -703,7 +677,6 @@
     {
       "id": "nhl",
       "letters": "נהל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "diriger, gérer", "en": "to manage, to run"},
@@ -721,7 +694,6 @@
     {
       "id": "zhh",
       "letters": "זהה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "identifier, identité", "en": "to identify, identity"},
@@ -738,7 +710,6 @@
     {
       "id": "pra",
       "letters": "פרע",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "déranger, troubler l'ordre", "en": "to disturb, to disrupt"},
@@ -756,7 +727,6 @@
     {
       "id": "trh",
       "letters": "טרח",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "se donner de la peine", "en": "to take the trouble"},
@@ -764,7 +734,7 @@
         {"id": "trh-1", "he": "לטרוח", "pos": "v", "translit": {"fr": "litroah", "en": "litroach"}, "meaning": {"fr": "Prendre la peine", "en": "To bother, to take the trouble"}},
         {"id": "trh-2", "he": "להטריח", "pos": "v", "translit": {"fr": "lehatriah", "en": "lehatrich"}, "meaning": {"fr": "Déranger (causer de la peine)", "en": "To trouble, to inconvenience"}},
         {"id": "trh-3", "he": "טורח", "pos": "nm", "translit": {"fr": "toréah", "en": "tore'ach"}, "meaning": {"fr": "Fardeau, charge", "en": "Burden, trouble"}},
-        {"id": "trh-4", "he": "טירחה", "pos": "nf", "translit": {"fr": "tirh'a", "en": "tircha"}, "meaning": {"fr": "Effort, labeur, peine", "en": "Effort, toil"}},
+        {"id": "trh-4", "he": "טרחה", "pos": "nf", "translit": {"fr": "tirh'a", "en": "tircha"}, "meaning": {"fr": "Effort, labeur, peine", "en": "Effort, toil"}},
         {"id": "trh-5", "he": "הטרחה", "pos": "nf", "translit": {"fr": "hatrah'a", "en": "hatracha"}, "meaning": {"fr": "Dérangement, perturbation", "en": "Inconvenience, bother"}},
         {"id": "trh-6", "he": "טרחנות", "pos": "nf", "translit": {"fr": "tarh'anout", "en": "tarchanut"}, "meaning": {"fr": "Importunité, désagrément", "en": "Pestering, nuisance"}},
         {"id": "trh-7", "he": "טרחני", "pos": "adj", "translit": {"fr": "tarh'ani", "en": "tarchani"}, "meaning": {"fr": "Assommant, ennuyeux", "en": "Tedious, tiresome"}},
@@ -774,7 +744,6 @@
     {
       "id": "tznn",
       "letters": "צנן",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "refroidir", "en": "to cool"},
@@ -790,7 +759,6 @@
     {
       "id": "pdy",
       "letters": "פדי",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "racheter, sauver", "en": "to redeem, to ransom"},
@@ -807,7 +775,6 @@
     {
       "id": "skm",
       "letters": "סכם",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "accord, résumer", "en": "to agree, to sum up"},
@@ -824,7 +791,6 @@
     {
       "id": "amd",
       "letters": "עמד",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "se tenir debout, position", "en": "to stand, position"},
@@ -845,7 +811,6 @@
     {
       "id": "yrt",
       "letters": "ירט",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "intercepter", "en": "to intercept"},
@@ -860,7 +825,6 @@
     {
       "id": "nar",
       "letters": "נער",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "secouer", "en": "to shake"},
@@ -874,7 +838,6 @@
     {
       "id": "htk",
       "letters": "חתכ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "couper", "en": "to cut"},
@@ -891,7 +854,6 @@
     {
       "id": "kav",
       "letters": "כאב",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "avoir mal, douleur", "en": "to hurt, pain"},
@@ -908,7 +870,6 @@
     {
       "id": "tmtzt",
       "letters": "תמצת",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "résumer", "en": "to summarize"},
@@ -924,7 +885,6 @@
     {
       "id": "shan",
       "letters": "שענ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "s'appuyer", "en": "to lean, to rely on"},
@@ -941,7 +901,6 @@
     {
       "id": "ivrt",
       "letters": "עברת",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "hébreu", "en": "Hebrew"},
@@ -955,7 +914,6 @@
     {
       "id": "avr",
       "letters": "עור",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "réveiller, éveiller", "en": "to wake, to arouse"},
@@ -972,7 +930,6 @@
     {
       "id": "ntzl",
       "letters": "נצל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "sauver, exploiter", "en": "to save, to exploit"},
@@ -992,7 +949,6 @@
     {
       "id": "zaza",
       "letters": "זעזע",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "choquer, secouer", "en": "to shock, to shake"},
@@ -1008,13 +964,12 @@
     {
       "id": "yd",
       "letters": "ידי",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "main, jeter", "en": "hand, to throw"},
       "words": [
         {"id": "yd-1", "he": "לידות", "pos": "v", "translit": {"fr": "leyadot", "en": "leyadot"}, "meaning": {"fr": "Projeter, jeter", "en": "To throw, to hurl"}},
-        {"id": "yd-2", "he": "ידוי", "pos": "nm", "translit": {"fr": "yidouy", "en": "yiduy"}, "meaning": {"fr": "Jet, projection", "en": "Throwing, hurling"}},
+        {"id": "yd-2", "he": "יידוי", "pos": "nm", "translit": {"fr": "yidouy", "en": "yiduy"}, "meaning": {"fr": "Jet, projection", "en": "Throwing, hurling"}},
         {"id": "yd-3", "he": "יד", "pos": "nf", "translit": {"fr": "yad", "en": "yad"}, "meaning": {"fr": "Main", "en": "Hand"}},
         {"id": "yd-4", "he": "ידני", "pos": "adj", "translit": {"fr": "yadani", "en": "yadani"}, "meaning": {"fr": "Manuel", "en": "Manual, by hand"}},
         {"id": "yd-5", "he": "ידית", "pos": "nf", "translit": {"fr": "yadit", "en": "yadit"}, "meaning": {"fr": "Poignée", "en": "Handle"}},
@@ -1024,7 +979,6 @@
     {
       "id": "tzlm",
       "letters": "צלמ",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "photographier", "en": "to photograph"},
@@ -1037,6 +991,1317 @@
         {"id": "tzlm-6", "he": "מצולם", "pos": "adj", "translit": {"fr": "metsoulam", "en": "metzulam"}, "meaning": {"fr": "Photographié", "en": "Photographed"}},
         {"id": "tzlm-7", "he": "תצלום", "pos": "nm", "translit": {"fr": "tatsloum", "en": "tatzlum"}, "meaning": {"fr": "Cliché, image", "en": "Photograph, print"}},
         {"id": "tzlm-8", "he": "צולם", "pos": "v", "translit": {"fr": "tsoulam", "en": "tzulam"}, "meaning": {"fr": "A été photographié", "en": "Was photographed"}}
+      ]
+    },
+    {
+      "id": "shhrr",
+      "letters": "שחרר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "libérer", "en": "to free, to release"},
+      "words": [
+        {"id": "shhrr-1", "he": "לשחרר", "pos": "v", "translit": {"fr": "leshah'rère", "en": "leshachrer"}, "meaning": {"fr": "Libérer", "en": "To free, to release"}},
+        {"id": "shhrr-2", "he": "להשתחרר", "pos": "v", "translit": {"fr": "lehishtah'rère", "en": "lehishtachrer"}, "meaning": {"fr": "Être libéré, se libérer", "en": "To be released, to break free"}},
+        {"id": "shhrr-3", "he": "שחרור", "pos": "nm", "translit": {"fr": "shih'roure", "en": "shichrur"}, "meaning": {"fr": "Libération", "en": "Liberation, release"}},
+        {"id": "shhrr-4", "he": "שוחרר", "pos": "v", "translit": {"fr": "shouh'rare", "en": "shuchrar"}, "meaning": {"fr": "A été libéré", "en": "Was released"}},
+        {"id": "shhrr-5", "he": "משוחרר", "pos": "adj", "translit": {"fr": "meshouh'rare", "en": "meshuchrar"}, "meaning": {"fr": "Libéré", "en": "Released, free"}}
+      ]
+    },
+    {
+      "id": "rik",
+      "letters": "ריק",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "vider, vide", "en": "to empty, empty"},
+      "words": [
+        {"id": "rik-1", "he": "להריק", "pos": "v", "translit": {"fr": "léharike", "en": "lehariq"}, "meaning": {"fr": "Vider", "en": "To empty"}},
+        {"id": "rik-2", "he": "ריק", "pos": "adj", "translit": {"fr": "rèk", "en": "rek"}, "meaning": {"fr": "Vide", "en": "Empty"}},
+        {"id": "rik-3", "he": "ריקנות", "pos": "nf", "translit": {"fr": "rèkanout", "en": "rekanut"}, "meaning": {"fr": "Vide, néant", "en": "Emptiness"}},
+        {"id": "rik-4", "he": "רווק", "pos": "nm", "translit": {"fr": "ravak", "en": "ravak"}, "meaning": {"fr": "Célibataire", "en": "Single man, bachelor"}},
+        {"id": "rik-5", "he": "רווקות", "pos": "nf", "translit": {"fr": "ravakout", "en": "ravakut"}, "meaning": {"fr": "Célibat", "en": "Being single"}},
+        {"id": "rik-6", "he": "לרוקן", "pos": "v", "translit": {"fr": "lerokène", "en": "lerokan"}, "meaning": {"fr": "Évacuer, vider", "en": "To empty out"}},
+        {"id": "rik-7", "he": "להתרוקן", "pos": "v", "translit": {"fr": "lehitrokène", "en": "lehitrokèn"}, "meaning": {"fr": "Se vider", "en": "To empty, to be drained"}},
+        {"id": "rik-8", "he": "התרוקנות", "pos": "nf", "translit": {"fr": "hitrokenout", "en": "hitrokenut"}, "meaning": {"fr": "Évacuation, vidange", "en": "Emptying, draining"}}
+      ]
+    },
+    {
+      "id": "mdd",
+      "letters": "מדד",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "mesurer", "en": "to measure"},
+      "words": [
+        {"id": "mdd-1", "he": "למדוד", "pos": "v", "translit": {"fr": "limdod", "en": "limdod"}, "meaning": {"fr": "Mesurer, essayer", "en": "To measure, to try on"}},
+        {"id": "mdd-2", "he": "להתמודד", "pos": "v", "translit": {"fr": "lehitmodèd", "en": "lehitmoded"}, "meaning": {"fr": "Faire face, se mesurer à", "en": "To cope, to compete"}},
+        {"id": "mdd-3", "he": "התמודדות", "pos": "nf", "translit": {"fr": "hitmodédoute", "en": "hitmodedut"}, "meaning": {"fr": "Confrontation, compétition", "en": "Coping, competition"}},
+        {"id": "mdd-4", "he": "מד", "pos": "nm", "translit": {"fr": "mad", "en": "mad"}, "meaning": {"fr": "Instrument de mesure", "en": "Gauge, meter"}},
+        {"id": "mdd-5", "he": "מדד", "pos": "nm", "translit": {"fr": "madad", "en": "madad"}, "meaning": {"fr": "Taux, indice", "en": "Index, rate"}},
+        {"id": "mdd-6", "he": "מידה", "pos": "nf", "translit": {"fr": "mida", "en": "mida"}, "meaning": {"fr": "Mesure, qualité", "en": "Measure, size"}},
+        {"id": "mdd-7", "he": "מדידה", "pos": "nf", "translit": {"fr": "medida", "en": "medida"}, "meaning": {"fr": "Mesure (action)", "en": "Measuring"}},
+        {"id": "mdd-8", "he": "מודד", "pos": "nm", "translit": {"fr": "modèd", "en": "moded"}, "meaning": {"fr": "Mesureur, géomètre", "en": "Surveyor"}},
+        {"id": "mdd-9", "he": "מד חום", "pos": "nm", "translit": {"fr": "mad h'ome", "en": "mad chom"}, "meaning": {"fr": "Thermomètre", "en": "Thermometer"}},
+        {"id": "mdd-10", "he": "מדים", "pos": "nmp", "translit": {"fr": "madim", "en": "madim"}, "meaning": {"fr": "Uniforme", "en": "Uniform"}}
+      ]
+    },
+    {
+      "id": "rbb",
+      "letters": "ערבב",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "mélanger", "en": "to mix"},
+      "words": [
+        {"id": "rbb-1", "he": "לערבב", "pos": "v", "translit": {"fr": "le'arbèv", "en": "le'arbev"}, "meaning": {"fr": "Mélanger", "en": "To mix"}},
+        {"id": "rbb-2", "he": "להתערבב", "pos": "v", "translit": {"fr": "lehit'arbèv", "en": "lehit'arbev"}, "meaning": {"fr": "Se mélanger, s'emmêler", "en": "To get mixed up"}},
+        {"id": "rbb-3", "he": "התערבבות", "pos": "nf", "translit": {"fr": "hit'arbevout", "en": "hit'arvevut"}, "meaning": {"fr": "Mélange", "en": "Mixing"}},
+        {"id": "rbb-4", "he": "ערבוב", "pos": "nm", "translit": {"fr": "irbouv", "en": "irbuv"}, "meaning": {"fr": "Mélange, mixture", "en": "Mixture, mixing"}},
+        {"id": "rbb-5", "he": "ערבוביה", "pos": "nf", "translit": {"fr": "irbouvia", "en": "irbuvya"}, "meaning": {"fr": "Confusion", "en": "Confusion, mess"}}
+      ]
+    },
+    {
+      "id": "rbl",
+      "letters": "ערבל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "brasser, mélanger", "en": "to stir, to churn"},
+      "words": [
+        {"id": "rbl-1", "he": "לערבל", "pos": "v", "translit": {"fr": "le'arbèl", "en": "le'arbel"}, "meaning": {"fr": "Mélanger, malaxer", "en": "To stir, to mix"}},
+        {"id": "rbl-2", "he": "ערבול", "pos": "nm", "translit": {"fr": "irboul", "en": "irbul"}, "meaning": {"fr": "Brassage, malaxage", "en": "Stirring, mixing"}},
+        {"id": "rbl-3", "he": "מערבולת", "pos": "nf", "translit": {"fr": "me'arbolèt", "en": "me'arbolet"}, "meaning": {"fr": "Tourbillon, turbulence", "en": "Whirlpool, vortex"}},
+        {"id": "rbl-4", "he": "מערבל", "pos": "nm", "translit": {"fr": "me'arbèl", "en": "me'arbel"}, "meaning": {"fr": "Mixeur, mélangeur", "en": "Mixer"}}
+      ]
+    },
+    {
+      "id": "hshf",
+      "letters": "חשף",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "découvrir, dévoiler", "en": "to expose, to reveal"},
+      "words": [
+        {"id": "hshf-1", "he": "לחשוף", "pos": "v", "translit": {"fr": "lah'ssof", "en": "lachsof"}, "meaning": {"fr": "Découvrir, mettre à nu", "en": "To expose, to reveal"}},
+        {"id": "hshf-2", "he": "להיחשף", "pos": "v", "translit": {"fr": "lehih'achèf", "en": "lehichashef"}, "meaning": {"fr": "Être dévoilé, être révélé", "en": "To be exposed"}},
+        {"id": "hshf-3", "he": "חשוף", "pos": "adj", "translit": {"fr": "h'ssouf", "en": "chasuf"}, "meaning": {"fr": "Découvert, dénudé", "en": "Bare, exposed"}},
+        {"id": "hshf-4", "he": "חשיפה", "pos": "nf", "translit": {"fr": "h'ssifa", "en": "chasifa"}, "meaning": {"fr": "Révélation, mise à nu", "en": "Exposure, revelation"}},
+        {"id": "hshf-5", "he": "חושפני", "pos": "adj", "translit": {"fr": "h'ochfani", "en": "choshfani"}, "meaning": {"fr": "Révélateur, significatif", "en": "Revealing"}},
+        {"id": "hshf-6", "he": "מחשוף", "pos": "nm", "translit": {"fr": "mah'ssof", "en": "machshof"}, "meaning": {"fr": "Décolleté", "en": "Neckline"}}
+      ]
+    },
+    {
+      "id": "hyh",
+      "letters": "חיה",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "vivre, vie", "en": "to live, life"},
+      "words": [
+        {"id": "hyh-1", "he": "לחיות", "pos": "v", "translit": {"fr": "lih'yot", "en": "lichyot"}, "meaning": {"fr": "Vivre", "en": "To live"}},
+        {"id": "hyh-2", "he": "להחיות", "pos": "v", "translit": {"fr": "léhah'yot", "en": "lehachyot"}, "meaning": {"fr": "Réanimer, faire revivre", "en": "To revive"}},
+        {"id": "hyh-3", "he": "חיה", "pos": "nf", "translit": {"fr": "h'aya", "en": "chaya"}, "meaning": {"fr": "Bête, animal", "en": "Animal, beast"}},
+        {"id": "hyh-4", "he": "חיוני", "pos": "adj", "translit": {"fr": "h'iyouni", "en": "chiyuni"}, "meaning": {"fr": "Vital, essentiel", "en": "Vital, essential"}},
+        {"id": "hyh-5", "he": "חיות", "pos": "nf", "translit": {"fr": "h'ayout", "en": "chayut"}, "meaning": {"fr": "Vitalité, vivacité", "en": "Vitality"}},
+        {"id": "hyh-6", "he": "חיים", "pos": "nmp", "translit": {"fr": "h'ayim", "en": "chayim"}, "meaning": {"fr": "Vie", "en": "Life"}},
+        {"id": "hyh-7", "he": "החייאה", "pos": "nf", "translit": {"fr": "hah'yaa", "en": "hachya'a"}, "meaning": {"fr": "Réanimation", "en": "Resuscitation"}},
+        {"id": "hyh-8", "he": "מחיה", "pos": "nf", "translit": {"fr": "mih'ya", "en": "michya"}, "meaning": {"fr": "Subsistance, vivres", "en": "Livelihood, sustenance"}},
+        {"id": "hyh-9", "he": "תחייה", "pos": "nf", "translit": {"fr": "teh'iya", "en": "techiya"}, "meaning": {"fr": "Résurrection, renaissance", "en": "Revival, rebirth"}}
+      ]
+    },
+    {
+      "id": "rga",
+      "letters": "רגע",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "se calmer, instant", "en": "to calm down, moment"},
+      "words": [
+        {"id": "rga-1", "he": "להירגע", "pos": "v", "translit": {"fr": "lehiragua", "en": "lehirag'a"}, "meaning": {"fr": "Se calmer, s'apaiser", "en": "To calm down"}},
+        {"id": "rga-2", "he": "להרגיע", "pos": "v", "translit": {"fr": "leharguia", "en": "leharg'i'a"}, "meaning": {"fr": "Calmer, apaiser, rassurer", "en": "To calm, to reassure"}},
+        {"id": "rga-3", "he": "רגע", "pos": "nm", "translit": {"fr": "réga", "en": "rega"}, "meaning": {"fr": "Moment, instant", "en": "Moment, instant"}},
+        {"id": "rga-4", "he": "הרגעה", "pos": "nf", "translit": {"fr": "haregua'a", "en": "harga'a"}, "meaning": {"fr": "Apaisement, détente", "en": "Calming, relief"}},
+        {"id": "rga-5", "he": "התרגעות", "pos": "nf", "translit": {"fr": "hitragout", "en": "hitrag'ut"}, "meaning": {"fr": "Calme, apaisement", "en": "Calming down"}},
+        {"id": "rga-6", "he": "רוגע", "pos": "nm", "translit": {"fr": "rogua", "en": "roga"}, "meaning": {"fr": "Calme, tranquillité", "en": "Calm, tranquility"}},
+        {"id": "rga-7", "he": "רגוע", "pos": "adj", "translit": {"fr": "raguoua", "en": "raguo'a"}, "meaning": {"fr": "Calme, tranquille", "en": "Calm, relaxed"}},
+        {"id": "rga-8", "he": "מרגיע", "pos": "adj", "translit": {"fr": "marguia", "en": "margi'a"}, "meaning": {"fr": "Sédatif, calmant", "en": "Soothing, calming"}}
+      ]
+    },
+    {
+      "id": "gbsh",
+      "letters": "גבש",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "cristalliser, consolider", "en": "to shape, to consolidate"},
+      "words": [
+        {"id": "gbsh-1", "he": "לגבש", "pos": "v", "translit": {"fr": "leguabèch", "en": "legabesh"}, "meaning": {"fr": "Élaborer, consolider", "en": "To shape, to consolidate"}},
+        {"id": "gbsh-2", "he": "להתגבש", "pos": "v", "translit": {"fr": "lehitguabèch", "en": "lehitgabesh"}, "meaning": {"fr": "Se cristalliser, se concentrer", "en": "To take shape, to crystallize"}},
+        {"id": "gbsh-3", "he": "התגבשות", "pos": "nf", "translit": {"fr": "hitguabechout", "en": "hitgabshut"}, "meaning": {"fr": "Cristallisation, condensation", "en": "Taking shape, crystallization"}},
+        {"id": "gbsh-4", "he": "גיבוש", "pos": "nm", "translit": {"fr": "guibouch", "en": "gibush"}, "meaning": {"fr": "Cohésion, consolidation", "en": "Cohesion, consolidation"}},
+        {"id": "gbsh-5", "he": "גביש", "pos": "nm", "translit": {"fr": "guavich", "en": "gavish"}, "meaning": {"fr": "Cristal, grêlon", "en": "Crystal"}},
+        {"id": "gbsh-6", "he": "גבישי", "pos": "adj", "translit": {"fr": "guevichi", "en": "gevishi"}, "meaning": {"fr": "Cristallin", "en": "Crystalline"}},
+        {"id": "gbsh-7", "he": "מגובש", "pos": "adj", "translit": {"fr": "megoubach", "en": "megubash"}, "meaning": {"fr": "Élaboré, concret, soudé", "en": "Cohesive, well-formed"}}
+      ]
+    },
+    {
+      "id": "shlm",
+      "letters": "שלם",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "payer, compléter, paix", "en": "to pay, to complete, peace"},
+      "words": [
+        {"id": "shlm-1", "he": "לשלם", "pos": "v", "translit": {"fr": "lechalèm", "en": "leshalem"}, "meaning": {"fr": "Payer", "en": "To pay"}},
+        {"id": "shlm-2", "he": "להשלים", "pos": "v", "translit": {"fr": "lehachlim", "en": "lehashlim"}, "meaning": {"fr": "Compléter", "en": "To complete"}},
+        {"id": "shlm-3", "he": "להשתלם", "pos": "v", "translit": {"fr": "lehichtalèm", "en": "lehishtalem"}, "meaning": {"fr": "Être rentable, valoir la peine", "en": "To pay off, to be worth it"}},
+        {"id": "shlm-4", "he": "השלמה", "pos": "nf", "translit": {"fr": "hachlama", "en": "hashlama"}, "meaning": {"fr": "Achèvement, terminaison", "en": "Completion"}},
+        {"id": "shlm-5", "he": "השתלמות", "pos": "nf", "translit": {"fr": "hichtalmout", "en": "hishtalmut"}, "meaning": {"fr": "Perfectionnement, formation", "en": "Further training"}},
+        {"id": "shlm-6", "he": "שלמות", "pos": "nf", "translit": {"fr": "chlemout", "en": "shlemut"}, "meaning": {"fr": "Intégralité, perfection", "en": "Wholeness, perfection"}},
+        {"id": "shlm-7", "he": "תשלום", "pos": "nm", "translit": {"fr": "tachloum", "en": "tashlum"}, "meaning": {"fr": "Paiement, rétribution", "en": "Payment"}},
+        {"id": "shlm-8", "he": "משולם", "pos": "adj", "translit": {"fr": "mechoulam", "en": "meshulam"}, "meaning": {"fr": "Payé, acquitté", "en": "Paid"}},
+        {"id": "shlm-9", "he": "שלום", "pos": "nm", "translit": {"fr": "chalom", "en": "shalom"}, "meaning": {"fr": "Paix", "en": "Peace"}}
+      ]
+    },
+    {
+      "id": "kns",
+      "letters": "כנס",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "rassembler, entrer", "en": "to gather, to enter"},
+      "words": [
+        {"id": "kns-1", "he": "להיכנס", "pos": "v", "translit": {"fr": "lehikanès", "en": "lehikanes"}, "meaning": {"fr": "Entrer", "en": "To enter"}},
+        {"id": "kns-2", "he": "לכנס", "pos": "v", "translit": {"fr": "lekhanès", "en": "lechanes"}, "meaning": {"fr": "Réunir, rassembler", "en": "To convene, to gather"}},
+        {"id": "kns-3", "he": "להכניס", "pos": "v", "translit": {"fr": "lehakhniss", "en": "lehachnis"}, "meaning": {"fr": "Introduire, faire entrer", "en": "To bring in"}},
+        {"id": "kns-4", "he": "להתכנס", "pos": "v", "translit": {"fr": "lehitkanès", "en": "lehitkanes"}, "meaning": {"fr": "Se rassembler", "en": "To assemble"}},
+        {"id": "kns-5", "he": "הכנסה", "pos": "nf", "translit": {"fr": "hakhnassa", "en": "hachnasa"}, "meaning": {"fr": "Revenu, recette", "en": "Income, revenue"}},
+        {"id": "kns-6", "he": "התכנסות", "pos": "nf", "translit": {"fr": "hitkanessout", "en": "hitkansut"}, "meaning": {"fr": "Rassemblement", "en": "Gathering"}},
+        {"id": "kns-7", "he": "כניסה", "pos": "nf", "translit": {"fr": "knissa", "en": "knisa"}, "meaning": {"fr": "Entrée", "en": "Entrance"}},
+        {"id": "kns-8", "he": "כנס", "pos": "nm", "translit": {"fr": "kènès", "en": "kenes"}, "meaning": {"fr": "Congrès, conférence", "en": "Conference"}},
+        {"id": "kns-9", "he": "בית כנסת", "pos": "nm", "translit": {"fr": "bète kenèssète", "en": "beit knesset"}, "meaning": {"fr": "Synagogue", "en": "Synagogue"}},
+        {"id": "kns-10", "he": "כנסת", "pos": "nf", "translit": {"fr": "kenèssète", "en": "knesset"}, "meaning": {"fr": "La Knesset, Parlement israélien", "en": "The Knesset"}}
+      ]
+    },
+    {
+      "id": "tkn",
+      "letters": "תקן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "réparer, norme", "en": "to repair, standard"},
+      "words": [
+        {"id": "tkn-1", "he": "לתקן", "pos": "v", "translit": {"fr": "letakène", "en": "letaken"}, "meaning": {"fr": "Réparer, corriger", "en": "To repair, to fix"}},
+        {"id": "tkn-2", "he": "להתקין", "pos": "v", "translit": {"fr": "lehatkine", "en": "lehatkin"}, "meaning": {"fr": "Installer, arranger", "en": "To install"}},
+        {"id": "tkn-3", "he": "תקן", "pos": "nm", "translit": {"fr": "tèkène", "en": "taken"}, "meaning": {"fr": "Norme, standard", "en": "Standard"}},
+        {"id": "tkn-4", "he": "תקין", "pos": "adj", "translit": {"fr": "takine", "en": "takin"}, "meaning": {"fr": "Normal, régulier, en bon état", "en": "Normal, in working order"}},
+        {"id": "tkn-5", "he": "תקינות", "pos": "nf", "translit": {"fr": "takinout", "en": "takinut"}, "meaning": {"fr": "Normalité, régularité", "en": "Normality, validity"}},
+        {"id": "tkn-6", "he": "תיקון", "pos": "nm", "translit": {"fr": "tikoune", "en": "tikun"}, "meaning": {"fr": "Réparation, correction", "en": "Repair, correction"}},
+        {"id": "tkn-7", "he": "תקנון", "pos": "nm", "translit": {"fr": "takanone", "en": "taknon"}, "meaning": {"fr": "Règlement, statuts", "en": "Regulations, bylaws"}},
+        {"id": "tkn-8", "he": "מתקן", "pos": "nm", "translit": {"fr": "mitkane", "en": "mitkan"}, "meaning": {"fr": "Appareil, installation", "en": "Facility, device"}},
+        {"id": "tkn-9", "he": "התקנה", "pos": "nf", "translit": {"fr": "hatkana", "en": "hatkana"}, "meaning": {"fr": "Installation, mise en place", "en": "Installation"}},
+        {"id": "tkn-10", "he": "תקנה", "pos": "nf", "translit": {"fr": "takana", "en": "takana"}, "meaning": {"fr": "Règlement, ordonnance", "en": "Regulation"}}
+      ]
+    },
+    {
+      "id": "klf",
+      "letters": "קלף",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "éplucher", "en": "to peel"},
+      "words": [
+        {"id": "klf-1", "he": "לקלף", "pos": "v", "translit": {"fr": "lekalèf", "en": "lekalef"}, "meaning": {"fr": "Peler, éplucher", "en": "To peel"}},
+        {"id": "klf-2", "he": "להתקלף", "pos": "v", "translit": {"fr": "lehitkalèf", "en": "lehitkalef"}, "meaning": {"fr": "S'écailler, s'éplucher", "en": "To peel off, to flake"}},
+        {"id": "klf-3", "he": "קלף", "pos": "nm", "translit": {"fr": "klaf", "en": "klaf"}, "meaning": {"fr": "Carte à jouer, parchemin", "en": "Playing card, parchment"}},
+        {"id": "klf-4", "he": "קליפה", "pos": "nf", "translit": {"fr": "klipa", "en": "klipa"}, "meaning": {"fr": "Écorce, pelure", "en": "Peel, shell, bark"}},
+        {"id": "klf-5", "he": "קלוף", "pos": "adj", "translit": {"fr": "kalouf", "en": "kaluf"}, "meaning": {"fr": "Pelé, épluché", "en": "Peeled"}},
+        {"id": "klf-6", "he": "קלפן", "pos": "nm", "translit": {"fr": "kalfane", "en": "kalfan"}, "meaning": {"fr": "Joueur de cartes", "en": "Card player, gambler"}},
+        {"id": "klf-7", "he": "מקלף", "pos": "nm", "translit": {"fr": "mekalèf", "en": "mekalef"}, "meaning": {"fr": "Éplucheur de légumes", "en": "Peeler"}}
+      ]
+    },
+    {
+      "id": "tbl",
+      "letters": "תבל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "assaisonner, épicer", "en": "to season, to spice"},
+      "words": [
+        {"id": "tbl-1", "he": "לתבל", "pos": "v", "translit": {"fr": "letavèl", "en": "letabel"}, "meaning": {"fr": "Épicer, assaisonner", "en": "To season, to spice"}},
+        {"id": "tbl-2", "he": "תיבול", "pos": "nm", "translit": {"fr": "tiboul", "en": "tibul"}, "meaning": {"fr": "Assaisonnement", "en": "Seasoning"}},
+        {"id": "tbl-3", "he": "תבלין", "pos": "nm", "translit": {"fr": "tavline", "en": "tavlin"}, "meaning": {"fr": "Condiment, épice", "en": "Spice, condiment"}},
+        {"id": "tbl-4", "he": "מתובל", "pos": "adj", "translit": {"fr": "metoubal", "en": "metubal"}, "meaning": {"fr": "Assaisonné, épicé", "en": "Seasoned, spiced"}}
+      ]
+    },
+    {
+      "id": "shpi",
+      "letters": "שפי",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "calme, santé d'esprit", "en": "calm, sanity"},
+      "words": [
+        {"id": "shpi-1", "he": "לשפות", "pos": "v", "translit": {"fr": "lichpot", "en": "lishpot"}, "meaning": {"fr": "Être calme", "en": "To be calm"}},
+        {"id": "shpi-2", "he": "שפוי", "pos": "adj", "translit": {"fr": "chafouï", "en": "shafui"}, "meaning": {"fr": "Sain d'esprit", "en": "Sane"}},
+        {"id": "shpi-3", "he": "שפיות", "pos": "nf", "translit": {"fr": "chfiyout", "en": "shfiyut"}, "meaning": {"fr": "Santé mentale, tranquillité", "en": "Sanity, calm"}},
+        {"id": "shpi-4", "he": "שפיות הדעת", "pos": "nf", "translit": {"fr": "chfiyout hada'at", "en": "shfiyut hada'at"}, "meaning": {"fr": "Clairvoyance, santé mentale", "en": "Sanity of mind"}}
+      ]
+    },
+    {
+      "id": "tvk",
+      "letters": "תוך",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "milieu, médiation", "en": "middle, mediation"},
+      "words": [
+        {"id": "tvk-1", "he": "לתווך", "pos": "v", "translit": {"fr": "letavèkh", "en": "letavech"}, "meaning": {"fr": "S'interposer, servir d'intermédiaire", "en": "To mediate"}},
+        {"id": "tvk-2", "he": "מתווך", "pos": "nm", "translit": {"fr": "metavekh", "en": "metavech"}, "meaning": {"fr": "Médiateur, agent immobilier", "en": "Mediator, real estate agent"}},
+        {"id": "tvk-3", "he": "תיווך", "pos": "nm", "translit": {"fr": "tivoukh", "en": "tivuch"}, "meaning": {"fr": "Médiation, courtage", "en": "Mediation, brokerage"}},
+        {"id": "tvk-4", "he": "תווך", "pos": "nm", "translit": {"fr": "tavèkh", "en": "tavech"}, "meaning": {"fr": "Milieu", "en": "Middle"}},
+        {"id": "tvk-5", "he": "תוך", "pos": "adv", "translit": {"fr": "tokh", "en": "toch"}, "meaning": {"fr": "À l'intérieur, au cours de", "en": "Within, inside"}},
+        {"id": "tvk-6", "he": "בתוך", "pos": "adv", "translit": {"fr": "betokh", "en": "betoch"}, "meaning": {"fr": "À l'intérieur de, dans", "en": "Inside, within"}},
+        {"id": "tvk-7", "he": "תיכון", "pos": "nm", "translit": {"fr": "tikhone", "en": "tichon"}, "meaning": {"fr": "Lycée", "en": "High school"}},
+        {"id": "tvk-8", "he": "הים התיכון", "pos": "nm", "translit": {"fr": "hayam hatikhone", "en": "hayam hatichon"}, "meaning": {"fr": "La mer Méditerranée", "en": "The Mediterranean Sea"}},
+        {"id": "tvk-9", "he": "תיכוני", "pos": "adj", "translit": {"fr": "tikhoni", "en": "tichoni"}, "meaning": {"fr": "Secondaire", "en": "Secondary"}}
+      ]
+    },
+    {
+      "id": "yda",
+      "letters": "ידע",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "savoir, connaître", "en": "to know"},
+      "words": [
+        {"id": "yda-1", "he": "לדעת", "pos": "v", "translit": {"fr": "lada'at", "en": "lada'at"}, "meaning": {"fr": "Savoir, connaître", "en": "To know"}},
+        {"id": "yda-2", "he": "להודיע", "pos": "v", "translit": {"fr": "lehodi'a", "en": "lehodi'a"}, "meaning": {"fr": "Annoncer, aviser", "en": "To announce, to inform"}},
+        {"id": "yda-3", "he": "ליידע", "pos": "v", "translit": {"fr": "leyadéa", "en": "leyade'a"}, "meaning": {"fr": "Informer", "en": "To inform"}},
+        {"id": "yda-4", "he": "דעה", "pos": "nf", "translit": {"fr": "dé'a", "en": "de'a"}, "meaning": {"fr": "Opinion, idée", "en": "Opinion, idea"}},
+        {"id": "yda-5", "he": "דעת", "pos": "nf", "translit": {"fr": "da'at", "en": "da'at"}, "meaning": {"fr": "Connaissance, jugement", "en": "Knowledge, judgment"}},
+        {"id": "yda-6", "he": "ידע", "pos": "nm", "translit": {"fr": "yéda", "en": "yeda"}, "meaning": {"fr": "Savoir, connaissance", "en": "Knowledge"}},
+        {"id": "yda-7", "he": "ידוע", "pos": "adj", "translit": {"fr": "yadoua", "en": "yadu'a"}, "meaning": {"fr": "Connu, célèbre", "en": "Known, famous"}},
+        {"id": "yda-8", "he": "ידיעה", "pos": "nf", "translit": {"fr": "yédia'a", "en": "yedi'a"}, "meaning": {"fr": "Information, nouvelle", "en": "News item"}},
+        {"id": "yda-9", "he": "מדע", "pos": "nm", "translit": {"fr": "mada", "en": "mada"}, "meaning": {"fr": "Science", "en": "Science"}},
+        {"id": "yda-10", "he": "מדעי", "pos": "adj", "translit": {"fr": "mada'i", "en": "mada'i"}, "meaning": {"fr": "Scientifique", "en": "Scientific"}},
+        {"id": "yda-11", "he": "מדען", "pos": "nm", "translit": {"fr": "mad'ane", "en": "mad'an"}, "meaning": {"fr": "Scientifique (personne)", "en": "Scientist"}},
+        {"id": "yda-12", "he": "מודעה", "pos": "nf", "translit": {"fr": "moda'a", "en": "moda'a"}, "meaning": {"fr": "Annonce, avis", "en": "Notice, advertisement"}},
+        {"id": "yda-13", "he": "מידע", "pos": "nm", "translit": {"fr": "méyda", "en": "meida"}, "meaning": {"fr": "Information, renseignements", "en": "Information"}},
+        {"id": "yda-14", "he": "תודעה", "pos": "nf", "translit": {"fr": "toda'a", "en": "toda'a"}, "meaning": {"fr": "Conscience", "en": "Consciousness, awareness"}}
+      ]
+    },
+    {
+      "id": "sdr",
+      "letters": "סדר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "ordre, arranger", "en": "order, to arrange"},
+      "words": [
+        {"id": "sdr-1", "he": "לסדר", "pos": "v", "translit": {"fr": "lessadère", "en": "lesader"}, "meaning": {"fr": "Arranger, ranger", "en": "To arrange, to tidy"}},
+        {"id": "sdr-2", "he": "להסדיר", "pos": "v", "translit": {"fr": "léhassdir", "en": "lehasdir"}, "meaning": {"fr": "Mettre en ordre, régler", "en": "To regulate, to settle"}},
+        {"id": "sdr-3", "he": "להסתדר", "pos": "v", "translit": {"fr": "léhisstadère", "en": "lehistader"}, "meaning": {"fr": "S'organiser, se débrouiller", "en": "To manage, to get by"}},
+        {"id": "sdr-4", "he": "הסתדרות", "pos": "nf", "translit": {"fr": "hisstadroute", "en": "histadrut"}, "meaning": {"fr": "Organisation, syndicat", "en": "Organization, labor union"}},
+        {"id": "sdr-5", "he": "מסודר", "pos": "adj", "translit": {"fr": "messouda", "en": "mesudar"}, "meaning": {"fr": "Ordonné", "en": "Tidy, organized"}},
+        {"id": "sdr-6", "he": "סדר", "pos": "nm", "translit": {"fr": "sédère", "en": "seder"}, "meaning": {"fr": "Ordre; repas de Pessah", "en": "Order; the Passover meal"}},
+        {"id": "sdr-7", "he": "סידור", "pos": "nm", "translit": {"fr": "sidoure", "en": "sidur"}, "meaning": {"fr": "Livre de prières; arrangement", "en": "Prayer book; arrangement"}},
+        {"id": "sdr-8", "he": "סידורים", "pos": "nmp", "translit": {"fr": "sidourime", "en": "sidurim"}, "meaning": {"fr": "Préparatifs, courses", "en": "Errands, arrangements"}},
+        {"id": "sdr-9", "he": "סדרה", "pos": "nf", "translit": {"fr": "sidra", "en": "sidra"}, "meaning": {"fr": "Série", "en": "Series"}},
+        {"id": "sdr-10", "he": "מסדרון", "pos": "nm", "translit": {"fr": "missdarone", "en": "misderon"}, "meaning": {"fr": "Corridor, couloir", "en": "Corridor"}},
+        {"id": "sdr-11", "he": "בסדר", "pos": "adv", "translit": {"fr": "bessédère", "en": "beseder"}, "meaning": {"fr": "En ordre, d'accord", "en": "Okay, all right"}},
+        {"id": "sdr-12", "he": "מסדר", "pos": "nm", "translit": {"fr": "missdar", "en": "misdar"}, "meaning": {"fr": "Parade, rassemblement", "en": "Parade, roll-call"}}
+      ]
+    },
+    {
+      "id": "azn",
+      "letters": "אזן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "équilibre, écoute", "en": "balance, listening"},
+      "words": [
+        {"id": "azn-1", "he": "לאזן", "pos": "v", "translit": {"fr": "léazène", "en": "leazen"}, "meaning": {"fr": "Équilibrer, ajuster", "en": "To balance"}},
+        {"id": "azn-2", "he": "להאזין", "pos": "v", "translit": {"fr": "léhaazine", "en": "leha'azin"}, "meaning": {"fr": "Écouter", "en": "To listen"}},
+        {"id": "azn-3", "he": "להתאזן", "pos": "v", "translit": {"fr": "lehit'azène", "en": "lehit'azen"}, "meaning": {"fr": "S'équilibrer, se stabiliser", "en": "To balance out"}},
+        {"id": "azn-4", "he": "האזנה", "pos": "nf", "translit": {"fr": "haazana", "en": "ha'azana"}, "meaning": {"fr": "Écoute", "en": "Listening"}},
+        {"id": "azn-5", "he": "מאזין", "pos": "nm", "translit": {"fr": "maazine", "en": "ma'azin"}, "meaning": {"fr": "Auditeur", "en": "Listener"}},
+        {"id": "azn-6", "he": "איזון", "pos": "nm", "translit": {"fr": "izoune", "en": "izun"}, "meaning": {"fr": "Équilibre", "en": "Balance"}},
+        {"id": "azn-7", "he": "מאזן", "pos": "nm", "translit": {"fr": "maazane", "en": "ma'azan"}, "meaning": {"fr": "Équilibre, bilan", "en": "Balance, balance sheet"}},
+        {"id": "azn-8", "he": "מאזניים", "pos": "nmp", "translit": {"fr": "méozenayime", "en": "moznayim"}, "meaning": {"fr": "Balance (instrument)", "en": "Scales"}},
+        {"id": "azn-9", "he": "מאוזן", "pos": "adj", "translit": {"fr": "méouzane", "en": "meuzan"}, "meaning": {"fr": "Horizontal, équilibré", "en": "Horizontal, balanced"}}
+      ]
+    },
+    {
+      "id": "ytzv",
+      "letters": "יצב",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "stabiliser, se présenter", "en": "to stabilize, to report"},
+      "words": [
+        {"id": "ytzv-1", "he": "לייצב", "pos": "v", "translit": {"fr": "leyatsèv", "en": "leyatsev"}, "meaning": {"fr": "Stabiliser", "en": "To stabilize"}},
+        {"id": "ytzv-2", "he": "להציב", "pos": "v", "translit": {"fr": "léhatsiv", "en": "lehatziv"}, "meaning": {"fr": "Positionner, placer", "en": "To place, to post"}},
+        {"id": "ytzv-3", "he": "להתייצב", "pos": "v", "translit": {"fr": "léhiteyatsèv", "en": "lehityatsev"}, "meaning": {"fr": "Se présenter (à l'appel)", "en": "To report, to show up"}},
+        {"id": "ytzv-4", "he": "התייצבות", "pos": "nf", "translit": {"fr": "hiteyatsvout", "en": "hityatzvut"}, "meaning": {"fr": "Comparution, conscription", "en": "Reporting for duty"}},
+        {"id": "ytzv-5", "he": "יציב", "pos": "adj", "translit": {"fr": "yatsiv", "en": "yatziv"}, "meaning": {"fr": "Stable", "en": "Stable"}},
+        {"id": "ytzv-6", "he": "יציבות", "pos": "nf", "translit": {"fr": "yétsivout", "en": "yetzivut"}, "meaning": {"fr": "Stabilité", "en": "Stability"}},
+        {"id": "ytzv-7", "he": "מצב", "pos": "nm", "translit": {"fr": "matsav", "en": "matzav"}, "meaning": {"fr": "État, situation", "en": "State, situation"}},
+        {"id": "ytzv-8", "he": "מוצב", "pos": "nm", "translit": {"fr": "moutsav", "en": "mutzav"}, "meaning": {"fr": "Position militaire", "en": "Military post"}},
+        {"id": "ytzv-9", "he": "מצבה", "pos": "nf", "translit": {"fr": "matséva", "en": "matzeva"}, "meaning": {"fr": "Pierre tombale", "en": "Gravestone"}}
+      ]
+    },
+    {
+      "id": "grl",
+      "letters": "גרל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "sort, destin", "en": "fate, lottery"},
+      "words": [
+        {"id": "grl-1", "he": "גורל", "pos": "nm", "translit": {"fr": "gorale", "en": "goral"}, "meaning": {"fr": "Destin, sort", "en": "Fate, destiny"}},
+        {"id": "grl-2", "he": "הגרלה", "pos": "nf", "translit": {"fr": "hagrala", "en": "hagrala"}, "meaning": {"fr": "Loterie, tirage au sort", "en": "Lottery, draw"}},
+        {"id": "grl-3", "he": "להגריל", "pos": "v", "translit": {"fr": "léhagril", "en": "lehagril"}, "meaning": {"fr": "Tirer au sort", "en": "To draw lots"}},
+        {"id": "grl-4", "he": "גורלי", "pos": "adj", "translit": {"fr": "goroli", "en": "goreli"}, "meaning": {"fr": "Fatal, crucial", "en": "Fateful, crucial"}},
+        {"id": "grl-5", "he": "יד הגורל", "pos": "nf", "translit": {"fr": "yad hagorale", "en": "yad hagoral"}, "meaning": {"fr": "Coup du sort, hasard", "en": "Twist of fate"}},
+        {"id": "grl-6", "he": "מוגרל", "pos": "adj", "translit": {"fr": "mougral", "en": "mugral"}, "meaning": {"fr": "Tiré au sort", "en": "Drawn by lot"}}
+      ]
+    },
+    {
+      "id": "azv",
+      "letters": "עזב",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "quitter, abandonner", "en": "to leave, to abandon"},
+      "words": [
+        {"id": "azv-1", "he": "לעזוב", "pos": "v", "translit": {"fr": "la'azov", "en": "la'azov"}, "meaning": {"fr": "Quitter, laisser, abandonner", "en": "To leave, to abandon"}},
+        {"id": "azv-2", "he": "להיעזב", "pos": "v", "translit": {"fr": "lehé'azève", "en": "lehe'azev"}, "meaning": {"fr": "Être abandonné", "en": "To be abandoned"}},
+        {"id": "azv-3", "he": "עזוב", "pos": "adj", "translit": {"fr": "âzouv", "en": "azuv"}, "meaning": {"fr": "Abandonné", "en": "Abandoned, neglected"}},
+        {"id": "azv-4", "he": "עזובה", "pos": "nf", "translit": {"fr": "âzouva", "en": "azuva"}, "meaning": {"fr": "Désertion, désolation", "en": "Neglect, desolation"}},
+        {"id": "azv-5", "he": "עזיבה", "pos": "nf", "translit": {"fr": "âziva", "en": "aziva"}, "meaning": {"fr": "Abandon, départ", "en": "Leaving, departure"}},
+        {"id": "azv-6", "he": "עיזבון", "pos": "nm", "translit": {"fr": "izavone", "en": "izavon"}, "meaning": {"fr": "Héritage, succession", "en": "Estate, inheritance"}}
+      ]
+    },
+    {
+      "id": "shbh",
+      "letters": "שבה",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "capturer, captivité", "en": "to capture, captivity"},
+      "words": [
+        {"id": "shbh-1", "he": "לשבות", "pos": "v", "translit": {"fr": "lishbot", "en": "lishbot"}, "meaning": {"fr": "Capturer", "en": "To capture"}},
+        {"id": "shbh-2", "he": "להישבות", "pos": "v", "translit": {"fr": "léhishavot", "en": "lehishavot"}, "meaning": {"fr": "Être capturé", "en": "To be captured"}},
+        {"id": "shbh-3", "he": "שבוי", "pos": "nm", "translit": {"fr": "shavouy", "en": "shavuy"}, "meaning": {"fr": "Captif", "en": "Captive, prisoner"}},
+        {"id": "shbh-4", "he": "שבי", "pos": "nm", "translit": {"fr": "shèvi", "en": "shevi"}, "meaning": {"fr": "Captivité", "en": "Captivity"}}
+      ]
+    },
+    {
+      "id": "utz",
+      "letters": "אוץ",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "se hâter, accélérer", "en": "to hurry, to accelerate"},
+      "words": [
+        {"id": "utz-1", "he": "לאוץ", "pos": "v", "translit": {"fr": "laoutz", "en": "la'utz"}, "meaning": {"fr": "Se hâter, se presser", "en": "To hurry"}},
+        {"id": "utz-2", "he": "להאיץ", "pos": "v", "translit": {"fr": "léhaïts", "en": "leha'itz"}, "meaning": {"fr": "Stimuler, accélérer", "en": "To accelerate"}},
+        {"id": "utz-3", "he": "האצה", "pos": "nf", "translit": {"fr": "haatsa", "en": "ha'atza"}, "meaning": {"fr": "Accélération", "en": "Acceleration"}},
+        {"id": "utz-4", "he": "אצן", "pos": "nm", "translit": {"fr": "atsane", "en": "atzan"}, "meaning": {"fr": "Sprinteur", "en": "Sprinter"}},
+        {"id": "utz-5", "he": "מאיץ", "pos": "nm", "translit": {"fr": "mé'its", "en": "me'itz"}, "meaning": {"fr": "Accélérateur", "en": "Accelerator"}},
+        {"id": "utz-6", "he": "תאוצה", "pos": "nf", "translit": {"fr": "té'outsa", "en": "te'utza"}, "meaning": {"fr": "Accélération", "en": "Acceleration"}}
+      ]
+    },
+    {
+      "id": "ksh",
+      "letters": "קשה",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "dur, difficile", "en": "hard, difficult"},
+      "words": [
+        {"id": "ksh-1", "he": "להקשות", "pos": "v", "translit": {"fr": "lehakshote", "en": "lehakshot"}, "meaning": {"fr": "Durcir, compliquer", "en": "To harden, to make difficult"}},
+        {"id": "ksh-2", "he": "להתקשות", "pos": "v", "translit": {"fr": "lehitkashote", "en": "lehitkashot"}, "meaning": {"fr": "Se durcir, avoir du mal", "en": "To harden, to have difficulty"}},
+        {"id": "ksh-3", "he": "קשה", "pos": "adj", "translit": {"fr": "kashé", "en": "kashe"}, "meaning": {"fr": "Dur, difficile", "en": "Hard, difficult"}},
+        {"id": "ksh-4", "he": "קושי", "pos": "nm", "translit": {"fr": "koshi", "en": "koshi"}, "meaning": {"fr": "Difficulté, dureté", "en": "Difficulty"}},
+        {"id": "ksh-5", "he": "קשיות", "pos": "nf", "translit": {"fr": "kashiout", "en": "kashiyut"}, "meaning": {"fr": "Sévérité, dureté", "en": "Hardness, severity"}},
+        {"id": "ksh-6", "he": "מקשה", "pos": "nm", "translit": {"fr": "mikèché", "en": "mikshe"}, "meaning": {"fr": "Bloc, masse", "en": "Block, lump"}},
+        {"id": "ksh-7", "he": "קושיה", "pos": "nf", "translit": {"fr": "koushiya", "en": "kushya"}, "meaning": {"fr": "Question difficile, objection", "en": "Difficult question, objection"}},
+        {"id": "ksh-8", "he": "קשות", "pos": "adv", "translit": {"fr": "kashote", "en": "kashot"}, "meaning": {"fr": "Sévèrement, durement", "en": "Severely"}},
+        {"id": "ksh-9", "he": "נוקשה", "pos": "adj", "translit": {"fr": "noukeshé", "en": "nukshe"}, "meaning": {"fr": "Dur, rigide", "en": "Rigid, strict"}},
+        {"id": "ksh-10", "he": "נוקשות", "pos": "nf", "translit": {"fr": "noukeshout", "en": "nukshut"}, "meaning": {"fr": "Dureté, rigueur", "en": "Rigidity"}}
+      ]
+    },
+    {
+      "id": "shrd",
+      "letters": "שרד",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "survivre", "en": "to survive"},
+      "words": [
+        {"id": "shrd-1", "he": "לשרוד", "pos": "v", "translit": {"fr": "lissrode", "en": "lisrod"}, "meaning": {"fr": "Survivre", "en": "To survive"}},
+        {"id": "shrd-2", "he": "הישרדות", "pos": "nf", "translit": {"fr": "hissardout", "en": "hisardut"}, "meaning": {"fr": "Survie", "en": "Survival"}},
+        {"id": "shrd-3", "he": "שריד", "pos": "nm", "translit": {"fr": "sarid", "en": "sarid"}, "meaning": {"fr": "Vestige, survivant", "en": "Remnant, survivor"}}
+      ]
+    },
+    {
+      "id": "shar",
+      "letters": "שאר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "rester", "en": "to remain"},
+      "words": [
+        {"id": "shar-1", "he": "להישאר", "pos": "v", "translit": {"fr": "lehishaère", "en": "lehisha'er"}, "meaning": {"fr": "Rester", "en": "To stay, to remain"}},
+        {"id": "shar-2", "he": "להשאיר", "pos": "v", "translit": {"fr": "lehash'ir", "en": "lehash'ir"}, "meaning": {"fr": "Laisser", "en": "To leave (behind)"}},
+        {"id": "shar-3", "he": "שאר", "pos": "nm", "translit": {"fr": "she'ar", "en": "she'ar"}, "meaning": {"fr": "Restant, reste, autre", "en": "The rest, remainder"}},
+        {"id": "shar-4", "he": "שאר רוח", "pos": "nm", "translit": {"fr": "she'ar roua'h", "en": "she'ar ru'ach"}, "meaning": {"fr": "Inspiration, bon sens", "en": "Inspiration, spirit"}},
+        {"id": "shar-5", "he": "שאר בשר", "pos": "nm", "translit": {"fr": "she'ar bassar", "en": "she'ar basar"}, "meaning": {"fr": "Proche parent, consanguin", "en": "Close relative"}},
+        {"id": "shar-6", "he": "שארית", "pos": "nf", "translit": {"fr": "she'érit", "en": "she'erit"}, "meaning": {"fr": "Reste, restant, vestige", "en": "Remnant, remainder"}}
+      ]
+    },
+    {
+      "id": "nta",
+      "letters": "נטע",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "planter", "en": "to plant"},
+      "words": [
+        {"id": "nta-1", "he": "לנטוע", "pos": "v", "translit": {"fr": "linto'a", "en": "lintoa"}, "meaning": {"fr": "Planter", "en": "To plant"}},
+        {"id": "nta-2", "he": "להינטע", "pos": "v", "translit": {"fr": "lehinata", "en": "lehinata"}, "meaning": {"fr": "Être planté", "en": "To be planted"}},
+        {"id": "nta-3", "he": "נטע", "pos": "nm", "translit": {"fr": "néta", "en": "neta"}, "meaning": {"fr": "Jeune plante, semis", "en": "Sapling"}},
+        {"id": "nta-4", "he": "נטוע", "pos": "adj", "translit": {"fr": "natoua", "en": "natu'a"}, "meaning": {"fr": "Planté, implanté", "en": "Planted, rooted"}},
+        {"id": "nta-5", "he": "נטיעה", "pos": "nf", "translit": {"fr": "neti'a", "en": "neti'a"}, "meaning": {"fr": "Plantation (action)", "en": "Planting"}},
+        {"id": "nta-6", "he": "מטע", "pos": "nm", "translit": {"fr": "mata", "en": "mata"}, "meaning": {"fr": "Plantation (domaine)", "en": "Orchard, plantation"}}
+      ]
+    },
+    {
+      "id": "schf",
+      "letters": "סחף",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "entraîner, balayer", "en": "to sweep away"},
+      "words": [
+        {"id": "schf-1", "he": "לסחוף", "pos": "v", "translit": {"fr": "lissoh'èf", "en": "lisochof"}, "meaning": {"fr": "Charrier, balayer", "en": "To sweep away"}},
+        {"id": "schf-2", "he": "להיסחף", "pos": "v", "translit": {"fr": "lehissah'èf", "en": "lehisachef"}, "meaning": {"fr": "Être entraîné, se laisser emporter", "en": "To get carried away"}},
+        {"id": "schf-3", "he": "סחיפה", "pos": "nf", "translit": {"fr": "sseh'ifa", "en": "sechifa"}, "meaning": {"fr": "Érosion, balayage", "en": "Erosion, sweeping"}},
+        {"id": "schf-4", "he": "סחוף", "pos": "adj", "translit": {"fr": "sah'ouf", "en": "sachuf"}, "meaning": {"fr": "Entraîné, balayé", "en": "Swept away"}},
+        {"id": "schf-5", "he": "תסחיף", "pos": "nm", "translit": {"fr": "tasseh'if", "en": "tasschif"}, "meaning": {"fr": "Embolie", "en": "Embolism"}}
+      ]
+    },
+    {
+      "id": "tzfn",
+      "letters": "צפן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "cacher, nord", "en": "to encode, north"},
+      "words": [
+        {"id": "tzfn-1", "he": "להצפין", "pos": "v", "translit": {"fr": "lehatspine", "en": "lehatzpin"}, "meaning": {"fr": "Cacher, encoder", "en": "To encode, to encrypt"}},
+        {"id": "tzfn-2", "he": "הצפנה", "pos": "nf", "translit": {"fr": "hatspana", "en": "hatzpana"}, "meaning": {"fr": "Encodage", "en": "Encryption"}},
+        {"id": "tzfn-3", "he": "צופן", "pos": "nm", "translit": {"fr": "tsofène", "en": "tzofen"}, "meaning": {"fr": "Code", "en": "Code, cipher"}},
+        {"id": "tzfn-4", "he": "צפון", "pos": "nm", "translit": {"fr": "tsafone", "en": "tzafon"}, "meaning": {"fr": "Nord; (adj.) caché", "en": "North; (adj.) hidden"}},
+        {"id": "tzfn-5", "he": "מצפן", "pos": "nm", "translit": {"fr": "matspène", "en": "matzpen"}, "meaning": {"fr": "Boussole", "en": "Compass"}},
+        {"id": "tzfn-6", "he": "מצפון", "pos": "nm", "translit": {"fr": "matspoune", "en": "matzpun"}, "meaning": {"fr": "Conscience", "en": "Conscience"}}
+      ]
+    },
+    {
+      "id": "kbh",
+      "letters": "כבה",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "éteindre", "en": "to put out, to go out"},
+      "words": [
+        {"id": "kbh-1", "he": "לכבות", "pos": "v", "translit": {"fr": "likhbote", "en": "lichbot"}, "meaning": {"fr": "S'éteindre, éteindre", "en": "To go out, to turn off"}},
+        {"id": "kbh-2", "he": "להיכבות", "pos": "v", "translit": {"fr": "léhikhabote", "en": "lehikavot"}, "meaning": {"fr": "Être éteint", "en": "To be put out"}},
+        {"id": "kbh-3", "he": "כיבוי", "pos": "nm", "translit": {"fr": "kibouy", "en": "kibui"}, "meaning": {"fr": "Extinction", "en": "Extinguishing, shutdown"}},
+        {"id": "kbh-4", "he": "כבאי", "pos": "nm", "translit": {"fr": "kabay", "en": "kabai"}, "meaning": {"fr": "Pompier", "en": "Firefighter"}},
+        {"id": "kbh-5", "he": "כבאית", "pos": "nf", "translit": {"fr": "kabaït", "en": "kabait"}, "meaning": {"fr": "Camion de pompier", "en": "Fire truck"}},
+        {"id": "kbh-6", "he": "כבאות", "pos": "nf", "translit": {"fr": "kabaout", "en": "kabaut"}, "meaning": {"fr": "Lutte contre l'incendie", "en": "Fire service"}},
+        {"id": "kbh-7", "he": "מכבי אש", "pos": "nmp", "translit": {"fr": "mekhabé èch", "en": "mechabei esh"}, "meaning": {"fr": "Pompiers", "en": "Fire brigade"}}
+      ]
+    },
+    {
+      "id": "sgl",
+      "letters": "סגל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "adapter, qualité", "en": "to adapt, quality"},
+      "words": [
+        {"id": "sgl-1", "he": "לסגל", "pos": "v", "translit": {"fr": "lessagol", "en": "lesagel"}, "meaning": {"fr": "Adapter", "en": "To adapt, to acquire"}},
+        {"id": "sgl-2", "he": "להסתגל", "pos": "v", "translit": {"fr": "léhisstaguèl", "en": "lehistagel"}, "meaning": {"fr": "S'adapter", "en": "To adapt oneself"}},
+        {"id": "sgl-3", "he": "הסתגלות", "pos": "nf", "translit": {"fr": "hissetagueloute", "en": "histagelut"}, "meaning": {"fr": "Adaptation, ajustement", "en": "Adaptation"}},
+        {"id": "sgl-4", "he": "מסוגל", "pos": "adj", "translit": {"fr": "messougal", "en": "mesugal"}, "meaning": {"fr": "Capable", "en": "Capable"}},
+        {"id": "sgl-5", "he": "סגל", "pos": "nm", "translit": {"fr": "ssèguèl", "en": "segel"}, "meaning": {"fr": "Encadrement, staff", "en": "Staff, faculty"}},
+        {"id": "sgl-6", "he": "סגולי", "pos": "adj", "translit": {"fr": "sseguouli", "en": "segoli"}, "meaning": {"fr": "Spécifique, particulier", "en": "Specific, particular"}},
+        {"id": "sgl-7", "he": "סגולה", "pos": "nf", "translit": {"fr": "sseguoula", "en": "segula"}, "meaning": {"fr": "Qualité, vertu", "en": "Virtue, special quality"}},
+        {"id": "sgl-8", "he": "עם סגולה", "pos": "nm", "translit": {"fr": "âm sseguoula", "en": "am segula"}, "meaning": {"fr": "Le peuple élu", "en": "The chosen people"}}
+      ]
+    },
+    {
+      "id": "smn",
+      "letters": "סמן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "signaler, marquer", "en": "to mark, to indicate"},
+      "words": [
+        {"id": "smn-1", "he": "לסמן", "pos": "v", "translit": {"fr": "lésamène", "en": "lesamen"}, "meaning": {"fr": "Signaler, montrer, marquer", "en": "To mark, to indicate"}},
+        {"id": "smn-2", "he": "להסתמן", "pos": "v", "translit": {"fr": "lehissetamène", "en": "lehistamen"}, "meaning": {"fr": "Se dessiner, se distinguer", "en": "To emerge, to take shape"}},
+        {"id": "smn-3", "he": "סמן", "pos": "nm", "translit": {"fr": "samane", "en": "saman"}, "meaning": {"fr": "Marqueur, curseur", "en": "Marker, cursor"}},
+        {"id": "smn-4", "he": "סימן", "pos": "nm", "translit": {"fr": "simane", "en": "siman"}, "meaning": {"fr": "Signe, marque", "en": "Sign, mark"}},
+        {"id": "smn-5", "he": "סימן שאלה", "pos": "nm", "translit": {"fr": "simane shéélah", "en": "siman she'ela"}, "meaning": {"fr": "Point d'interrogation", "en": "Question mark"}},
+        {"id": "smn-6", "he": "סימון", "pos": "nm", "translit": {"fr": "simoune", "en": "simun"}, "meaning": {"fr": "Indication, marquage", "en": "Marking"}},
+        {"id": "smn-7", "he": "תסמונת", "pos": "nf", "translit": {"fr": "tissemonète", "en": "tasmonet"}, "meaning": {"fr": "Syndrome", "en": "Syndrome"}}
+      ]
+    },
+    {
+      "id": "rbh",
+      "letters": "רבה",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "multiplier, beaucoup", "en": "to multiply, much"},
+      "words": [
+        {"id": "rbh-1", "he": "להרבות", "pos": "v", "translit": {"fr": "leharbote", "en": "leharbot"}, "meaning": {"fr": "Multiplier, accroître", "en": "To increase, to do a lot of"}},
+        {"id": "rbh-2", "he": "להתרבות", "pos": "v", "translit": {"fr": "lehiterabote", "en": "lehitrabot"}, "meaning": {"fr": "Se multiplier, proliférer", "en": "To multiply"}},
+        {"id": "rbh-3", "he": "ריבוי", "pos": "nm", "translit": {"fr": "ribouy", "en": "ribui"}, "meaning": {"fr": "Augmentation, multiplication", "en": "Increase, plural"}},
+        {"id": "rbh-4", "he": "ריבית", "pos": "nf", "translit": {"fr": "ribite", "en": "ribit"}, "meaning": {"fr": "Intérêt", "en": "Interest (financial)"}},
+        {"id": "rbh-5", "he": "הרבה", "pos": "adv", "translit": {"fr": "harbé", "en": "harbe"}, "meaning": {"fr": "Beaucoup", "en": "A lot, much"}},
+        {"id": "rbh-6", "he": "רב", "pos": "nm", "translit": {"fr": "rave", "en": "rav"}, "meaning": {"fr": "Rabbin", "en": "Rabbi"}},
+        {"id": "rbh-7", "he": "מרובה", "pos": "adj", "translit": {"fr": "meroubé", "en": "meruba"}, "meaning": {"fr": "Nombreux", "en": "Numerous, abundant"}},
+        {"id": "rbh-8", "he": "מרבית", "pos": "nf", "translit": {"fr": "marebite", "en": "marbit"}, "meaning": {"fr": "La plupart", "en": "Most, the majority"}},
+        {"id": "rbh-9", "he": "תרבות", "pos": "nf", "translit": {"fr": "tarbout", "en": "tarbut"}, "meaning": {"fr": "Culture", "en": "Culture"}}
+      ]
+    },
+    {
+      "id": "nkv",
+      "letters": "נקב",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "percer, trouer", "en": "to pierce, to perforate"},
+      "words": [
+        {"id": "nkv-1", "he": "לנקוב", "pos": "v", "translit": {"fr": "linkov", "en": "linkov"}, "meaning": {"fr": "Percer, trouer; citer un chiffre", "en": "To pierce; to state (a figure)"}},
+        {"id": "nkv-2", "he": "לנקב", "pos": "v", "translit": {"fr": "lenakèv", "en": "lenakev"}, "meaning": {"fr": "Perforer", "en": "To perforate"}},
+        {"id": "nkv-3", "he": "נקב", "pos": "nm", "translit": {"fr": "nèkèv", "en": "nekev"}, "meaning": {"fr": "Petit trou", "en": "Small hole"}},
+        {"id": "nkv-4", "he": "ניקוב", "pos": "nm", "translit": {"fr": "nikouv", "en": "nikuv"}, "meaning": {"fr": "Perforation", "en": "Perforation, punching"}},
+        {"id": "nkv-5", "he": "נקבובי", "pos": "adj", "translit": {"fr": "nekebouvi", "en": "nekvuvi"}, "meaning": {"fr": "Poreux", "en": "Porous"}},
+        {"id": "nkv-6", "he": "מנקב", "pos": "nm", "translit": {"fr": "menakèv", "en": "menakev"}, "meaning": {"fr": "Perforatrice", "en": "Hole punch"}},
+        {"id": "nkv-7", "he": "נקבה", "pos": "nf", "translit": {"fr": "nèkèva", "en": "nekeva"}, "meaning": {"fr": "Femelle, femme; (nikba) tunnel", "en": "Female; (nikba) tunnel"}}
+      ]
+    },
+    {
+      "id": "eid",
+      "letters": "עוד",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "témoigner, documenter", "en": "to testify, to document"},
+      "words": [
+        {"id": "eid-1", "he": "להעיד", "pos": "v", "translit": {"fr": "léha'id", "en": "leha'id"}, "meaning": {"fr": "Témoigner", "en": "To testify"}},
+        {"id": "eid-2", "he": "עד", "pos": "nm", "translit": {"fr": "ède", "en": "ed"}, "meaning": {"fr": "Témoin", "en": "Witness"}},
+        {"id": "eid-3", "he": "עדות", "pos": "nf", "translit": {"fr": "édout", "en": "edut"}, "meaning": {"fr": "Témoignage", "en": "Testimony"}},
+        {"id": "eid-4", "he": "תעודה", "pos": "nf", "translit": {"fr": "té'ouda", "en": "te'uda"}, "meaning": {"fr": "Certificat, diplôme", "en": "Certificate, ID"}},
+        {"id": "eid-5", "he": "תיעודי", "pos": "adj", "translit": {"fr": "ti'oudi", "en": "ti'udi"}, "meaning": {"fr": "Documentaire (adj.)", "en": "Documentary"}},
+        {"id": "eid-6", "he": "לתעד", "pos": "v", "translit": {"fr": "leta'èd", "en": "leta'ed"}, "meaning": {"fr": "Documenter", "en": "To document"}},
+        {"id": "eid-7", "he": "תיעוד", "pos": "nm", "translit": {"fr": "ti'oud", "en": "ti'ud"}, "meaning": {"fr": "Documentation", "en": "Documentation"}}
+      ]
+    },
+    {
+      "id": "yvl",
+      "letters": "יבל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "transporter, conduire", "en": "to carry, to lead"},
+      "words": [
+        {"id": "yvl-1", "he": "להוביל", "pos": "v", "translit": {"fr": "léhovil", "en": "lehovil"}, "meaning": {"fr": "Transporter, conduire", "en": "To lead, to transport"}},
+        {"id": "yvl-2", "he": "הובל", "pos": "v", "translit": {"fr": "houval", "en": "huval"}, "meaning": {"fr": "A été transporté", "en": "Was transported"}},
+        {"id": "yvl-3", "he": "הובלה", "pos": "nf", "translit": {"fr": "hovala", "en": "hovala"}, "meaning": {"fr": "Transport", "en": "Transport, moving"}},
+        {"id": "yvl-4", "he": "מוביל", "pos": "nm", "translit": {"fr": "movil", "en": "movil"}, "meaning": {"fr": "Conduit, chef", "en": "Conveyor, leader"}},
+        {"id": "yvl-5", "he": "תובלה", "pos": "nf", "translit": {"fr": "tovala", "en": "tovala"}, "meaning": {"fr": "Moyen de transport", "en": "Transportation"}},
+        {"id": "yvl-6", "he": "יובל", "pos": "nm", "translit": {"fr": "youval", "en": "yuval"}, "meaning": {"fr": "Ruisseau, jubilé", "en": "Stream, jubilee"}},
+        {"id": "yvl-7", "he": "יביל", "pos": "adj", "translit": {"fr": "yavil", "en": "yavil"}, "meaning": {"fr": "Transportable", "en": "Transportable"}}
+      ]
+    },
+    {
+      "id": "kbs",
+      "letters": "כבש",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "conquérir", "en": "to conquer"},
+      "words": [
+        {"id": "kbs-1", "he": "לכבוש", "pos": "v", "translit": {"fr": "likhbosh", "en": "lichbosh"}, "meaning": {"fr": "Conquérir", "en": "To conquer"}},
+        {"id": "kbs-2", "he": "להיכבש", "pos": "v", "translit": {"fr": "léhikavèch", "en": "lehikavesh"}, "meaning": {"fr": "Être conquis", "en": "To be conquered"}},
+        {"id": "kbs-3", "he": "כבוש", "pos": "adj", "translit": {"fr": "kavouch", "en": "kavush"}, "meaning": {"fr": "Conquis, occupé", "en": "Conquered, occupied"}},
+        {"id": "kbs-4", "he": "כיבוש", "pos": "nm", "translit": {"fr": "kiboush", "en": "kibush"}, "meaning": {"fr": "Occupation, conquête", "en": "Conquest, occupation"}},
+        {"id": "kbs-5", "he": "כובש", "pos": "nm", "translit": {"fr": "kovèch", "en": "kovesh"}, "meaning": {"fr": "Occupant, conquérant", "en": "Conqueror, occupier"}},
+        {"id": "kbs-6", "he": "כביש", "pos": "nm", "translit": {"fr": "kvich", "en": "kvish"}, "meaning": {"fr": "Route", "en": "Road"}},
+        {"id": "kbs-7", "he": "כבושים", "pos": "nmp", "translit": {"fr": "kevouchim", "en": "kvushim"}, "meaning": {"fr": "Achards, légumes marinés", "en": "Pickles"}}
+      ]
+    },
+    {
+      "id": "hpr",
+      "letters": "חפר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "creuser, fouiller", "en": "to dig"},
+      "words": [
+        {"id": "hpr-1", "he": "לחפור", "pos": "v", "translit": {"fr": "lah'por", "en": "lachpor"}, "meaning": {"fr": "Fouiller, creuser", "en": "To dig"}},
+        {"id": "hpr-2", "he": "להתחפר", "pos": "v", "translit": {"fr": "léhiteh'apère", "en": "lehitchaper"}, "meaning": {"fr": "Se retrancher, s'enterrer", "en": "To dig in"}},
+        {"id": "hpr-3", "he": "התחפרות", "pos": "nf", "translit": {"fr": "hiteh'aperoute", "en": "hitchaprut"}, "meaning": {"fr": "Retranchement, fortification", "en": "Entrenchment"}},
+        {"id": "hpr-4", "he": "חפירה", "pos": "nf", "translit": {"fr": "h'afira", "en": "chafira"}, "meaning": {"fr": "Fouille, excavation", "en": "Digging, excavation"}},
+        {"id": "hpr-5", "he": "דחפור", "pos": "nm", "translit": {"fr": "dah'por", "en": "dachpor"}, "meaning": {"fr": "Bulldozer", "en": "Bulldozer"}},
+        {"id": "hpr-6", "he": "חפרפרת", "pos": "nf", "translit": {"fr": "h'afarpèrèt", "en": "chafarperet"}, "meaning": {"fr": "Taupe", "en": "Mole"}},
+        {"id": "hpr-7", "he": "מחפורת", "pos": "nf", "translit": {"fr": "mah'porète", "en": "machporet"}, "meaning": {"fr": "Tranchée, galerie", "en": "Trench"}}
+      ]
+    },
+    {
+      "id": "yal",
+      "letters": "יעל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "efficace, utile", "en": "efficient, useful"},
+      "words": [
+        {"id": "yal-1", "he": "להועיל", "pos": "v", "translit": {"fr": "lého'il", "en": "leho'il"}, "meaning": {"fr": "Profiter, être utile", "en": "To be of use, to help"}},
+        {"id": "yal-2", "he": "להתייעל", "pos": "v", "translit": {"fr": "léhiteya'èl", "en": "lehitya'el"}, "meaning": {"fr": "Devenir plus efficace", "en": "To become more efficient"}},
+        {"id": "yal-3", "he": "ליעל", "pos": "v", "translit": {"fr": "leya'èl", "en": "leya'el"}, "meaning": {"fr": "Rendre efficace, optimiser", "en": "To optimize"}},
+        {"id": "yal-4", "he": "התייעלות", "pos": "nf", "translit": {"fr": "hiteya'aloute", "en": "hitya'alut"}, "meaning": {"fr": "Action de plus en plus efficace", "en": "Efficiency drive"}},
+        {"id": "yal-5", "he": "ייעול", "pos": "nm", "translit": {"fr": "yi'oul", "en": "yi'ul"}, "meaning": {"fr": "Optimisation", "en": "Optimization"}},
+        {"id": "yal-6", "he": "יעיל", "pos": "adj", "translit": {"fr": "ya'il", "en": "ya'il"}, "meaning": {"fr": "Efficace, utile", "en": "Efficient, effective"}},
+        {"id": "yal-7", "he": "יעילות", "pos": "nf", "translit": {"fr": "yé'iloute", "en": "ye'ilut"}, "meaning": {"fr": "Efficacité, rendement", "en": "Efficiency"}},
+        {"id": "yal-8", "he": "מועיל", "pos": "adj", "translit": {"fr": "mo'il", "en": "mo'il"}, "meaning": {"fr": "Utile, bénéfique", "en": "Useful, beneficial"}}
+      ]
+    },
+    {
+      "id": "ntr",
+      "letters": "נתר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "permettre, autoriser", "en": "to permit"},
+      "words": [
+        {"id": "ntr-1", "he": "להתיר", "pos": "v", "translit": {"fr": "léhatir", "en": "lehatir"}, "meaning": {"fr": "Autoriser, permettre", "en": "To permit, to untie"}},
+        {"id": "ntr-2", "he": "הותר", "pos": "v", "translit": {"fr": "houtar", "en": "hutar"}, "meaning": {"fr": "A été autorisé", "en": "Was permitted"}},
+        {"id": "ntr-3", "he": "היתר", "pos": "nm", "translit": {"fr": "hétère", "en": "heter"}, "meaning": {"fr": "Permis, autorisation", "en": "Permit, permission"}},
+        {"id": "ntr-4", "he": "מותר", "pos": "adj", "translit": {"fr": "moutar", "en": "mutar"}, "meaning": {"fr": "Permis", "en": "Permitted, allowed"}},
+        {"id": "ntr-5", "he": "מתירנות", "pos": "nf", "translit": {"fr": "matiranout", "en": "matiranut"}, "meaning": {"fr": "Permissivité", "en": "Permissiveness"}},
+        {"id": "ntr-6", "he": "התרה", "pos": "nf", "translit": {"fr": "hatara", "en": "hatara"}, "meaning": {"fr": "Action d'autoriser", "en": "Granting permission"}}
+      ]
+    },
+    {
+      "id": "shut",
+      "letters": "שוט",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "naviguer, voguer", "en": "to sail"},
+      "words": [
+        {"id": "shut-1", "he": "לשוט", "pos": "v", "translit": {"fr": "lashout", "en": "lashut"}, "meaning": {"fr": "Voguer, naviguer", "en": "To sail, to row"}},
+        {"id": "shut-2", "he": "לשייט", "pos": "v", "translit": {"fr": "leshayèt", "en": "leshayet"}, "meaning": {"fr": "Naviguer", "en": "To navigate, to cruise"}},
+        {"id": "shut-3", "he": "להשיט", "pos": "v", "translit": {"fr": "léhashit", "en": "lehashit"}, "meaning": {"fr": "Faire naviguer", "en": "To sail (a vessel)"}},
+        {"id": "shut-4", "he": "משט", "pos": "nm", "translit": {"fr": "mashate", "en": "mashat"}, "meaning": {"fr": "Flottille, parade navale", "en": "Flotilla"}},
+        {"id": "shut-5", "he": "שייט", "pos": "nm", "translit": {"fr": "shayate", "en": "shayat"}, "meaning": {"fr": "Navigation; navigateur", "en": "Sailing; sailor"}},
+        {"id": "shut-6", "he": "שייטת", "pos": "nf", "translit": {"fr": "shayètète", "en": "shayetet"}, "meaning": {"fr": "Flottille, commando naval", "en": "Flotilla, naval commando unit"}}
+      ]
+    },
+    {
+      "id": "trd",
+      "letters": "טרד",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "déranger, harceler", "en": "to bother, to harass"},
+      "words": [
+        {"id": "trd-1", "he": "להטריד", "pos": "v", "translit": {"fr": "léhatrid", "en": "lehatrid"}, "meaning": {"fr": "Harceler, déranger", "en": "To harass, to bother"}},
+        {"id": "trd-2", "he": "טרוד", "pos": "adj", "translit": {"fr": "taroud", "en": "tarud"}, "meaning": {"fr": "Préoccupé, occupé", "en": "Busy, preoccupied"}},
+        {"id": "trd-3", "he": "טרדה", "pos": "nf", "translit": {"fr": "tirda", "en": "tirda"}, "meaning": {"fr": "Tourment, souci", "en": "Nuisance, worry"}},
+        {"id": "trd-4", "he": "טרדן", "pos": "nm", "translit": {"fr": "tardane", "en": "tardan"}, "meaning": {"fr": "Importun", "en": "Pest, harasser"}},
+        {"id": "trd-5", "he": "טרדנות", "pos": "nf", "translit": {"fr": "tardanout", "en": "tardanut"}, "meaning": {"fr": "Importunité", "en": "Harassment, nuisance"}},
+        {"id": "trd-6", "he": "הטרדה", "pos": "nf", "translit": {"fr": "hatrada", "en": "hatrada"}, "meaning": {"fr": "Harcèlement", "en": "Harassment"}},
+        {"id": "trd-7", "he": "מוטרד", "pos": "adj", "translit": {"fr": "moutrad", "en": "mutrad"}, "meaning": {"fr": "Inquiet, perturbé", "en": "Troubled, bothered"}}
+      ]
+    },
+    {
+      "id": "zkn",
+      "letters": "זקן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "vieillir, vieux", "en": "to grow old, old"},
+      "words": [
+        {"id": "zkn-1", "he": "להזקין", "pos": "v", "translit": {"fr": "léhazekine", "en": "lehazkin"}, "meaning": {"fr": "Atteindre le troisième âge", "en": "To grow old"}},
+        {"id": "zkn-2", "he": "להזדקן", "pos": "v", "translit": {"fr": "léhizdakène", "en": "lehizdaken"}, "meaning": {"fr": "Devenir vieux", "en": "To age"}},
+        {"id": "zkn-3", "he": "זקן", "pos": "nm", "translit": {"fr": "zakène", "en": "zaken"}, "meaning": {"fr": "Vieillard; barbe", "en": "Old man; beard"}},
+        {"id": "zkn-4", "he": "זקנה", "pos": "nf", "translit": {"fr": "ziknah", "en": "zikna"}, "meaning": {"fr": "Vieillesse, vieille femme", "en": "Old age, old woman"}},
+        {"id": "zkn-5", "he": "בן זקונים", "pos": "nm", "translit": {"fr": "bène zékounime", "en": "ben zekunim"}, "meaning": {"fr": "Dernier-né, fils de la vieillesse", "en": "Youngest child (born late in life)"}}
+      ]
+    },
+    {
+      "id": "ahsn",
+      "letters": "אחסן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "stocker, entrepôt", "en": "to store, warehouse"},
+      "words": [
+        {"id": "ahsn-1", "he": "לאחסן", "pos": "v", "translit": {"fr": "léah'ssène", "en": "le'achsen"}, "meaning": {"fr": "Entreposer, stocker", "en": "To store"}},
+        {"id": "ahsn-2", "he": "מחסן", "pos": "nm", "translit": {"fr": "mah'ssane", "en": "machsan"}, "meaning": {"fr": "Entrepôt, dépôt", "en": "Warehouse, storeroom"}},
+        {"id": "ahsn-3", "he": "אחסון", "pos": "nm", "translit": {"fr": "ih'ssoune", "en": "ichsun"}, "meaning": {"fr": "Emmagasinage", "en": "Storage"}},
+        {"id": "ahsn-4", "he": "אחסנה", "pos": "nf", "translit": {"fr": "ah'ssanah", "en": "achsana"}, "meaning": {"fr": "Accumulation, stockage", "en": "Storage"}},
+        {"id": "ahsn-5", "he": "מחסנית", "pos": "nf", "translit": {"fr": "mah'ssanite", "en": "machsanit"}, "meaning": {"fr": "Chargeur (arme)", "en": "Magazine (of a gun)"}}
+      ]
+    },
+    {
+      "id": "zmr",
+      "letters": "זמר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "chanter, chanson", "en": "to sing, song"},
+      "words": [
+        {"id": "zmr-1", "he": "לזמר", "pos": "v", "translit": {"fr": "lézamère", "en": "lezamer"}, "meaning": {"fr": "Chanter, jouer", "en": "To sing, to hum"}},
+        {"id": "zmr-2", "he": "זמר", "pos": "nm", "translit": {"fr": "zamare", "en": "zamar"}, "meaning": {"fr": "Chanteur; (zèmère) chant", "en": "Singer; (zemer) song"}},
+        {"id": "zmr-3", "he": "זמרה", "pos": "nf", "translit": {"fr": "zimrah", "en": "zimra"}, "meaning": {"fr": "Musique, chant", "en": "Song, singing"}},
+        {"id": "zmr-4", "he": "זמירות", "pos": "nfp", "translit": {"fr": "zemirote", "en": "zmirot"}, "meaning": {"fr": "Cantiques (de Chabbat)", "en": "Sabbath hymns"}},
+        {"id": "zmr-5", "he": "מזמור", "pos": "nm", "translit": {"fr": "mizemore", "en": "mizmor"}, "meaning": {"fr": "Psaume", "en": "Psalm"}},
+        {"id": "zmr-6", "he": "תזמור", "pos": "nm", "translit": {"fr": "tizemoure", "en": "tizmur"}, "meaning": {"fr": "Orchestration", "en": "Orchestration"}},
+        {"id": "zmr-7", "he": "תזמורת", "pos": "nf", "translit": {"fr": "tizemorète", "en": "tizmoret"}, "meaning": {"fr": "Orchestre", "en": "Orchestra"}},
+        {"id": "zmr-8", "he": "זמיר", "pos": "nm", "translit": {"fr": "zamire", "en": "zamir"}, "meaning": {"fr": "Rossignol", "en": "Nightingale"}}
+      ]
+    },
+    {
+      "id": "gbr",
+      "letters": "גבר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "triompher, homme, héros", "en": "to overcome, man, hero"},
+      "words": [
+        {"id": "gbr-1", "he": "לגבור", "pos": "v", "translit": {"fr": "liguebore", "en": "ligbor"}, "meaning": {"fr": "Triompher de", "en": "To overcome"}},
+        {"id": "gbr-2", "he": "להגביר", "pos": "v", "translit": {"fr": "léhaguebire", "en": "lehagbir"}, "meaning": {"fr": "Augmenter", "en": "To increase, to amplify"}},
+        {"id": "gbr-3", "he": "להתגבר", "pos": "v", "translit": {"fr": "léhiteguabère", "en": "lehitgaber"}, "meaning": {"fr": "Surmonter", "en": "To overcome"}},
+        {"id": "gbr-4", "he": "גבר", "pos": "nm", "translit": {"fr": "guèvère", "en": "gever"}, "meaning": {"fr": "Homme, mâle", "en": "Man, male"}},
+        {"id": "gbr-5", "he": "גברת", "pos": "nf", "translit": {"fr": "guevèrète", "en": "geveret"}, "meaning": {"fr": "Dame", "en": "Lady, Mrs."}},
+        {"id": "gbr-6", "he": "גברי", "pos": "adj", "translit": {"fr": "guavri", "en": "gavri"}, "meaning": {"fr": "Viril", "en": "Masculine, manly"}},
+        {"id": "gbr-7", "he": "גבריות", "pos": "nf", "translit": {"fr": "guavriout", "en": "gavriyut"}, "meaning": {"fr": "Virilité", "en": "Manliness"}},
+        {"id": "gbr-8", "he": "גיבור", "pos": "nm", "translit": {"fr": "guibore", "en": "gibor"}, "meaning": {"fr": "Héros", "en": "Hero"}},
+        {"id": "gbr-9", "he": "גבורה", "pos": "nf", "translit": {"fr": "guevoura", "en": "gvura"}, "meaning": {"fr": "Héroïsme", "en": "Heroism, bravery"}},
+        {"id": "gbr-10", "he": "מגבר", "pos": "nm", "translit": {"fr": "maguebèr", "en": "magber"}, "meaning": {"fr": "Amplificateur", "en": "Amplifier"}},
+        {"id": "gbr-11", "he": "תגבור", "pos": "nm", "translit": {"fr": "tigboure", "en": "tigbur"}, "meaning": {"fr": "Renforcement", "en": "Reinforcement"}},
+        {"id": "gbr-12", "he": "תגבורת", "pos": "nf", "translit": {"fr": "tigbouret", "en": "tigboret"}, "meaning": {"fr": "Renforts", "en": "Reinforcements"}}
+      ]
+    },
+    {
+      "id": "adn",
+      "letters": "עדן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "raffiner, délicat", "en": "to refine, delicate"},
+      "words": [
+        {"id": "adn-1", "he": "לעדן", "pos": "v", "translit": {"fr": "lé'adène", "en": "le'aden"}, "meaning": {"fr": "Raffiner, affiner", "en": "To refine, to soften"}},
+        {"id": "adn-2", "he": "להתעדן", "pos": "v", "translit": {"fr": "léhite'adène", "en": "lehit'aden"}, "meaning": {"fr": "Se raffiner", "en": "To become refined"}},
+        {"id": "adn-3", "he": "עדין", "pos": "adj", "translit": {"fr": "âdine", "en": "adin"}, "meaning": {"fr": "Délicat", "en": "Delicate, gentle"}},
+        {"id": "adn-4", "he": "עדינות", "pos": "nf", "translit": {"fr": "âdinout", "en": "adinut"}, "meaning": {"fr": "Délicatesse", "en": "Delicacy, gentleness"}},
+        {"id": "adn-5", "he": "בעדינות", "pos": "adv", "translit": {"fr": "ba'adinout", "en": "be'adinut"}, "meaning": {"fr": "Délicatement", "en": "Gently"}},
+        {"id": "adn-6", "he": "מעדן", "pos": "nm", "translit": {"fr": "ma'adane", "en": "ma'adan"}, "meaning": {"fr": "Mets délicat", "en": "Delicacy (dessert)"}},
+        {"id": "adn-7", "he": "מעדניה", "pos": "nf", "translit": {"fr": "ma'adanya", "en": "ma'adaniya"}, "meaning": {"fr": "Épicerie fine", "en": "Delicatessen"}},
+        {"id": "adn-8", "he": "גן עדן", "pos": "nm", "translit": {"fr": "gane êdène", "en": "gan eden"}, "meaning": {"fr": "Paradis", "en": "Paradise"}}
+      ]
+    },
+    {
+      "id": "rdf",
+      "letters": "רדף",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "poursuivre, persécuter", "en": "to chase, to pursue"},
+      "words": [
+        {"id": "rdf-1", "he": "לרדוף", "pos": "v", "translit": {"fr": "liredof", "en": "lirdof"}, "meaning": {"fr": "Persécuter, poursuivre", "en": "To chase, to pursue"}},
+        {"id": "rdf-2", "he": "להירדף", "pos": "v", "translit": {"fr": "leheyradèf", "en": "lehiradef"}, "meaning": {"fr": "Être persécuté, poursuivi", "en": "To be pursued"}},
+        {"id": "rdf-3", "he": "מרדף", "pos": "nm", "translit": {"fr": "miredafe", "en": "mirdaf"}, "meaning": {"fr": "Poursuite", "en": "Chase, pursuit"}},
+        {"id": "rdf-4", "he": "רדיפה", "pos": "nf", "translit": {"fr": "redifa", "en": "redifa"}, "meaning": {"fr": "Persécution", "en": "Persecution"}},
+        {"id": "rdf-5", "he": "נרדף", "pos": "adj", "translit": {"fr": "niredafe", "en": "nirdaf"}, "meaning": {"fr": "Persécuté; synonyme", "en": "Persecuted; synonymous"}},
+        {"id": "rdf-6", "he": "מילה נרדפת", "pos": "nf", "translit": {"fr": "mila niredèfète", "en": "mila nirdefet"}, "meaning": {"fr": "Synonyme", "en": "Synonym"}}
+      ]
+    },
+    {
+      "id": "hdd",
+      "letters": "חדד",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "aiguiser", "en": "to sharpen"},
+      "words": [
+        {"id": "hdd-1", "he": "לחדד", "pos": "v", "translit": {"fr": "leh'adède", "en": "lechaded"}, "meaning": {"fr": "Aiguiser, affûter", "en": "To sharpen"}},
+        {"id": "hdd-2", "he": "להתחדד", "pos": "v", "translit": {"fr": "lèhiteh'adède", "en": "lehitchaded"}, "meaning": {"fr": "S'aiguiser", "en": "To become sharp"}},
+        {"id": "hdd-3", "he": "חד", "pos": "adj", "translit": {"fr": "h'ade", "en": "chad"}, "meaning": {"fr": "Aigu, pointu", "en": "Sharp, pointed"}},
+        {"id": "hdd-4", "he": "חוד", "pos": "nm", "translit": {"fr": "h'ode", "en": "chod"}, "meaning": {"fr": "Pointe, extrémité", "en": "Tip, point"}},
+        {"id": "hdd-5", "he": "חידוד", "pos": "nm", "translit": {"fr": "h'idoude", "en": "chidud"}, "meaning": {"fr": "Sarcasme, subtilité", "en": "Sharpening, subtlety"}},
+        {"id": "hdd-6", "he": "מחדד", "pos": "nm", "translit": {"fr": "meh'adède", "en": "machded"}, "meaning": {"fr": "Taille-crayon", "en": "Pencil sharpener"}}
+      ]
+    },
+    {
+      "id": "alb",
+      "letters": "עלב",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "offenser, humilier", "en": "to insult, to offend"},
+      "words": [
+        {"id": "alb-1", "he": "להיעלב", "pos": "v", "translit": {"fr": "léhè'alève", "en": "lehe'alev"}, "meaning": {"fr": "Être offensé, être humilié", "en": "To be offended"}},
+        {"id": "alb-2", "he": "להעליב", "pos": "v", "translit": {"fr": "leha'alive", "en": "leha'aliv"}, "meaning": {"fr": "Offenser, humilier", "en": "To insult, to offend"}},
+        {"id": "alb-3", "he": "עלבון", "pos": "nm", "translit": {"fr": "êlebone", "en": "elbon"}, "meaning": {"fr": "Insulte, offense", "en": "Insult, humiliation"}},
+        {"id": "alb-4", "he": "עלוב", "pos": "adj", "translit": {"fr": "âlouve", "en": "aluv"}, "meaning": {"fr": "Infortuné, misérable", "en": "Miserable, pitiful"}},
+        {"id": "alb-5", "he": "מעליב", "pos": "adj", "translit": {"fr": "ma'alive", "en": "ma'aliv"}, "meaning": {"fr": "Vexant", "en": "Insulting, offensive"}},
+        {"id": "alb-6", "he": "נעלב", "pos": "adj", "translit": {"fr": "né'èlave", "en": "ne'elav"}, "meaning": {"fr": "Vexé, humilié", "en": "Offended, hurt"}}
+      ]
+    },
+    {
+      "id": "hnk",
+      "letters": "חנך",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "éduquer, inaugurer", "en": "to educate, to inaugurate"},
+      "words": [
+        {"id": "hnk-1", "he": "לחנוך", "pos": "v", "translit": {"fr": "lah'nokhe", "en": "lachanoch"}, "meaning": {"fr": "Inaugurer, dédicacer", "en": "To inaugurate, to dedicate"}},
+        {"id": "hnk-2", "he": "לחנך", "pos": "v", "translit": {"fr": "leh'anèkh", "en": "lechanech"}, "meaning": {"fr": "Éduquer", "en": "To educate"}},
+        {"id": "hnk-3", "he": "להתחנך", "pos": "v", "translit": {"fr": "léhiteh'anèkh", "en": "lehitchanech"}, "meaning": {"fr": "Faire son éducation, être éduqué", "en": "To be educated"}},
+        {"id": "hnk-4", "he": "חינוך", "pos": "nm", "translit": {"fr": "h'inoukh", "en": "chinuch"}, "meaning": {"fr": "Éducation", "en": "Education"}},
+        {"id": "hnk-5", "he": "חינוכי", "pos": "adj", "translit": {"fr": "h'inoukhi", "en": "chinuchi"}, "meaning": {"fr": "Éducatif", "en": "Educational"}},
+        {"id": "hnk-6", "he": "חניך", "pos": "nm", "translit": {"fr": "h'anikh", "en": "chanich"}, "meaning": {"fr": "Élève, apprenti, pupille", "en": "Trainee, pupil"}},
+        {"id": "hnk-7", "he": "חנוכה", "pos": "nf", "translit": {"fr": "h'anouka", "en": "chanuka"}, "meaning": {"fr": "H'anouka", "en": "Hanukkah"}},
+        {"id": "hnk-8", "he": "חנוכייה", "pos": "nf", "translit": {"fr": "h'anoukiya", "en": "chanukiya"}, "meaning": {"fr": "Lampe de H'anouka", "en": "Hanukkah menorah"}},
+        {"id": "hnk-9", "he": "מחנך", "pos": "nm", "translit": {"fr": "meh'anèkh", "en": "mechanech"}, "meaning": {"fr": "Éducateur", "en": "Educator, homeroom teacher"}},
+        {"id": "hnk-10", "he": "מחונך", "pos": "adj", "translit": {"fr": "meh'ounakh", "en": "mechunach"}, "meaning": {"fr": "Éduqué, bien élevé", "en": "Well-mannered"}}
+      ]
+    },
+    {
+      "id": "prk",
+      "letters": "פרק",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "décharger, démonter", "en": "to unload, to dismantle"},
+      "words": [
+        {"id": "prk-1", "he": "לפרוק", "pos": "v", "translit": {"fr": "lifroke", "en": "lifrok"}, "meaning": {"fr": "Décharger, libérer", "en": "To unload, to take apart"}},
+        {"id": "prk-2", "he": "לפרק", "pos": "v", "translit": {"fr": "lefarèk", "en": "lefarek"}, "meaning": {"fr": "Démanteler", "en": "To dismantle"}},
+        {"id": "prk-3", "he": "להתפרק", "pos": "v", "translit": {"fr": "léhitparèk", "en": "lehitparek"}, "meaning": {"fr": "Se décomposer", "en": "To fall apart, to be discharged"}},
+        {"id": "prk-4", "he": "פרק", "pos": "nm", "translit": {"fr": "pèrèk", "en": "perek"}, "meaning": {"fr": "Chapitre", "en": "Chapter"}},
+        {"id": "prk-5", "he": "פורקן", "pos": "nm", "translit": {"fr": "pourkane", "en": "purkan"}, "meaning": {"fr": "Soulagement, relaxation", "en": "Release, relief"}},
+        {"id": "prk-6", "he": "פירוק", "pos": "nm", "translit": {"fr": "pèrouk", "en": "peruk"}, "meaning": {"fr": "Démontage, démantèlement", "en": "Dismantling"}},
+        {"id": "prk-7", "he": "פריקה", "pos": "nf", "translit": {"fr": "prika", "en": "prika"}, "meaning": {"fr": "Déchargement", "en": "Unloading"}},
+        {"id": "prk-8", "he": "מפרק", "pos": "nm", "translit": {"fr": "mifrak", "en": "mifrak"}, "meaning": {"fr": "Articulation (corps); (mefarèk) liquidateur", "en": "Joint (body); (mefarek) liquidator"}}
+      ]
+    },
+    {
+      "id": "tam",
+      "letters": "תאם",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "coordonner, convenir", "en": "to coordinate, to fit"},
+      "words": [
+        {"id": "tam-1", "he": "לתאום", "pos": "v", "translit": {"fr": "litom", "en": "lit'om"}, "meaning": {"fr": "Être compatible", "en": "To be compatible"}},
+        {"id": "tam-2", "he": "לתאם", "pos": "v", "translit": {"fr": "letaème", "en": "leta'em"}, "meaning": {"fr": "Coordonner", "en": "To coordinate"}},
+        {"id": "tam-3", "he": "להתאים", "pos": "v", "translit": {"fr": "léhatim", "en": "leha'tim"}, "meaning": {"fr": "Rendre compatible, faire correspondre", "en": "To fit, to adapt"}},
+        {"id": "tam-4", "he": "תיאום", "pos": "nm", "translit": {"fr": "téoum", "en": "te'um"}, "meaning": {"fr": "Coordination", "en": "Coordination"}},
+        {"id": "tam-5", "he": "תאום", "pos": "nm", "translit": {"fr": "teom", "en": "te'om"}, "meaning": {"fr": "Jumeau", "en": "Twin"}},
+        {"id": "tam-6", "he": "תואם", "pos": "adj", "translit": {"fr": "toème", "en": "to'em"}, "meaning": {"fr": "Compatible", "en": "Compatible, matching"}},
+        {"id": "tam-7", "he": "התאמה", "pos": "nf", "translit": {"fr": "hatama", "en": "hatama"}, "meaning": {"fr": "Compatibilité", "en": "Match, suitability"}},
+        {"id": "tam-8", "he": "מתאם", "pos": "nm", "translit": {"fr": "matème", "en": "mat'em"}, "meaning": {"fr": "Adaptateur; coordinateur", "en": "Adapter; coordinator"}},
+        {"id": "tam-9", "he": "מתאים", "pos": "adj", "translit": {"fr": "matime", "en": "mat'im"}, "meaning": {"fr": "Approprié, convenable", "en": "Suitable"}},
+        {"id": "tam-10", "he": "בהתאם ל", "pos": "adv", "translit": {"fr": "behatèm lé", "en": "beheta'em le"}, "meaning": {"fr": "En accord avec", "en": "In accordance with"}}
+      ]
+    },
+    {
+      "id": "hsml",
+      "letters": "חשמל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "électricité", "en": "electricity"},
+      "words": [
+        {"id": "hsml-1", "he": "לחשמל", "pos": "v", "translit": {"fr": "lehashemèl", "en": "lechashmel"}, "meaning": {"fr": "Électrifier", "en": "To electrify"}},
+        {"id": "hsml-2", "he": "להתחשמל", "pos": "v", "translit": {"fr": "léhiteh'ashemèl", "en": "lehitchashmel"}, "meaning": {"fr": "S'électrocuter", "en": "To get electrocuted"}},
+        {"id": "hsml-3", "he": "התחשמלות", "pos": "nf", "translit": {"fr": "hiteh'ashemèloute", "en": "hitchashmelut"}, "meaning": {"fr": "Électrocution", "en": "Electrocution"}},
+        {"id": "hsml-4", "he": "חישמול", "pos": "nm", "translit": {"fr": "h'ishemoul", "en": "chishmul"}, "meaning": {"fr": "Électrification", "en": "Electrification"}},
+        {"id": "hsml-5", "he": "חשמל", "pos": "nm", "translit": {"fr": "h'ashemal", "en": "chashmal"}, "meaning": {"fr": "Électricité", "en": "Electricity"}},
+        {"id": "hsml-6", "he": "חשמלי", "pos": "adj", "translit": {"fr": "h'ashemali", "en": "chashmali"}, "meaning": {"fr": "Électrique", "en": "Electric"}},
+        {"id": "hsml-7", "he": "חשמלאי", "pos": "nm", "translit": {"fr": "h'ashemelaï", "en": "chashmelai"}, "meaning": {"fr": "Électricien", "en": "Electrician"}},
+        {"id": "hsml-8", "he": "חשמלית", "pos": "nf", "translit": {"fr": "h'ashemalite", "en": "chashmalit"}, "meaning": {"fr": "Tramway", "en": "Tram"}}
+      ]
+    },
+    {
+      "id": "hsr",
+      "letters": "חסר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "manquer", "en": "to lack"},
+      "words": [
+        {"id": "hsr-1", "he": "לחסור", "pos": "v", "translit": {"fr": "lah'ssor", "en": "lachsor"}, "meaning": {"fr": "Manquer à", "en": "To lack, to be missing"}},
+        {"id": "hsr-2", "he": "לחסר", "pos": "v", "translit": {"fr": "leh'assère", "en": "lechaser"}, "meaning": {"fr": "Priver, enlever, déposséder", "en": "To deprive, to subtract"}},
+        {"id": "hsr-3", "he": "להחסיר", "pos": "v", "translit": {"fr": "léhah'ssir", "en": "lehachsir"}, "meaning": {"fr": "Créer un manque", "en": "To omit, to deduct"}},
+        {"id": "hsr-4", "he": "חיסור", "pos": "nm", "translit": {"fr": "h'issoure", "en": "chisur"}, "meaning": {"fr": "Soustraction, déduction", "en": "Subtraction"}},
+        {"id": "hsr-5", "he": "חסר", "pos": "adj", "translit": {"fr": "h'assère", "en": "chaser"}, "meaning": {"fr": "Absent, manquant", "en": "Missing, lacking"}},
+        {"id": "hsr-6", "he": "חסרון", "pos": "nm", "translit": {"fr": "h'èsserone", "en": "chesron"}, "meaning": {"fr": "Inconvénient", "en": "Disadvantage, shortcoming"}},
+        {"id": "hsr-7", "he": "מחסור", "pos": "nm", "translit": {"fr": "mah'ssor", "en": "machsor"}, "meaning": {"fr": "Carence, manque", "en": "Shortage"}}
+      ]
+    },
+    {
+      "id": "sbk",
+      "letters": "סבך",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "compliquer", "en": "to complicate"},
+      "words": [
+        {"id": "sbk-1", "he": "לסבך", "pos": "v", "translit": {"fr": "lesabèkh", "en": "lesabech"}, "meaning": {"fr": "Compliquer", "en": "To complicate"}},
+        {"id": "sbk-2", "he": "להסתבך", "pos": "v", "translit": {"fr": "lehisstabèkh", "en": "lehistabech"}, "meaning": {"fr": "Se compliquer, s'embrouiller", "en": "To get tangled up"}},
+        {"id": "sbk-3", "he": "הסתבכות", "pos": "nf", "translit": {"fr": "hisstabekhout", "en": "histabchut"}, "meaning": {"fr": "Complication, embrouillement", "en": "Complication, entanglement"}},
+        {"id": "sbk-4", "he": "סבוך", "pos": "adj", "translit": {"fr": "ssavoukh", "en": "savuch"}, "meaning": {"fr": "Compliqué", "en": "Complicated, tangled"}},
+        {"id": "sbk-5", "he": "מסובך", "pos": "adj", "translit": {"fr": "messoubakh", "en": "mesubach"}, "meaning": {"fr": "Compliqué", "en": "Complicated"}},
+        {"id": "sbk-6", "he": "סבך", "pos": "nm", "translit": {"fr": "ssvakh", "en": "svach"}, "meaning": {"fr": "Enchevêtrement", "en": "Tangle, thicket"}},
+        {"id": "sbk-7", "he": "תסביך", "pos": "nm", "translit": {"fr": "tassebikh", "en": "tasbich"}, "meaning": {"fr": "Complexe (psychologie)", "en": "Complex (psychology)"}},
+        {"id": "sbk-8", "he": "סיבוך", "pos": "nm", "translit": {"fr": "ssiboukh", "en": "sibuch"}, "meaning": {"fr": "Complication, embarras", "en": "Complication"}}
+      ]
+    },
+    {
+      "id": "kpl",
+      "letters": "כפל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "doubler, multiplier", "en": "to double, to multiply"},
+      "words": [
+        {"id": "kpl-1", "he": "להכפיל", "pos": "v", "translit": {"fr": "léhakhpil", "en": "lehachpil"}, "meaning": {"fr": "Doubler", "en": "To double, to multiply"}},
+        {"id": "kpl-2", "he": "כפול", "pos": "adj", "translit": {"fr": "kafoul", "en": "kafol"}, "meaning": {"fr": "Double, multiplié par", "en": "Double"}},
+        {"id": "kpl-3", "he": "כפיל", "pos": "nm", "translit": {"fr": "kafil", "en": "kafil"}, "meaning": {"fr": "Sosie, double", "en": "Double, lookalike"}},
+        {"id": "kpl-4", "he": "הכפלה", "pos": "nf", "translit": {"fr": "hakhpala", "en": "hachpala"}, "meaning": {"fr": "Multiplication", "en": "Multiplication"}},
+        {"id": "kpl-5", "he": "מכפיל", "pos": "nm", "translit": {"fr": "makhpil", "en": "machpil"}, "meaning": {"fr": "Multiplicateur", "en": "Multiplier"}},
+        {"id": "kpl-6", "he": "מוכפל", "pos": "adj", "translit": {"fr": "moukhpal", "en": "muchpal"}, "meaning": {"fr": "Multiplié par deux, doublé", "en": "Doubled"}},
+        {"id": "kpl-7", "he": "לשכפל", "pos": "v", "translit": {"fr": "leshakhpèl", "en": "leshachpel"}, "meaning": {"fr": "Dupliquer, multiplier", "en": "To duplicate, to copy"}},
+        {"id": "kpl-8", "he": "שכפול", "pos": "nm", "translit": {"fr": "shikhpoul", "en": "shichpul"}, "meaning": {"fr": "Duplication", "en": "Duplication, copying"}}
+      ]
+    },
+    {
+      "id": "hrd",
+      "letters": "חרד",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "craindre, anxiété", "en": "to fear, anxiety"},
+      "words": [
+        {"id": "hrd-1", "he": "להיחרד", "pos": "v", "translit": {"fr": "léhèh'arède", "en": "lehichared"}, "meaning": {"fr": "Être effrayé", "en": "To be alarmed"}},
+        {"id": "hrd-2", "he": "להחריד", "pos": "v", "translit": {"fr": "léhah'eride", "en": "lehachrid"}, "meaning": {"fr": "Effrayer quelqu'un", "en": "To terrify, to alarm"}},
+        {"id": "hrd-3", "he": "חרד", "pos": "adj", "translit": {"fr": "h'arède", "en": "chared"}, "meaning": {"fr": "Pieux, craintif", "en": "Devout, anxious"}},
+        {"id": "hrd-4", "he": "חרדה", "pos": "nf", "translit": {"fr": "h'aradah", "en": "charada"}, "meaning": {"fr": "Anxiété", "en": "Anxiety"}},
+        {"id": "hrd-5", "he": "מחריד", "pos": "adj", "translit": {"fr": "mah'eride", "en": "machrid"}, "meaning": {"fr": "Effrayant", "en": "Terrifying, appalling"}},
+        {"id": "hrd-6", "he": "חרדי", "pos": "adj", "translit": {"fr": "h'arèdi", "en": "charedi"}, "meaning": {"fr": "Juif orthodoxe", "en": "Haredi, ultra-Orthodox"}}
+      ]
+    },
+    {
+      "id": "tba",
+      "letters": "תבע",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "réclamer, poursuivre", "en": "to demand, to sue"},
+      "words": [
+        {"id": "tba-1", "he": "לתבוע את", "pos": "v", "translit": {"fr": "litbo'a ète", "en": "litbo'a et"}, "meaning": {"fr": "Demander, réclamer", "en": "To demand, to claim"}},
+        {"id": "tba-2", "he": "לתבוע לדין", "pos": "v", "translit": {"fr": "litbo'a lèdine", "en": "litbo'a ledin"}, "meaning": {"fr": "Poursuivre en justice", "en": "To sue, to prosecute"}},
+        {"id": "tba-3", "he": "תובע", "pos": "nm", "translit": {"fr": "tové'a", "en": "tove'a"}, "meaning": {"fr": "Accusateur, requérant", "en": "Plaintiff, prosecutor"}},
+        {"id": "tba-4", "he": "תביעה", "pos": "nf", "translit": {"fr": "tevi'a", "en": "tvi'a"}, "meaning": {"fr": "Plainte", "en": "Lawsuit, claim"}},
+        {"id": "tba-5", "he": "תובענות", "pos": "nf", "translit": {"fr": "tov'anout", "en": "tov'anut"}, "meaning": {"fr": "Le fait de revendiquer", "en": "Demandingness"}},
+        {"id": "tba-6", "he": "תובעני", "pos": "adj", "translit": {"fr": "tov'ani", "en": "tov'ani"}, "meaning": {"fr": "Exigeant", "en": "Demanding"}},
+        {"id": "tba-7", "he": "תביעה כללית", "pos": "nf", "translit": {"fr": "tevi'a klalit", "en": "tvi'a klalit"}, "meaning": {"fr": "Procureur général (poste)", "en": "General claim"}}
+      ]
+    },
+    {
+      "id": "bkr",
+      "letters": "בכר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "premier-né, préférer", "en": "firstborn, to prefer"},
+      "words": [
+        {"id": "bkr-1", "he": "לבכר", "pos": "v", "translit": {"fr": "lévakère", "en": "levaker"}, "meaning": {"fr": "Donner la préférence à", "en": "To prefer, to give priority to"}},
+        {"id": "bkr-2", "he": "בכור", "pos": "nm", "translit": {"fr": "bekhore", "en": "bechor"}, "meaning": {"fr": "Aîné, premier-né", "en": "Firstborn"}},
+        {"id": "bkr-3", "he": "בכיר", "pos": "adj", "translit": {"fr": "bakhire", "en": "bachir"}, "meaning": {"fr": "Supérieur, responsable", "en": "Senior"}},
+        {"id": "bkr-4", "he": "בכורה", "pos": "nf", "translit": {"fr": "bekhorah", "en": "bechora"}, "meaning": {"fr": "Droit d'aînesse", "en": "Birthright, premiere"}},
+        {"id": "bkr-5", "he": "ביכור", "pos": "nm", "translit": {"fr": "bikoure", "en": "bikur"}, "meaning": {"fr": "Maturation des premiers fruits", "en": "First ripening"}},
+        {"id": "bkr-6", "he": "חג הביכורים", "pos": "nm", "translit": {"fr": "h'ag habikourime", "en": "chag habikurim"}, "meaning": {"fr": "Chavouot", "en": "Shavuot (feast of first fruits)"}},
+        {"id": "bkr-7", "he": "ביכורה", "pos": "nf", "translit": {"fr": "bikourah", "en": "bikura"}, "meaning": {"fr": "Premiers fruits, primeurs", "en": "First fruits"}},
+        {"id": "bkr-8", "he": "בכירה", "pos": "nf", "translit": {"fr": "bakirah", "en": "bakira"}, "meaning": {"fr": "Premières pluies", "en": "Early rain"}}
+      ]
+    },
+    {
+      "id": "pvk",
+      "letters": "פוק",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "produire", "en": "to produce"},
+      "words": [
+        {"id": "pvk-1", "he": "להפיק", "pos": "v", "translit": {"fr": "léhafike", "en": "lehafik"}, "meaning": {"fr": "Produire", "en": "To produce"}},
+        {"id": "pvk-2", "he": "הופק", "pos": "v", "translit": {"fr": "houfake", "en": "hufak"}, "meaning": {"fr": "A été produit", "en": "Was produced"}},
+        {"id": "pvk-3", "he": "הפקה", "pos": "nf", "translit": {"fr": "hafakah", "en": "hafaka"}, "meaning": {"fr": "Production (film)", "en": "Production (film)"}},
+        {"id": "pvk-4", "he": "מפיק", "pos": "nm", "translit": {"fr": "mefike", "en": "mefik"}, "meaning": {"fr": "Producteur (film)", "en": "Producer (film)"}},
+        {"id": "pvk-5", "he": "תפוקה", "pos": "nf", "translit": {"fr": "t'foukah", "en": "tfuka"}, "meaning": {"fr": "Production, rendement", "en": "Output, yield"}}
+      ]
+    },
+    {
+      "id": "shlg",
+      "letters": "שלג",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "neige", "en": "snow"},
+      "words": [
+        {"id": "shlg-1", "he": "להשליג", "pos": "v", "translit": {"fr": "léhashligue", "en": "lehashlig"}, "meaning": {"fr": "Enneiger", "en": "To cover with snow"}},
+        {"id": "shlg-2", "he": "הושלג", "pos": "v", "translit": {"fr": "houshlague", "en": "hushlag"}, "meaning": {"fr": "A été enneigé", "en": "Was covered with snow"}},
+        {"id": "shlg-3", "he": "שלג", "pos": "nm", "translit": {"fr": "shèlègue", "en": "sheleg"}, "meaning": {"fr": "Neige", "en": "Snow"}},
+        {"id": "shlg-4", "he": "שלגון", "pos": "nm", "translit": {"fr": "shaleguone", "en": "shalgon"}, "meaning": {"fr": "Bâton glacé", "en": "Ice pop"}},
+        {"id": "shlg-5", "he": "שלגייה", "pos": "nf", "translit": {"fr": "shileguya", "en": "shalgiya"}, "meaning": {"fr": "Blanche-Neige", "en": "Snow White"}},
+        {"id": "shlg-6", "he": "שלגית", "pos": "nf", "translit": {"fr": "shaleguite", "en": "shalgit"}, "meaning": {"fr": "Luge", "en": "Sled"}},
+        {"id": "shlg-7", "he": "משולג", "pos": "adj", "translit": {"fr": "moushlague", "en": "meshulag"}, "meaning": {"fr": "Enneigé", "en": "Snowy"}}
+      ]
+    },
+    {
+      "id": "tur",
+      "letters": "תור",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "explorer, tourisme", "en": "to explore, tourism"},
+      "words": [
+        {"id": "tur-1", "he": "לתור את", "pos": "v", "translit": {"fr": "latoure ète", "en": "latur et"}, "meaning": {"fr": "Explorer", "en": "To explore, to scout"}},
+        {"id": "tur-2", "he": "לתייר", "pos": "v", "translit": {"fr": "letayère", "en": "letayer"}, "meaning": {"fr": "Faire du tourisme", "en": "To tour"}},
+        {"id": "tur-3", "he": "תור", "pos": "nm", "translit": {"fr": "toure", "en": "tur"}, "meaning": {"fr": "Exploration, curiosité", "en": "Exploration; (also) queue"}},
+        {"id": "tur-4", "he": "תייר", "pos": "nm", "translit": {"fr": "tayare", "en": "tayar"}, "meaning": {"fr": "Touriste", "en": "Tourist"}},
+        {"id": "tur-5", "he": "תיור", "pos": "nm", "translit": {"fr": "tiyoure", "en": "tiyur"}, "meaning": {"fr": "Tour, excursion", "en": "Tour, excursion"}},
+        {"id": "tur-6", "he": "תיירותי", "pos": "adj", "translit": {"fr": "tayarouti", "en": "tayaruti"}, "meaning": {"fr": "Touristique", "en": "Touristic"}},
+        {"id": "tur-7", "he": "תיירן", "pos": "nm", "translit": {"fr": "tayarane", "en": "tayaran"}, "meaning": {"fr": "Voyagiste", "en": "Tourism operator"}},
+        {"id": "tur-8", "he": "תיירות", "pos": "nf", "translit": {"fr": "tayaroute", "en": "tayarut"}, "meaning": {"fr": "Tourisme", "en": "Tourism"}}
+      ]
+    },
+    {
+      "id": "ntl",
+      "letters": "נטל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "prendre, charge", "en": "to take, burden"},
+      "words": [
+        {"id": "ntl-1", "he": "לטול", "pos": "v", "translit": {"fr": "litole", "en": "latol"}, "meaning": {"fr": "Prendre", "en": "To take"}},
+        {"id": "ntl-2", "he": "לטול חלק ב", "pos": "v", "translit": {"fr": "litole h'èlèke be", "en": "latol chelek be"}, "meaning": {"fr": "Prendre part à", "en": "To take part in"}},
+        {"id": "ntl-3", "he": "להטיל", "pos": "v", "translit": {"fr": "léhatile", "en": "lehatil"}, "meaning": {"fr": "Imputer, imposer, lancer", "en": "To impose, to cast"}},
+        {"id": "ntl-4", "he": "הוטל", "pos": "v", "translit": {"fr": "houtale", "en": "hutal"}, "meaning": {"fr": "A été imposé", "en": "Was imposed"}},
+        {"id": "ntl-5", "he": "הטלה", "pos": "nf", "translit": {"fr": "hatalah", "en": "hatala"}, "meaning": {"fr": "Lancement, imposition", "en": "Imposition, laying (eggs)"}},
+        {"id": "ntl-6", "he": "נטל", "pos": "nm", "translit": {"fr": "nètèle", "en": "netel"}, "meaning": {"fr": "Charge, fardeau", "en": "Burden, load"}},
+        {"id": "ntl-7", "he": "נטילה", "pos": "nf", "translit": {"fr": "netilah", "en": "netila"}, "meaning": {"fr": "Prise", "en": "Taking"}},
+        {"id": "ntl-8", "he": "נטילת ידיים", "pos": "nf", "translit": {"fr": "netilate yadayime", "en": "netilat yadayim"}, "meaning": {"fr": "Lavage rituel des mains", "en": "Ritual hand washing"}},
+        {"id": "ntl-9", "he": "מטלית", "pos": "nf", "translit": {"fr": "matlite", "en": "matlit"}, "meaning": {"fr": "Chiffon", "en": "Rag, cloth"}},
+        {"id": "ntl-10", "he": "מטלה", "pos": "nf", "translit": {"fr": "matalah", "en": "matala"}, "meaning": {"fr": "Exercice, tâche", "en": "Task, assignment"}},
+        {"id": "ntl-11", "he": "הטל", "pos": "nm", "translit": {"fr": "hètèle", "en": "hetel"}, "meaning": {"fr": "Taxe; projection (maths)", "en": "Levy; projection (math)"}}
+      ]
+    },
+    {
+      "id": "lbn",
+      "letters": "לבן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "blanc", "en": "white"},
+      "words": [
+        {"id": "lbn-1", "he": "לבן", "pos": "adj", "translit": {"fr": "lavane", "en": "lavan"}, "meaning": {"fr": "Blanc", "en": "White"}},
+        {"id": "lbn-2", "he": "להלבין", "pos": "v", "translit": {"fr": "lahalebine", "en": "lehalbin"}, "meaning": {"fr": "Blanchir", "en": "To whiten, to blanch"}},
+        {"id": "lbn-3", "he": "הלבנה", "pos": "nf", "translit": {"fr": "halebanah", "en": "halbana"}, "meaning": {"fr": "Blanchiment", "en": "Whitening, laundering"}},
+        {"id": "lbn-4", "he": "לבנה", "pos": "nf", "translit": {"fr": "levanah", "en": "levana"}, "meaning": {"fr": "Lune", "en": "Moon"}}
+      ]
+    },
+    {
+      "id": "hlb",
+      "letters": "חלב",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "lait", "en": "milk"},
+      "words": [
+        {"id": "hlb-1", "he": "חלב", "pos": "nm", "translit": {"fr": "h'alave", "en": "chalav"}, "meaning": {"fr": "Lait", "en": "Milk"}},
+        {"id": "hlb-2", "he": "לחלוב", "pos": "v", "translit": {"fr": "lah'elove", "en": "lachlov"}, "meaning": {"fr": "Traire", "en": "To milk"}},
+        {"id": "hlb-3", "he": "חלבי", "pos": "adj", "translit": {"fr": "h'alavi", "en": "chalavi"}, "meaning": {"fr": "Laitier (adj)", "en": "Dairy"}},
+        {"id": "hlb-4", "he": "חלבון", "pos": "nm", "translit": {"fr": "h'elbone", "en": "chelbon"}, "meaning": {"fr": "Blanc d'œuf, protéine", "en": "Egg white, protein"}},
+        {"id": "hlb-5", "he": "מחלבה", "pos": "nf", "translit": {"fr": "mah'elavah", "en": "machlava"}, "meaning": {"fr": "Laiterie", "en": "Dairy"}},
+        {"id": "hlb-6", "he": "חולב", "pos": "nm", "translit": {"fr": "h'olève", "en": "cholev"}, "meaning": {"fr": "Laitier (métier)", "en": "Milkman"}}
+      ]
+    },
+    {
+      "id": "amk",
+      "letters": "עמק",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "profondeur, vallée", "en": "depth, valley"},
+      "words": [
+        {"id": "amk-1", "he": "להעמיק", "pos": "v", "translit": {"fr": "léha'amike", "en": "leha'amik"}, "meaning": {"fr": "Approfondir", "en": "To deepen"}},
+        {"id": "amk-2", "he": "להתעמק", "pos": "v", "translit": {"fr": "lehit'amèke", "en": "lehit'amek"}, "meaning": {"fr": "S'approfondir", "en": "To delve deeply"}},
+        {"id": "amk-3", "he": "העמקה", "pos": "nf", "translit": {"fr": "ha'amakah", "en": "ha'amaka"}, "meaning": {"fr": "Analyse, approfondissement", "en": "Deepening"}},
+        {"id": "amk-4", "he": "התעמקות", "pos": "nf", "translit": {"fr": "hite'amekoute", "en": "hit'amkut"}, "meaning": {"fr": "Approfondissement", "en": "Immersion"}},
+        {"id": "amk-5", "he": "עמק", "pos": "nm", "translit": {"fr": "êmèke", "en": "emek"}, "meaning": {"fr": "Vallée", "en": "Valley"}},
+        {"id": "amk-6", "he": "עומק", "pos": "nm", "translit": {"fr": "ômèke", "en": "omek"}, "meaning": {"fr": "Profondeur", "en": "Depth"}},
+        {"id": "amk-7", "he": "עמוק", "pos": "adj", "translit": {"fr": "âmoke", "en": "amok"}, "meaning": {"fr": "Profond", "en": "Deep"}},
+        {"id": "amk-8", "he": "עמקות", "pos": "nf", "translit": {"fr": "âmekoute", "en": "amkut"}, "meaning": {"fr": "Approfondissement", "en": "Depth (abstract)"}},
+        {"id": "amk-9", "he": "עמקן", "pos": "nm", "translit": {"fr": "âmekane", "en": "amkan"}, "meaning": {"fr": "Penseur profond", "en": "Deep thinker"}},
+        {"id": "amk-10", "he": "עמקני", "pos": "adj", "translit": {"fr": "âmekani", "en": "amkani"}, "meaning": {"fr": "Approfondi", "en": "Profound, in-depth"}},
+        {"id": "amk-11", "he": "מעמק", "pos": "nm", "translit": {"fr": "ma'amake", "en": "ma'amak"}, "meaning": {"fr": "Profondeur", "en": "Depth"}}
+      ]
+    },
+    {
+      "id": "hps",
+      "letters": "חפש",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "chercher", "en": "to search"},
+      "words": [
+        {"id": "hps-1", "he": "לחפש", "pos": "v", "translit": {"fr": "leh'apèsse", "en": "lechapes"}, "meaning": {"fr": "Chercher", "en": "To search for"}},
+        {"id": "hps-2", "he": "להתחפש", "pos": "v", "translit": {"fr": "lehiteh'apèsse", "en": "lehitchapes"}, "meaning": {"fr": "Se déguiser", "en": "To disguise oneself"}},
+        {"id": "hps-3", "he": "התחפשות", "pos": "nf", "translit": {"fr": "hiteh'apessoute", "en": "hitchapsut"}, "meaning": {"fr": "Fait de se déguiser", "en": "Dressing up"}},
+        {"id": "hps-4", "he": "חיפוש", "pos": "nm", "translit": {"fr": "h'ipousse", "en": "chipus"}, "meaning": {"fr": "Recherche", "en": "Search"}},
+        {"id": "hps-5", "he": "חפשן", "pos": "nm", "translit": {"fr": "h'apessane", "en": "chafshan"}, "meaning": {"fr": "Tire-au-flanc", "en": "Slacker"}},
+        {"id": "hps-6", "he": "מחופש", "pos": "adj", "translit": {"fr": "meh'oupasse", "en": "mechupas"}, "meaning": {"fr": "Déguisé", "en": "Disguised"}},
+        {"id": "hps-7", "he": "תחפושת", "pos": "nf", "translit": {"fr": "tahepossète", "en": "tachposet"}, "meaning": {"fr": "Déguisement", "en": "Costume"}}
+      ]
+    },
+    {
+      "id": "sml",
+      "letters": "סמל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "symboliser, symbole", "en": "to symbolize, symbol"},
+      "words": [
+        {"id": "sml-1", "he": "לסמל את", "pos": "v", "translit": {"fr": "lesamèl ète", "en": "lesamel et"}, "meaning": {"fr": "Symboliser", "en": "To symbolize"}},
+        {"id": "sml-2", "he": "סימל", "pos": "v", "translit": {"fr": "simèle", "en": "simel"}, "meaning": {"fr": "A symbolisé", "en": "Symbolized"}},
+        {"id": "sml-3", "he": "סמל", "pos": "nm", "translit": {"fr": "sèmèle", "en": "semel"}, "meaning": {"fr": "Insigne, symbole", "en": "Symbol, badge"}},
+        {"id": "sml-4", "he": "סימול", "pos": "nm", "translit": {"fr": "simoule", "en": "simul"}, "meaning": {"fr": "Symbolisation", "en": "Symbolization"}},
+        {"id": "sml-5", "he": "סמלי", "pos": "adj", "translit": {"fr": "simli", "en": "simli"}, "meaning": {"fr": "Symbolique", "en": "Symbolic"}},
+        {"id": "sml-6", "he": "סמליות", "pos": "nf", "translit": {"fr": "simlioute", "en": "simliyut"}, "meaning": {"fr": "Symbolisme", "en": "Symbolism"}},
+        {"id": "sml-7", "he": "הסמלה", "pos": "nf", "translit": {"fr": "hassemalah", "en": "hasmala"}, "meaning": {"fr": "Symbolisation, codification", "en": "Symbolization, coding"}},
+        {"id": "sml-8", "he": "סמל", "pos": "nm", "translit": {"fr": "samale", "en": "samal"}, "meaning": {"fr": "Sergent", "en": "Sergeant"}},
+        {"id": "sml-9", "he": "מסמל", "pos": "adj", "translit": {"fr": "messamèle", "en": "mesamel"}, "meaning": {"fr": "Symbolisant", "en": "Symbolizing"}}
+      ]
+    },
+    {
+      "id": "rpa",
+      "letters": "רפא",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "guérir, médecine", "en": "to heal, medicine"},
+      "words": [
+        {"id": "rpa-1", "he": "להירפא מ", "pos": "v", "translit": {"fr": "léhèrapé me", "en": "lehirape me"}, "meaning": {"fr": "Être guéri", "en": "To be healed"}},
+        {"id": "rpa-2", "he": "לרפא את", "pos": "v", "translit": {"fr": "lerapé ète", "en": "lerape et"}, "meaning": {"fr": "Soigner", "en": "To heal"}},
+        {"id": "rpa-3", "he": "להתרפא מ", "pos": "v", "translit": {"fr": "lehiterapè me", "en": "lehitrape me"}, "meaning": {"fr": "Récupérer (la santé)", "en": "To recover"}},
+        {"id": "rpa-4", "he": "התרפאות", "pos": "nf", "translit": {"fr": "hiterapeoute", "en": "hitrapeut"}, "meaning": {"fr": "Récupération, guérison", "en": "Recovery"}},
+        {"id": "rpa-5", "he": "רפואה", "pos": "nf", "translit": {"fr": "refouah", "en": "refua"}, "meaning": {"fr": "Médecine", "en": "Medicine"}},
+        {"id": "rpa-6", "he": "ריפוי", "pos": "nm", "translit": {"fr": "ripouye", "en": "ripuy"}, "meaning": {"fr": "Soin, thérapie", "en": "Healing, therapy"}},
+        {"id": "rpa-7", "he": "מרפא", "pos": "nm", "translit": {"fr": "merapé", "en": "marpe"}, "meaning": {"fr": "Guérisseur, thérapeute", "en": "Healing, cure"}},
+        {"id": "rpa-8", "he": "מרפאה", "pos": "nf", "translit": {"fr": "mirepaah", "en": "mirpa'a"}, "meaning": {"fr": "Clinique", "en": "Clinic"}},
+        {"id": "rpa-9", "he": "רופא", "pos": "nm", "translit": {"fr": "rofé", "en": "rofe"}, "meaning": {"fr": "Médecin", "en": "Doctor"}},
+        {"id": "rpa-10", "he": "רופאה", "pos": "nf", "translit": {"fr": "rofah", "en": "rofa"}, "meaning": {"fr": "Femme médecin", "en": "Female doctor"}},
+        {"id": "rpa-11", "he": "תרופה", "pos": "nf", "translit": {"fr": "troufah", "en": "trufa"}, "meaning": {"fr": "Médicament", "en": "Medicine, remedy"}}
+      ]
+    },
+    {
+      "id": "pgn",
+      "letters": "פגן",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "manifester", "en": "to demonstrate"},
+      "words": [
+        {"id": "pgn-1", "he": "להפגין את", "pos": "v", "translit": {"fr": "léhafguine ète", "en": "lehafgin et"}, "meaning": {"fr": "Manifester", "en": "To demonstrate, to show"}},
+        {"id": "pgn-2", "he": "הפגנה", "pos": "nf", "translit": {"fr": "hafguanah", "en": "hafgana"}, "meaning": {"fr": "Manifestation", "en": "Demonstration, protest"}},
+        {"id": "pgn-3", "he": "הפגנתי", "pos": "adj", "translit": {"fr": "hafguanati", "en": "hafganati"}, "meaning": {"fr": "Démonstratif", "en": "Demonstrative"}},
+        {"id": "pgn-4", "he": "מפגין", "pos": "nm", "translit": {"fr": "mafguine", "en": "mafgin"}, "meaning": {"fr": "Manifestant", "en": "Demonstrator, protester"}},
+        {"id": "pgn-5", "he": "מפגן", "pos": "nm", "translit": {"fr": "mifguane", "en": "mifgan"}, "meaning": {"fr": "Parade, démonstration", "en": "Display, show"}}
+      ]
+    },
+    {
+      "id": "tmm",
+      "letters": "תמם",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "finir, innocence", "en": "to complete, innocence"},
+      "words": [
+        {"id": "tmm-1", "he": "לתום", "pos": "v", "translit": {"fr": "latome", "en": "latom"}, "meaning": {"fr": "Finir, aller au terme", "en": "To end, to be completed"}},
+        {"id": "tmm-2", "he": "תם", "pos": "adj", "translit": {"fr": "tame", "en": "tam"}, "meaning": {"fr": "Innocent, simple, pur", "en": "Innocent, simple"}},
+        {"id": "tmm-3", "he": "תמים", "pos": "adj", "translit": {"fr": "tamime", "en": "tamim"}, "meaning": {"fr": "Innocent, naïf, entier", "en": "Naive, innocent"}},
+        {"id": "tmm-4", "he": "תמימות", "pos": "nf", "translit": {"fr": "temimoute", "en": "temimut"}, "meaning": {"fr": "Innocence, droiture", "en": "Innocence"}},
+        {"id": "tmm-5", "he": "בתום לב", "pos": "adv", "translit": {"fr": "betome lève", "en": "betom lev"}, "meaning": {"fr": "Innocemment", "en": "In good faith"}},
+        {"id": "tmm-6", "he": "תמות", "pos": "nf", "translit": {"fr": "tamoute", "en": "tamut"}, "meaning": {"fr": "Simplicité, honnêteté", "en": "Simplicity"}},
+        {"id": "tmm-7", "he": "עד תם", "pos": "adv", "translit": {"fr": "âde tome", "en": "ad tom"}, "meaning": {"fr": "Jusqu'au bout", "en": "Until the end"}},
+        {"id": "tmm-8", "he": "תום", "pos": "nm", "translit": {"fr": "tome", "en": "tom"}, "meaning": {"fr": "Droiture, honnêteté", "en": "Integrity; end"}},
+        {"id": "tmm-9", "he": "תמימון", "pos": "nm", "translit": {"fr": "temimone", "en": "temimon"}, "meaning": {"fr": "Niais, dadais", "en": "Simpleton"}},
+        {"id": "tmm-10", "he": "בתום", "pos": "adv", "translit": {"fr": "betome", "en": "betom"}, "meaning": {"fr": "Au terme de", "en": "At the end of"}}
+      ]
+    },
+    {
+      "id": "tah",
+      "letters": "תעה",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "s'égarer, tromper", "en": "to go astray, to mislead"},
+      "words": [
+        {"id": "tah-1", "he": "לתעות", "pos": "v", "translit": {"fr": "lit'ote", "en": "lit'ot"}, "meaning": {"fr": "S'égarer, se tromper", "en": "To go astray"}},
+        {"id": "tah-2", "he": "להתעות", "pos": "v", "translit": {"fr": "lehat'ote", "en": "lehat'ot"}, "meaning": {"fr": "Tromper", "en": "To mislead"}},
+        {"id": "tah-3", "he": "מותעה", "pos": "adj", "translit": {"fr": "mout'éh", "en": "muta'a"}, "meaning": {"fr": "Trompé", "en": "Misled"}},
+        {"id": "tah-4", "he": "תעייה", "pos": "nf", "translit": {"fr": "te'ayah", "en": "te'iya"}, "meaning": {"fr": "Égarement", "en": "Wandering, straying"}},
+        {"id": "tah-5", "he": "תועה", "pos": "adj", "translit": {"fr": "to'éh", "en": "to'e"}, "meaning": {"fr": "Errant, vagabond", "en": "Wandering, lost"}},
+        {"id": "tah-6", "he": "מתעה", "pos": "nm", "translit": {"fr": "mat'éh", "en": "mat'e"}, "meaning": {"fr": "Trompeur", "en": "Deceiver"}}
+      ]
+    },
+    {
+      "id": "rmz",
+      "letters": "רמז",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "insinuer, allusion", "en": "to hint, hint"},
+      "words": [
+        {"id": "rmz-1", "he": "לרמוז", "pos": "v", "translit": {"fr": "liremoze", "en": "lirmoz"}, "meaning": {"fr": "Insinuer", "en": "To hint"}},
+        {"id": "rmz-2", "he": "להירמז", "pos": "v", "translit": {"fr": "lehèramèze", "en": "lehiramez"}, "meaning": {"fr": "Être suggéré", "en": "To be hinted"}},
+        {"id": "rmz-3", "he": "לרמז", "pos": "v", "translit": {"fr": "leramèze", "en": "leramez"}, "meaning": {"fr": "Laisser entendre", "en": "To allude"}},
+        {"id": "rmz-4", "he": "רמז", "pos": "nm", "translit": {"fr": "rèmèze", "en": "remez"}, "meaning": {"fr": "Allusion", "en": "Hint, clue"}},
+        {"id": "rmz-5", "he": "רמיזה", "pos": "nf", "translit": {"fr": "rèmizah", "en": "remiza"}, "meaning": {"fr": "Insinuation", "en": "Insinuation"}},
+        {"id": "rmz-6", "he": "מרומז", "pos": "adj", "translit": {"fr": "meroumaze", "en": "meromaz"}, "meaning": {"fr": "Suggéré", "en": "Implied"}},
+        {"id": "rmz-7", "he": "רמזור", "pos": "nm", "translit": {"fr": "ramezore", "en": "ramzor"}, "meaning": {"fr": "Feu de circulation", "en": "Traffic light"}}
+      ]
+    },
+    {
+      "id": "syr",
+      "letters": "סיר",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "parcourir, patrouiller", "en": "to patrol, to tour"},
+      "words": [
+        {"id": "syr-1", "he": "לסייר", "pos": "v", "translit": {"fr": "lessayère", "en": "lesayer"}, "meaning": {"fr": "Parcourir, patrouiller", "en": "To patrol, to scout"}},
+        {"id": "syr-2", "he": "סייר", "pos": "nm", "translit": {"fr": "sayare", "en": "sayar"}, "meaning": {"fr": "Éclaireur, patrouilleur", "en": "Scout, patroller"}},
+        {"id": "syr-3", "he": "סיור מודרך", "pos": "nm", "translit": {"fr": "siyoure moudrakhe", "en": "siyur mudrach"}, "meaning": {"fr": "Visite guidée", "en": "Guided tour"}},
+        {"id": "syr-4", "he": "סיור", "pos": "nm", "translit": {"fr": "siyoure", "en": "siyur"}, "meaning": {"fr": "Tournée, ronde, patrouille", "en": "Tour, patrol"}},
+        {"id": "syr-5", "he": "סיירות", "pos": "nf", "translit": {"fr": "sayaroute", "en": "sayerut"}, "meaning": {"fr": "Reconnaissance, scoutisme", "en": "Scouting"}},
+        {"id": "syr-6", "he": "סיירת", "pos": "nf", "translit": {"fr": "sayèrète", "en": "sayeret"}, "meaning": {"fr": "Patrouille, unité d'élite", "en": "Patrol, elite unit"}},
+        {"id": "syr-7", "he": "סירה", "pos": "nf", "translit": {"fr": "sirah", "en": "sira"}, "meaning": {"fr": "Barque, canot", "en": "Boat, rowboat"}}
+      ]
+    },
+    {
+      "id": "shll",
+      "letters": "שלל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "nier, butin", "en": "to deny, loot"},
+      "words": [
+        {"id": "shll-1", "he": "לשלול את", "pos": "v", "translit": {"fr": "lishlole ète", "en": "lishlol et"}, "meaning": {"fr": "Nier", "en": "To deny, to negate"}},
+        {"id": "shll-2", "he": "להישלל", "pos": "v", "translit": {"fr": "lehishalèle", "en": "lehishalel"}, "meaning": {"fr": "Être pillé, être saccagé", "en": "To be denied, to be looted"}},
+        {"id": "shll-3", "he": "להשתולל", "pos": "v", "translit": {"fr": "lehishetalèle", "en": "lehishtolel"}, "meaning": {"fr": "Délirer, se déchaîner", "en": "To run wild"}},
+        {"id": "shll-4", "he": "השתוללות", "pos": "nf", "translit": {"fr": "hishetoléloute", "en": "hishtolelut"}, "meaning": {"fr": "Déchaînement", "en": "Rampage, wildness"}},
+        {"id": "shll-5", "he": "שלל", "pos": "nm", "translit": {"fr": "shalale", "en": "shalal"}, "meaning": {"fr": "Butin", "en": "Loot, spoils"}},
+        {"id": "shll-6", "he": "שולל", "pos": "adj", "translit": {"fr": "sholèle", "en": "sholal"}, "meaning": {"fr": "Dénué, dépourvu", "en": "Deprived; (to lead astray)"}},
+        {"id": "shll-7", "he": "להוליך שולל", "pos": "v", "translit": {"fr": "leholikhe sholal", "en": "leholich shalal"}, "meaning": {"fr": "Duper", "en": "To deceive, to lead astray"}},
+        {"id": "shll-8", "he": "שלילה", "pos": "nf", "translit": {"fr": "shlilah", "en": "shlila"}, "meaning": {"fr": "Négation", "en": "Negation"}},
+        {"id": "shll-9", "he": "שלילי", "pos": "adj", "translit": {"fr": "shlili", "en": "shlili"}, "meaning": {"fr": "Négatif (adj)", "en": "Negative"}},
+        {"id": "shll-10", "he": "שליליות", "pos": "nf", "translit": {"fr": "shliliout", "en": "shliliyut"}, "meaning": {"fr": "Négativisme", "en": "Negativity"}},
+        {"id": "shll-11", "he": "תשליל", "pos": "nm", "translit": {"fr": "tashlile", "en": "tashlil"}, "meaning": {"fr": "Négatif (photo)", "en": "Negative (photo)"}}
+      ]
+    },
+    {
+      "id": "trgl",
+      "letters": "תרגל",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "exercer, entraînement", "en": "to practice, exercise"},
+      "words": [
+        {"id": "trgl-1", "he": "לתרגל את", "pos": "v", "translit": {"fr": "letarguèle ète", "en": "letargel et"}, "meaning": {"fr": "Exercer", "en": "To practice, to exercise"}},
+        {"id": "trgl-2", "he": "תורגל", "pos": "v", "translit": {"fr": "tourguale", "en": "turgal"}, "meaning": {"fr": "A été exercé", "en": "Was practiced"}},
+        {"id": "trgl-3", "he": "תרגיל", "pos": "nm", "translit": {"fr": "targuile", "en": "targil"}, "meaning": {"fr": "Exercice", "en": "Exercise"}},
+        {"id": "trgl-4", "he": "תרגול", "pos": "nm", "translit": {"fr": "tirguoule", "en": "tirgul"}, "meaning": {"fr": "Exercice, entraînement", "en": "Practice, training"}},
+        {"id": "trgl-5", "he": "מתרגל", "pos": "nm", "translit": {"fr": "metarguèle", "en": "mitargel"}, "meaning": {"fr": "Entraîneur", "en": "Instructor, tutor"}},
+        {"id": "trgl-6", "he": "תרגולת", "pos": "nf", "translit": {"fr": "tirgolète", "en": "tirgolet"}, "meaning": {"fr": "Entraînement", "en": "Training"}}
+      ]
+    },
+    {
+      "id": "trgm",
+      "letters": "תרגם",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "traduire", "en": "to translate"},
+      "words": [
+        {"id": "trgm-1", "he": "לתרגם את", "pos": "v", "translit": {"fr": "letarguème ète", "en": "letargem et"}, "meaning": {"fr": "Traduire", "en": "To translate"}},
+        {"id": "trgm-2", "he": "תורגם", "pos": "v", "translit": {"fr": "tourguame", "en": "turgam"}, "meaning": {"fr": "A été traduit", "en": "Was translated"}},
+        {"id": "trgm-3", "he": "מתרגמן", "pos": "nm", "translit": {"fr": "metourgueman", "en": "metargeman"}, "meaning": {"fr": "Traducteur", "en": "Translator"}},
+        {"id": "trgm-4", "he": "תרגום", "pos": "nm", "translit": {"fr": "targuoume", "en": "targum"}, "meaning": {"fr": "Traduction (résultat)", "en": "Translation (result)"}},
+        {"id": "trgm-5", "he": "תירגום", "pos": "nm", "translit": {"fr": "tirguoume", "en": "tirgum"}, "meaning": {"fr": "Traduction (processus)", "en": "Translation (process)"}}
+      ]
+    },
+    {
+      "id": "kpts",
+      "letters": "קפץ",
+      "status": "draft",
+      "source": "Serge Frydman – Ort Villiers – hebreu.org",
+      "meaning": {"fr": "sauter, bond", "en": "to jump, leap"},
+      "words": [
+        {"id": "kpts-1", "he": "לקפוץ על", "pos": "v", "translit": {"fr": "likefotsse âle", "en": "likpotz al"}, "meaning": {"fr": "Sauter sur", "en": "To jump on"}},
+        {"id": "kpts-2", "he": "לקפץ על", "pos": "v", "translit": {"fr": "lekafètsse âle", "en": "lekapetz al"}, "meaning": {"fr": "Sautiller", "en": "To hop on"}},
+        {"id": "kpts-3", "he": "להקפיץ", "pos": "v", "translit": {"fr": "léhakefitsse", "en": "lehakpitz"}, "meaning": {"fr": "Faire sauter", "en": "To make jump"}},
+        {"id": "kpts-4", "he": "הקפצה", "pos": "nf", "translit": {"fr": "hakefatsa", "en": "hakpatza"}, "meaning": {"fr": "Action de faire sauter", "en": "Bouncing, ride-hailing"}},
+        {"id": "kpts-5", "he": "קפיצי", "pos": "adj", "translit": {"fr": "kfitssi", "en": "kfitzi"}, "meaning": {"fr": "Élastique (adj)", "en": "Springy"}},
+        {"id": "kpts-6", "he": "קפיץ", "pos": "nm", "translit": {"fr": "kfitsse", "en": "kfitz"}, "meaning": {"fr": "Ressort", "en": "Spring"}},
+        {"id": "kpts-7", "he": "קפיצה", "pos": "nf", "translit": {"fr": "kfitssa", "en": "kfitza"}, "meaning": {"fr": "Bond, saut", "en": "Jump, leap"}},
+        {"id": "kpts-8", "he": "קפיצת דרך", "pos": "nf", "translit": {"fr": "kfitssate dèrèkhe", "en": "kfitzat derech"}, "meaning": {"fr": "Raccourci", "en": "Shortcut"}},
+        {"id": "kpts-9", "he": "מקפצה", "pos": "nf", "translit": {"fr": "makefetssa", "en": "makpetza"}, "meaning": {"fr": "Trampoline", "en": "Trampoline, springboard"}}
       ]
     }
   ]

@@ -15,8 +15,8 @@ def esc(text):
 
 
 LEVEL_NAMES = {
-    "fr": {1: "Débutant", 2: "Intermédiaire"},
-    "en": {1: "Beginner", 2: "Intermediate"},
+    "fr": {1: "Débutant", 2: "Intermédiaire", 3: "Avancé"},
+    "en": {1: "Beginner", 2: "Intermediate", 3: "Advanced"},
 }
 
 UI = {
@@ -29,6 +29,7 @@ UI = {
         "family": "Famille de mots",
         "draft": "⚠️ Contenu en cours de relecture",
         "source": "Source :",
+        "literal": "litt.",
         "sentences": "En phrases",
     },
     "en": {
@@ -40,17 +41,18 @@ UI = {
         "family": "Word family",
         "draft": "⚠️ Content pending review",
         "source": "Source:",
+        "literal": "lit.",
         "sentences": "In sentences",
     },
 }
 
 # Short label used in packs (gender) and a longer one used for root families.
-POS_SHORT = {"nm": "m.", "nf": "f.", "nmp": "m. pl.", "nfp": "f. pl.", "v": "v.", "adj": "adj.", "adv": "adv."}
+POS_SHORT = {"nm": "m.", "nf": "f.", "nmp": "m. pl.", "nfp": "f. pl.", "v": "v.", "adj": "adj.", "adv": "adv.", "expr": "expr."}
 POS_LONG = {
     "fr": {"nm": "nom masc.", "nf": "nom fém.", "nmp": "nom masc. pl.", "nfp": "nom fém. pl.",
-           "v": "verbe", "adj": "adjectif", "adv": "adverbe"},
+           "v": "verbe", "adj": "adjectif", "adv": "adverbe", "expr": "expression"},
     "en": {"nm": "masc. noun", "nf": "fem. noun", "nmp": "masc. plural noun", "nfp": "fem. plural noun",
-           "v": "verb", "adj": "adjective", "adv": "adverb"},
+           "v": "verb", "adj": "adjective", "adv": "adverb", "expr": "expression"},
 }
 
 SEPARATOR = "〰️〰️〰️〰️〰️"
@@ -87,6 +89,8 @@ def render_pack(pack, lang, show_draft=False):
             f"{i}. <b>{esc(w['he'])}</b> — {esc(w['meaning'][lang])} — "
             f"<i>{esc(w['translit'][lang])}</i> ({esc(POS_SHORT[w['pos']])})"
         )
+        if w.get("literal"):  # idioms: the word-for-word meaning, when it helps
+            lines.append(f"   ↳ <i>{esc(UI[lang]['literal'])} {esc(w['literal'][lang])}</i>")
     sentences = pack.get("sentences") or []
     if sentences:
         lines += ["", f"🗣️ <b>{esc(UI[lang]['sentences'])}</b>", ""]
@@ -109,7 +113,6 @@ def render_root(root, lang, show_draft=False, show_source=True):
     ui = UI[lang]
     lines = [
         f"🌳 <b>{esc(ui['root'])} {esc(format_root_letters(root['letters']))}</b>",
-        f"<i>{esc(level_label(root['level'], lang))}</i>",
         f"{esc(ui['root_meaning'])} <b>{esc(root['meaning'][lang])}</b>",
         "",
         f"<b>{esc(ui['family'])}</b>",

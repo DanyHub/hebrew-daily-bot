@@ -2,11 +2,10 @@
 
 import { makeDb } from "./db.js";
 import { makeTelegram } from "./telegram.js";
-import { messagesFor, todayInIsrael } from "./daily.js";
+import { messagesFor, offeredLevels, todayInIsrael } from "./daily.js";
 import {
   BILINGUAL_WELCOME,
   LANGS,
-  LEVELS,
   TEXT,
   langKeyboard,
   levelKeyboard,
@@ -29,6 +28,7 @@ const COMMANDS = {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const isReady = (user) => Boolean(user && user.lang && user.level);
+const levelsOf = (deps) => (deps && deps.levels) || offeredLevels(); // levels with enough content to offer
 
 function uiLang(user, from) {
   if (user && user.lang) return user.lang;
@@ -94,7 +94,8 @@ async function handleMessage(message, { tg, db, deps }) {
       if (!fresh.lang) {
         await tg.sendMessage(chatId, BILINGUAL_WELCOME, { reply_markup: langKeyboard() });
       } else if (!fresh.level) {
-        await tg.sendMessage(chatId, TEXT[fresh.lang].chooseLevel, { reply_markup: levelKeyboard(fresh.lang) });
+        const levels = levelsOf(deps);
+        await tg.sendMessage(chatId, TEXT[fresh.lang].chooseLevel(levels), { reply_markup: levelKeyboard(fresh.lang, levels) });
       } else {
         const tt = TEXT[fresh.lang];
         await tg.sendMessage(chatId, `${wasPaused ? tt.resumed + "\n\n" : ""}${tt.status(fresh)}`);
@@ -106,9 +107,11 @@ async function handleMessage(message, { tg, db, deps }) {
     case "lang":
       await tg.sendMessage(chatId, t.chooseLang, { reply_markup: langKeyboard() });
       return;
-    case "level":
-      await tg.sendMessage(chatId, t.chooseLevel, { reply_markup: levelKeyboard(lang) });
+    case "level": {
+      const levels = levelsOf(deps);
+      await tg.sendMessage(chatId, t.chooseLevel(levels), { reply_markup: levelKeyboard(lang, levels) });
       return;
+    }
     case "status":
       if (!isReady(user)) await tg.sendMessage(chatId, t.notReady);
       else await tg.sendMessage(chatId, t.status(user));
@@ -141,6 +144,7 @@ async function handleCallback(query, { tg, db, deps }) {
     user = await db.get(chatId);
   }
   const wasReady = isReady(user);
+  const levels = levelsOf(deps);
   const edit = (text, markup) =>
     messageId
       ? tg.editMessageText(chatId, messageId, text, markup ? { reply_markup: markup } : {})
@@ -151,14 +155,14 @@ async function handleCallback(query, { tg, db, deps }) {
     user = await db.get(chatId);
     await tg.answerCallbackQuery(query.id);
     if (!user.level) {
-      await edit(TEXT[value].chooseLevel, levelKeyboard(value));
+      await edit(TEXT[value].chooseLevel(levels), levelKeyboard(value, levels));
     } else {
       await edit(TEXT[value].ready(value, user.level));
       if (!wasReady) await deliverToday(user, chatId, tg, db, deps); // finished onboarding
     }
     return;
   }
-  if (kind === "lvl" && LEVELS.includes(Number(value))) {
+  if (kind === "lvl" && levels.includes(Number(value))) {
     const level = Number(value);
     await db.setLevel(chatId, level);
     user = await db.get(chatId);

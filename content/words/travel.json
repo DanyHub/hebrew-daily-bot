@@ -1,0 +1,38 @@
+{
+  "theme": "travel",
+  "status": "draft",
+  "emoji": "✈️",
+  "title": {"fr": "Voyage", "en": "Travel"},
+  "words": [
+    {"id": "travel-01", "level": 1, "he": "מטוס", "pos": "nm", "translit": {"fr": "matos", "en": "matos"}, "meaning": {"fr": "Avion", "en": "Plane"}},
+    {"id": "travel-02", "level": 1, "he": "שדה תעופה", "pos": "nm", "translit": {"fr": "sadé te'ouf'a", "en": "sde te'ufa"}, "meaning": {"fr": "Aéroport", "en": "Airport"}},
+    {"id": "travel-03", "level": 1, "he": "מזוודה", "pos": "nf", "translit": {"fr": "mizvada", "en": "mizvada"}, "meaning": {"fr": "Valise", "en": "Suitcase"}},
+    {"id": "travel-04", "level": 1, "he": "כרטיס", "pos": "nm", "translit": {"fr": "kartis", "en": "kartis"}, "meaning": {"fr": "Billet", "en": "Ticket"}},
+    {"id": "travel-05", "level": 1, "he": "דרכון", "pos": "nm", "translit": {"fr": "darkone", "en": "darkon"}, "meaning": {"fr": "Passeport", "en": "Passport"}},
+    {"id": "travel-06", "level": 1, "he": "מלון", "pos": "nm", "translit": {"fr": "malone", "en": "malon"}, "meaning": {"fr": "Hôtel", "en": "Hotel"}},
+    {"id": "travel-07", "level": 1, "he": "חופשה", "pos": "nf", "translit": {"fr": "h'ouchha", "en": "chufsha"}, "meaning": {"fr": "Vacances", "en": "Vacation"}},
+    {"id": "travel-08", "level": 1, "he": "מפה", "pos": "nf", "translit": {"fr": "mapa", "en": "mapa"}, "meaning": {"fr": "Carte", "en": "Map"}},
+    {"id": "travel-09", "level": 1, "he": "חוף", "pos": "nm", "translit": {"fr": "h'of", "en": "chof"}, "meaning": {"fr": "Plage", "en": "Beach"}},
+    {"id": "travel-10", "level": 1, "he": "טיול", "pos": "nm", "translit": {"fr": "tiyoul", "en": "tiyul"}, "meaning": {"fr": "Voyage, balade", "en": "Trip"}},
+    {"id": "travel-11", "level": 2, "he": "טיסה", "pos": "nf", "translit": {"fr": "tissa", "en": "tisa"}, "meaning": {"fr": "Vol", "en": "Flight"}},
+    {"id": "travel-12", "level": 2, "he": "נוסע", "pos": "nm", "translit": {"fr": "nosé'a", "en": "nose'a"}, "meaning": {"fr": "Voyageur, passager", "en": "Passenger"}},
+    {"id": "travel-13", "level": 2, "he": "עיכוב", "pos": "nm", "translit": {"fr": "ikouv", "en": "ikuv"}, "meaning": {"fr": "Retard", "en": "Delay"}},
+    {"id": "travel-14", "level": 2, "he": "הזמנה", "pos": "nf", "translit": {"fr": "hazmana", "en": "hazmana"}, "meaning": {"fr": "Réservation", "en": "Reservation"}},
+    {"id": "travel-15", "level": 2, "he": "מזוודות", "pos": "nfp", "translit": {"fr": "mizvadot", "en": "mizvadot"}, "meaning": {"fr": "Bagages", "en": "Luggage"}},
+    {"id": "travel-16", "level": 2, "he": "מסלול", "pos": "nm", "translit": {"fr": "massloul", "en": "maslul"}, "meaning": {"fr": "Itinéraire", "en": "Route"}},
+    {"id": "travel-17", "level": 2, "he": "יעד", "pos": "nm", "translit": {"fr": "ya'ad", "en": "ya'ad"}, "meaning": {"fr": "Destination", "en": "Destination"}},
+    {"id": "travel-18", "level": 2, "he": "ויזה", "pos": "nf", "translit": {"fr": "viza", "en": "viza"}, "meaning": {"fr": "Visa", "en": "Visa"}},
+    {"id": "travel-19", "level": 2, "he": "מדריך", "pos": "nm", "translit": {"fr": "madrikh", "en": "madrich"}, "meaning": {"fr": "Guide", "en": "Guide"}},
+    {"id": "travel-20", "level": 2, "he": "פיצוי", "pos": "nm", "translit": {"fr": "pitsouy", "en": "pitzuy"}, "meaning": {"fr": "Indemnisation", "en": "Compensation"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "אנחנו נוסעים לחופשה בים.", "translit": {"fr": "Anah'nou nos'im lèh'ouchha bayam.", "en": "Anachnu nos'im lechufsha bayam."}, "translation": {"fr": "Nous partons en vacances à la mer.", "en": "We are going on vacation by the sea."}},
+    {"level": 1, "he": "הכרטיס והדרכון בתיק שלי.", "translit": {"fr": "Hakartiss vèhadarkone batik chéli.", "en": "Hakartis vehadarkon batik sheli."}, "translation": {"fr": "Le billet et le passeport sont dans mon sac.", "en": "The ticket and the passport are in my bag."}},
+    {"level": 1, "he": "המטוס נוחת בשדה התעופה בערב.", "translit": {"fr": "Hamatos nouh'ète bèssdé hate'oufa baérèv.", "en": "Hamatos nocheet besde hate'ufa ba'erev."}, "translation": {"fr": "L'avion atterrit à l'aéroport le soir.", "en": "The plane lands at the airport in the evening."}},
+    {"level": 1, "he": "במלון יש חוף יפה, וגם מפה של העיר.", "translit": {"fr": "Bamalone yèch h'of yafé, vègam mapa chèl haïr.", "en": "Bamalon yesh chof yafe, vegam mapa shel ha'ir."}, "translation": {"fr": "À l'hôtel il y a une belle plage et aussi une carte de la ville.", "en": "At the hotel there is a lovely beach, and also a map of the city."}},
+    {"level": 2, "he": "הטיסה התעכבה והנוסעים חיכו שעתיים.", "translit": {"fr": "Hatissa hit'akhva vèhanos'im h'ikou cha'atayim.", "en": "Hatisa hitakeva vehanos'im chiku sha'atayim."}, "translation": {"fr": "Le vol a pris du retard et les passagers ont attendu deux heures.", "en": "The flight was delayed and the passengers waited two hours."}},
+    {"level": 2, "he": "ביצענו הזמנה ליעד שקיבלנו מהמדריך.", "translit": {"fr": "Bitsa'nou hazmana lèya'ad chèkibalnou mèhamadrikh.", "en": "Bitza'nu hazmana leya'ad shekibalnu mehamadrich."}, "translation": {"fr": "Nous avons réservé pour la destination que le guide nous a indiquée.", "en": "We made a reservation for the destination the guide gave us."}},
+    {"level": 2, "he": "המזוודות הלכו לאיבוד ודרשנו פיצוי.", "translit": {"fr": "Hamizvadot halkhou lé'ivoud vèdarachnou pitsouy.", "en": "Hamizvadot halchu le'ibud vedarashnu pitzuy."}, "translation": {"fr": "Les bagages ont été perdus et nous avons exigé une indemnisation.", "en": "The luggage got lost and we demanded compensation."}},
+    {"level": 2, "he": "בלי ויזה אי אפשר לעלות על המסלול הזה.", "translit": {"fr": "Bli viza é éfchar la'alot al hamassloul hazé.", "en": "Bli viza ei efshar la'alot al hamaslul haze."}, "translation": {"fr": "Sans visa, on ne peut pas emprunter cet itinéraire.", "en": "Without a visa you can't take this route."}}
+  ]
+}

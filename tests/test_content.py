@@ -13,10 +13,11 @@ class ContentTests(unittest.TestCase):
     def test_library_is_valid(self):
         self.assertEqual(content_lib.validate(self.content), [])
 
-    def test_both_levels_have_packs_and_a_root(self):
+    def test_every_level_has_packs_and_roots_are_shared(self):
         for level in content_lib.LEVELS:
-            self.assertGreaterEqual(len(content_lib.build_packs(self.content, level)), 2)
-            self.assertGreaterEqual(len(content_lib.roots_for_level(self.content, level)), 1)
+            self.assertGreaterEqual(len(content_lib.build_packs(self.content, level)), 2, f"level {level}")
+        self.assertGreaterEqual(len(content_lib.all_roots(self.content)), 20)
+        self.assertTrue(all("level" not in r for r in content_lib.all_roots(self.content)))
 
     def test_packs_respect_max_size(self):
         for level in content_lib.LEVELS:
@@ -57,6 +58,17 @@ class ValidationTests(unittest.TestCase):
         self.content["themes"]["body"]["words"][0]["root"] = "zzz"
         self.assertTrue(any("unknown root" in e for e in content_lib.validate(self.content)))
 
+    def test_detects_a_word_repeated_in_two_packs_of_the_same_level(self):
+        body = self.content["themes"]["body"]["words"][0]
+        house = copy.deepcopy(body)
+        house["id"] = "house-dup"
+        self.content["themes"]["house"]["words"].append(house)
+        self.assertTrue(any("appears in both" in e for e in content_lib.validate(self.content)))
+
+    def test_detects_a_pack_without_four_sentences(self):
+        self.content["themes"]["body"]["sentences"].pop(0)
+        self.assertTrue(any("needs exactly 4 sentences" in e for e in content_lib.validate(self.content)))
+
     def test_detects_bad_level(self):
         self.content["themes"]["body"]["words"][0]["level"] = 9
         self.assertTrue(any("level must be" in e for e in content_lib.validate(self.content)))
@@ -74,9 +86,11 @@ class RenderTests(unittest.TestCase):
                     text = render.render_pack(pack, lang)
                     self.assertLessEqual(len(text), content_lib.TELEGRAM_MAX_LEN)
                     self.assertIn(pack["words"][0]["he"], text)
-                for root in content_lib.roots_for_level(self.content, level):
-                    text = render.render_root(root, lang)
-                    self.assertLessEqual(len(text), content_lib.TELEGRAM_MAX_LEN)
+
+    def test_every_root_renders_in_both_languages(self):
+        for lang in content_lib.LANGS:
+            for root in content_lib.all_roots(self.content):
+                self.assertLessEqual(len(render.render_root(root, lang)), content_lib.TELEGRAM_MAX_LEN)
 
     def test_language_is_respected(self):
         pack = next(p for p in content_lib.build_packs(self.content, 1) if p["theme"] == "body")
@@ -119,13 +133,26 @@ class RenderTests(unittest.TestCase):
                     self.assertIn(sentence["he"], text)
                     self.assertEqual(sentence["level"], level)
 
-    def test_sentences_mostly_reuse_the_packs_words(self):
-        """Every sentence should contain at least one word of its pack (prefixes like ה/ב/ל allowed)."""
+    def test_sentences_reuse_the_packs_words(self):
+        """Every sentence must contain at least one item of its pack (prefixes and inflections allowed).
+
+        A single word matches as a substring. An expression matches if the sentence contains it, or any two
+        adjacent words of it (so the infinitive 'להרים ידיים' is matched by 'הרים ידיים').
+        """
+        def appears(item, sentence):
+            if item in sentence:
+                return True
+            words = item.split()
+            if len(words) < 2:
+                return False
+            words[0] = words[0][1:] if words[0].startswith("ל") else words[0]
+            return any(" ".join(words[i:i + 2]) in sentence for i in range(len(words) - 1))
+
         for level in content_lib.LEVELS:
             for pack in content_lib.build_packs(self.content, level):
                 for sentence in pack["sentences"]:
-                    hits = sum(1 for w in pack["words"] if w["he"] in sentence["he"])
-                    self.assertGreaterEqual(hits, 1, f"{pack['theme']} L{level}: {sentence['he']}")
+                    hits = [w["he"] for w in pack["words"] if appears(w["he"], sentence["he"])]
+                    self.assertTrue(hits, f"{pack['theme']} L{level}: {sentence['he']}")
 
     def test_root_letters_formatting(self):
         self.assertEqual(render.format_root_letters("כתב"), "כ־ת־ב")

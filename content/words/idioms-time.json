@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-time",
+  "status": "draft",
+  "emoji": "⏳",
+  "title": {"fr": "Expressions : temps et argent", "en": "Idioms: time and money"},
+  "words": [
+    {"id": "idioms-time-01", "level": 3, "he": "זמן זה כסף", "pos": "expr", "translit": {"fr": "Zmane zé késsef", "en": "Zman ze kesef"}, "meaning": {"fr": "Le temps, c'est de l'argent", "en": "Time is money"}, "literal": {"fr": "le temps c'est de l'argent", "en": "time is money"}},
+    {"id": "idioms-time-02", "level": 3, "he": "בן רגע", "pos": "expr", "translit": {"fr": "Bène réga", "en": "Ben rega"}, "meaning": {"fr": "En un instant", "en": "In a moment, instantly"}, "literal": {"fr": "fils d'un instant", "en": "son of a moment"}},
+    {"id": "idioms-time-03", "level": 3, "he": "מהיום למחר", "pos": "expr", "translit": {"fr": "Mehayom lemah'ar", "en": "Mehayom lemachar"}, "meaning": {"fr": "Du jour au lendemain", "en": "Overnight"}, "literal": {"fr": "d'aujourd'hui à demain", "en": "from today to tomorrow"}},
+    {"id": "idioms-time-04", "level": 3, "he": "הזמן עושה את שלו", "pos": "expr", "translit": {"fr": "Hazman ossé èt chélo", "en": "Hazman ose et shelo"}, "meaning": {"fr": "Le temps fait son œuvre", "en": "Time does its thing"}, "literal": {"fr": "le temps fait le sien", "en": "time does its own"}},
+    {"id": "idioms-time-05", "level": 3, "he": "לא בא בחשבון", "pos": "expr", "translit": {"fr": "Lo ba béh'èchbone", "en": "Lo ba bechesbon"}, "meaning": {"fr": "Hors de question", "en": "Out of the question"}, "literal": {"fr": "n'entre pas en compte", "en": "doesn't come into account"}},
+    {"id": "idioms-time-06", "level": 3, "he": "עלה לו ביוקר", "pos": "expr", "translit": {"fr": "Ala lo bayokèr", "en": "Ala lo beyoker"}, "meaning": {"fr": "Ça lui a coûté cher", "en": "It cost him dearly"}, "literal": {"fr": "ça lui est revenu cher", "en": "it came up to him dearly"}},
+    {"id": "idioms-time-07", "level": 3, "he": "על חשבון הבית", "pos": "expr", "translit": {"fr": "Al h'èchbone habayit", "en": "Al cheshbon habayit"}, "meaning": {"fr": "C'est la maison qui offre", "en": "On the house"}, "literal": {"fr": "sur le compte de la maison", "en": "on the account of the house"}},
+    {"id": "idioms-time-08", "level": 3, "he": "מדי יום ביומו", "pos": "expr", "translit": {"fr": "Midé yom bé yomo", "en": "Midei yom beyomo"}, "meaning": {"fr": "Jour après jour", "en": "Day after day, daily"}, "literal": {"fr": "chaque jour en son jour", "en": "each day in its day"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "זמן זה כסף, אז החלטנו בן רגע.", "translit": {"fr": "Zmane zé késsef, az hèh'latnou bène réga.", "en": "Zman ze kesef, az hechlatnu ben rega."}, "translation": {"fr": "Le temps, c'est de l'argent, alors nous avons décidé en un instant.", "en": "Time is money, so we decided in an instant."}},
+    {"level": 3, "he": "מהיום למחר הכול השתנה, אבל הזמן עושה את שלו.", "translit": {"fr": "Mehayom lemah'ar hakol hichtana, aval hazman ossé èt chélo.", "en": "Mehayom lemachar hakol hishtana, aval hazman ose et shelo."}, "translation": {"fr": "Du jour au lendemain tout a changé, mais le temps fait son œuvre.", "en": "Overnight everything changed, but time does its thing."}},
+    {"level": 3, "he": "לוותר על הטיול לא בא בחשבון, גם אם זה עלה לו ביוקר.", "translit": {"fr": "Levatèr al hatioul lo ba béh'èchbone, gam im zé ala lo bayokèr.", "en": "Levater al hatiyul lo ba bechesbon, gam im ze ala lo beyoker."}, "translation": {"fr": "Renoncer au voyage est hors de question, même si ça lui a coûté cher.", "en": "Giving up the trip is out of the question, even if it cost him dearly."}},
+    {"level": 3, "he": "הקפה על חשבון הבית, ואני בא לכאן מדי יום ביומו.", "translit": {"fr": "Hakafé al h'èchbone habayit, vé'ani ba lékane midé yom bé yomo.", "en": "Hakafe al cheshbon habayit, ve'ani ba lekan midei yom beyomo."}, "translation": {"fr": "Le café est offert par la maison, et je viens ici jour après jour.", "en": "The coffee is on the house, and I come here day after day."}}
+  ]
+}

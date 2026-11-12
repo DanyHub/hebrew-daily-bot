@@ -1,0 +1,38 @@
+{
+  "theme": "school",
+  "status": "draft",
+  "emoji": "🎒",
+  "title": {"fr": "L'école", "en": "School"},
+  "words": [
+    {"id": "school-01", "level": 1, "he": "ספר", "pos": "nm", "translit": {"fr": "séfère", "en": "sefer"}, "meaning": {"fr": "Livre", "en": "Book"}},
+    {"id": "school-02", "level": 1, "he": "מחברת", "pos": "nf", "translit": {"fr": "mah'bérète", "en": "machberet"}, "meaning": {"fr": "Cahier", "en": "Notebook"}},
+    {"id": "school-03", "level": 1, "he": "עט", "pos": "nm", "translit": {"fr": "èt", "en": "et"}, "meaning": {"fr": "Stylo", "en": "Pen"}},
+    {"id": "school-04", "level": 1, "he": "מורה", "pos": "nm", "translit": {"fr": "moré", "en": "more"}, "meaning": {"fr": "Professeur", "en": "Teacher"}},
+    {"id": "school-05", "level": 1, "he": "כיתה", "pos": "nf", "translit": {"fr": "kita", "en": "kita"}, "meaning": {"fr": "Classe", "en": "Classroom"}},
+    {"id": "school-06", "level": 1, "he": "תלמיד", "pos": "nm", "translit": {"fr": "talmid", "en": "talmid"}, "meaning": {"fr": "Élève", "en": "Student"}},
+    {"id": "school-07", "level": 1, "he": "שיעור", "pos": "nm", "translit": {"fr": "chi'our", "en": "shi'ur"}, "meaning": {"fr": "Cours", "en": "Lesson"}},
+    {"id": "school-08", "level": 1, "he": "לוח", "pos": "nm", "translit": {"fr": "louah'", "en": "luach"}, "meaning": {"fr": "Tableau", "en": "Board"}},
+    {"id": "school-09", "level": 1, "he": "תיק", "pos": "nm", "translit": {"fr": "tik", "en": "tik"}, "meaning": {"fr": "Cartable", "en": "Bag"}},
+    {"id": "school-10", "level": 1, "he": "ציור", "pos": "nm", "translit": {"fr": "tsiour", "en": "tziyur"}, "meaning": {"fr": "Dessin", "en": "Drawing"}},
+    {"id": "school-11", "level": 2, "he": "מבחן", "pos": "nm", "translit": {"fr": "mivh'ane", "en": "mivchan"}, "meaning": {"fr": "Examen", "en": "Exam"}},
+    {"id": "school-12", "level": 2, "he": "ציון", "pos": "nm", "translit": {"fr": "tsioune", "en": "tziyun"}, "meaning": {"fr": "Note", "en": "Grade"}},
+    {"id": "school-13", "level": 2, "he": "שיעורי בית", "pos": "nmp", "translit": {"fr": "chi'oure bayit", "en": "shiurei bayit"}, "meaning": {"fr": "Devoirs", "en": "Homework"}},
+    {"id": "school-14", "level": 2, "he": "הפסקה", "pos": "nf", "translit": {"fr": "hafsaka", "en": "hafsaka"}, "meaning": {"fr": "Récréation", "en": "Break"}},
+    {"id": "school-15", "level": 2, "he": "מנהל", "pos": "nm", "translit": {"fr": "menahèl", "en": "menahel"}, "meaning": {"fr": "Directeur", "en": "Principal"}},
+    {"id": "school-16", "level": 2, "he": "תעודה", "pos": "nf", "translit": {"fr": "te'ouda", "en": "te'uda"}, "meaning": {"fr": "Bulletin, diplôme", "en": "Certificate"}},
+    {"id": "school-17", "level": 2, "he": "אוניברסיטה", "pos": "nf", "translit": {"fr": "ounivérsita", "en": "universita"}, "meaning": {"fr": "Université", "en": "University"}},
+    {"id": "school-18", "level": 2, "he": "סטודנט", "pos": "nm", "translit": {"fr": "stoudènt", "en": "student"}, "meaning": {"fr": "Étudiant", "en": "University student"}},
+    {"id": "school-19", "level": 2, "he": "מילון", "pos": "nm", "translit": {"fr": "milone", "en": "milon"}, "meaning": {"fr": "Dictionnaire", "en": "Dictionary"}},
+    {"id": "school-20", "level": 2, "he": "ספרייה", "pos": "nf", "translit": {"fr": "sifriya", "en": "sifriya"}, "meaning": {"fr": "Bibliothèque", "en": "Library"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "המורה כותבת על הלוח.", "translit": {"fr": "Hamoré kotévèt al haloua'h.", "en": "Hamora kotevet al haluach."}, "translation": {"fr": "La professeure écrit au tableau.", "en": "The teacher writes on the board."}},
+    {"level": 1, "he": "התלמיד פותח את הספר והמחברת.", "translit": {"fr": "Hatalmid poté'ah' èt hasséfère vèhamah'bérète.", "en": "Hatalmid potei'ach et hasefer vehamachberet."}, "translation": {"fr": "L'élève ouvre le livre et le cahier.", "en": "The student opens the book and the notebook."}},
+    {"level": 1, "he": "בכיתה שלנו יש שיעור ציור.", "translit": {"fr": "Bakita chélanou yèch chi'our tsiour.", "en": "Bakita shelanu yesh shi'ur tziyur."}, "translation": {"fr": "Dans notre classe il y a un cours de dessin.", "en": "In our class there is a drawing lesson."}},
+    {"level": 1, "he": "אני שם עט בתיק ויוצא.", "translit": {"fr": "Ani sam èt batik vèyotsé.", "en": "Ani sam et batik veyotze."}, "translation": {"fr": "Je mets un stylo dans mon cartable et je sors.", "en": "I put a pen in my bag and leave."}},
+    {"level": 2, "he": "יש לי מבחן מחר ועוד לא עשיתי שיעורי בית.", "translit": {"fr": "Yèch li mivh'ane mah'ar vè'od lo assiti chi'oure bayit.", "en": "Yesh li mivchan machar ve'od lo asiti shiurei bayit."}, "translation": {"fr": "J'ai un examen demain et je n'ai pas encore fait mes devoirs.", "en": "I have an exam tomorrow and I haven't done my homework yet."}},
+    {"level": 2, "he": "הציון שלי בתעודה השתפר השנה.", "translit": {"fr": "Hatsioune chéli bate'ouda hichtapère hachana.", "en": "Hatziyun sheli bete'uda hishtaper hashana."}, "translation": {"fr": "Ma note sur le bulletin s'est améliorée cette année.", "en": "My grade on the report improved this year."}},
+    {"level": 2, "he": "בהפסקה הסטודנט הלך לספרייה עם המילון.", "translit": {"fr": "Bahafsaka hastoudènt halakh lassifriya im hamilone.", "en": "Bahafsaka hastudent halach lasifriya im hamilon."}, "translation": {"fr": "À la pause l'étudiant est allé à la bibliothèque avec le dictionnaire.", "en": "At the break the student went to the library with the dictionary."}},
+    {"level": 2, "he": "המנהל נאם באוניברסיטה בטקס.", "translit": {"fr": "Hamenahel naham bèounivérsita batèkèss.", "en": "Hamenahel naam ba'universita batekes."}, "translation": {"fr": "Le directeur a prononcé un discours à l'université lors de la cérémonie.", "en": "The principal gave a speech at the university at the ceremony."}}
+  ]
+}

@@ -43,6 +43,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Validate content
         run: python -m hebbot.validate
+      - name: Content runway (warns when fresh content is running low)
+        run: python -m hebbot.order runway
       - name: Send daily messages
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

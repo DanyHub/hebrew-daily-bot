@@ -33,8 +33,7 @@ def main(argv=None):
             sys.exit("No matching pack.")
         text = render.render_pack(packs[0], args.lang, show_draft=True)
     else:
-        roots = [r for r in content_lib.roots_for_level(content, args.level)
-                 if args.root in (None, r["id"])]
+        roots = [r for r in content_lib.all_roots(content) if args.root in (None, r["id"])]
         if not roots:
             sys.exit("No matching root.")
         text = render.render_root(roots[0], args.lang, show_draft=True)
