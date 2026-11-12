@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-daily",
+  "status": "draft",
+  "emoji": "☀️",
+  "title": {"fr": "Expressions : le quotidien", "en": "Idioms: daily life"},
+  "words": [
+    {"id": "idioms-daily-01", "level": 3, "he": "בשעה טובה", "pos": "expr", "translit": {"fr": "Béchâa tova", "en": "Besha'a tova"}, "meaning": {"fr": "Félicitations ! À la bonne heure !", "en": "Congratulations! Best of luck!"}, "literal": {"fr": "à une bonne heure", "en": "in a good hour"}},
+    {"id": "idioms-daily-02", "level": 3, "he": "לא נורא", "pos": "expr", "translit": {"fr": "Lo nora", "en": "Lo nora"}, "meaning": {"fr": "Ce n'est pas grave", "en": "Never mind, no big deal"}, "literal": {"fr": "pas terrible", "en": "not terrible"}},
+    {"id": "idioms-daily-03", "level": 3, "he": "אין מצב", "pos": "expr", "translit": {"fr": "Éïne matsav", "en": "Ein matzav"}, "meaning": {"fr": "Pas question, impossible", "en": "No way"}, "literal": {"fr": "il n'y a pas de situation", "en": "there is no situation"}},
+    {"id": "idioms-daily-04", "level": 3, "he": "מה פתאום", "pos": "expr", "translit": {"fr": "Ma pitom", "en": "Ma pit'om"}, "meaning": {"fr": "Mais pas du tout ! Comment ça ?", "en": "No way! What do you mean?"}, "literal": {"fr": "quoi soudain", "en": "what suddenly"}},
+    {"id": "idioms-daily-05", "level": 3, "he": "חי וקיים", "pos": "expr", "translit": {"fr": "H'aï vékayam", "en": "Chai vekayam"}, "meaning": {"fr": "Bien vivant, toujours là", "en": "Alive and kicking"}, "literal": {"fr": "vivant et existant", "en": "alive and existing"}},
+    {"id": "idioms-daily-06", "level": 3, "he": "יהיה בסדר", "pos": "expr", "translit": {"fr": "Yihyé béséder", "en": "Yihye beseder"}, "meaning": {"fr": "Ça ira, tout ira bien", "en": "It'll be fine"}, "literal": {"fr": "ce sera en ordre", "en": "it will be in order"}},
+    {"id": "idioms-daily-07", "level": 3, "he": "הכול לטובה", "pos": "expr", "translit": {"fr": "Hakol létova", "en": "Hakol letova"}, "meaning": {"fr": "Tout est pour le mieux", "en": "Everything is for the best"}, "literal": {"fr": "tout pour le bien", "en": "everything for the good"}},
+    {"id": "idioms-daily-08", "level": 3, "he": "בעזרת השם", "pos": "expr", "translit": {"fr": "Bé'èzrat hachème", "en": "Be'ezrat Hashem"}, "meaning": {"fr": "Si Dieu le veut", "en": "God willing"}, "literal": {"fr": "avec l'aide du Nom", "en": "with the help of the Name"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "בשעה טובה! יהיה בסדר, הכול לטובה.", "translit": {"fr": "Béchâa tova! Yihyé béséder, hakol létova.", "en": "Besha'a tova! Yihye beseder, hakol letova."}, "translation": {"fr": "Félicitations ! Ça ira, tout est pour le mieux.", "en": "Congratulations! It'll be fine, everything is for the best."}},
+    {"level": 3, "he": "הוא חי וקיים, בעזרת השם.", "translit": {"fr": "Hou h'aï vékayam, bé'èzrat hachème.", "en": "Hu chai vekayam, be'ezrat Hashem."}, "translation": {"fr": "Il est bien vivant, si Dieu le veut.", "en": "He's alive and kicking, God willing."}},
+    {"level": 3, "he": "אין מצב שאני מוותר! מה פתאום.", "translit": {"fr": "Éïne matsav chéani mévatèr! Ma pitom.", "en": "Ein matzav sheani mevater! Ma pit'om."}, "translation": {"fr": "Pas question que j'abandonne ! Mais pas du tout.", "en": "No way I'm giving up! Not at all."}},
+    {"level": 3, "he": "לא נורא, תנסה שוב מחר.", "translit": {"fr": "Lo nora, ténassé chouv mah'ar.", "en": "Lo nora, tenase shuv machar."}, "translation": {"fr": "Ce n'est pas grave, réessaie demain.", "en": "Never mind, try again tomorrow."}}
+  ]
+}

@@ -1,0 +1,15 @@
+# Hebrew words that are correct but unknown to the Hspell dictionary (checked by hand).
+# Format: one word per line; anything after # is a note. See hebbot/spell.py.
+איטי        # slow: valid modern spelling
+אמא         # mom: colloquial spelling (the Academy form is אימא)
+ואמא        # and mom
+באסה        # slang: bummer
+בש          # "shesh besh" (backgammon)
+הכאבה       # causing pain (noun), from the Frydman root sheet
+התושיה      # the resourcefulness (spelling as in the "1001 mots" card)
+תושיה       # resourcefulness (spelling as in the "1001 mots" card)
+ופירות      # and fruits
+פירות       # fruits: the standard modern spelling
+מינהל       # administration: spelling used by the Academy and the Frydman root sheet
+תמידות      # permanence, from the Frydman root sheet
+תקח         # as in the "1001 mots" card: אל תקח את זה ללב

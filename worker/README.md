@@ -13,7 +13,7 @@ GitHub Actions "Curated daily" ───────────────┘ 
 What a person sees:
 
 1. `/start` → "Choisis ta langue · Choose your language" (buttons)
-2. Level buttons (1 Beginner, 2 Intermediate)
+2. Level buttons (1 Beginner, 2 Intermediate, 3 Advanced), listing only the levels that have enough content
 3. A confirmation, then **today's lesson right away** (a theme with 4 sentences, then a root), whatever the
    time they register. After that, every morning (Sun–Fri), the same.
 
@@ -87,7 +87,7 @@ the Python tests fail if it is stale, and committing it redeploys the Worker.
 | `src/i18n.js` | All French and English text |
 | `src/db.js` | The only SQL (parameterised) |
 | `src/daily.js` + `src/daily-bundle.json` | Picks today's lesson. The bundle is generated from `content/` by `python -m hebbot.export_bundle` |
-| `migrations/0001_users.sql` | The users table |
+| `migrations/` | `0001` the users table; `0002` allows level 3 (rebuilds the table, rows are kept) |
 | `test/bot.test.js` | Unit tests |
 
 Python side: `hebbot/subscribers.py` (D1 over the Cloudflare REST API) and `hebbot/daily.py` (`--subscribers`).

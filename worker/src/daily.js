@@ -1,5 +1,6 @@
 // Today's lesson for a subscriber, from the bundle pre-rendered by `python -m hebbot.export_bundle`.
-// The rule is the same as hebbot/daily.py: packs[n % len] then roots[n % len], n = day ordinal.
+// The rule is the same as hebbot/daily.py: the item at the day's send index in the locked order
+// (packs for the person's level, roots for everyone). Tests prove both sides agree.
 
 import bundle from "./daily-bundle.json" with { type: "json" };
 
@@ -19,13 +20,34 @@ export function todayInIsrael(now = new Date()) {
   }).format(now);
 }
 
+export const floorMod = (a, n) => ((a % n) + n) % n;
+
+/**
+ * Index of a day in the send calendar (same as hebbot.order.send_index): Sunday to Friday count,
+ * Saturday shares Friday's index. `startIso` is a Sunday. Negative before the start.
+ */
+export function sendIndex(isoDate, startIso) {
+  const day = ordinal(isoDate);
+  const weekday = day % 7; // Python's ordinal 1 is a Monday, so ordinal % 7 gives Sunday = 0 ... Saturday = 6
+  const sunday = day - weekday;
+  const weeks = Math.floor((sunday - ordinal(startIso)) / 7);
+  return weeks * 6 + Math.min(weekday, 5);
+}
+
+/** Levels that have enough content to be offered to new subscribers. */
+export function offeredLevels(data = bundle) {
+  return data.levels.slice();
+}
+
 /** [pack message, root message] (HTML) for a language, level and day; [] if there is nothing for them. */
 export function messagesFor(lang, level, isoDate, data = bundle) {
-  const entry = data[lang] && data[lang][String(level)];
+  const entry = data[lang];
   if (!entry) return [];
-  const n = ordinal(isoDate);
+  const packs = (entry.packs && entry.packs[String(level)]) || [];
+  const roots = entry.roots || [];
+  const index = sendIndex(isoDate, data.start);
   const out = [];
-  if (entry.packs.length) out.push(entry.packs[n % entry.packs.length]);
-  if (entry.roots.length) out.push(entry.roots[n % entry.roots.length]);
+  if (packs.length) out.push(packs[floorMod(index, packs.length)]);
+  if (roots.length) out.push(roots[floorMod(index, roots.length)]);
   return out;
 }

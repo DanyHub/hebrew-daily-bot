@@ -22,6 +22,7 @@ from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
 from hebbot import content as content_lib
+from hebbot import order as order_lib
 from hebbot import render
 
 # One switch for "may unreviewed (draft) content be sent?". The scheduled send, the Worker's
@@ -38,44 +39,32 @@ def israel_today(now=None):
     return now.astimezone(ISRAEL).date()
 
 
-def day_number(day):
-    """Days since 0001-01-01: a stable counter that advances by 1 each calendar day."""
-    return day.toordinal()
+def _order(order):
+    return order if order is not None else order_lib.load_order()
 
 
-def _usable(sets, allow_draft):
-    return [s for s in sets if allow_draft or s.get("status") == "reviewed"]
+def pick_pack(content, level, day, allow_draft=False, order=None):
+    """The pack of the day for a level (from the locked order), or None if the level has none."""
+    order = _order(order)
+    packs = order_lib.ordered_packs(content, level, allow_draft, order)
+    return order_lib.pick(packs, order_lib.send_index(day, order_lib.start_date(order)))
 
 
-def pick_pack(content, level, day, allow_draft=False):
-    """The themed pack of the day, or None when the library has nothing usable."""
-    packs = build_usable_packs(content, level, allow_draft)
-    return packs[day_number(day) % len(packs)] if packs else None
+def pick_root(content, day, allow_draft=False, order=None):
+    """The root of the day. Roots are shared by everyone, whatever their level."""
+    order = _order(order)
+    roots = order_lib.ordered_roots(content, allow_draft, order)
+    return order_lib.pick(roots, order_lib.send_index(day, order_lib.start_date(order)))
 
 
-def build_usable_packs(content, level, allow_draft=False):
-    packs = content_lib.build_packs(content, level)
-    allowed = {t for t, d in content["themes"].items() if allow_draft or d.get("status") == "reviewed"}
-    return [p for p in packs if p["theme"] in allowed]
-
-
-def usable_roots(content, level, allow_draft=False):
-    return _usable(content_lib.roots_for_level(content, level), allow_draft)
-
-
-def pick_root(content, level, day, allow_draft=False):
-    """The root of the day, or None when the library has nothing usable."""
-    roots = usable_roots(content, level, allow_draft)
-    return roots[day_number(day) % len(roots)] if roots else None
-
-
-def build_daily(content, level, lang, day, allow_draft=False):
+def build_daily(content, level, lang, day, allow_draft=False, order=None):
     """The messages to send for a given day: [theme pack, root card] (missing ones are skipped)."""
+    order = _order(order)
     messages = []
-    pack = pick_pack(content, level, day, allow_draft)
+    pack = pick_pack(content, level, day, allow_draft, order)
     if pack:
         messages.append(render.render_pack(pack, lang))
-    root = pick_root(content, level, day, allow_draft)
+    root = pick_root(content, day, allow_draft, order)
     if root:
         messages.append(render.render_root(root, lang, show_source=False))
     return messages

@@ -1,14 +1,16 @@
 # Hebrew Daily Bot
 
-A Telegram bot that teaches Hebrew every morning (Sunday to Friday), in French or English, at two levels.
+A Telegram bot that teaches Hebrew every morning (Sunday to Friday), in French or English, at three levels
+(beginner, intermediate, and advanced: Israeli idioms and slang).
 Each person picks their language and level in Telegram, then receives:
 
-1. **A themed pack**: 10–15 words on a theme (body, house, family, food, emotions…) plus **4 sentences** that reuse them.
-2. **A root of the day** with its word family (e.g. כ־ת־ב: write, letter, headline…).
+1. **A themed pack** for their level: about 8–15 words or idioms on a theme, plus **4 sentences** that reuse them.
+2. **A root of the day** with its word family (e.g. כ־ת־ב: write, letter, headline…), the same for everyone.
 
 New people get today's lesson **immediately** after choosing their level, then every morning.
 
-The content is **curated and stored in this repository**. No AI runs when messages are sent.
+The content is **curated and stored in this repository**. No AI runs when messages are sent. A locked,
+append-only order (`content/order.json`) guarantees nothing repeats until the content is used up.
 
 ```
 Telegram ──▶ Worker (worker/) ──▶ D1 database: who chose which level and language
@@ -46,7 +48,8 @@ python -m hebbot.validate                                   # check the content
 python -m unittest discover -s tests -t .                   # tests
 python -m hebbot.daily --level 1 --lang fr --allow-draft    # print today's messages
 python -m hebbot.daily --level 2 --lang en --date 2026-11-15 --allow-draft
-python -m hebbot.preview --kind root --level 2 --lang fr    # one root card
+python -m hebbot.preview --kind root --lang fr --root shlh  # one root card
+python -m hebbot.order runway                              # how much fresh content is left
 ```
 
 `--send` posts to Telegram (needs `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`).

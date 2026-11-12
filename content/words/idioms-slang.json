@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-slang",
+  "status": "draft",
+  "emoji": "😎",
+  "title": {"fr": "Argot israélien", "en": "Israeli slang"},
+  "words": [
+    {"id": "idioms-slang-01", "level": 3, "he": "יאללה", "pos": "expr", "translit": {"fr": "Yalla", "en": "Yalla"}, "meaning": {"fr": "Allez ! On y va !", "en": "Come on! Let's go!"}},
+    {"id": "idioms-slang-02", "level": 3, "he": "סבבה", "pos": "expr", "translit": {"fr": "Sababa", "en": "Sababa"}, "meaning": {"fr": "Ça roule, cool", "en": "Cool, all good"}},
+    {"id": "idioms-slang-03", "level": 3, "he": "אחלה", "pos": "expr", "translit": {"fr": "Ah'la", "en": "Achla"}, "meaning": {"fr": "Super, génial", "en": "Great, awesome"}},
+    {"id": "idioms-slang-04", "level": 3, "he": "באסה", "pos": "expr", "translit": {"fr": "Basa", "en": "Basa"}, "meaning": {"fr": "Zut ! Dommage", "en": "Bummer"}},
+    {"id": "idioms-slang-05", "level": 3, "he": "בלגן", "pos": "expr", "translit": {"fr": "Balagane", "en": "Balagan"}, "meaning": {"fr": "Le bazar, le chaos", "en": "A mess, chaos"}},
+    {"id": "idioms-slang-06", "level": 3, "he": "חבל על הזמן", "pos": "expr", "translit": {"fr": "H'aval al hazman", "en": "Chaval al hazman"}, "meaning": {"fr": "Génial, incroyable", "en": "Awesome, unbelievable"}, "literal": {"fr": "dommage pour le temps", "en": "a pity about the time"}},
+    {"id": "idioms-slang-07", "level": 3, "he": "על הפנים", "pos": "expr", "translit": {"fr": "Al hapanim", "en": "Al hapanim"}, "meaning": {"fr": "Nul, lamentable", "en": "Terrible, lousy"}, "literal": {"fr": "sur le visage", "en": "on the face"}},
+    {"id": "idioms-slang-08", "level": 3, "he": "תכלס", "pos": "expr", "translit": {"fr": "Takhlès", "en": "Tachles"}, "meaning": {"fr": "Au fond, concrètement", "en": "Bottom line, in practice"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "יאללה, בוא נלך. סבבה?", "translit": {"fr": "Yalla, bo nèlèkh. Sababa?", "en": "Yalla, bo nelech. Sababa?"}, "translation": {"fr": "Allez, on y va. D'accord ?", "en": "Come on, let's go. Okay?"}},
+    {"level": 3, "he": "המסעדה הזאת אחלה, חבל על הזמן!", "translit": {"fr": "Hamis'ada hazot ah'la, h'aval al hazman!", "en": "Hamis'ada hazot achla, chaval al hazman!"}, "translation": {"fr": "Ce restaurant est super, génial !", "en": "This restaurant is great, awesome!"}},
+    {"level": 3, "he": "באסה, יש פה בלגן, והמוזיקה על הפנים.", "translit": {"fr": "Basa, yèch po balagane, vèhamouzika al hapanim.", "en": "Basa, yesh po balagan, vehamuzika al hapanim."}, "translation": {"fr": "Zut, c'est le bazar ici, et la musique est nulle.", "en": "Bummer, it's chaos here, and the music is lousy."}},
+    {"level": 3, "he": "תכלס, מה אתה רוצה?", "translit": {"fr": "Takhlès, ma ata rotsé?", "en": "Tachles, ma ata rotze?"}, "translation": {"fr": "Au fond, qu'est-ce que tu veux ?", "en": "Bottom line, what do you want?"}}
+  ]
+}

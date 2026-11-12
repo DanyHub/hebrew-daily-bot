@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-animals",
+  "status": "draft",
+  "emoji": "🐾",
+  "title": {"fr": "Expressions : les animaux", "en": "Idioms: animals"},
+  "words": [
+    {"id": "idioms-animals-01", "level": 3, "he": "לקנות חתול בשק", "pos": "expr", "translit": {"fr": "Liknot h'atoul bachak", "en": "Liknot chatul bashak"}, "meaning": {"fr": "Acheter chat en poche", "en": "To buy a cat in a bag"}, "literal": {"fr": "acheter un chat dans un sac", "en": "to buy a cat in a sack"}},
+    {"id": "idioms-animals-02", "level": 3, "he": "כלב שנובח לא נושך", "pos": "expr", "translit": {"fr": "Kèlèv chénovéa'h lo nochèkh", "en": "Kelev shenoveach lo noshech"}, "meaning": {"fr": "Chien qui aboie ne mord pas", "en": "A barking dog doesn't bite"}, "literal": {"fr": "un chien qui aboie ne mord pas", "en": "a dog that barks doesn't bite"}},
+    {"id": "idioms-animals-03", "level": 3, "he": "זאב בעור כבש", "pos": "expr", "translit": {"fr": "Zéév bé'or kèvèch", "en": "Ze'ev be'or keves"}, "meaning": {"fr": "Un loup déguisé en agneau", "en": "A wolf in sheep's clothing"}, "literal": {"fr": "un loup dans une peau d'agneau", "en": "a wolf in a lamb's skin"}},
+    {"id": "idioms-animals-04", "level": 3, "he": "דג מסריח מהראש", "pos": "expr", "translit": {"fr": "Dag mastrih' méharoch", "en": "Dag mastrich meharosh"}, "meaning": {"fr": "Le poisson pourrit par la tête", "en": "A fish rots from the head (the problem starts at the top)"}, "literal": {"fr": "le poisson sent mauvais par la tête", "en": "a fish stinks from the head"}},
+    {"id": "idioms-animals-05", "level": 3, "he": "ציפור קטנה לחשה לי", "pos": "expr", "translit": {"fr": "Tsipor ktana lah'acha li", "en": "Tzipor ktana lachasha li"}, "meaning": {"fr": "Un petit oiseau me l'a dit", "en": "A little bird told me"}, "literal": {"fr": "un petit oiseau m'a chuchoté", "en": "a little bird whispered to me"}},
+    {"id": "idioms-animals-06", "level": 3, "he": "שתי ציפורים במכה אחת", "pos": "expr", "translit": {"fr": "Chtéi tsiporim bémaka ah'at", "en": "Shtei tziporim bemaka achat"}, "meaning": {"fr": "Faire d'une pierre deux coups", "en": "Two birds with one stone"}, "literal": {"fr": "deux oiseaux d'un seul coup", "en": "two birds in one blow"}},
+    {"id": "idioms-animals-07", "level": 3, "he": "משחק חתול ועכבר", "pos": "expr", "translit": {"fr": "Michak h'atoul vèah'bar", "en": "Mischak chatul va'achbar"}, "meaning": {"fr": "Un jeu du chat et de la souris", "en": "A game of cat and mouse"}, "literal": {"fr": "un jeu de chat et de souris", "en": "a game of cat and mouse"}},
+    {"id": "idioms-animals-08", "level": 3, "he": "להרגיש כמו דג מחוץ למים", "pos": "expr", "translit": {"fr": "Léargich kmo dag mih'outz lamayim", "en": "Lehargish kmo dag michutz lamayim"}, "meaning": {"fr": "Se sentir comme un poisson hors de l'eau", "en": "To feel like a fish out of water"}, "literal": {"fr": "se sentir comme un poisson hors de l'eau", "en": "to feel like a fish out of water"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "אל תקנה חתול בשק, הוא זאב בעור כבש.", "translit": {"fr": "Al tikné h'atoul bachak, hou zéév bé'or kèvèch.", "en": "Al tikne chatul bashak, hu ze'ev be'or keves."}, "translation": {"fr": "N'achète pas chat en poche, c'est un loup déguisé en agneau.", "en": "Don't buy a cat in a bag, he's a wolf in sheep's clothing."}},
+    {"level": 3, "he": "ציפור קטנה לחשה לי שהוא כלב שנובח ולא נושך.", "translit": {"fr": "Tsipor ktana lah'acha li chéhou kèlèv chénovéa'h vélo nochèkh.", "en": "Tzipor ktana lachasha li shehu kelev shenoveach velo noshech."}, "translation": {"fr": "Un petit oiseau m'a dit que c'est un chien qui aboie mais ne mord pas.", "en": "A little bird told me he's a dog that barks but doesn't bite."}},
+    {"level": 3, "he": "הם משחקים משחק חתול ועכבר, ואני מרגיש כמו דג מחוץ למים.", "translit": {"fr": "Hèm michah'akim michak h'atoul vèah'bar, vé'ani marguiche kmo dag mih'outz lamayim.", "en": "Hem mesachakim mischak chatul va'achbar, ve'ani margish kmo dag michutz lamayim."}, "translation": {"fr": "Ils jouent au chat et à la souris, et moi je me sens comme un poisson hors de l'eau.", "en": "They're playing cat and mouse, and I feel like a fish out of water."}},
+    {"level": 3, "he": "דג מסריח מהראש: הבעיה מתחילה בהנהלה.", "translit": {"fr": "Dag mastrih' méharoch: habaya math'ila bahanhala.", "en": "Dag mastrich meharosh: haba'aya matchila behanhala."}, "translation": {"fr": "Le poisson pourrit par la tête : le problème commence à la direction.", "en": "A fish rots from the head: the problem starts at the top."}}
+  ]
+}

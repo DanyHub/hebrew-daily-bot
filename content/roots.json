@@ -3,7 +3,6 @@
     {
       "id": "ktv",
       "letters": "כתב",
-      "level": 1,
       "status": "draft",
       "meaning": {"fr": "écrire", "en": "to write"},
       "words": [
@@ -62,7 +61,6 @@
     {
       "id": "shlh",
       "letters": "שלח",
-      "level": 2,
       "status": "draft",
       "meaning": {"fr": "envoyer", "en": "to send"},
       "words": [
@@ -121,7 +119,6 @@
     {
       "id": "lmd",
       "letters": "למד",
-      "level": 1,
       "status": "draft",
       "meaning": {"fr": "apprendre, enseigner", "en": "to learn, to teach"},
       "words": [
@@ -180,7 +177,6 @@
     {
       "id": "ahv",
       "letters": "אהב",
-      "level": 1,
       "status": "draft",
       "meaning": {"fr": "aimer", "en": "to love"},
       "words": [
@@ -239,7 +235,6 @@
     {
       "id": "ptch",
       "letters": "פתח",
-      "level": 2,
       "status": "draft",
       "meaning": {"fr": "ouvrir", "en": "to open"},
       "words": [
@@ -298,7 +293,6 @@
     {
       "id": "shmr",
       "letters": "שמר",
-      "level": 2,
       "status": "draft",
       "meaning": {"fr": "garder, protéger", "en": "to keep, to guard"},
       "words": [
@@ -357,7 +351,6 @@
     {
       "id": "hpk",
       "letters": "הפכ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "renverser, retourner", "en": "to turn over, to reverse"},
@@ -376,7 +369,6 @@
     {
       "id": "rgz",
       "letters": "רגז",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "colère, irriter", "en": "anger, to irritate"},
@@ -395,7 +387,6 @@
     {
       "id": "thl",
       "letters": "תחל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "commencer", "en": "to begin"},
@@ -411,7 +402,6 @@
     {
       "id": "atzm",
       "letters": "עצמ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "os, soi-même, indépendance", "en": "bone, self, independence"},
@@ -427,7 +417,6 @@
     {
       "id": "mms",
       "letters": "ממש",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "réaliser, concrétiser", "en": "to realize, to make real"},
@@ -443,7 +432,6 @@
     {
       "id": "tmd",
       "letters": "תמד",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "persévérer, toujours", "en": "to persevere, always"},
@@ -459,7 +447,6 @@
     {
       "id": "shgh",
       "letters": "שגה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "se tromper, erreur", "en": "to err, mistake"},
@@ -469,14 +456,13 @@
         {"id": "shgh-3", "he": "שגיאה", "pos": "nf", "translit": {"fr": "chguia", "en": "shgi'a"}, "meaning": {"fr": "Faute, erreur", "en": "Error, mistake"}},
         {"id": "shgh-4", "he": "שגגה", "pos": "nf", "translit": {"fr": "chguaga", "en": "shgaga"}, "meaning": {"fr": "Inadvertance", "en": "Inadvertence, oversight"}},
         {"id": "shgh-5", "he": "משגה", "pos": "nm", "translit": {"fr": "michgué", "en": "mishge"}, "meaning": {"fr": "Erreur, méprise", "en": "Blunder, error"}},
-        {"id": "shgh-6", "he": "שגיון", "pos": "nm", "translit": {"fr": "chiguyone", "en": "shigayon"}, "meaning": {"fr": "Obsession, lubie", "en": "Whim, craze"}},
+        {"id": "shgh-6", "he": "שיגיון", "pos": "nm", "translit": {"fr": "chiguyone", "en": "shigayon"}, "meaning": {"fr": "Obsession, lubie", "en": "Whim, craze"}},
         {"id": "shgh-7", "he": "בשוגג", "pos": "adv", "translit": {"fr": "bechougueg", "en": "beshogeg"}, "meaning": {"fr": "Par erreur", "en": "Unintentionally, by mistake"}}
       ]
     },
     {
       "id": "rzh",
       "letters": "רזה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "maigrir, mince", "en": "to slim down, thin"},
@@ -491,7 +477,6 @@
     {
       "id": "nth",
       "letters": "נטה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "pencher, tendance", "en": "to incline, tendency"},
@@ -508,7 +493,6 @@
     {
       "id": "ktm",
       "letters": "כתמ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "tacher", "en": "to stain"},
@@ -522,7 +506,6 @@
     {
       "id": "shq",
       "letters": "שקע",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "s'enfoncer, investir, coucher du soleil", "en": "to sink, to invest, sunset"},
@@ -541,7 +524,6 @@
     {
       "id": "avh",
       "letters": "עוה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "tordre, déformer, pervertir", "en": "to twist, to distort, to pervert"},
@@ -559,7 +541,6 @@
     {
       "id": "shtl",
       "letters": "שתל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "planter", "en": "to plant"},
@@ -577,7 +558,6 @@
     {
       "id": "tmh",
       "letters": "תמה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "s'étonner, surprise", "en": "to wonder, astonishment"},
@@ -587,15 +567,14 @@
         {"id": "tmh-3", "he": "תמה", "pos": "adj", "translit": {"fr": "tamé", "en": "tame"}, "meaning": {"fr": "Surpris", "en": "Astonished"}},
         {"id": "tmh-4", "he": "תמוה", "pos": "adj", "translit": {"fr": "tamouah", "en": "tamu'ah"}, "meaning": {"fr": "Curieux, étrange", "en": "Strange, puzzling"}},
         {"id": "tmh-5", "he": "תמיהה", "pos": "nf", "translit": {"fr": "timiha", "en": "timiha"}, "meaning": {"fr": "Étonnement, perplexité", "en": "Astonishment, puzzlement"}},
-        {"id": "tmh-6", "he": "תמהון", "pos": "nm", "translit": {"fr": "timahone", "en": "timahon"}, "meaning": {"fr": "Étonnement, stupeur", "en": "Bewilderment"}},
-        {"id": "tmh-7", "he": "תמהוני", "pos": "adj", "translit": {"fr": "timhoni", "en": "timhoni"}, "meaning": {"fr": "Excentrique", "en": "Eccentric"}},
+        {"id": "tmh-6", "he": "תימהון", "pos": "nm", "translit": {"fr": "timahone", "en": "timahon"}, "meaning": {"fr": "Étonnement, stupeur", "en": "Bewilderment"}},
+        {"id": "tmh-7", "he": "תימהוני", "pos": "adj", "translit": {"fr": "timhoni", "en": "timhoni"}, "meaning": {"fr": "Excentrique", "en": "Eccentric"}},
         {"id": "tmh-8", "he": "בתמיהה", "pos": "adv", "translit": {"fr": "bitmiha", "en": "bitmiha"}, "meaning": {"fr": "Avec surprise", "en": "With astonishment"}}
       ]
     },
     {
       "id": "pht",
       "letters": "פחת",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "diminuer, moins", "en": "to reduce, less"},
@@ -612,7 +591,6 @@
     {
       "id": "ntq",
       "letters": "נתק",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "couper, déconnecter", "en": "to cut off, to disconnect"},
@@ -630,7 +608,6 @@
     {
       "id": "rkv",
       "letters": "רכב",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "monter, véhicule, composer", "en": "to ride, vehicle, to assemble"},
@@ -652,7 +629,6 @@
     {
       "id": "pam",
       "letters": "פעמ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "battre (cœur), fois", "en": "to beat (heart), time (occasion)"},
@@ -671,7 +647,6 @@
     {
       "id": "hms",
       "letters": "חמס",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "violence, vol", "en": "violence, robbery"},
@@ -684,7 +659,6 @@
     {
       "id": "hrv",
       "letters": "חרב",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "détruire", "en": "to destroy"},
@@ -703,7 +677,6 @@
     {
       "id": "nhl",
       "letters": "נהל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "diriger, gérer", "en": "to manage, to run"},
@@ -721,7 +694,6 @@
     {
       "id": "zhh",
       "letters": "זהה",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "identifier, identité", "en": "to identify, identity"},
@@ -738,7 +710,6 @@
     {
       "id": "pra",
       "letters": "פרע",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "déranger, troubler l'ordre", "en": "to disturb, to disrupt"},
@@ -756,7 +727,6 @@
     {
       "id": "trh",
       "letters": "טרח",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "se donner de la peine", "en": "to take the trouble"},
@@ -764,7 +734,7 @@
         {"id": "trh-1", "he": "לטרוח", "pos": "v", "translit": {"fr": "litroah", "en": "litroach"}, "meaning": {"fr": "Prendre la peine", "en": "To bother, to take the trouble"}},
         {"id": "trh-2", "he": "להטריח", "pos": "v", "translit": {"fr": "lehatriah", "en": "lehatrich"}, "meaning": {"fr": "Déranger (causer de la peine)", "en": "To trouble, to inconvenience"}},
         {"id": "trh-3", "he": "טורח", "pos": "nm", "translit": {"fr": "toréah", "en": "tore'ach"}, "meaning": {"fr": "Fardeau, charge", "en": "Burden, trouble"}},
-        {"id": "trh-4", "he": "טירחה", "pos": "nf", "translit": {"fr": "tirh'a", "en": "tircha"}, "meaning": {"fr": "Effort, labeur, peine", "en": "Effort, toil"}},
+        {"id": "trh-4", "he": "טרחה", "pos": "nf", "translit": {"fr": "tirh'a", "en": "tircha"}, "meaning": {"fr": "Effort, labeur, peine", "en": "Effort, toil"}},
         {"id": "trh-5", "he": "הטרחה", "pos": "nf", "translit": {"fr": "hatrah'a", "en": "hatracha"}, "meaning": {"fr": "Dérangement, perturbation", "en": "Inconvenience, bother"}},
         {"id": "trh-6", "he": "טרחנות", "pos": "nf", "translit": {"fr": "tarh'anout", "en": "tarchanut"}, "meaning": {"fr": "Importunité, désagrément", "en": "Pestering, nuisance"}},
         {"id": "trh-7", "he": "טרחני", "pos": "adj", "translit": {"fr": "tarh'ani", "en": "tarchani"}, "meaning": {"fr": "Assommant, ennuyeux", "en": "Tedious, tiresome"}},
@@ -774,7 +744,6 @@
     {
       "id": "tznn",
       "letters": "צנן",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "refroidir", "en": "to cool"},
@@ -790,7 +759,6 @@
     {
       "id": "pdy",
       "letters": "פדי",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "racheter, sauver", "en": "to redeem, to ransom"},
@@ -807,7 +775,6 @@
     {
       "id": "skm",
       "letters": "סכם",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "accord, résumer", "en": "to agree, to sum up"},
@@ -824,7 +791,6 @@
     {
       "id": "amd",
       "letters": "עמד",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "se tenir debout, position", "en": "to stand, position"},
@@ -845,7 +811,6 @@
     {
       "id": "yrt",
       "letters": "ירט",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "intercepter", "en": "to intercept"},
@@ -860,7 +825,6 @@
     {
       "id": "nar",
       "letters": "נער",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "secouer", "en": "to shake"},
@@ -874,7 +838,6 @@
     {
       "id": "htk",
       "letters": "חתכ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "couper", "en": "to cut"},
@@ -891,7 +854,6 @@
     {
       "id": "kav",
       "letters": "כאב",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "avoir mal, douleur", "en": "to hurt, pain"},
@@ -908,7 +870,6 @@
     {
       "id": "tmtzt",
       "letters": "תמצת",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "résumer", "en": "to summarize"},
@@ -924,7 +885,6 @@
     {
       "id": "shan",
       "letters": "שענ",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "s'appuyer", "en": "to lean, to rely on"},
@@ -941,7 +901,6 @@
     {
       "id": "ivrt",
       "letters": "עברת",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "hébreu", "en": "Hebrew"},
@@ -955,7 +914,6 @@
     {
       "id": "avr",
       "letters": "עור",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "réveiller, éveiller", "en": "to wake, to arouse"},
@@ -972,7 +930,6 @@
     {
       "id": "ntzl",
       "letters": "נצל",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "sauver, exploiter", "en": "to save, to exploit"},
@@ -992,7 +949,6 @@
     {
       "id": "zaza",
       "letters": "זעזע",
-      "level": 2,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "choquer, secouer", "en": "to shock, to shake"},
@@ -1008,13 +964,12 @@
     {
       "id": "yd",
       "letters": "ידי",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "main, jeter", "en": "hand, to throw"},
       "words": [
         {"id": "yd-1", "he": "לידות", "pos": "v", "translit": {"fr": "leyadot", "en": "leyadot"}, "meaning": {"fr": "Projeter, jeter", "en": "To throw, to hurl"}},
-        {"id": "yd-2", "he": "ידוי", "pos": "nm", "translit": {"fr": "yidouy", "en": "yiduy"}, "meaning": {"fr": "Jet, projection", "en": "Throwing, hurling"}},
+        {"id": "yd-2", "he": "יידוי", "pos": "nm", "translit": {"fr": "yidouy", "en": "yiduy"}, "meaning": {"fr": "Jet, projection", "en": "Throwing, hurling"}},
         {"id": "yd-3", "he": "יד", "pos": "nf", "translit": {"fr": "yad", "en": "yad"}, "meaning": {"fr": "Main", "en": "Hand"}},
         {"id": "yd-4", "he": "ידני", "pos": "adj", "translit": {"fr": "yadani", "en": "yadani"}, "meaning": {"fr": "Manuel", "en": "Manual, by hand"}},
         {"id": "yd-5", "he": "ידית", "pos": "nf", "translit": {"fr": "yadit", "en": "yadit"}, "meaning": {"fr": "Poignée", "en": "Handle"}},
@@ -1024,7 +979,6 @@
     {
       "id": "tzlm",
       "letters": "צלמ",
-      "level": 1,
       "status": "draft",
       "source": "Serge Frydman – Ort Villiers – hebreu.org",
       "meaning": {"fr": "photographier", "en": "to photograph"},

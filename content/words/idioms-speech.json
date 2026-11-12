@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-speech",
+  "status": "draft",
+  "emoji": "💬",
+  "title": {"fr": "Expressions : la parole", "en": "Idioms: speech"},
+  "words": [
+    {"id": "idioms-speech-01", "level": 3, "he": "לדבר אל הלב", "pos": "expr", "translit": {"fr": "Lédabèr èl halèv", "en": "Ledaber el halev"}, "meaning": {"fr": "Parler au cœur, toucher quelqu'un", "en": "To speak to the heart, to touch someone"}, "literal": {"fr": "parler au cœur", "en": "to speak to the heart"}},
+    {"id": "idioms-speech-02", "level": 3, "he": "לשון הרע", "pos": "expr", "translit": {"fr": "Lachone hara", "en": "Lashon hara"}, "meaning": {"fr": "La médisance", "en": "Gossip, slander"}, "literal": {"fr": "langue mauvaise", "en": "evil tongue"}},
+    {"id": "idioms-speech-03", "level": 3, "he": "לדבר באותה שפה", "pos": "expr", "translit": {"fr": "Lédabèr bé'otah safa", "en": "Ledaber ba'otah safa"}, "meaning": {"fr": "Parler le même langage, s'entendre", "en": "To speak the same language, to understand each other"}, "literal": {"fr": "parler la même langue", "en": "to speak the same language"}},
+    {"id": "idioms-speech-04", "level": 3, "he": "לשבור את הקרח", "pos": "expr", "translit": {"fr": "Lichbor èt hakérah'", "en": "Lishbor et hakerach"}, "meaning": {"fr": "Briser la glace", "en": "To break the ice"}, "literal": {"fr": "briser la glace", "en": "to break the ice"}},
+    {"id": "idioms-speech-05", "level": 3, "he": "דברים בשם אומרם", "pos": "expr", "translit": {"fr": "Dévarim béchème omram", "en": "Devarim beshem omram"}, "meaning": {"fr": "Citer ses sources", "en": "To give credit to the source"}, "literal": {"fr": "les paroles au nom de ceux qui les disent", "en": "words in the name of those who say them"}},
+    {"id": "idioms-speech-06", "level": 3, "he": "בין השורות", "pos": "expr", "translit": {"fr": "Bène hachourot", "en": "Bein hashurot"}, "meaning": {"fr": "Entre les lignes", "en": "Between the lines"}, "literal": {"fr": "entre les lignes", "en": "between the lines"}},
+    {"id": "idioms-speech-07", "level": 3, "he": "מפה לאוזן", "pos": "expr", "translit": {"fr": "Mipé lé'ozène", "en": "Mipe le'ozen"}, "meaning": {"fr": "De bouche à oreille", "en": "By word of mouth"}, "literal": {"fr": "de la bouche à l'oreille", "en": "from mouth to ear"}},
+    {"id": "idioms-speech-08", "level": 3, "he": "ללכת סחור סחור", "pos": "expr", "translit": {"fr": "Lalèkhèt sah'or sah'or", "en": "Lalechet sachor sachor"}, "meaning": {"fr": "Tourner autour du pot", "en": "To beat around the bush"}, "literal": {"fr": "aller autour, autour", "en": "to go around and around"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "בוא נדבר באותה שפה ונשבור את הקרח.", "translit": {"fr": "Bo nédabèr bé'otah safa vénichbor èt hakérah'.", "en": "Bo nedaber ba'otah safa venishbor et hakerach."}, "translation": {"fr": "Parlons le même langage et brisons la glace.", "en": "Let's speak the same language and break the ice."}},
+    {"level": 3, "he": "אל תלך סחור סחור, תדבר אל הלב.", "translit": {"fr": "Al télèkh sah'or sah'or, tédabèr èl halèv.", "en": "Al telech sachor sachor, tedaber el halev."}, "translation": {"fr": "Ne tourne pas autour du pot, parle avec le cœur.", "en": "Don't beat around the bush, speak from the heart."}},
+    {"level": 3, "he": "שמעתי את זה מפה לאוזן, אבל קראתי בין השורות.", "translit": {"fr": "Chama'ti èt zé mipé lé'ozène, aval karati bène hachourot.", "en": "Shamati et ze mipe le'ozen, aval karati bein hashurot."}, "translation": {"fr": "J'ai entendu ça de bouche à oreille, mais j'ai lu entre les lignes.", "en": "I heard it by word of mouth, but I read between the lines."}},
+    {"level": 3, "he": "לשון הרע זה גרוע, ולכן אני מציין דברים בשם אומרם.", "translit": {"fr": "Lachone hara zé garoua, vélakhèn ani matsiyène dévarim béchème omram.", "en": "Lashon hara ze garu'a, velachen ani metzayen devarim beshem omram."}, "translation": {"fr": "La médisance, c'est grave, c'est pourquoi je cite mes sources.", "en": "Gossip is bad, which is why I credit my sources."}}
+  ]
+}

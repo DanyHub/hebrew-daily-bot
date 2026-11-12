@@ -1,22 +1,34 @@
 // All user-facing text, in French and English. Plain text (no parse_mode) on purpose.
 
 export const LANGS = ["fr", "en"];
-export const LEVELS = [1, 2];
 
 export const LEVEL_NAMES = {
-  fr: { 1: "Débutant", 2: "Intermédiaire" },
-  en: { 1: "Beginner", 2: "Intermediate" },
+  fr: { 1: "Débutant", 2: "Intermédiaire", 3: "Avancé" },
+  en: { 1: "Beginner", 2: "Intermediate", 3: "Advanced" },
 };
+
+// One line per level, shown when asking which level to pick.
+export const LEVEL_BLURBS = {
+  fr: {
+    1: "les mots du quotidien (famille, nourriture, maison, corps…)",
+    2: "un vocabulaire plus riche",
+    3: "les expressions idiomatiques et l'argot israéliens",
+  },
+  en: {
+    1: "everyday words (family, food, house, body…)",
+    2: "richer vocabulary",
+    3: "Israeli idioms and slang",
+  },
+};
+
+const chooseLevel = (lang, intro, outro) => (levels) =>
+  `${intro}\n\n` + levels.map((l) => `${l} · ${LEVEL_NAMES[lang][l]} : ${LEVEL_BLURBS[lang][l]}`).join("\n") + `\n\n${outro}`;
 
 export const LANG_NAMES = { fr: "Français", en: "English" };
 
 export const TEXT = {
   fr: {
-    chooseLevel:
-      "Quel est ton niveau ?\n\n" +
-      "1 · Débutant : les mots du quotidien (famille, nourriture, maison, corps…)\n" +
-      "2 · Intermédiaire : un vocabulaire plus riche, des racines plus abstraites\n\n" +
-      "Tu pourras changer quand tu veux.",
+    chooseLevel: chooseLevel("fr", "Quel est ton niveau ?", "Tu pourras changer quand tu veux."),
     ready: (lang, level) =>
       `✅ C'est réglé !\nLangue : ${LANG_NAMES[lang]} · Niveau : ${level} · ${LEVEL_NAMES[lang][level]}\n\n` +
       "Du dimanche au vendredi, chaque matin :\n" +
@@ -38,11 +50,7 @@ export const TEXT = {
     firstSend: "📬 Voici ta leçon du jour :",
   },
   en: {
-    chooseLevel:
-      "What's your level?\n\n" +
-      "1 · Beginner: everyday words (family, food, house, body…)\n" +
-      "2 · Intermediate: richer vocabulary, more abstract roots\n\n" +
-      "You can change it any time.",
+    chooseLevel: chooseLevel("en", "What's your level?", "You can change it any time."),
     ready: (lang, level) =>
       `✅ All set!\nLanguage: ${LANG_NAMES[lang]} · Level: ${level} · ${LEVEL_NAMES[lang][level]}\n\n` +
       "Sunday to Friday, every morning:\n" +
@@ -80,12 +88,9 @@ export function langKeyboard() {
   };
 }
 
-export function levelKeyboard(lang) {
+export function levelKeyboard(lang, levels) {
   return {
-    inline_keyboard: [
-      [{ text: `1 · ${LEVEL_NAMES[lang][1]}`, callback_data: "lvl:1" }],
-      [{ text: `2 · ${LEVEL_NAMES[lang][2]}`, callback_data: "lvl:2" }],
-    ],
+    inline_keyboard: levels.map((l) => [{ text: `${l} · ${LEVEL_NAMES[lang][l]}`, callback_data: `lvl:${l}` }]),
   };
 }
 

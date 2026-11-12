@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-body",
+  "status": "draft",
+  "emoji": "🫀",
+  "title": {"fr": "Expressions : le corps", "en": "Idioms: the body"},
+  "words": [
+    {"id": "idioms-body-01", "level": 3, "he": "לשבור את הראש", "pos": "expr", "translit": {"fr": "Lichbor èt haroch", "en": "Lishbor et harosh"}, "meaning": {"fr": "Se creuser la tête", "en": "To rack one's brain"}, "literal": {"fr": "casser la tête", "en": "to break the head"}},
+    {"id": "idioms-body-02", "level": 3, "he": "יד על הלב", "pos": "expr", "translit": {"fr": "Yad al halèv", "en": "Yad al halev"}, "meaning": {"fr": "Sincèrement, la main sur le cœur", "en": "Honestly, hand on heart"}, "literal": {"fr": "main sur le cœur", "en": "hand on the heart"}},
+    {"id": "idioms-body-03", "level": 3, "he": "בעיניים עצומות", "pos": "expr", "translit": {"fr": "Bé'énayim atsoumot", "en": "Be'einayim atzumot"}, "meaning": {"fr": "Les yeux fermés, en toute confiance", "en": "With total trust, eyes closed"}, "literal": {"fr": "les yeux fermés", "en": "with closed eyes"}},
+    {"id": "idioms-body-04", "level": 3, "he": "להרים ידיים", "pos": "expr", "translit": {"fr": "Léharim yadayim", "en": "Leharim yadayim"}, "meaning": {"fr": "Baisser les bras, abandonner", "en": "To give up"}, "literal": {"fr": "lever les mains", "en": "to raise hands"}},
+    {"id": "idioms-body-05", "level": 3, "he": "על קצה הלשון", "pos": "expr", "translit": {"fr": "Al ktsé halachone", "en": "Al ketzeh halashon"}, "meaning": {"fr": "Sur le bout de la langue", "en": "On the tip of the tongue"}, "literal": {"fr": "sur le bord de la langue", "en": "on the edge of the tongue"}},
+    {"id": "idioms-body-06", "level": 3, "he": "לשים עין על", "pos": "expr", "translit": {"fr": "Lassim âyine al", "en": "Lasim ayin al"}, "meaning": {"fr": "Garder à l'œil, surveiller", "en": "To keep an eye on"}, "literal": {"fr": "mettre un œil sur", "en": "to put an eye on"}},
+    {"id": "idioms-body-07", "level": 3, "he": "אוזן קשבת", "pos": "expr", "translit": {"fr": "Ozène kachévèt", "en": "Ozen kashevet"}, "meaning": {"fr": "Une oreille attentive", "en": "A listening ear"}, "literal": {"fr": "une oreille qui écoute", "en": "an attentive ear"}},
+    {"id": "idioms-body-08", "level": 3, "he": "בכל הלב", "pos": "expr", "translit": {"fr": "Békhol halèv", "en": "Bechol halev"}, "meaning": {"fr": "De tout cœur", "en": "With all one's heart"}, "literal": {"fr": "de tout le cœur", "en": "with all the heart"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "אני אומר לך, יד על הלב, אני לא יודע.", "translit": {"fr": "Ani omèr lékha, yad al halèv, ani lo yodéa.", "en": "Ani omer lecha, yad al halev, ani lo yode'a."}, "translation": {"fr": "Je te le dis, la main sur le cœur, je ne sais pas.", "en": "I'm telling you, hand on heart, I don't know."}},
+    {"level": 3, "he": "השם הזה על קצה הלשון, אני שובר את הראש.", "translit": {"fr": "Hachème hazé al ktsé halachone, ani chovèr èt haroch.", "en": "Hashem haze al ketzeh halashon, ani shover et harosh."}, "translation": {"fr": "Ce nom est sur le bout de la langue, je me creuse la tête.", "en": "That name is on the tip of my tongue, I'm racking my brain."}},
+    {"level": 3, "he": "הוא הרים ידיים, אבל אני שמתי עין על העניין.", "translit": {"fr": "Hou hérim yadayim, aval ani samti âyine al ha'inyane.", "en": "Hu herim yadayim, aval ani samti ayin al ha'inyan."}, "translation": {"fr": "Il a baissé les bras, mais j'ai gardé un œil sur l'affaire.", "en": "He gave up, but I kept an eye on the matter."}},
+    {"level": 3, "he": "היא אוזן קשבת, ואני סומך עליה בעיניים עצומות, בכל הלב.", "translit": {"fr": "Hi ozène kachévèt, vé'ani somèkh aléha bé'énayim atsoumot, békhol halèv.", "en": "Hi ozen kashevet, ve'ani somech aleha be'einayim atzumot, bechol halev."}, "translation": {"fr": "Elle sait écouter, et je lui fais confiance les yeux fermés, de tout cœur.", "en": "She's a good listener, and I trust her with my eyes closed, with all my heart."}}
+  ]
+}

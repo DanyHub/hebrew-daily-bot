@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-food",
+  "status": "draft",
+  "emoji": "🍽️",
+  "title": {"fr": "Expressions : la table", "en": "Idioms: food"},
+  "words": [
+    {"id": "idioms-food-01", "level": 3, "he": "אין ארוחות חינם", "pos": "expr", "translit": {"fr": "Éïne arouh'ot h'inam", "en": "Ein aruchot chinam"}, "meaning": {"fr": "Il n'y a pas de repas gratuit", "en": "There's no such thing as a free lunch"}, "literal": {"fr": "il n'y a pas de repas gratuits", "en": "there are no free meals"}},
+    {"id": "idioms-food-02", "level": 3, "he": "לאכול את הלב", "pos": "expr", "translit": {"fr": "Léékhol èt halèv", "en": "Le'echol et halev"}, "meaning": {"fr": "Se ronger les sangs", "en": "To worry oneself sick"}, "literal": {"fr": "manger le cœur", "en": "to eat the heart"}},
+    {"id": "idioms-food-03", "level": 3, "he": "לבשל משהו", "pos": "expr", "translit": {"fr": "Lévachèl machéhou", "en": "Levashel mashehu"}, "meaning": {"fr": "Mijoter quelque chose, préparer un coup", "en": "To be cooking something up"}, "literal": {"fr": "cuisiner quelque chose", "en": "to cook something"}},
+    {"id": "idioms-food-04", "level": 3, "he": "שבע רצון", "pos": "expr", "translit": {"fr": "Save ratson", "en": "Save ratzon"}, "meaning": {"fr": "Satisfait", "en": "Satisfied, content"}, "literal": {"fr": "rassasié de contentement", "en": "full of satisfaction"}},
+    {"id": "idioms-food-05", "level": 3, "he": "לא מדבשך ולא מעוקצך", "pos": "expr", "translit": {"fr": "Lo midvachkha vélo mé'okts'kha", "en": "Lo midvashcha velo me'oktzecha"}, "meaning": {"fr": "Je ne veux rien de toi, ni le bon ni le mauvais", "en": "I want nothing from you, neither the good nor the bad"}, "literal": {"fr": "ni ton miel ni ton dard", "en": "neither your honey nor your sting"}},
+    {"id": "idioms-food-06", "level": 3, "he": "פת לחם", "pos": "expr", "translit": {"fr": "Pat léh'em", "en": "Pat lechem"}, "meaning": {"fr": "Le gagne-pain, de quoi vivre", "en": "A living, one's daily bread"}, "literal": {"fr": "un morceau de pain", "en": "a piece of bread"}},
+    {"id": "idioms-food-07", "level": 3, "he": "לא על הלחם לבדו", "pos": "expr", "translit": {"fr": "Lo al haléh'em levado", "en": "Lo al halechem levado"}, "meaning": {"fr": "On ne vit pas que de pain", "en": "Man doesn't live by bread alone"}, "literal": {"fr": "pas de pain seulement", "en": "not by bread alone"}},
+    {"id": "idioms-food-08", "level": 3, "he": "מלח הארץ", "pos": "expr", "translit": {"fr": "Mélah' ha'arèts", "en": "Melach ha'aretz"}, "meaning": {"fr": "Le sel de la terre", "en": "The salt of the earth"}, "literal": {"fr": "le sel de la terre", "en": "the salt of the earth"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "אין ארוחות חינם, וצריך להרוויח פת לחם.", "translit": {"fr": "Éïne arouh'ot h'inam, vétsarikh léarvi'ah' pat léh'em.", "en": "Ein aruchot chinam, vetzarich leharvi'ach pat lechem."}, "translation": {"fr": "Il n'y a pas de repas gratuit, il faut gagner sa vie.", "en": "There's no free lunch, you have to earn your living."}},
+    {"level": 3, "he": "אני אוכל את הלב, כי הוא מבשל משהו.", "translit": {"fr": "Ani okhèl èt halèv, ki hou mévachèl machéhou.", "en": "Ani ochel et halev, ki hu mevashel mashehu."}, "translation": {"fr": "Je me ronge les sangs, parce qu'il mijote quelque chose.", "en": "I'm worried sick, because he's cooking something up."}},
+    {"level": 3, "he": "הוא אדם שבע רצון, מלח הארץ.", "translit": {"fr": "Hou adam save ratson, mélah' ha'arèts.", "en": "Hu adam save ratzon, melach ha'aretz."}, "translation": {"fr": "C'est un homme comblé, le sel de la terre.", "en": "He's a contented man, the salt of the earth."}},
+    {"level": 3, "he": "אמרתי לו: לא מדבשך ולא מעוקצך, ואל תחפש אותי.", "translit": {"fr": "Amarti lo: lo midvachkha vélo mé'okts'kha, vé'al téh'apès oti.", "en": "Amarti lo: lo midvashcha velo me'oktzecha, ve'al techapes oti."}, "translation": {"fr": "Je lui ai dit : je ne veux rien de toi, et ne me cherche plus.", "en": "I told him: I want nothing from you, and don't look for me."}}
+  ]
+}
