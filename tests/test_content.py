@@ -102,7 +102,7 @@ class RenderTests(unittest.TestCase):
         self.assertIn("Source:", text)
         self.assertIn("hebreu.org", text)
         self.assertNotIn("🇮🇱", text)
-        self.assertEqual(text.count("<b>") - 2, len(root["words"]))  # title + family heading + one per word
+        self.assertEqual(text.count("<b>") - 3, len(root["words"]))  # title, root meaning, family heading + one per word
 
     def test_root_with_examples_still_shows_them(self):
         root = next(r for r in self.content["roots"] if r["id"] == "ktv")
