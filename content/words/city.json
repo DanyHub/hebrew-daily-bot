@@ -25,5 +25,15 @@
     {"id": "city-neighborhood", "level": 2, "he": "שכונה", "pos": "nf", "translit": {"fr": "chkhouna", "en": "shchuna"}, "meaning": {"fr": "Quartier", "en": "Neighborhood"}},
     {"id": "city-city-hall", "level": 2, "he": "עירייה", "pos": "nf", "translit": {"fr": "iriya", "en": "iriya"}, "meaning": {"fr": "Mairie", "en": "City hall"}},
     {"id": "city-market", "level": 2, "he": "שוק", "pos": "nm", "translit": {"fr": "chouk", "en": "shuk"}, "meaning": {"fr": "Marché", "en": "Market"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "אני גר בעיר גדולה, ברחוב שקט ליד גשר.", "translit": {"fr": "Ani gar baïr guédola, bèréh'ov chakète léyad guéchèr.", "en": "Ani gar ba'ir gdola, berechov shaket leyad gesher."}, "translation": {"fr": "J'habite dans une grande ville, dans une rue calme près d'un pont.", "en": "I live in a big city, on a quiet street near a bridge."}},
+    {"level": 1, "he": "אני נוסע לעבודה באוטובוס או ברכבת, ולפעמים במונית.", "translit": {"fr": "Ani nossé laavoda baotobous o bérakévèt, oulifamim bémonit.", "en": "Ani nose'a la'avoda ba'otobus o berakevet, ulefe'amim bemonit."}, "translation": {"fr": "Je vais au travail en bus ou en train, et parfois en taxi.", "en": "I go to work by bus or train, and sometimes by taxi."}},
+    {"level": 1, "he": "התחנה נמצאת ליד החנות, והכביש הראשי עמוס.", "translit": {"fr": "Hatah'ana nimtsèt léyad hah'anout, vèhakvich harachi amouss.", "en": "Hatachana nimtzet leyad hachanut, vehakvish harashi amus."}, "translation": {"fr": "L'arrêt est près du magasin, et la route principale est bondée.", "en": "The stop is next to the shop, and the main road is crowded."}},
+
+    {"level": 2, "he": "עומדים ברמזור אדום, ואז עוברים בצומת.", "translit": {"fr": "Omdim barèmzor adom, vèaz ovrim batsomèt.", "en": "Omdim baramzor adom, ve'az ovrim batzomet."}, "translation": {"fr": "On s'arrête au feu rouge, puis on traverse le carrefour.", "en": "We stop at the red light, then cross the intersection."}},
+    {"level": 2, "he": "אין חניה ליד הבניין, אז הולכים ברגל על המדרכה.", "translit": {"fr": "Éïne h'nia léyad habinyane, az holkhim bèrègèl al hamidrakha.", "en": "Ein chniya leyad habinyan, az holchim beregel al hamidrecha."}, "translation": {"fr": "Il n'y a pas de parking près de l'immeuble, donc on marche sur le trottoir.", "en": "There's no parking near the building, so we walk on the sidewalk."}},
+    {"level": 2, "he": "בשכונה שלנו יש כיכר ושוק, והעירייה קרובה.", "translit": {"fr": "Bichkhouna chélanou yèch kikar vèchouk, vèha'iriya kérova.", "en": "Beshchuna shelanu yesh kikar veshuk, veha'iriya kerova."}, "translation": {"fr": "Dans notre quartier il y a une place et un marché, et la mairie est proche.", "en": "In our neighborhood there's a square and a market, and city hall is nearby."}},
+    {"level": 2, "he": "ספינה נכנסת לנמל.", "translit": {"fr": "Sfina nikhnèsèt lanamal.", "en": "Sfina nichneset lanamal."}, "translation": {"fr": "Un bateau entre dans le port.", "en": "A ship is entering the port."}}
   ]
 }

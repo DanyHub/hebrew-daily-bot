@@ -29,6 +29,7 @@ UI = {
         "family": "Famille de mots",
         "draft": "⚠️ Contenu en cours de relecture",
         "source": "Source :",
+        "sentences": "En phrases",
     },
     "en": {
         "level": "Level",
@@ -39,6 +40,7 @@ UI = {
         "family": "Word family",
         "draft": "⚠️ Content pending review",
         "source": "Source:",
+        "sentences": "In sentences",
     },
 }
 
@@ -85,6 +87,17 @@ def render_pack(pack, lang, show_draft=False):
             f"{i}. <b>{esc(w['he'])}</b> — {esc(w['meaning'][lang])} — "
             f"<i>{esc(w['translit'][lang])}</i> ({esc(POS_SHORT[w['pos']])})"
         )
+    sentences = pack.get("sentences") or []
+    if sentences:
+        lines += ["", f"🗣️ <b>{esc(UI[lang]['sentences'])}</b>", ""]
+        for x in sentences:
+            lines += [
+                f"🇮🇱 {esc(x['he'])}",
+                f"🔤 <i>{esc(x['translit'][lang])}</i>",
+                f"💬 {esc(x['translation'][lang])}",
+                "",
+            ]
+        lines.pop()
     if show_draft:
         lines += ["", esc(UI[lang]["draft"])]
     return "\n".join(lines)

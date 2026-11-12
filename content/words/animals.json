@@ -25,5 +25,15 @@
     {"id": "animals-turtle", "level": 2, "he": "צב", "pos": "nm", "translit": {"fr": "tsav", "en": "tzav"}, "meaning": {"fr": "Tortue", "en": "Turtle"}},
     {"id": "animals-scorpion", "level": 2, "he": "עקרב", "pos": "nm", "translit": {"fr": "akrav", "en": "akrav"}, "meaning": {"fr": "Scorpion", "en": "Scorpion"}},
     {"id": "animals-mosquito", "level": 2, "he": "יתוש", "pos": "nm", "translit": {"fr": "yatouch", "en": "yatush"}, "meaning": {"fr": "Moustique", "en": "Mosquito"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "בחווה יש סוס, פרה, כלב וחתול.", "translit": {"fr": "Bah'ava yèch sous, para, kélèv vèh'atoul.", "en": "Bachava yesh sus, para, kelev vechatul."}, "translation": {"fr": "À la ferme il y a un cheval, une vache, un chien et un chat.", "en": "On the farm there's a horse, a cow, a dog and a cat."}},
+    {"level": 1, "he": "בגן החיות ראינו אריה, פיל וקוף.", "translit": {"fr": "Bagan hah'ayot raïnou arié, pil vèkof.", "en": "Bagan hachayot ra'inu arye, pil vekof."}, "translation": {"fr": "Au zoo nous avons vu un lion, un éléphant et un singe.", "en": "At the zoo we saw a lion, an elephant and a monkey."}},
+    {"level": 1, "he": "ציפור שרה על העץ, והארנב מפחד מהנחש.", "translit": {"fr": "Tsipor chara al haéts, vèha'arnav méfah'ad mèhanah'ach.", "en": "Tzipor shara al ha'etz, veha'arnav mefached mehanachash."}, "translation": {"fr": "Un oiseau chante sur l'arbre, et le lapin a peur du serpent.", "en": "A bird sings in the tree, and the rabbit is afraid of the snake."}},
+
+    {"level": 2, "he": "הרועה שומר על הכבשה ועל העז מפני הזאב.", "translit": {"fr": "Haroé chomèr al hakivsa vèal haèz mipnéi hazéév.", "en": "Haro'e shomer al hakivsa ve'al ha'ez mipnei hazeev."}, "translation": {"fr": "Le berger protège la brebis et la chèvre du loup.", "en": "The shepherd protects the sheep and the goat from the wolf."}},
+    {"level": 2, "he": "במדבר רואים גמל וחמור, ולפעמים עקרב.", "translit": {"fr": "Bamidbar roïm gamal vèh'amor, oulifamim akrav.", "en": "Bamidbar ro'im gamal vechamor, ulefe'amim akrav."}, "translation": {"fr": "Dans le désert on voit un chameau et un âne, et parfois un scorpion.", "en": "In the desert you see a camel and a donkey, and sometimes a scorpion."}},
+    {"level": 2, "he": "השועל ערמומי, הדוב ישן בחורף, והצב איטי.", "translit": {"fr": "Hachoual armoumi, hadov yachèn bah'oref, vèhatsav iti.", "en": "Hashu'al armumi, hadov yashen bachoref, vehatzav iti."}, "translation": {"fr": "Le renard est rusé, l'ours dort l'hiver, et la tortue est lente.", "en": "The fox is cunning, the bear sleeps in winter, and the turtle is slow."}},
+    {"level": 2, "he": "יתוש עקץ אותי בלילה.", "translit": {"fr": "Yatouch akats oti balayla.", "en": "Yatush akatz oti balayla."}, "translation": {"fr": "Un moustique m'a piqué cette nuit.", "en": "A mosquito bit me last night."}}
   ]
 }

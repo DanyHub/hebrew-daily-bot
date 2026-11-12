@@ -30,5 +30,15 @@
     {"id": "state-bruised", "level": 2, "he": "חבול", "pos": "adj", "translit": {"fr": "h'avoul", "en": "chavul"}, "meaning": {"fr": "Couvert de contusions", "en": "Bruised"}},
     {"id": "state-drowsy", "level": 2, "he": "מנומנם", "pos": "adj", "translit": {"fr": "menoumnam", "en": "menumnam"}, "meaning": {"fr": "Somnolent", "en": "Drowsy"}},
     {"id": "state-trembling", "level": 2, "he": "רועד", "pos": "adj", "translit": {"fr": "ro'ed", "en": "ro'ed"}, "meaning": {"fr": "Tremblant", "en": "Trembling"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "אני חולה: יש לי חום, שיעול וכאב גרון.", "translit": {"fr": "Ani h'olé: yèch li h'ome, chioul vèkéév garone.", "en": "Ani chole: yesh li chom, shi'ul ve-ke'ev garon."}, "translation": {"fr": "Je suis malade : j'ai de la fièvre, de la toux et mal à la gorge.", "en": "I'm sick: I have a fever, a cough and a sore throat."}},
+    {"level": 1, "he": "אני הולך למרפאה, והרופא נותן לי תרופה.", "translit": {"fr": "Ani holèkh lamirpa'a, vèharofé noténe li troufa.", "en": "Ani holech lamirpa'a, veharofe noten li trufa."}, "translation": {"fr": "Je vais à la clinique, et le médecin me donne un médicament.", "en": "I'm going to the clinic, and the doctor gives me medicine."}},
+    {"level": 1, "he": "כדי להיות בריא, עושים חיסון ונזהרים מצינון.", "translit": {"fr": "Kédé lihyot bari, ossim h'isoune vènizharim mitsinoune.", "en": "Kedei lihyot bari, osim chisun venizharim mitzinun."}, "translation": {"fr": "Pour rester en bonne santé, on se fait vacciner et on évite les rhumes.", "en": "To stay healthy, we get vaccinated and avoid catching a cold."}},
+
+    {"level": 2, "he": "הוא היה מותש, חיוור ומיוזע, והרגיש מסוחרר.", "translit": {"fr": "Hou haya moutach, h'iver oumèyouza', vèhirguiche mèsouh'rar.", "en": "Hu haya mutash, chiver umeyuza', vehirgish mesucharar."}, "translation": {"fr": "Il était épuisé, pâle et en sueur, et se sentait étourdi.", "en": "He was exhausted, pale and sweaty, and felt dizzy."}},
+    {"level": 2, "he": "הזקן צולע ושפוף, והילד הקירח רועד מקור.", "translit": {"fr": "Hazakène tsoléa' vèchafouf, vèhayéled hakéréa'h roèd mikor.", "en": "Hazaken tzole'a veshafuf, vehayeled hakereach ro'ed mikor."}, "translation": {"fr": "Le vieil homme boite et est voûté, et l'enfant chauve tremble de froid.", "en": "The old man limps and is hunched, and the bald child shivers with cold."}},
+    {"level": 2, "he": "הוא קם יחף, מנומנם ומרושל, וקולו צרוד.", "translit": {"fr": "Hou kam yah'ef, ménoumnam oumèrouchal, vèkolo tsaroud.", "en": "Hu kam yachef, menumnam umerushal, vekolo tzarud."}, "translation": {"fr": "Il s'est levé pieds nus, somnolent et débraillé, la voix enrouée.", "en": "He got up barefoot, drowsy and unkempt, his voice hoarse."}},
+    {"level": 2, "he": "הוא מגושם, נפל, והרגיש נבוך; הברך חבולה.", "translit": {"fr": "Hou mégoucham, nafal, vèhirguiche navoh'; habérèkh h'avoula.", "en": "Hu megusham, nafal, vehirgish navoch; haberech chavula."}, "translation": {"fr": "Il est maladroit, il est tombé et s'est senti embarrassé ; son genou est contusionné.", "en": "He's clumsy, he fell and felt embarrassed; his knee is bruised."}}
   ]
 }

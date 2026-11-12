@@ -25,5 +25,14 @@
     {"id": "nature-desert", "level": 2, "he": "מדבר", "pos": "nm", "translit": {"fr": "midbar", "en": "midbar"}, "meaning": {"fr": "Désert", "en": "Desert"}},
     {"id": "nature-forest", "level": 2, "he": "יער", "pos": "nm", "translit": {"fr": "yaar", "en": "ya'ar"}, "meaning": {"fr": "Forêt", "en": "Forest"}},
     {"id": "nature-valley", "level": 2, "he": "עמק", "pos": "nm", "translit": {"fr": "émèk", "en": "emek"}, "meaning": {"fr": "Vallée", "en": "Valley"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "השמש זורחת בבוקר, והירח והכוכבים בלילה.", "translit": {"fr": "Hachémèch zorah'at baboker, vèhayaréa'h vèhakokhavim balayla.", "en": "Hashemesh zorachat baboker, vehayareach vehakochavim balayla."}, "translation": {"fr": "Le soleil se lève le matin, et la lune et les étoiles brillent la nuit.", "en": "The sun rises in the morning, and the moon and stars come out at night."}},
+    {"level": 1, "he": "היום יורד גשם והרוח חזקה, אז אין טיול להר.", "translit": {"fr": "Hayom yorèd guéchèm vèharouah' h'azaka, az éïne tioul lahar.", "en": "Hayom yored geshem veharuach chazaka, az ein tiyul lahar."}, "translation": {"fr": "Aujourd'hui il pleut et le vent est fort, donc pas de randonnée à la montagne.", "en": "Today it's raining and the wind is strong, so no hike to the mountain."}},
+    {"level": 1, "he": "יש פרח יפה ליד העץ, והים כחול מתחת לשמיים.", "translit": {"fr": "Yèch pérah' yafé léyad haéts, vèhayam kahol mitah'at lachamayim.", "en": "Yesh perach yafe leyad ha'etz, vehayam kachol mitachat lashamayim."}, "translation": {"fr": "Il y a une belle fleur près de l'arbre, et la mer est bleue sous le ciel.", "en": "There's a beautiful flower near the tree, and the sea is blue under the sky."}},
+
+    {"level": 2, "he": "ענן שחור הגיע, ואחריו סערה עם ברק ורעם.", "translit": {"fr": "Anane chah'or higuia, vèah'arav séara im barak vèraam.", "en": "Anan shachor higi'a, ve'acharav se'ara im barak vera'am."}, "translation": {"fr": "Un nuage noir est arrivé, suivi d'une tempête avec éclairs et tonnerre.", "en": "A black cloud arrived, followed by a storm with lightning and thunder."}},
+    {"level": 2, "he": "בחורף יורד שלג בהרים, ובבוקר יש ערפל בעמק.", "translit": {"fr": "Bah'oref yorèd chèlèg béharim, ouvaboker yèch arafèl baémèk.", "en": "Bachoref yored sheleg beharim, uvaboker yesh arafel ba'emek."}, "translation": {"fr": "L'hiver il neige dans les montagnes, et le matin il y a du brouillard dans la vallée.", "en": "In winter it snows in the mountains, and in the morning there's fog in the valley."}},
+    {"level": 2, "he": "הלכנו ליד נחל דרך היער, ובסוף הגענו למדבר.", "translit": {"fr": "Halakhnou léyad nah'al dèrèkh hayaar, ouvésof higanou lamidbar.", "en": "Halachnu leyad nachal derech hay'ar, uvesof higa'nu lamidbar."}, "translation": {"fr": "Nous avons marché près d'un ruisseau à travers la forêt, et nous sommes arrivés au désert.", "en": "We walked by a stream through the forest, and finally reached the desert."}}
   ]
 }

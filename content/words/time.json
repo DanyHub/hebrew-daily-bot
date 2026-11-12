@@ -25,5 +25,15 @@
     {"id": "time-autumn", "level": 2, "he": "סתיו", "pos": "nm", "translit": {"fr": "stav", "en": "stav"}, "meaning": {"fr": "Automne", "en": "Autumn"}},
     {"id": "time-spring", "level": 2, "he": "אביב", "pos": "nm", "translit": {"fr": "aviv", "en": "aviv"}, "meaning": {"fr": "Printemps", "en": "Spring"}},
     {"id": "time-date", "level": 2, "he": "תאריך", "pos": "nm", "translit": {"fr": "taarikh", "en": "ta'arich"}, "meaning": {"fr": "Date", "en": "Date"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "היום הוא יום יפה, ובערב נצא לטייל.", "translit": {"fr": "Hayom hou yom yafé, ouvaérèv nétsé létayèl.", "en": "Hayom hu yom yafe, uva'erev netze letayel."}, "translation": {"fr": "Aujourd'hui c'est une belle journée, et ce soir nous sortirons nous promener.", "en": "Today is a beautiful day, and this evening we'll go for a walk."}},
+    {"level": 1, "he": "אני קם בבוקר, ובלילה אני ישן.", "translit": {"fr": "Ani kam baboker, ouvalayla ani yachèn.", "en": "Ani kam baboker, uvalayla ani yashen."}, "translation": {"fr": "Je me lève le matin, et la nuit je dors.", "en": "I get up in the morning, and at night I sleep."}},
+    {"level": 1, "he": "בשבוע יש שבעה ימים, ובשנה יש שנים עשר חודשים.", "translit": {"fr": "Bachavoua yèch chiv'a yamim, ouvachana yèch chnéïm assar h'odachim.", "en": "Bashavu'a yesh shiv'a yamim, uvashana yesh shneim asar chodashim."}, "translation": {"fr": "Dans une semaine il y a sept jours, et dans une année douze mois.", "en": "A week has seven days, and a year has twelve months."}},
+    {"level": 1, "he": "בכל שעה יש שישים דקות.", "translit": {"fr": "Békhol chaa yèch chichim dakot.", "en": "Bechol sha'a yesh shishim dakot."}, "translation": {"fr": "Chaque heure compte soixante minutes.", "en": "Every hour has sixty minutes."}},
+
+    {"level": 2, "he": "אתמול היה חם, מחר יהיה קריר, ומחרתיים ירד גשם.", "translit": {"fr": "Étmol haya h'am, ma'har yihyé karir, oumah'artayim yéréd guéchèm.", "en": "Etmol haya cham, machar yihye karir, umachartayim yered geshem."}, "translation": {"fr": "Hier il faisait chaud, demain il fera frais, et après-demain il pleuvra.", "en": "Yesterday was hot, tomorrow will be cool, and the day after tomorrow it will rain."}},
+    {"level": 2, "he": "שלשום פגשתי אותו, אבל אני לא זוכר את התאריך.", "translit": {"fr": "Chilchom pagachti oto, aval ani lo zokhèr èt hataarikh.", "en": "Shilshom pagashti oto, aval ani lo zocher et hata'arich."}, "translation": {"fr": "Avant-hier je l'ai rencontré, mais je ne me souviens pas de la date.", "en": "The day before yesterday I met him, but I don't remember the date."}},
+    {"level": 2, "he": "יש ארבע עונות: אביב, קיץ, סתיו וחורף.", "translit": {"fr": "Yèch arba onote: aviv, kayits, stav vèh'oref.", "en": "Yesh arba onot: aviv, kayitz, stav vechoref."}, "translation": {"fr": "Il y a quatre saisons : le printemps, l'été, l'automne et l'hiver.", "en": "There are four seasons: spring, summer, autumn and winter."}}
   ]
 }

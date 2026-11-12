@@ -22,7 +22,7 @@
           "translit": {"fr": "mikhtav", "en": "michtav"},
           "meaning": {"fr": "Lettre", "en": "Letter"},
           "example": {
-            "he": "קבלתי מכתב מהבנק.",
+            "he": "קיבלתי מכתב מהבנק.",
             "translit": {"fr": "Kibalti mikhtav mehabank.", "en": "Kibalti michtav mehabank."},
             "translation": {"fr": "J'ai reçu une lettre de la banque.", "en": "I received a letter from the bank."}
           }
@@ -42,7 +42,7 @@
           "translit": {"fr": "katav", "en": "katav"},
           "meaning": {"fr": "Reporter, correspondant", "en": "Reporter, correspondent"},
           "example": {
-            "he": "הכתב דוח מהשטח.",
+            "he": "הכתב דיווח מהשטח.",
             "translit": {"fr": "Hakatav divéa'h mehashétah'.", "en": "Hakatav divéach mehashetach."},
             "translation": {"fr": "Le reporter a rapporté depuis le terrain.", "en": "The reporter reported from the field."}
           }
@@ -52,7 +52,7 @@
           "translit": {"fr": "koteret", "en": "koteret"},
           "meaning": {"fr": "Titre (d'article), gros titre", "en": "Headline, title"},
           "example": {
-            "he": "הכותרת הראשית היתה מפתיעה.",
+            "he": "הכותרת הראשית הייתה מפתיעה.",
             "translit": {"fr": "Hakoteret harichit haïta mafti'a.", "en": "Hakoteret harashit hayta mafti'a."},
             "translation": {"fr": "Le gros titre principal était surprenant.", "en": "The main headline was surprising."}
           }
@@ -91,7 +91,7 @@
           "translit": {"fr": "michloa'h", "en": "mishlo'ach"},
           "meaning": {"fr": "Expédition (d'un envoi)", "en": "Shipment, dispatch"},
           "example": {
-            "he": "המשלוח יצא מחר בבקר.",
+            "he": "המשלוח יצא מחר בבוקר.",
             "translit": {"fr": "Hamichloa'h yétsé ma'har baboker.", "en": "Hamishlo'ach yetze machar baboker."},
             "translation": {"fr": "L'expédition part demain matin.", "en": "The shipment goes out tomorrow morning."}
           }
@@ -101,7 +101,7 @@
           "translit": {"fr": "michlaha't", "en": "mishlachat"},
           "meaning": {"fr": "Délégation", "en": "Delegation"},
           "example": {
-            "he": "משלחת של מדענים בקרה במכון.",
+            "he": "משלחת של מדענים ביקרה במכון.",
             "translit": {"fr": "Michlaha't chel mad'anim bikra bamakhon.", "en": "Mishlachat shel mad'anim bikra bamachon."},
             "translation": {"fr": "Une délégation de scientifiques a visité l'institut.", "en": "A delegation of scientists visited the institute."}
           }

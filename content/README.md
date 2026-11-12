@@ -32,8 +32,11 @@ content/
 
 ## Theme file
 
-`theme`, `status`, `emoji`, `title.{fr,en}`, `words[]`. A pack is every word of a
-theme at a given level (split in chunks of 15).
+`theme`, `status`, `emoji`, `title.{fr,en}`, `words[]`, `sentences[]`. A pack is every word
+of a theme at a given level (split in chunks of 15). `sentences` are 3-4 short sentences
+per level (`level`, `he`, `translit.{fr,en}`, `translation.{fr,en}`) that reuse the pack's
+words; they are shown under the word list. Each sentence must contain at least one word
+of its pack (checked by the tests).
 
 ## Review workflow
 
@@ -59,7 +62,8 @@ Get the author's permission before publishing them beyond a private study group.
 
 ## Daily push
 
-`python -m hebbot.daily` picks one themed pack and one root from the date (no
+`python -m hebbot.daily` picks one themed pack (words + a few sentences) and one root
+from the date (no
 database, no AI). Same date, same messages; each day moves to the next theme and the
 next root. Drafts are only used with `--allow-draft`.
 

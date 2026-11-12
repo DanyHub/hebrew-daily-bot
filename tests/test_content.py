@@ -108,6 +108,24 @@ class RenderTests(unittest.TestCase):
         root = next(r for r in self.content["roots"] if r["id"] == "ktv")
         self.assertIn("🇮🇱", render.render_root(root, "fr"))
 
+    def test_packs_show_their_sentences(self):
+        for level in content_lib.LEVELS:
+            for pack in content_lib.build_packs(self.content, level):
+                self.assertGreaterEqual(len(pack["sentences"]), 3, pack["theme"])
+                text = render.render_pack(pack, "fr")
+                self.assertIn("En phrases", text)
+                for sentence in pack["sentences"]:
+                    self.assertIn(sentence["he"], text)
+                    self.assertEqual(sentence["level"], level)
+
+    def test_sentences_mostly_reuse_the_packs_words(self):
+        """Every sentence should contain at least one word of its pack (prefixes like ה/ב/ל allowed)."""
+        for level in content_lib.LEVELS:
+            for pack in content_lib.build_packs(self.content, level):
+                for sentence in pack["sentences"]:
+                    hits = sum(1 for w in pack["words"] if w["he"] in sentence["he"])
+                    self.assertGreaterEqual(hits, 1, f"{pack['theme']} L{level}: {sentence['he']}")
+
     def test_root_letters_formatting(self):
         self.assertEqual(render.format_root_letters("כתב"), "כ־ת־ב")
 

@@ -25,5 +25,16 @@
     {"id": "family-niece", "level": 2, "he": "אחיינית", "pos": "nf", "translit": {"fr": "ah'yanite", "en": "achyanit"}, "meaning": {"fr": "Nièce", "en": "Niece"}},
     {"id": "family-father-in-law", "level": 2, "he": "חותן", "pos": "nm", "translit": {"fr": "h'oténe", "en": "choten"}, "meaning": {"fr": "Beau-père", "en": "Father-in-law"}},
     {"id": "family-mother-in-law", "level": 2, "he": "חמות", "pos": "nf", "translit": {"fr": "h'amote", "en": "chamot"}, "meaning": {"fr": "Belle-mère", "en": "Mother-in-law"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "אבא ואמא עובדים, והילדים בבית של סבא וסבתא.", "translit": {"fr": "Aba vé'ima ovdim, vèhayéladim babayit chèl saba vèsavta.", "en": "Aba ve'ima ovdim, vehayeladim babayit shel saba vesavta."}, "translation": {"fr": "Papa et maman travaillent, et les enfants sont chez papi et mamie.", "en": "Dad and Mom are working, and the children are at Grandpa and Grandma's."}},
+    {"level": 1, "he": "יש לי אח אחד ואחות אחת.", "translit": {"fr": "Yèch li ah' èh'ad vé'ah'ot ah'at.", "en": "Yesh li ach echad ve'achot achat."}, "translation": {"fr": "J'ai un frère et une sœur.", "en": "I have one brother and one sister."}},
+    {"level": 1, "he": "הבן שלה בן שמונה, והבת שלה בת חמש.", "translit": {"fr": "Haben chéla ben chmoné, vèhabat chéla bat h'amèch.", "en": "Haben shela ben shmone, vehabat shela bat chamesh."}, "translation": {"fr": "Son fils a huit ans et sa fille a cinq ans.", "en": "Her son is eight and her daughter is five."}},
+    {"level": 1, "he": "הילד והילדה משחקים בגינה.", "translit": {"fr": "Hayéled vèhayalda michah'akim baguina.", "en": "Hayeled vehayalda mesachakim bagina."}, "translation": {"fr": "Le garçon et la fille jouent dans le jardin.", "en": "The boy and the girl play in the garden."}},
+
+    {"level": 2, "he": "הדוד והדודה באים לבקר עם התינוק החדש.", "translit": {"fr": "Hadod vèhadoda baïm lévaker im hatinok hah'adach.", "en": "Hadod vehadoda ba'im levaker im hatinok hechadash."}, "translation": {"fr": "L'oncle et la tante viennent nous voir avec le nouveau bébé.", "en": "The uncle and aunt are coming to visit with the new baby."}},
+    {"level": 2, "he": "הנכד והנכדה אוהבים לבלות עם הסבא והסבתא.", "translit": {"fr": "Hanékhèd vèhanékhda ohavim lévalot im hasaba vèhasavta.", "en": "Haneched vehanechda ohavim levalot im hasaba vehasavta."}, "translation": {"fr": "Le petit-fils et la petite-fille aiment passer du temps avec papi et mamie.", "en": "The grandson and granddaughter love spending time with Grandpa and Grandma."}},
+    {"level": 2, "he": "האחיין שלי והאחיינית שלי גרים קרוב להורים שלהם.", "translit": {"fr": "Ha'ah'yane chéli vèha'ah'yanit chéli garim karov lèhorim chélahèm.", "en": "Ha'achyan sheli veha'achyanit sheli garim karov lehorim shelahem."}, "translation": {"fr": "Mon neveu et ma nièce habitent près de leurs parents.", "en": "My nephew and niece live close to their parents."}},
+    {"level": 2, "he": "החותן והחמות באים אלינו לארוחת שישי.", "translit": {"fr": "Hah'oténe vèha'h'amote baïm élénou léarouh'at chichi.", "en": "Hachoten vehachamot ba'im eleinu le'aruchat shishi."}, "translation": {"fr": "Le beau-père et la belle-mère viennent chez nous pour le repas du vendredi.", "en": "My father-in-law and mother-in-law are coming to us for Friday dinner."}}
   ]
 }

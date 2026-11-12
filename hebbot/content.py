@@ -53,6 +53,7 @@ def build_packs(content, level):
                 "part": n,
                 "parts": len(chunks),
                 "words": chunk,
+                "sentences": [x for x in theme.get("sentences", []) if x["level"] == level],
             })
     return packs
 
@@ -137,6 +138,13 @@ def validate(content):
             _check_word(errors, where, word, seen_ids, root_ids)
             if word.get("level") not in LEVELS:
                 errors.append(f"{where} [{word.get('id')}]: level must be one of {LEVELS}")
+        for i, sentence in enumerate(theme.get("sentences", []), 1):
+            swhere = f"{where} sentence {i}"
+            if sentence.get("level") not in LEVELS:
+                errors.append(f"{swhere}: level must be one of {LEVELS}")
+            _check_hebrew(errors, swhere, sentence.get("he"))
+            _check_i18n(errors, swhere, sentence, "translit")
+            _check_i18n(errors, swhere, sentence, "translation")
 
     if len(root_ids) != len(content["roots"]):
         errors.append("roots: duplicate root ids")
