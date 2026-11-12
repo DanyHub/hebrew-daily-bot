@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-luck",
+  "status": "draft",
+  "emoji": "🍀",
+  "title": {"fr": "Expressions : la chance", "en": "Idioms: luck"},
+  "words": [
+    {"id": "idioms-luck-01", "level": 3, "he": "בהצלחה רבה", "pos": "expr", "translit": {"fr": "Béhatslah'a raba", "en": "Behatzlacha raba"}, "meaning": {"fr": "Bonne chance !", "en": "Good luck!"}, "literal": {"fr": "avec grande réussite", "en": "with great success"}},
+    {"id": "idioms-luck-02", "level": 3, "he": "יצא לי מזל", "pos": "expr", "translit": {"fr": "Yatsa li mazal", "en": "Yatza li mazal"}, "meaning": {"fr": "J'ai eu de la chance", "en": "I got lucky"}, "literal": {"fr": "de la chance est sortie pour moi", "en": "luck came out for me"}},
+    {"id": "idioms-luck-03", "level": 3, "he": "שלא תדע צער", "pos": "expr", "translit": {"fr": "Chélo téda tsa'ar", "en": "She'lo teda tza'ar"}, "meaning": {"fr": "Que tu ne connaisses aucun chagrin", "en": "May you never know sorrow"}, "literal": {"fr": "que tu ne connaisses pas la peine", "en": "may you not know sorrow"}},
+    {"id": "idioms-luck-04", "level": 3, "he": "ברוך השם", "pos": "expr", "translit": {"fr": "Baroukh hachèm", "en": "Baruch Hashem"}, "meaning": {"fr": "Dieu merci", "en": "Thank God"}, "literal": {"fr": "béni soit le Nom", "en": "blessed be the Name"}},
+    {"id": "idioms-luck-05", "level": 3, "he": "מזל טוב", "pos": "expr", "translit": {"fr": "Mazal tov", "en": "Mazal tov"}, "meaning": {"fr": "Félicitations", "en": "Congratulations"}, "literal": {"fr": "bonne chance", "en": "good luck"}},
+    {"id": "idioms-luck-06", "level": 3, "he": "מה העניין", "pos": "expr", "translit": {"fr": "Ma haïnyane", "en": "Ma ha'inyan"}, "meaning": {"fr": "Qu'est-ce qui se passe ?", "en": "What's going on?"}, "literal": {"fr": "quelle est l'affaire", "en": "what's the matter"}},
+    {"id": "idioms-luck-07", "level": 3, "he": "תהיה בריא", "pos": "expr", "translit": {"fr": "Yihyé bari", "en": "Tihye bari"}, "meaning": {"fr": "Santé ! Prends soin de toi", "en": "Be well, bless you"}, "literal": {"fr": "sois en bonne santé", "en": "be healthy"}},
+    {"id": "idioms-luck-08", "level": 3, "he": "שנה טובה", "pos": "expr", "translit": {"fr": "Chana tova", "en": "Shana tova"}, "meaning": {"fr": "Bonne année", "en": "Happy new year"}, "literal": {"fr": "bonne année", "en": "good year"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "בהצלחה רבה, מזל טוב, ומה העניין?", "translit": {"fr": "Béhatslah'a raba, mazal tov, oumah ha'inyane?", "en": "Behatzlacha raba, mazal tov, uma ha'inyan?"}, "translation": {"fr": "Bonne chance, félicitations, et que se passe-t-il ?", "en": "Good luck, congratulations, and what's going on?"}},
+    {"level": 3, "he": "יצא לי מזל, ברוך השם.", "translit": {"fr": "Yatsa li mazal, baroukh hachèm.", "en": "Yatza li mazal, baruch Hashem."}, "translation": {"fr": "J'ai eu de la chance, Dieu merci.", "en": "I got lucky, thank God."}},
+    {"level": 3, "he": "תהיה בריא, ושנה טובה.", "translit": {"fr": "Yihyé bari, vèchana tova.", "en": "Tihye bari, veshana tova."}, "translation": {"fr": "Prends soin de toi, et bonne année.", "en": "Be well, and happy new year."}},
+    {"level": 3, "he": "שלא תדע צער, ברוך השם שיצא לי מזל.", "translit": {"fr": "Chélo téda tsa'ar, baroukh hachèm chéyatsa li mazal.", "en": "She'lo teda tza'ar, baruch Hashem sheyatza li mazal."}, "translation": {"fr": "Que tu ne connaisses aucun chagrin, Dieu merci j'ai eu de la chance.", "en": "May you know no sorrow, thank God I got lucky."}}
+  ]
+}

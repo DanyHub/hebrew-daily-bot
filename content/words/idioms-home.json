@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-home",
+  "status": "draft",
+  "emoji": "🏠",
+  "title": {"fr": "Expressions : la maison", "en": "Idioms: home"},
+  "words": [
+    {"id": "idioms-home-01", "level": 3, "he": "הבית שלי הוא הטירה שלי", "pos": "expr", "translit": {"fr": "Habayit chéli hou hatira chéli", "en": "Habayit sheli hu hatira sheli"}, "meaning": {"fr": "Mon foyer est mon château", "en": "My home is my castle"}, "literal": {"fr": "ma maison est mon château", "en": "my house is my castle"}},
+    {"id": "idioms-home-02", "level": 3, "he": "פינה חמה", "pos": "expr", "translit": {"fr": "Pina h'ama", "en": "Pina chama"}, "meaning": {"fr": "Coin chaleureux et douillet", "en": "Cozy corner"}, "literal": {"fr": "coin chaud", "en": "warm corner"}},
+    {"id": "idioms-home-03", "level": 3, "he": "כאילו בבית", "pos": "expr", "translit": {"fr": "Ké'ilou babayit", "en": "Ke'ilu babayit"}, "meaning": {"fr": "Fais comme chez toi", "en": "Make yourself at home"}, "literal": {"fr": "comme à la maison", "en": "as if at home"}},
+    {"id": "idioms-home-04", "level": 3, "he": "סתם סיבוב", "pos": "expr", "translit": {"fr": "Stam sibouv", "en": "Stam sibuv"}, "meaning": {"fr": "Juste un petit tour", "en": "Just a little round"}, "literal": {"fr": "un tour pour rien", "en": "just a turn"}},
+    {"id": "idioms-home-05", "level": 3, "he": "אני בבית", "pos": "expr", "translit": {"fr": "Ani babayit", "en": "Ani babayit"}, "meaning": {"fr": "Je suis chez moi, tout est calme", "en": "I'm at home, all good"}, "literal": {"fr": "je suis à la maison", "en": "I'm at home"}},
+    {"id": "idioms-home-06", "level": 3, "he": "סידור קטן", "pos": "expr", "translit": {"fr": "Sidour katane", "en": "Sidur katan"}, "meaning": {"fr": "Petit arrangement", "en": "Small favor"}, "literal": {"fr": "petit rangement", "en": "small arrangement"}},
+    {"id": "idioms-home-07", "level": 3, "he": "לשים נעליים בחוץ", "pos": "expr", "translit": {"fr": "Lassim na'alayim bah'outs", "en": "Lasim na'alayim bachutz"}, "meaning": {"fr": "Poser ses chaussures dehors", "en": "Leave shoes outside"}, "literal": {"fr": "mettre les chaussures dehors", "en": "put shoes outside"}},
+    {"id": "idioms-home-08", "level": 3, "he": "קח את הזמן", "pos": "expr", "translit": {"fr": "Kah' èt hazman", "en": "Kach et hazman"}, "meaning": {"fr": "Prends ton temps", "en": "Take your time"}, "literal": {"fr": "prends le temps", "en": "take the time"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "הבית שלי הוא הטירה שלי, כאילו בבית.", "translit": {"fr": "Habayit chéli hou hatira chéli, ké'ilou babayit.", "en": "Habayit sheli hu hatira sheli, ke'ilu babayit."}, "translation": {"fr": "Mon foyer est mon château, fais comme chez toi.", "en": "My home is my castle, make yourself at home."}},
+    {"level": 3, "he": "יש פינה חמה, וזה סידור קטן.", "translit": {"fr": "Yèch pina h'ama, vèzé sidour katane.", "en": "Yesh pina chama, veze sidur katan."}, "translation": {"fr": "Il y a un coin douillet, et c'est un petit arrangement.", "en": "There's a cozy corner, and it's a small fix."}},
+    {"level": 3, "he": "קח את הזמן, אני בבית.", "translit": {"fr": "Kah' èt hazman, ani babayit.", "en": "Kach et hazman, ani babayit."}, "translation": {"fr": "Prends ton temps, je suis à la maison.", "en": "Take your time, I'm at home."}},
+    {"level": 3, "he": "סתם סיבוב, ואז נשים נעליים בחוץ.", "translit": {"fr": "Stam sibouv, vèaz nassim na'alayim bah'outs.", "en": "Stam sibuv, ve'az nasim na'alayim bachutz."}, "translation": {"fr": "Juste un petit tour, puis on laisse les chaussures dehors.", "en": "Just a little round, then we'll leave shoes outside."}}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "theme": "idioms-people",
+  "status": "draft",
+  "emoji": "🧑‍🤝‍🧑",
+  "title": {"fr": "Expressions : les gens", "en": "Idioms: people"},
+  "words": [
+    {"id": "idioms-people-01", "level": 3, "he": "בן אדם", "pos": "expr", "translit": {"fr": "Bène adam", "en": "Ben adam"}, "meaning": {"fr": "Un type bien, un être humain", "en": "A decent person"}, "literal": {"fr": "fils d'homme", "en": "son of man"}},
+    {"id": "idioms-people-02", "level": 3, "he": "חבר׳ה", "pos": "expr", "translit": {"fr": "H'avré", "en": "Chevre"}, "meaning": {"fr": "Les gars, la bande", "en": "The guys, the crew"}, "literal": {"fr": "les copains", "en": "the friends"}},
+    {"id": "idioms-people-03", "level": 3, "he": "אחלה בחור", "pos": "expr", "translit": {"fr": "Ah'la ba'h'our", "en": "Achla bachur"}, "meaning": {"fr": "Super mec", "en": "Great guy"}, "literal": {"fr": "super garçon", "en": "great guy"}},
+    {"id": "idioms-people-04", "level": 3, "he": "הוא צמחוני עד העצם", "pos": "expr", "translit": {"fr": "Hou tsimh'oni ad ha'étsèm", "en": "Hu tzimchoni ad ha'etzem"}, "meaning": {"fr": "Il est végétarien jusqu'à la moelle", "en": "He's vegetarian to the bone"}, "literal": {"fr": "végétarien jusqu'à l'os", "en": "vegetarian to the bone"}},
+    {"id": "idioms-people-05", "level": 3, "he": "סבבה גמור", "pos": "expr", "translit": {"fr": "Sababa gamour", "en": "Sababa gamur"}, "meaning": {"fr": "Tout à fait cool", "en": "Totally cool"}, "literal": {"fr": "cool fini", "en": "cool finished"}},
+    {"id": "idioms-people-06", "level": 3, "he": "איש שלום", "pos": "expr", "translit": {"fr": "Ich chalom", "en": "Ish shalom"}, "meaning": {"fr": "Quelqu'un de paisible", "en": "A man of peace"}, "literal": {"fr": "homme de paix", "en": "man of peace"}},
+    {"id": "idioms-people-07", "level": 3, "he": "חבר שלי", "pos": "expr", "translit": {"fr": "H'aver chéli", "en": "Chaver sheli"}, "meaning": {"fr": "Mon pote", "en": "My friend, my buddy"}, "literal": {"fr": "mon ami", "en": "my friend"}},
+    {"id": "idioms-people-08", "level": 3, "he": "ראש גדול", "pos": "expr", "translit": {"fr": "Roch gadol", "en": "Rosh gadol"}, "meaning": {"fr": "Quelqu'un de motivé qui en fait plus", "en": "Go-getter, takes initiative"}, "literal": {"fr": "grosse tête", "en": "big head"}}
+  ],
+  "sentences": [
+    {"level": 3, "he": "בן אדם, אחלה בחור, חבר שלי.", "translit": {"fr": "Bène adam, ah'la ba'h'our, h'aver chéli.", "en": "Ben adam, achla bachur, chaver sheli."}, "translation": {"fr": "Un type bien, un super mec, mon pote.", "en": "A decent person, a great guy, my buddy."}},
+    {"level": 3, "he": "החבר׳ה אמרו סבבה גמור.", "translit": {"fr": "Hah'avré amrou sababa gamour.", "en": "Hachevre amru sababa gamur."}, "translation": {"fr": "Les gars ont dit que c'était tout à fait cool.", "en": "The guys said it was totally cool."}},
+    {"level": 3, "he": "הוא איש שלום, ראש גדול בעבודה.", "translit": {"fr": "Hou ich chalom, roch gadol ba'avoda.", "en": "Hu ish shalom, rosh gadol ba'avoda."}, "translation": {"fr": "C'est un homme paisible, très impliqué au travail.", "en": "He's a man of peace, a real go-getter at work."}},
+    {"level": 3, "he": "הוא צמחוני עד העצם, אבל בן אדם.", "translit": {"fr": "Hou tsimh'oni ad ha'étsèm, aval bène adam.", "en": "Hu tzimchoni ad ha'etzem, aval ben adam."}, "translation": {"fr": "Il est végétarien jusqu'à la moelle, mais quelqu'un de bien.", "en": "He's vegetarian to the bone, but a decent person."}}
+  ]
+}

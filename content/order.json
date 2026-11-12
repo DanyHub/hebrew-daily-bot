@@ -177,7 +177,12 @@
       "idioms-work",
       "idioms-speech",
       "idioms-slang",
-      "idioms-daily"
+      "idioms-daily",
+      "idioms-home",
+      "idioms-luck",
+      "idioms-mind",
+      "idioms-money",
+      "idioms-people"
     ]
   }
 }
