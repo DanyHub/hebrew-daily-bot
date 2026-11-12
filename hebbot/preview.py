@@ -8,29 +8,11 @@ Examples:
 --send needs TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in the environment.
 """
 import argparse
-import os
 import sys
-
-import requests
 
 from hebbot import content as content_lib
 from hebbot import render
-
-
-def send_html(text):
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
-    if not (token and chat_id):
-        sys.exit("TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID are required for --send")
-    resp = requests.post(
-        f"https://api.telegram.org/bot{token}/sendMessage",
-        json={"chat_id": chat_id, "text": text, "parse_mode": "HTML"},
-        timeout=30,
-    )
-    result = resp.json()
-    if not result.get("ok"):
-        sys.exit(f"Telegram refused the message: {result}")
-    print("Sent.")
+from hebbot.telegram import send_html
 
 
 def main(argv=None):
@@ -59,6 +41,7 @@ def main(argv=None):
 
     if args.send:
         send_html(text)
+        print("Sent.")
     else:
         print(text)
 

@@ -1,0 +1,34 @@
+{
+  "theme": "state",
+  "status": "draft",
+  "emoji": "🤒",
+  "title": {"fr": "Santé et état physique", "en": "Health and physical state"},
+  "words": [
+    {"id": "state-sick", "level": 1, "he": "חולה", "pos": "adj", "translit": {"fr": "h'olé", "en": "chole"}, "meaning": {"fr": "Malade", "en": "Sick"}},
+    {"id": "state-healthy", "level": 1, "he": "בריא", "pos": "adj", "translit": {"fr": "bari", "en": "bari"}, "meaning": {"fr": "En bonne santé", "en": "Healthy"}},
+    {"id": "state-pain", "level": 1, "he": "כאב", "pos": "nm", "translit": {"fr": "kéév", "en": "ke'ev"}, "meaning": {"fr": "Douleur", "en": "Pain"}},
+    {"id": "state-fever-heat", "level": 1, "he": "חום", "pos": "nm", "translit": {"fr": "h'ome", "en": "chom"}, "meaning": {"fr": "Fièvre, chaleur", "en": "Fever, heat"}},
+    {"id": "state-cough", "level": 1, "he": "שיעול", "pos": "nm", "translit": {"fr": "chioul", "en": "shi'ul"}, "meaning": {"fr": "Toux", "en": "Cough"}},
+    {"id": "state-doctor", "level": 1, "he": "רופא", "pos": "nm", "translit": {"fr": "rofé", "en": "rofe"}, "meaning": {"fr": "Médecin", "en": "Doctor"}},
+    {"id": "state-medicine", "level": 1, "he": "תרופה", "pos": "nf", "translit": {"fr": "troufa", "en": "trufa"}, "meaning": {"fr": "Médicament", "en": "Medicine"}},
+    {"id": "state-clinic", "level": 1, "he": "מרפאה", "pos": "nf", "translit": {"fr": "mirpa'a", "en": "mirpa'a"}, "meaning": {"fr": "Clinique", "en": "Clinic"}},
+    {"id": "state-vaccine", "level": 1, "he": "חיסון", "pos": "nm", "translit": {"fr": "h'isoune", "en": "chisun"}, "meaning": {"fr": "Vaccin", "en": "Vaccine"}},
+    {"id": "state-common-cold", "level": 1, "he": "צינון", "pos": "nm", "translit": {"fr": "tsinoune", "en": "tzinun"}, "meaning": {"fr": "Rhume", "en": "Common cold"}},
+
+    {"id": "state-barefoot", "level": 2, "he": "יחף", "pos": "adj", "translit": {"fr": "yah'ef", "en": "yachef"}, "meaning": {"fr": "Pieds nus", "en": "Barefoot"}},
+    {"id": "state-bald", "level": 2, "he": "קירח", "pos": "adj", "translit": {"fr": "kéréah'", "en": "kereach"}, "meaning": {"fr": "Chauve", "en": "Bald"}},
+    {"id": "state-hoarse", "level": 2, "he": "צרוד", "pos": "adj", "translit": {"fr": "tsaroud", "en": "tzarud"}, "meaning": {"fr": "Enroué", "en": "Hoarse"}},
+    {"id": "state-pale", "level": 2, "he": "חיוור", "pos": "adj", "translit": {"fr": "h'iver", "en": "chiver"}, "meaning": {"fr": "Pâle", "en": "Pale"}},
+    {"id": "state-limping", "level": 2, "he": "צולע", "pos": "adj", "translit": {"fr": "tsoléa'", "en": "tzole'a"}, "meaning": {"fr": "Boiteux", "en": "Limping"}},
+    {"id": "state-dizzy", "level": 2, "he": "מסוחרר", "pos": "adj", "translit": {"fr": "messouh'rar", "en": "mesucharar"}, "meaning": {"fr": "Étourdi", "en": "Dizzy"}},
+    {"id": "state-exhausted", "level": 2, "he": "מותש", "pos": "adj", "translit": {"fr": "moutach", "en": "mutash"}, "meaning": {"fr": "Épuisé", "en": "Exhausted"}},
+    {"id": "state-slovenly-unkempt", "level": 2, "he": "מרושל", "pos": "adj", "translit": {"fr": "merouchal", "en": "merushal"}, "meaning": {"fr": "Négligé", "en": "Slovenly, unkempt"}},
+    {"id": "state-hunched", "level": 2, "he": "שפוף", "pos": "adj", "translit": {"fr": "chafouf", "en": "shafuf"}, "meaning": {"fr": "Voûté", "en": "Hunched"}},
+    {"id": "state-clumsy", "level": 2, "he": "מגושם", "pos": "adj", "translit": {"fr": "megoucham", "en": "megusham"}, "meaning": {"fr": "Maladroit", "en": "Clumsy"}},
+    {"id": "state-embarrassed", "level": 2, "he": "נבוך", "pos": "adj", "translit": {"fr": "navoh'", "en": "navoch"}, "meaning": {"fr": "Embarrassé", "en": "Embarrassed"}},
+    {"id": "state-sweaty", "level": 2, "he": "מיוזע", "pos": "adj", "translit": {"fr": "meyouza'", "en": "meyuza'"}, "meaning": {"fr": "En sueur", "en": "Sweaty"}},
+    {"id": "state-bruised", "level": 2, "he": "חבול", "pos": "adj", "translit": {"fr": "h'avoul", "en": "chavul"}, "meaning": {"fr": "Couvert de contusions", "en": "Bruised"}},
+    {"id": "state-drowsy", "level": 2, "he": "מנומנם", "pos": "adj", "translit": {"fr": "menoumnam", "en": "menumnam"}, "meaning": {"fr": "Somnolent", "en": "Drowsy"}},
+    {"id": "state-trembling", "level": 2, "he": "רועד", "pos": "adj", "translit": {"fr": "ro'ed", "en": "ro'ed"}, "meaning": {"fr": "Tremblant", "en": "Trembling"}}
+  ]
+}

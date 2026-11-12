@@ -79,7 +79,7 @@ class RenderTests(unittest.TestCase):
                     self.assertLessEqual(len(text), content_lib.TELEGRAM_MAX_LEN)
 
     def test_language_is_respected(self):
-        pack = content_lib.build_packs(self.content, 1)[0]
+        pack = next(p for p in content_lib.build_packs(self.content, 1) if p["theme"] == "body")
         self.assertIn("Tête", render.render_pack(pack, "fr"))
         self.assertNotIn("Tête", render.render_pack(pack, "en"))
         self.assertIn("Head", render.render_pack(pack, "en"))

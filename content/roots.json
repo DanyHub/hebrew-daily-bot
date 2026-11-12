@@ -117,6 +117,242 @@
           }
         }
       ]
+    },
+    {
+      "id": "lmd",
+      "letters": "למד",
+      "level": 1,
+      "status": "draft",
+      "meaning": {"fr": "apprendre, enseigner", "en": "to learn, to teach"},
+      "words": [
+        {
+          "id": "lmd-lamad", "he": "למד", "pos": "v",
+          "translit": {"fr": "lamad", "en": "lamad"},
+          "meaning": {"fr": "Apprendre", "en": "To learn"},
+          "example": {
+            "he": "הוא למד עברית בישראל.",
+            "translit": {"fr": "Hou lamad ivrit be'israël.", "en": "Hu lamad ivrit be'yisrael."},
+            "translation": {"fr": "Il a appris l'hébreu en Israël.", "en": "He learned Hebrew in Israel."}
+          }
+        },
+        {
+          "id": "lmd-limed", "he": "לימד", "pos": "v",
+          "translit": {"fr": "limède", "en": "limed"},
+          "meaning": {"fr": "Enseigner", "en": "To teach"},
+          "example": {
+            "he": "סבא לימד אותי לשחק שש בש.",
+            "translit": {"fr": "Saba limède oti lessah'èk chèch-bèch.", "en": "Saba limed oti lesachek shesh-besh."},
+            "translation": {"fr": "Grand-père m'a appris à jouer au trictrac.", "en": "Grandpa taught me to play backgammon."}
+          }
+        },
+        {
+          "id": "lmd-talmid", "he": "תלמיד", "pos": "nm",
+          "translit": {"fr": "talmid", "en": "talmid"},
+          "meaning": {"fr": "Élève", "en": "Pupil, student"},
+          "example": {
+            "he": "התלמיד קרא ספר.",
+            "translit": {"fr": "Hatalmid kara séfer.", "en": "Hatalmid kara sefer."},
+            "translation": {"fr": "L'élève a lu un livre.", "en": "The student read a book."}
+          }
+        },
+        {
+          "id": "lmd-limudim", "he": "לימודים", "pos": "nmp",
+          "translit": {"fr": "limoudim", "en": "limudim"},
+          "meaning": {"fr": "Études", "en": "Studies"},
+          "example": {
+            "he": "הוא מסיים את הלימודים בשנה הבאה.",
+            "translit": {"fr": "Hou messayèm et halimoudim bachana haba'a.", "en": "Hu mesayem et halimudim bashana haba'a."},
+            "translation": {"fr": "Il termine ses études l'année prochaine.", "en": "He finishes his studies next year."}
+          }
+        },
+        {
+          "id": "lmd-lemida", "he": "למידה", "pos": "nf",
+          "translit": {"fr": "lemida", "en": "lemida"},
+          "meaning": {"fr": "Apprentissage", "en": "Learning"},
+          "example": {
+            "he": "הלמידה בקבוצה עוזרת.",
+            "translit": {"fr": "Halemida bekvoutsa ozèrèt.", "en": "Halemida bekvutza ozeret."},
+            "translation": {"fr": "Apprendre en groupe aide.", "en": "Learning in a group helps."}
+          }
+        }
+      ]
+    },
+    {
+      "id": "ahv",
+      "letters": "אהב",
+      "level": 1,
+      "status": "draft",
+      "meaning": {"fr": "aimer", "en": "to love"},
+      "words": [
+        {
+          "id": "ahv-ahav", "he": "אהב", "pos": "v",
+          "translit": {"fr": "ahav", "en": "ahav"},
+          "meaning": {"fr": "Aimer", "en": "To love"},
+          "example": {
+            "he": "הוא אהב את הים.",
+            "translit": {"fr": "Hou ahav et hayam.", "en": "Hu ahav et hayam."},
+            "translation": {"fr": "Il aimait la mer.", "en": "He loved the sea."}
+          }
+        },
+        {
+          "id": "ahv-ahava", "he": "אהבה", "pos": "nf",
+          "translit": {"fr": "ahava", "en": "ahava"},
+          "meaning": {"fr": "Amour", "en": "Love"},
+          "example": {
+            "he": "אהבה היא מילה יפה.",
+            "translit": {"fr": "Ahava hi mila yafa.", "en": "Ahava hi mila yafa."},
+            "translation": {"fr": "L'amour est un joli mot.", "en": "Love is a beautiful word."}
+          }
+        },
+        {
+          "id": "ahv-ahuv", "he": "אהוב", "pos": "adj",
+          "translit": {"fr": "ahouv", "en": "ahuv"},
+          "meaning": {"fr": "Bien-aimé, préféré", "en": "Beloved, favorite"},
+          "example": {
+            "he": "זה השיר האהוב עליי.",
+            "translit": {"fr": "Zé hachir haahouv alay.", "en": "Ze hashir ha'ahuv alay."},
+            "translation": {"fr": "C'est ma chanson préférée.", "en": "This is my favorite song."}
+          }
+        },
+        {
+          "id": "ahv-hitahev", "he": "התאהב", "pos": "v",
+          "translit": {"fr": "hit'ahèv", "en": "hit'ahev"},
+          "meaning": {"fr": "Tomber amoureux", "en": "To fall in love"},
+          "example": {
+            "he": "הוא התאהב בעיר הזאת.",
+            "translit": {"fr": "Hou hit'ahèv baïr hazot.", "en": "Hu hit'ahev ba'ir hazot."},
+            "translation": {"fr": "Il est tombé amoureux de cette ville.", "en": "He fell in love with this city."}
+          }
+        },
+        {
+          "id": "ahv-meuhav", "he": "מאוהב", "pos": "adj",
+          "translit": {"fr": "meouhav", "en": "me'uhav"},
+          "meaning": {"fr": "Amoureux", "en": "In love"},
+          "example": {
+            "he": "הם מאוהבים כבר שנתיים.",
+            "translit": {"fr": "Hèm meouhavim kvar chnatayim.", "en": "Hem me'uhavim kvar shnatayim."},
+            "translation": {"fr": "Ils sont amoureux depuis deux ans.", "en": "They have been in love for two years."}
+          }
+        }
+      ]
+    },
+    {
+      "id": "ptch",
+      "letters": "פתח",
+      "level": 2,
+      "status": "draft",
+      "meaning": {"fr": "ouvrir", "en": "to open"},
+      "words": [
+        {
+          "id": "ptch-patach", "he": "פתח", "pos": "v",
+          "translit": {"fr": "patah'", "en": "patach"},
+          "meaning": {"fr": "Ouvrir", "en": "To open"},
+          "example": {
+            "he": "פתחתי את החלון בבוקר.",
+            "translit": {"fr": "Patah'ti et ha'halon baboker.", "en": "Patachti et hachalon baboker."},
+            "translation": {"fr": "J'ai ouvert la fenêtre le matin.", "en": "I opened the window in the morning."}
+          }
+        },
+        {
+          "id": "ptch-ptiha", "he": "פתיחה", "pos": "nf",
+          "translit": {"fr": "ptih'a", "en": "ptiha"},
+          "meaning": {"fr": "Ouverture, début", "en": "Opening, start"},
+          "example": {
+            "he": "פתיחת הכנס תהיה בעשר.",
+            "translit": {"fr": "Ptih'at hakènès tihyé bééssèr.", "en": "Ptihat hakenes tihye be'eser."},
+            "translation": {"fr": "L'ouverture du congrès aura lieu à dix heures.", "en": "The conference opens at ten."}
+          }
+        },
+        {
+          "id": "ptch-patuach", "he": "פתוח", "pos": "adj",
+          "translit": {"fr": "patouah'", "en": "patuach"},
+          "meaning": {"fr": "Ouvert", "en": "Open"},
+          "example": {
+            "he": "החנות פתוחה עד שמונה.",
+            "translit": {"fr": "Hah'anout ptouh'a ad chmoné.", "en": "Hachanut ptucha ad shmone."},
+            "translation": {"fr": "Le magasin est ouvert jusqu'à huit heures.", "en": "The shop is open until eight."}
+          }
+        },
+        {
+          "id": "ptch-hitpatchut", "he": "התפתחות", "pos": "nf",
+          "translit": {"fr": "hitpat'h'out", "en": "hitpatchut"},
+          "meaning": {"fr": "Développement", "en": "Development"},
+          "example": {
+            "he": "ההתפתחות של הילד מהירה.",
+            "translit": {"fr": "Hahitpat'h'out chèl hayéled méhira.", "en": "Hahitpatchut shel hayeled mehira."},
+            "translation": {"fr": "Le développement de l'enfant est rapide.", "en": "The child's development is fast."}
+          }
+        },
+        {
+          "id": "ptch-ptihut", "he": "פתיחות", "pos": "nf",
+          "translit": {"fr": "ptih'out", "en": "ptichut"},
+          "meaning": {"fr": "Ouverture d'esprit", "en": "Openness"},
+          "example": {
+            "he": "הוא מתייחס בפתיחות לכולם.",
+            "translit": {"fr": "Hou mityah'ès bifti'h'out lékoulam.", "en": "Hu mityaches bifticut lekulam."},
+            "translation": {"fr": "Il traite tout le monde avec ouverture d'esprit.", "en": "He treats everyone with openness."}
+          }
+        }
+      ]
+    },
+    {
+      "id": "shmr",
+      "letters": "שמר",
+      "level": 2,
+      "status": "draft",
+      "meaning": {"fr": "garder, protéger", "en": "to keep, to guard"},
+      "words": [
+        {
+          "id": "shmr-shamar", "he": "שמר", "pos": "v",
+          "translit": {"fr": "chamar", "en": "shamar"},
+          "meaning": {"fr": "Garder, préserver", "en": "To keep, to guard"},
+          "example": {
+            "he": "שמרתי על הסוד.",
+            "translit": {"fr": "Chamarti al hasod.", "en": "Shamarti al hasod."},
+            "translation": {"fr": "J'ai gardé le secret.", "en": "I kept the secret."}
+          }
+        },
+        {
+          "id": "shmr-shomer", "he": "שומר", "pos": "nm",
+          "translit": {"fr": "chomèr", "en": "shomer"},
+          "meaning": {"fr": "Gardien", "en": "Guard"},
+          "example": {
+            "he": "השומר עומד ליד השער.",
+            "translit": {"fr": "Hachomèr omèd leyad hacha'ar.", "en": "Hashomer omed leyad hasha'ar."},
+            "translation": {"fr": "Le gardien se tient près du portail.", "en": "The guard stands by the gate."}
+          }
+        },
+        {
+          "id": "shmr-shmira", "he": "שמירה", "pos": "nf",
+          "translit": {"fr": "chmira", "en": "shmira"},
+          "meaning": {"fr": "Protection, garde", "en": "Protection, guarding"},
+          "example": {
+            "he": "שמירה על הסביבה חשובה.",
+            "translit": {"fr": "Chmira al hassviva h'ashouva.", "en": "Shmira al hasviva chashuva."},
+            "translation": {"fr": "Protéger l'environnement est important.", "en": "Protecting the environment is important."}
+          }
+        },
+        {
+          "id": "shmr-mishmeret", "he": "משמרת", "pos": "nf",
+          "translit": {"fr": "michmèrèt", "en": "mishmeret"},
+          "meaning": {"fr": "Garde (service), équipe", "en": "Shift"},
+          "example": {
+            "he": "אני עובד במשמרת לילה.",
+            "translit": {"fr": "Ani ovèd bemichmèrèt layla.", "en": "Ani oved bemishmeret layla."},
+            "translation": {"fr": "Je travaille en équipe de nuit.", "en": "I work the night shift."}
+          }
+        },
+        {
+          "id": "shmr-shamur", "he": "שמור", "pos": "adj",
+          "translit": {"fr": "chamour", "en": "shamur"},
+          "meaning": {"fr": "Réservé, gardé", "en": "Reserved, kept"},
+          "example": {
+            "he": "השולחן שמור בשבילכם.",
+            "translit": {"fr": "Hachoulh'an chamour bichvilkhèm.", "en": "Hashulchan shamur bishvilchem."},
+            "translation": {"fr": "La table est réservée pour vous.", "en": "The table is reserved for you."}
+          }
+        }
+      ]
     }
   ]
 }

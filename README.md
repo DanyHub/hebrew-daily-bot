@@ -45,7 +45,11 @@ The existing daily flow (`main.py`) is unchanged for now.
 ```bash
 python -m hebbot.validate
 python -m hebbot.preview --kind pack --theme body --level 1 --lang fr
+python -m hebbot.daily --level 1 --lang fr --allow-draft   # today's theme + root
 ```
+
+The `Curated daily` workflow sends one theme and one root a day (Sun-Fri). It only runs
+once merged into the default branch; use *Run workflow* with *dry run* to try it first.
 
 ## Testing Locally (Optional)
 

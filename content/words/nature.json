@@ -1,0 +1,29 @@
+{
+  "theme": "nature",
+  "status": "draft",
+  "emoji": "🌦️",
+  "title": {"fr": "La nature et la météo", "en": "Nature and weather"},
+  "words": [
+    {"id": "nature-sun", "level": 1, "he": "שמש", "pos": "nf", "translit": {"fr": "chémèch", "en": "shemesh"}, "meaning": {"fr": "Soleil", "en": "Sun"}},
+    {"id": "nature-moon", "level": 1, "he": "ירח", "pos": "nm", "translit": {"fr": "yaréa'h", "en": "yareach"}, "meaning": {"fr": "Lune", "en": "Moon"}},
+    {"id": "nature-star", "level": 1, "he": "כוכב", "pos": "nm", "translit": {"fr": "kokhav", "en": "kochav"}, "meaning": {"fr": "Étoile", "en": "Star"}},
+    {"id": "nature-rain", "level": 1, "he": "גשם", "pos": "nm", "translit": {"fr": "guéchem", "en": "geshem"}, "meaning": {"fr": "Pluie", "en": "Rain"}},
+    {"id": "nature-tree", "level": 1, "he": "עץ", "pos": "nm", "translit": {"fr": "ets", "en": "etz"}, "meaning": {"fr": "Arbre", "en": "Tree"}},
+    {"id": "nature-flower", "level": 1, "he": "פרח", "pos": "nm", "translit": {"fr": "pérah'", "en": "perach"}, "meaning": {"fr": "Fleur", "en": "Flower"}},
+    {"id": "nature-mountain", "level": 1, "he": "הר", "pos": "nm", "translit": {"fr": "har", "en": "har"}, "meaning": {"fr": "Montagne", "en": "Mountain"}},
+    {"id": "nature-sea", "level": 1, "he": "ים", "pos": "nm", "translit": {"fr": "yam", "en": "yam"}, "meaning": {"fr": "Mer", "en": "Sea"}},
+    {"id": "nature-sky", "level": 1, "he": "שמיים", "pos": "nmp", "translit": {"fr": "chamayim", "en": "shamayim"}, "meaning": {"fr": "Ciel", "en": "Sky"}},
+    {"id": "nature-wind", "level": 1, "he": "רוח", "pos": "nf", "translit": {"fr": "rouah'", "en": "ruach"}, "meaning": {"fr": "Vent", "en": "Wind"}},
+
+    {"id": "nature-cloud", "level": 2, "he": "ענן", "pos": "nm", "translit": {"fr": "anane", "en": "anan"}, "meaning": {"fr": "Nuage", "en": "Cloud"}},
+    {"id": "nature-storm", "level": 2, "he": "סערה", "pos": "nf", "translit": {"fr": "saara", "en": "sa'ara"}, "meaning": {"fr": "Tempête", "en": "Storm"}},
+    {"id": "nature-lightning", "level": 2, "he": "ברק", "pos": "nm", "translit": {"fr": "barak", "en": "barak"}, "meaning": {"fr": "Éclair", "en": "Lightning"}},
+    {"id": "nature-thunder", "level": 2, "he": "רעם", "pos": "nm", "translit": {"fr": "raam", "en": "ra'am"}, "meaning": {"fr": "Tonnerre", "en": "Thunder"}},
+    {"id": "nature-snow", "level": 2, "he": "שלג", "pos": "nm", "translit": {"fr": "chélèg", "en": "sheleg"}, "meaning": {"fr": "Neige", "en": "Snow"}},
+    {"id": "nature-fog", "level": 2, "he": "ערפל", "pos": "nm", "translit": {"fr": "arafèl", "en": "arafel"}, "meaning": {"fr": "Brouillard", "en": "Fog"}},
+    {"id": "nature-stream", "level": 2, "he": "נחל", "pos": "nm", "translit": {"fr": "nah'al", "en": "nachal"}, "meaning": {"fr": "Ruisseau", "en": "Stream"}},
+    {"id": "nature-desert", "level": 2, "he": "מדבר", "pos": "nm", "translit": {"fr": "midbar", "en": "midbar"}, "meaning": {"fr": "Désert", "en": "Desert"}},
+    {"id": "nature-forest", "level": 2, "he": "יער", "pos": "nm", "translit": {"fr": "yaar", "en": "ya'ar"}, "meaning": {"fr": "Forêt", "en": "Forest"}},
+    {"id": "nature-valley", "level": 2, "he": "עמק", "pos": "nm", "translit": {"fr": "émèk", "en": "emek"}, "meaning": {"fr": "Vallée", "en": "Valley"}}
+  ]
+}

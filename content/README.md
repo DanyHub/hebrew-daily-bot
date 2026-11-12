@@ -44,6 +44,20 @@ Every theme and root has a `status`:
 Flip a set to `reviewed` only after a native/fluent check of nikud, meaning and
 both transliterations.
 
+## Current library
+
+Themes (levels 1 and 2): body, house, family, food, clothes, animals, nature and
+weather, city and transport, time, emotions and character, health and physical
+state. The level 2 "emotions" and "health and physical state" sets are the cards
+from the "Les 1001 mots en hébreu" screenshots (Hebrew and French as shown there).
+Roots: ktv, lmd, ahv (level 1); shlh, ptch, shmr (level 2).
+
+## Daily push
+
+`python -m hebbot.daily` picks one themed pack and one root from the date (no
+database, no AI). Same date, same messages; each day moves to the next theme and the
+next root. Drafts are only used with `--allow-draft`.
+
 ## Commands
 
 ```bash
@@ -52,4 +66,6 @@ python -m unittest discover -s tests -t .                  # tests
 python -m hebbot.preview --kind pack --theme body --level 1 --lang fr
 python -m hebbot.preview --kind root --level 2 --lang en
 python -m hebbot.preview --kind pack --theme house --level 2 --lang fr --send   # to Telegram
+python -m hebbot.daily --level 1 --lang fr --allow-draft                          # today's push (print)
+python -m hebbot.daily --level 2 --lang en --date 2026-11-15 --allow-draft --send
 ```

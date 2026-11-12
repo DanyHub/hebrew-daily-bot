@@ -1,0 +1,29 @@
+{
+  "theme": "clothes",
+  "status": "draft",
+  "emoji": "👕",
+  "title": {"fr": "Les vêtements", "en": "Clothes"},
+  "words": [
+    {"id": "clothes-shirt", "level": 1, "he": "חולצה", "pos": "nf", "translit": {"fr": "h'oultsa", "en": "chultza"}, "meaning": {"fr": "Chemise, haut", "en": "Shirt"}},
+    {"id": "clothes-pants", "level": 1, "he": "מכנסיים", "pos": "nmp", "translit": {"fr": "mikhnassayim", "en": "michnasayim"}, "meaning": {"fr": "Pantalon", "en": "Pants"}},
+    {"id": "clothes-dress", "level": 1, "he": "שמלה", "pos": "nf", "translit": {"fr": "simla", "en": "simla"}, "meaning": {"fr": "Robe", "en": "Dress"}},
+    {"id": "clothes-shoes", "level": 1, "he": "נעליים", "pos": "nfp", "translit": {"fr": "naalayim", "en": "naalayim"}, "meaning": {"fr": "Chaussures", "en": "Shoes"}},
+    {"id": "clothes-hat", "level": 1, "he": "כובע", "pos": "nm", "translit": {"fr": "kova", "en": "kova"}, "meaning": {"fr": "Chapeau", "en": "Hat"}},
+    {"id": "clothes-coat", "level": 1, "he": "מעיל", "pos": "nm", "translit": {"fr": "méïl", "en": "meil"}, "meaning": {"fr": "Manteau", "en": "Coat"}},
+    {"id": "clothes-socks", "level": 1, "he": "גרביים", "pos": "nmp", "translit": {"fr": "garbayim", "en": "garbayim"}, "meaning": {"fr": "Chaussettes", "en": "Socks"}},
+    {"id": "clothes-belt", "level": 1, "he": "חגורה", "pos": "nf", "translit": {"fr": "h'agora", "en": "chagora"}, "meaning": {"fr": "Ceinture", "en": "Belt"}},
+    {"id": "clothes-scarf", "level": 1, "he": "צעיף", "pos": "nm", "translit": {"fr": "tsaïf", "en": "tzaif"}, "meaning": {"fr": "Écharpe", "en": "Scarf"}},
+    {"id": "clothes-gloves", "level": 1, "he": "כפפות", "pos": "nfp", "translit": {"fr": "kfafote", "en": "kfafot"}, "meaning": {"fr": "Gants", "en": "Gloves"}},
+
+    {"id": "clothes-suit", "level": 2, "he": "חליפה", "pos": "nf", "translit": {"fr": "h'alifa", "en": "chalifa"}, "meaning": {"fr": "Costume", "en": "Suit"}},
+    {"id": "clothes-tie", "level": 2, "he": "עניבה", "pos": "nf", "translit": {"fr": "aniva", "en": "aniva"}, "meaning": {"fr": "Cravate", "en": "Tie"}},
+    {"id": "clothes-skirt", "level": 2, "he": "חצאית", "pos": "nf", "translit": {"fr": "h'atsaït", "en": "chatzait"}, "meaning": {"fr": "Jupe", "en": "Skirt"}},
+    {"id": "clothes-boots", "level": 2, "he": "מגפיים", "pos": "nmp", "translit": {"fr": "magafayim", "en": "magafayim"}, "meaning": {"fr": "Bottes", "en": "Boots"}},
+    {"id": "clothes-sandals", "level": 2, "he": "סנדלים", "pos": "nmp", "translit": {"fr": "sandalim", "en": "sandalim"}, "meaning": {"fr": "Sandales", "en": "Sandals"}},
+    {"id": "clothes-button", "level": 2, "he": "כפתור", "pos": "nm", "translit": {"fr": "kaftor", "en": "kaftor"}, "meaning": {"fr": "Bouton", "en": "Button"}},
+    {"id": "clothes-zipper", "level": 2, "he": "רוכסן", "pos": "nm", "translit": {"fr": "rokhsane", "en": "rochsan"}, "meaning": {"fr": "Fermeture éclair", "en": "Zipper"}},
+    {"id": "clothes-sleeve", "level": 2, "he": "שרוול", "pos": "nm", "translit": {"fr": "charvoul", "en": "sharvul"}, "meaning": {"fr": "Manche", "en": "Sleeve"}},
+    {"id": "clothes-collar", "level": 2, "he": "צווארון", "pos": "nm", "translit": {"fr": "tsavaron", "en": "tzavaron"}, "meaning": {"fr": "Col", "en": "Collar"}},
+    {"id": "clothes-pocket", "level": 2, "he": "כיס", "pos": "nm", "translit": {"fr": "kiss", "en": "kis"}, "meaning": {"fr": "Poche", "en": "Pocket"}}
+  ]
+}

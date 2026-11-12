@@ -1,0 +1,29 @@
+{
+  "theme": "time",
+  "status": "draft",
+  "emoji": "🕒",
+  "title": {"fr": "Le temps", "en": "Time"},
+  "words": [
+    {"id": "time-day", "level": 1, "he": "יום", "pos": "nm", "translit": {"fr": "yom", "en": "yom"}, "meaning": {"fr": "Jour", "en": "Day"}},
+    {"id": "time-night", "level": 1, "he": "לילה", "pos": "nm", "translit": {"fr": "layla", "en": "layla"}, "meaning": {"fr": "Nuit", "en": "Night"}},
+    {"id": "time-morning", "level": 1, "he": "בוקר", "pos": "nm", "translit": {"fr": "boker", "en": "boker"}, "meaning": {"fr": "Matin", "en": "Morning"}},
+    {"id": "time-evening", "level": 1, "he": "ערב", "pos": "nm", "translit": {"fr": "érèv", "en": "erev"}, "meaning": {"fr": "Soir", "en": "Evening"}},
+    {"id": "time-week", "level": 1, "he": "שבוע", "pos": "nm", "translit": {"fr": "chavoua", "en": "shavua"}, "meaning": {"fr": "Semaine", "en": "Week"}},
+    {"id": "time-month", "level": 1, "he": "חודש", "pos": "nm", "translit": {"fr": "h'odèch", "en": "chodesh"}, "meaning": {"fr": "Mois", "en": "Month"}},
+    {"id": "time-year", "level": 1, "he": "שנה", "pos": "nf", "translit": {"fr": "chana", "en": "shana"}, "meaning": {"fr": "Année", "en": "Year"}},
+    {"id": "time-hour", "level": 1, "he": "שעה", "pos": "nf", "translit": {"fr": "chaa", "en": "sha'a"}, "meaning": {"fr": "Heure", "en": "Hour"}},
+    {"id": "time-minute", "level": 1, "he": "דקה", "pos": "nf", "translit": {"fr": "daka", "en": "daka"}, "meaning": {"fr": "Minute", "en": "Minute"}},
+    {"id": "time-today", "level": 1, "he": "היום", "pos": "adv", "translit": {"fr": "hayom", "en": "hayom"}, "meaning": {"fr": "Aujourd'hui", "en": "Today"}},
+
+    {"id": "time-yesterday", "level": 2, "he": "אתמול", "pos": "adv", "translit": {"fr": "étmol", "en": "etmol"}, "meaning": {"fr": "Hier", "en": "Yesterday"}},
+    {"id": "time-tomorrow", "level": 2, "he": "מחר", "pos": "adv", "translit": {"fr": "ma'har", "en": "machar"}, "meaning": {"fr": "Demain", "en": "Tomorrow"}},
+    {"id": "time-the-day-before-yesterday", "level": 2, "he": "שלשום", "pos": "adv", "translit": {"fr": "chilchom", "en": "shilshom"}, "meaning": {"fr": "Avant-hier", "en": "The day before yesterday"}},
+    {"id": "time-the-day-after-tomorrow", "level": 2, "he": "מחרתיים", "pos": "adv", "translit": {"fr": "ma'hartayim", "en": "machartayim"}, "meaning": {"fr": "Après-demain", "en": "The day after tomorrow"}},
+    {"id": "time-season", "level": 2, "he": "עונה", "pos": "nf", "translit": {"fr": "ona", "en": "ona"}, "meaning": {"fr": "Saison", "en": "Season"}},
+    {"id": "time-summer", "level": 2, "he": "קיץ", "pos": "nm", "translit": {"fr": "kayits", "en": "kayitz"}, "meaning": {"fr": "Été", "en": "Summer"}},
+    {"id": "time-winter", "level": 2, "he": "חורף", "pos": "nm", "translit": {"fr": "h'oref", "en": "choref"}, "meaning": {"fr": "Hiver", "en": "Winter"}},
+    {"id": "time-autumn", "level": 2, "he": "סתיו", "pos": "nm", "translit": {"fr": "stav", "en": "stav"}, "meaning": {"fr": "Automne", "en": "Autumn"}},
+    {"id": "time-spring", "level": 2, "he": "אביב", "pos": "nm", "translit": {"fr": "aviv", "en": "aviv"}, "meaning": {"fr": "Printemps", "en": "Spring"}},
+    {"id": "time-date", "level": 2, "he": "תאריך", "pos": "nm", "translit": {"fr": "taarikh", "en": "ta'arich"}, "meaning": {"fr": "Date", "en": "Date"}}
+  ]
+}

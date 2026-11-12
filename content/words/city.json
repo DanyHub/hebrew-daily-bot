@@ -1,0 +1,29 @@
+{
+  "theme": "city",
+  "status": "draft",
+  "emoji": "🏙️",
+  "title": {"fr": "La ville et les transports", "en": "City and transport"},
+  "words": [
+    {"id": "city-street", "level": 1, "he": "רחוב", "pos": "nm", "translit": {"fr": "réh'ov", "en": "rechov"}, "meaning": {"fr": "Rue", "en": "Street"}},
+    {"id": "city-bus", "level": 1, "he": "אוטובוס", "pos": "nm", "translit": {"fr": "otobous", "en": "otobus"}, "meaning": {"fr": "Bus", "en": "Bus"}},
+    {"id": "city-train", "level": 1, "he": "רכבת", "pos": "nf", "translit": {"fr": "rakévèt", "en": "rakevet"}, "meaning": {"fr": "Train", "en": "Train"}},
+    {"id": "city-car", "level": 1, "he": "מכונית", "pos": "nf", "translit": {"fr": "mékhonit", "en": "mechonit"}, "meaning": {"fr": "Voiture", "en": "Car"}},
+    {"id": "city-station-stop", "level": 1, "he": "תחנה", "pos": "nf", "translit": {"fr": "tah'ana", "en": "tachana"}, "meaning": {"fr": "Station, arrêt", "en": "Station, stop"}},
+    {"id": "city-shop", "level": 1, "he": "חנות", "pos": "nf", "translit": {"fr": "h'anout", "en": "chanut"}, "meaning": {"fr": "Magasin", "en": "Shop"}},
+    {"id": "city-city", "level": 1, "he": "עיר", "pos": "nf", "translit": {"fr": "ir", "en": "ir"}, "meaning": {"fr": "Ville", "en": "City"}},
+    {"id": "city-bridge", "level": 1, "he": "גשר", "pos": "nm", "translit": {"fr": "guéchèr", "en": "gesher"}, "meaning": {"fr": "Pont", "en": "Bridge"}},
+    {"id": "city-road", "level": 1, "he": "כביש", "pos": "nm", "translit": {"fr": "kvich", "en": "kvish"}, "meaning": {"fr": "Route", "en": "Road"}},
+    {"id": "city-taxi", "level": 1, "he": "מונית", "pos": "nf", "translit": {"fr": "monit", "en": "monit"}, "meaning": {"fr": "Taxi", "en": "Taxi"}},
+
+    {"id": "city-traffic-light", "level": 2, "he": "רמזור", "pos": "nm", "translit": {"fr": "ramzor", "en": "ramzor"}, "meaning": {"fr": "Feu de circulation", "en": "Traffic light"}},
+    {"id": "city-sidewalk", "level": 2, "he": "מדרכה", "pos": "nf", "translit": {"fr": "midrakha", "en": "midrecha"}, "meaning": {"fr": "Trottoir", "en": "Sidewalk"}},
+    {"id": "city-intersection", "level": 2, "he": "צומת", "pos": "nm", "translit": {"fr": "tsomèt", "en": "tzomet"}, "meaning": {"fr": "Carrefour", "en": "Intersection"}},
+    {"id": "city-parking", "level": 2, "he": "חניה", "pos": "nf", "translit": {"fr": "h'nia", "en": "chniya"}, "meaning": {"fr": "Parking, stationnement", "en": "Parking"}},
+    {"id": "city-port", "level": 2, "he": "נמל", "pos": "nm", "translit": {"fr": "namal", "en": "namal"}, "meaning": {"fr": "Port", "en": "Port"}},
+    {"id": "city-square", "level": 2, "he": "כיכר", "pos": "nf", "translit": {"fr": "kikar", "en": "kikar"}, "meaning": {"fr": "Place (publique)", "en": "Square"}},
+    {"id": "city-building", "level": 2, "he": "בניין", "pos": "nm", "translit": {"fr": "binyane", "en": "binyan"}, "meaning": {"fr": "Immeuble, bâtiment", "en": "Building"}},
+    {"id": "city-neighborhood", "level": 2, "he": "שכונה", "pos": "nf", "translit": {"fr": "chkhouna", "en": "shchuna"}, "meaning": {"fr": "Quartier", "en": "Neighborhood"}},
+    {"id": "city-city-hall", "level": 2, "he": "עירייה", "pos": "nf", "translit": {"fr": "iriya", "en": "iriya"}, "meaning": {"fr": "Mairie", "en": "City hall"}},
+    {"id": "city-market", "level": 2, "he": "שוק", "pos": "nm", "translit": {"fr": "chouk", "en": "shuk"}, "meaning": {"fr": "Marché", "en": "Market"}}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "theme": "emotions",
+  "status": "draft",
+  "emoji": "💛",
+  "title": {"fr": "Émotions et caractère", "en": "Emotions and character"},
+  "words": [
+    {"id": "emotions-happy", "level": 1, "he": "שמח", "pos": "adj", "translit": {"fr": "saméa'h", "en": "sameach"}, "meaning": {"fr": "Content, joyeux", "en": "Happy"}},
+    {"id": "emotions-sad", "level": 1, "he": "עצוב", "pos": "adj", "translit": {"fr": "atsouv", "en": "atzuv"}, "meaning": {"fr": "Triste", "en": "Sad"}},
+    {"id": "emotions-angry", "level": 1, "he": "כועס", "pos": "adj", "translit": {"fr": "koéss", "en": "ko'es"}, "meaning": {"fr": "En colère", "en": "Angry"}},
+    {"id": "emotions-afraid", "level": 1, "he": "פוחד", "pos": "adj", "translit": {"fr": "pouh'ad", "en": "pochad"}, "meaning": {"fr": "Qui a peur", "en": "Afraid"}},
+    {"id": "emotions-tired", "level": 1, "he": "עייף", "pos": "adj", "translit": {"fr": "ayèf", "en": "ayef"}, "meaning": {"fr": "Fatigué", "en": "Tired"}},
+    {"id": "emotions-hungry", "level": 1, "he": "רעב", "pos": "adj", "translit": {"fr": "raév", "en": "ra'ev"}, "meaning": {"fr": "Affamé", "en": "Hungry"}},
+    {"id": "emotions-thirsty", "level": 1, "he": "צמא", "pos": "adj", "translit": {"fr": "tsamé", "en": "tzame"}, "meaning": {"fr": "Assoiffé", "en": "Thirsty"}},
+    {"id": "emotions-proud", "level": 1, "he": "גאה", "pos": "adj", "translit": {"fr": "gué'é", "en": "ge'e"}, "meaning": {"fr": "Fier", "en": "Proud"}},
+    {"id": "emotions-surprised", "level": 1, "he": "מופתע", "pos": "adj", "translit": {"fr": "mofta'", "en": "mufta'"}, "meaning": {"fr": "Surpris", "en": "Surprised"}},
+    {"id": "emotions-moved-excited", "level": 1, "he": "מתרגש", "pos": "adj", "translit": {"fr": "mitraguèch", "en": "mitragesh"}, "meaning": {"fr": "Ému, excité", "en": "Moved, excited"}},
+
+    {"id": "emotions-resourcefulness-presence-of", "level": 2, "he": "תושיה", "pos": "nf", "translit": {"fr": "touchiya", "en": "tushiya"}, "meaning": {"fr": "Présence d'esprit", "en": "Resourcefulness, presence of mind"}},
+    {"id": "emotions-boldness-daring", "level": 2, "he": "תעוזה", "pos": "nf", "translit": {"fr": "téouza", "en": "te'uza"}, "meaning": {"fr": "Audace, courage", "en": "Boldness, daring"}},
+    {"id": "emotions-deep-longing-aspiration", "level": 2, "he": "כמיהה", "pos": "nf", "translit": {"fr": "kmiha", "en": "kmiha"}, "meaning": {"fr": "Désir profond, aspiration", "en": "Deep longing, aspiration"}},
+    {"id": "emotions-embarrassment-confusion", "level": 2, "he": "מבוכה", "pos": "nf", "translit": {"fr": "mevouha", "en": "mevucha"}, "meaning": {"fr": "Embarras, confusion", "en": "Embarrassment, confusion"}},
+    {"id": "emotions-determination-perseverance", "level": 2, "he": "נחישות", "pos": "nf", "translit": {"fr": "nehichout", "en": "nechishut"}, "meaning": {"fr": "Détermination, persévérance", "en": "Determination, perseverance"}},
+    {"id": "emotions-sobering-up-disillusionment", "level": 2, "he": "התפכחות", "pos": "nf", "translit": {"fr": "hitpakhout", "en": "hitpakchut"}, "meaning": {"fr": "Retour à la lucidité, désillusion", "en": "Sobering up, disillusionment"}},
+    {"id": "emotions-tender-attachment-nostalgia", "level": 2, "he": "התרפקות", "pos": "nf", "translit": {"fr": "hitrapkout", "en": "hitrapkut"}, "meaning": {"fr": "Attachement tendre, nostalgie", "en": "Tender attachment, nostalgia"}},
+    {"id": "emotions-wonder-amazement", "level": 2, "he": "השתאות", "pos": "nf", "translit": {"fr": "hichtaout", "en": "hishta'ut"}, "meaning": {"fr": "Émerveillement, stupéfaction", "en": "Wonder, amazement"}}
+  ]
+}

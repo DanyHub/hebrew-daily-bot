@@ -1,0 +1,29 @@
+{
+  "theme": "family",
+  "status": "draft",
+  "emoji": "👨‍👩‍👧",
+  "title": {"fr": "La famille", "en": "Family"},
+  "words": [
+    {"id": "family-dad", "level": 1, "he": "אבא", "pos": "nm", "translit": {"fr": "aba", "en": "aba"}, "meaning": {"fr": "Papa", "en": "Dad"}},
+    {"id": "family-mom", "level": 1, "he": "אמא", "pos": "nf", "translit": {"fr": "ima", "en": "ima"}, "meaning": {"fr": "Maman", "en": "Mom"}},
+    {"id": "family-brother", "level": 1, "he": "אח", "pos": "nm", "translit": {"fr": "ah'", "en": "ach"}, "meaning": {"fr": "Frère", "en": "Brother"}},
+    {"id": "family-sister", "level": 1, "he": "אחות", "pos": "nf", "translit": {"fr": "ah'ote", "en": "achot"}, "meaning": {"fr": "Sœur", "en": "Sister"}},
+    {"id": "family-grandfather", "level": 1, "he": "סבא", "pos": "nm", "translit": {"fr": "saba", "en": "saba"}, "meaning": {"fr": "Grand-père", "en": "Grandfather"}},
+    {"id": "family-grandmother", "level": 1, "he": "סבתא", "pos": "nf", "translit": {"fr": "savta", "en": "savta"}, "meaning": {"fr": "Grand-mère", "en": "Grandmother"}},
+    {"id": "family-boy-child", "level": 1, "he": "ילד", "pos": "nm", "translit": {"fr": "yéled", "en": "yeled"}, "meaning": {"fr": "Garçon, enfant", "en": "Boy, child"}},
+    {"id": "family-girl", "level": 1, "he": "ילדה", "pos": "nf", "translit": {"fr": "yalda", "en": "yalda"}, "meaning": {"fr": "Fille (enfant)", "en": "Girl"}},
+    {"id": "family-son", "level": 1, "he": "בן", "pos": "nm", "translit": {"fr": "bène", "en": "ben"}, "meaning": {"fr": "Fils", "en": "Son"}},
+    {"id": "family-daughter", "level": 1, "he": "בת", "pos": "nf", "translit": {"fr": "bat", "en": "bat"}, "meaning": {"fr": "Fille", "en": "Daughter"}},
+
+    {"id": "family-uncle", "level": 2, "he": "דוד", "pos": "nm", "translit": {"fr": "dod", "en": "dod"}, "meaning": {"fr": "Oncle", "en": "Uncle"}},
+    {"id": "family-aunt", "level": 2, "he": "דודה", "pos": "nf", "translit": {"fr": "doda", "en": "doda"}, "meaning": {"fr": "Tante", "en": "Aunt"}},
+    {"id": "family-grandson", "level": 2, "he": "נכד", "pos": "nm", "translit": {"fr": "nékhed", "en": "neched"}, "meaning": {"fr": "Petit-fils", "en": "Grandson"}},
+    {"id": "family-granddaughter", "level": 2, "he": "נכדה", "pos": "nf", "translit": {"fr": "nékhda", "en": "nechda"}, "meaning": {"fr": "Petite-fille", "en": "Granddaughter"}},
+    {"id": "family-parents", "level": 2, "he": "הורים", "pos": "nmp", "translit": {"fr": "horim", "en": "horim"}, "meaning": {"fr": "Parents", "en": "Parents"}},
+    {"id": "family-baby", "level": 2, "he": "תינוק", "pos": "nm", "translit": {"fr": "tinok", "en": "tinok"}, "meaning": {"fr": "Bébé", "en": "Baby"}},
+    {"id": "family-nephew", "level": 2, "he": "אחיין", "pos": "nm", "translit": {"fr": "ah'yane", "en": "achyan"}, "meaning": {"fr": "Neveu", "en": "Nephew"}},
+    {"id": "family-niece", "level": 2, "he": "אחיינית", "pos": "nf", "translit": {"fr": "ah'yanite", "en": "achyanit"}, "meaning": {"fr": "Nièce", "en": "Niece"}},
+    {"id": "family-father-in-law", "level": 2, "he": "חותן", "pos": "nm", "translit": {"fr": "h'oténe", "en": "choten"}, "meaning": {"fr": "Beau-père", "en": "Father-in-law"}},
+    {"id": "family-mother-in-law", "level": 2, "he": "חמות", "pos": "nf", "translit": {"fr": "h'amote", "en": "chamot"}, "meaning": {"fr": "Belle-mère", "en": "Mother-in-law"}}
+  ]
+}

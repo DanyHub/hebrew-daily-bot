@@ -1,0 +1,29 @@
+{
+  "theme": "food",
+  "status": "draft",
+  "emoji": "🍞",
+  "title": {"fr": "La nourriture", "en": "Food"},
+  "words": [
+    {"id": "food-bread", "level": 1, "he": "לחם", "pos": "nm", "translit": {"fr": "léh'em", "en": "lechem"}, "meaning": {"fr": "Pain", "en": "Bread"}},
+    {"id": "food-water", "level": 1, "he": "מים", "pos": "nmp", "translit": {"fr": "mayim", "en": "mayim"}, "meaning": {"fr": "Eau", "en": "Water"}},
+    {"id": "food-milk", "level": 1, "he": "חלב", "pos": "nm", "translit": {"fr": "h'alav", "en": "chalav"}, "meaning": {"fr": "Lait", "en": "Milk"}},
+    {"id": "food-egg", "level": 1, "he": "ביצה", "pos": "nf", "translit": {"fr": "beitsa", "en": "beitza"}, "meaning": {"fr": "Œuf", "en": "Egg"}},
+    {"id": "food-cheese", "level": 1, "he": "גבינה", "pos": "nf", "translit": {"fr": "guévina", "en": "gvina"}, "meaning": {"fr": "Fromage", "en": "Cheese"}},
+    {"id": "food-apple", "level": 1, "he": "תפוח", "pos": "nm", "translit": {"fr": "tapouah'", "en": "tapuach"}, "meaning": {"fr": "Pomme", "en": "Apple"}},
+    {"id": "food-banana", "level": 1, "he": "בננה", "pos": "nf", "translit": {"fr": "banana", "en": "banana"}, "meaning": {"fr": "Banane", "en": "Banana"}},
+    {"id": "food-chicken", "level": 1, "he": "עוף", "pos": "nm", "translit": {"fr": "of", "en": "of"}, "meaning": {"fr": "Poulet", "en": "Chicken"}},
+    {"id": "food-fish", "level": 1, "he": "דג", "pos": "nm", "translit": {"fr": "dag", "en": "dag"}, "meaning": {"fr": "Poisson", "en": "Fish"}},
+    {"id": "food-rice", "level": 1, "he": "אורז", "pos": "nm", "translit": {"fr": "orèz", "en": "orez"}, "meaning": {"fr": "Riz", "en": "Rice"}},
+
+    {"id": "food-vegetables", "level": 2, "he": "ירקות", "pos": "nmp", "translit": {"fr": "yérakote", "en": "yerakot"}, "meaning": {"fr": "Légumes", "en": "Vegetables"}},
+    {"id": "food-fruits", "level": 2, "he": "פירות", "pos": "nmp", "translit": {"fr": "péirote", "en": "peirot"}, "meaning": {"fr": "Fruits", "en": "Fruits"}},
+    {"id": "food-meat", "level": 2, "he": "בשר", "pos": "nm", "translit": {"fr": "basar", "en": "basar"}, "meaning": {"fr": "Viande", "en": "Meat"}},
+    {"id": "food-salad", "level": 2, "he": "סלט", "pos": "nm", "translit": {"fr": "salat", "en": "salat"}, "meaning": {"fr": "Salade", "en": "Salad"}},
+    {"id": "food-soup", "level": 2, "he": "מרק", "pos": "nm", "translit": {"fr": "marak", "en": "marak"}, "meaning": {"fr": "Soupe", "en": "Soup"}},
+    {"id": "food-honey", "level": 2, "he": "דבש", "pos": "nm", "translit": {"fr": "dvach", "en": "dvash"}, "meaning": {"fr": "Miel", "en": "Honey"}},
+    {"id": "food-oil", "level": 2, "he": "שמן", "pos": "nm", "translit": {"fr": "chémène", "en": "shemen"}, "meaning": {"fr": "Huile", "en": "Oil"}},
+    {"id": "food-salt", "level": 2, "he": "מלח", "pos": "nm", "translit": {"fr": "mélah'", "en": "melach"}, "meaning": {"fr": "Sel", "en": "Salt"}},
+    {"id": "food-flour", "level": 2, "he": "קמח", "pos": "nm", "translit": {"fr": "kémah'", "en": "kemach"}, "meaning": {"fr": "Farine", "en": "Flour"}},
+    {"id": "food-spice", "level": 2, "he": "תבלין", "pos": "nm", "translit": {"fr": "tavline", "en": "tavlin"}, "meaning": {"fr": "Épice", "en": "Spice"}}
+  ]
+}

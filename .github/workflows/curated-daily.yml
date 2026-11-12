@@ -1,0 +1,56 @@
+name: Curated daily (theme + root)
+
+# One themed pack and one root card per day, from the curated content library.
+# No AI is called at send time. Scheduled workflows only run from the default
+# branch, so nothing is sent until this file is merged into it.
+
+on:
+  schedule:
+    - cron: '30 5 * * 0-5' # Sun-Fri, 05:30 UTC (07:30/08:30 in Israel depending on DST)
+  workflow_dispatch:
+    inputs:
+      level:
+        description: 'Level (1 beginner, 2 intermediate)'
+        default: '1'
+        type: choice
+        options: ['1', '2']
+      lang:
+        description: 'Language'
+        default: 'fr'
+        type: choice
+        options: ['fr', 'en']
+      date:
+        description: 'Date to simulate (YYYY-MM-DD, empty = today)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Only print, do not send to Telegram'
+        type: boolean
+        default: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - name: Validate content
+        run: python -m hebbot.validate
+      - name: Send daily messages
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          HEBBOT_LEVEL: ${{ github.event.inputs.level || vars.HEBBOT_LEVEL || '1' }}
+          HEBBOT_LANG: ${{ github.event.inputs.lang || vars.HEBBOT_LANG || 'fr' }}
+          DAILY_DATE: ${{ github.event.inputs.date }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          ARGS="--allow-draft"   # remove once content is marked 'reviewed'
+          if [ -n "$DAILY_DATE" ]; then ARGS="$ARGS --date $DAILY_DATE"; fi
+          if [ "$DRY_RUN" != "true" ]; then ARGS="$ARGS --send"; fi
+          python -m hebbot.daily $ARGS
