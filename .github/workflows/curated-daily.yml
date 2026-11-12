@@ -1,6 +1,8 @@
 name: Curated daily (theme + root)
 
-# One themed pack and one root card per day, from the curated content library.
+# One themed pack (with 4 sentences) and one root card per day, from the curated content library.
+# Sent to every subscriber registered through the Worker (see worker/README.md), each at their
+# own level and language; falls back to the single chat in TELEGRAM_CHAT_ID without Cloudflare secrets.
 # No AI is called at send time. Scheduled workflows only run from the default
 # branch, so nothing is sent until this file is merged into it.
 
@@ -49,8 +51,13 @@ jobs:
           HEBBOT_LANG: ${{ github.event.inputs.lang || vars.HEBBOT_LANG || 'fr' }}
           DAILY_DATE: ${{ github.event.inputs.date }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           ARGS="--allow-draft"   # remove once content is marked 'reviewed'
+          # With the Worker deployed, everyone who registered gets their own level and language.
+          # Without Cloudflare secrets, fall back to the single chat in TELEGRAM_CHAT_ID.
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then ARGS="$ARGS --subscribers"; fi
           if [ -n "$DAILY_DATE" ]; then ARGS="$ARGS --date $DAILY_DATE"; fi
           if [ "$DRY_RUN" != "true" ]; then ARGS="$ARGS --send"; fi
           python -m hebbot.daily $ARGS

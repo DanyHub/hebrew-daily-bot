@@ -1,0 +1,116 @@
+name: Deploy Worker
+
+# Deploys the Telegram webhook (worker/) to Cloudflare, creates its D1 database on the first run,
+# applies migrations, stores the secrets and points Telegram at the Worker.
+# Needs three repository secrets: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, TELEGRAM_BOT_TOKEN.
+# Setup steps: worker/README.md
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['worker/**', '.github/workflows/deploy-worker.yml']
+
+concurrency:
+  group: deploy-worker
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: worker
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      WRANGLER_SEND_METRICS: 'false'
+      DB_NAME: hebrew-daily-bot
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check secrets
+        run: |
+          missing=""
+          for v in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID TELEGRAM_BOT_TOKEN; do
+            if [ -z "${!v}" ]; then missing="$missing $v"; fi
+          done
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository secrets:$missing (Settings > Secrets and variables > Actions)"
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: worker/package-lock.json
+
+      - run: npm ci
+
+      - name: Run Worker tests
+        run: npm test
+
+      - name: Find or create the D1 database
+        run: |
+          set -euo pipefail
+          find_id() {
+            npx wrangler d1 list --json | python3 -c '
+          import json, sys
+          name = sys.argv[1]
+          print(next((d["uuid"] for d in json.load(sys.stdin) if d["name"] == name), ""))' "$DB_NAME"
+          }
+          DB_ID="$(find_id)"
+          if [ -z "$DB_ID" ]; then
+            echo "Creating D1 database $DB_NAME"
+            npx wrangler d1 create "$DB_NAME"
+            DB_ID="$(find_id)"
+          fi
+          if [ -z "$DB_ID" ]; then echo "::error::Could not find or create the D1 database"; exit 1; fi
+          sed -i "s/REPLACE_WITH_D1_ID/$DB_ID/" wrangler.toml
+          echo "Using D1 database $DB_NAME"
+
+      - name: Apply migrations
+        run: npx wrangler d1 migrations apply "$DB_NAME" --remote
+
+      - name: Deploy
+        id: deploy
+        run: |
+          set -euo pipefail
+          npx wrangler deploy 2>&1 | tee deploy.log
+          URL="$(grep -oE 'https://[A-Za-z0-9.-]+\.workers\.dev' deploy.log | head -1 || true)"
+          if [ -z "$URL" ]; then
+            echo "::error::No workers.dev URL found. Register a workers.dev subdomain once: Cloudflare dashboard > Workers & Pages."
+            exit 1
+          fi
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Store secrets
+        run: |
+          set -euo pipefail
+          # Derived from the bot token, so it stays stable across deploys and needs no extra secret.
+          WEBHOOK_SECRET="$(printf '%s' "$TELEGRAM_BOT_TOKEN:hebrew-daily-bot-webhook" | sha256sum | cut -d' ' -f1)"
+          printf '%s' "$TELEGRAM_BOT_TOKEN" | npx wrangler secret put TELEGRAM_BOT_TOKEN
+          printf '%s' "$WEBHOOK_SECRET" | npx wrangler secret put WEBHOOK_SECRET
+          echo "WEBHOOK_SECRET=$WEBHOOK_SECRET" >> "$GITHUB_ENV"
+
+      - name: Point Telegram at the Worker
+        env:
+          WORKER_URL: ${{ steps.deploy.outputs.url }}
+        run: |
+          set -euo pipefail
+          api() { curl -sS -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/$1" -H 'content-type: application/json' -d "$2"; }
+          expect_ok() { echo "$1" | jq -e '.ok == true' > /dev/null || { echo "::error::Telegram refused: $(echo "$1" | jq -r '.description // "unknown error"')"; exit 1; }; }
+
+          expect_ok "$(api setWebhook "$(jq -nc --arg url "$WORKER_URL/webhook" --arg s "$WEBHOOK_SECRET" \
+            '{url: $url, secret_token: $s, allowed_updates: ["message", "callback_query"]}')")"
+
+          expect_ok "$(api setMyCommands '{"commands":[{"command":"level","description":"Change level"},{"command":"language","description":"Change language"},{"command":"status","description":"See my settings"},{"command":"stop","description":"Pause"},{"command":"start","description":"Start / resume"}]}')"
+          expect_ok "$(api setMyCommands '{"language_code":"fr","commands":[{"command":"niveau","description":"Changer de niveau"},{"command":"langue","description":"Changer de langue"},{"command":"status","description":"Voir mes réglages"},{"command":"stop","description":"Mettre en pause"},{"command":"start","description":"Commencer / reprendre"}]}')"
+
+          echo "Webhook set. Health check:"
+          curl -sS "$WORKER_URL/"; echo
+          api getWebhookInfo '{}' | jq '.result | {url, pending_update_count, last_error_message}'
