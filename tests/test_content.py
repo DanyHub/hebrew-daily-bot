@@ -101,6 +101,7 @@ class RenderTests(unittest.TestCase):
         text = render.render_root(root, "en")
         self.assertIn("Source:", text)
         self.assertIn("hebreu.org", text)
+        self.assertNotIn("Source:", render.render_root(root, "en", show_source=False))
         self.assertNotIn("🇮🇱", text)
         self.assertEqual(text.count("<b>") - 3, len(root["words"]))  # title, root meaning, family heading + one per word
 

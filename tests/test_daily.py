@@ -52,9 +52,14 @@ class DailyTests(unittest.TestCase):
         self.assertEqual(len(msgs), 2)
         self.assertNotIn("relecture", "".join(msgs))
 
-    def test_draft_content_carries_a_warning(self):
-        msgs = daily.build_daily(self.content, 1, "fr", date(2026, 11, 15), allow_draft=True)
-        self.assertTrue(all("relecture" in m for m in msgs))
+    def test_messages_have_no_review_warning_and_no_source_line(self):
+        for lang, banner, source in [("fr", "relecture", "Source"), ("en", "pending review", "Source")]:
+            for level in content_lib.LEVELS:
+                for i in range(30):
+                    for m in daily.build_daily(self.content, level, lang, date(2026, 11, 1) + timedelta(days=i), True):
+                        self.assertNotIn(banner, m)
+                        self.assertNotIn(source, m)
+                        self.assertNotIn("hebreu.org", m)
 
     def test_every_message_fits_telegram_in_every_language_and_level(self):
         start = date(2026, 11, 1)
