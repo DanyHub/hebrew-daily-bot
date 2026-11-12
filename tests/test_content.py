@@ -111,7 +111,7 @@ class RenderTests(unittest.TestCase):
     def test_packs_show_their_sentences(self):
         for level in content_lib.LEVELS:
             for pack in content_lib.build_packs(self.content, level):
-                self.assertGreaterEqual(len(pack["sentences"]), 3, pack["theme"])
+                self.assertEqual(len(pack["sentences"]), 4, f"{pack['theme']} level {level}")
                 text = render.render_pack(pack, "fr")
                 self.assertIn("En phrases", text)
                 for sentence in pack["sentences"]:
