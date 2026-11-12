@@ -1,0 +1,28 @@
+name: Validate content
+
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'hebbot/**'
+      - 'tests/**'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'hebbot/**'
+      - 'tests/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - run: python -m hebbot.validate
+      - run: python -m unittest discover -s tests -t .
