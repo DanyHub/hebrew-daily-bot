@@ -54,7 +54,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          ARGS="--allow-draft"   # remove once content is marked 'reviewed'
+          ARGS=""   # whether unreviewed content is sent is decided by SEND_DRAFTS in hebbot/daily.py
           # With the Worker deployed, everyone who registered gets their own level and language.
           # Without Cloudflare secrets, fall back to the single chat in TELEGRAM_CHAT_ID.
           if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then ARGS="$ARGS --subscribers"; fi

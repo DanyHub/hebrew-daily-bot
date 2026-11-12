@@ -14,7 +14,11 @@ What a person sees:
 
 1. `/start` → "Choisis ta langue · Choose your language" (buttons)
 2. Level buttons (1 Beginner, 2 Intermediate)
-3. A confirmation, then every morning (Sun–Fri): a theme with 4 sentences, and a root.
+3. A confirmation, then **today's lesson right away** (a theme with 4 sentences, then a root), whatever the
+   time they register. After that, every morning (Sun–Fri), the same.
+
+The first lesson is also sent when someone comes back with `/start` after a pause. Nobody gets the same
+day's lesson twice: the day (Israel date) is stored in `last_sent`, and the scheduled send skips people already served.
 
 Commands: `/level` · `/language` (or `/niveau`, `/langue`) · `/status` · `/stop` (pause) · `/start` (resume) · `/help`.
 It only works in private chats (groups get a nudge to write privately), and a person who blocks the
@@ -68,6 +72,12 @@ curl -X POST localhost:8799/webhook -H 'X-Telegram-Bot-Api-Secret-Token: s3cret'
 
 `TELEGRAM_API` lets you point the Worker at a fake Telegram server; in production it is unset.
 
+## When the content changes
+
+The Worker sends the first lesson from `src/daily-bundle.json`, a pre-rendered copy of the rotation.
+After editing anything in `content/`, run `python -m hebbot.export_bundle` and commit the result;
+the Python tests fail if it is stale, and committing it redeploys the Worker.
+
 ## Files
 
 | File | Role |
@@ -76,6 +86,7 @@ curl -X POST localhost:8799/webhook -H 'X-Telegram-Bot-Api-Secret-Token: s3cret'
 | `src/bot.js` | Commands and button handling |
 | `src/i18n.js` | All French and English text |
 | `src/db.js` | The only SQL (parameterised) |
+| `src/daily.js` + `src/daily-bundle.json` | Picks today's lesson. The bundle is generated from `content/` by `python -m hebbot.export_bundle` |
 | `migrations/0001_users.sql` | The users table |
 | `test/bot.test.js` | Unit tests |
 

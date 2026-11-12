@@ -6,6 +6,8 @@ Each person picks their language and level in Telegram, then receives:
 1. **A themed pack**: 10–15 words on a theme (body, house, family, food, emotions…) plus **4 sentences** that reuse them.
 2. **A root of the day** with its word family (e.g. כ־ת־ב: write, letter, headline…).
 
+New people get today's lesson **immediately** after choosing their level, then every morning.
+
 The content is **curated and stored in this repository**. No AI runs when messages are sent.
 
 ```

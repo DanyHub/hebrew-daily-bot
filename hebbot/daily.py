@@ -18,10 +18,24 @@ import argparse
 import os
 import sys
 import time
-from datetime import date
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 
 from hebbot import content as content_lib
 from hebbot import render
+
+# One switch for "may unreviewed (draft) content be sent?". The scheduled send, the Worker's
+# instant first lesson (worker/src/daily-bundle.json) and the tests all follow it.
+# Flip it to False once the content has been reviewed, then re-run `python -m hebbot.export_bundle`.
+SEND_DRAFTS = True
+
+# "Today" is the date in Israel, so the scheduled send and the Worker agree on the day.
+ISRAEL = ZoneInfo("Asia/Jerusalem")
+
+
+def israel_today(now=None):
+    now = now or datetime.now(ISRAEL)
+    return now.astimezone(ISRAEL).date()
 
 
 def day_number(day):
@@ -45,9 +59,13 @@ def build_usable_packs(content, level, allow_draft=False):
     return [p for p in packs if p["theme"] in allowed]
 
 
+def usable_roots(content, level, allow_draft=False):
+    return _usable(content_lib.roots_for_level(content, level), allow_draft)
+
+
 def pick_root(content, level, day, allow_draft=False):
     """The root of the day, or None when the library has nothing usable."""
-    roots = _usable(content_lib.roots_for_level(content, level), allow_draft)
+    roots = usable_roots(content, level, allow_draft)
     return roots[day_number(day) % len(roots)] if roots else None
 
 
@@ -156,19 +174,20 @@ def main(argv=None):
     parser.add_argument("--level", type=int, choices=content_lib.LEVELS,
                         default=int(os.environ.get("HEBBOT_LEVEL") or 1))
     parser.add_argument("--lang", choices=content_lib.LANGS, default=os.environ.get("HEBBOT_LANG") or "fr")
-    parser.add_argument("--date", type=date.fromisoformat, default=None, help="YYYY-MM-DD (default: today)")
+    parser.add_argument("--date", type=date.fromisoformat, default=None, help="YYYY-MM-DD (default: today in Israel)")
     parser.add_argument("--allow-draft", action="store_true",
-                        help="also use content not yet marked 'reviewed'")
+                        help="also use content not yet marked 'reviewed' (already the default while SEND_DRAFTS is True)")
     parser.add_argument("--send", action="store_true", help="send to Telegram instead of printing")
     parser.add_argument("--subscribers", action="store_true",
                         help="send to everyone registered through the Worker (their own level and language)")
     args = parser.parse_args(argv)
 
-    day = args.date or date.today()
+    day = args.date or israel_today()
+    allow_draft = args.allow_draft or SEND_DRAFTS
     content = content_lib.load_content()
     if args.subscribers:
-        sys.exit(run_subscribers(content, day, args.allow_draft, args.send))
-    messages = build_daily(content, args.level, args.lang, day, args.allow_draft)
+        sys.exit(run_subscribers(content, day, allow_draft, args.send))
+    messages = build_daily(content, args.level, args.lang, day, allow_draft)
     if not messages:
         sys.exit("Nothing to send: no reviewed content for this level (use --allow-draft to include drafts).")
 

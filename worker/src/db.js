@@ -4,7 +4,7 @@ export function makeDb(d1) {
   return {
     async get(chatId) {
       return d1
-        .prepare("SELECT chat_id, lang, level, active FROM users WHERE chat_id = ?")
+        .prepare("SELECT chat_id, lang, level, active, last_sent FROM users WHERE chat_id = ?")
         .bind(chatId)
         .first();
     },
@@ -28,6 +28,13 @@ export function makeDb(d1) {
       await d1
         .prepare("UPDATE users SET level = ?, updated_at = datetime('now') WHERE chat_id = ?")
         .bind(level, chatId)
+        .run();
+    },
+    /** Remember the day (Israel date) a person last received a lesson, so nobody gets it twice. */
+    async setLastSent(chatId, day) {
+      await d1
+        .prepare("UPDATE users SET last_sent = ?, updated_at = datetime('now') WHERE chat_id = ?")
+        .bind(day, chatId)
         .run();
     },
     async setActive(chatId, active) {
