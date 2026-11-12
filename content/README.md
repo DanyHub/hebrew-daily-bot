@@ -67,10 +67,17 @@ from the date (no
 database, no AI). Same date, same messages; each day moves to the next theme and the
 next root. Drafts are only used with `--allow-draft`.
 
+## Sending unreviewed content
+
+`SEND_DRAFTS` in `hebbot/daily.py` decides whether content still marked `draft` may be sent (the scheduled send
+and the Worker's instant first lesson both follow it). When the content is reviewed, set it to `False`, mark the
+reviewed sets `reviewed`, run `python -m hebbot.export_bundle` and commit.
+
 ## Commands
 
 ```bash
 python -m hebbot.validate                                  # schema + length checks
+python -m hebbot.export_bundle                             # refresh worker/src/daily-bundle.json after content edits
 python -m unittest discover -s tests -t .                  # tests
 python -m hebbot.preview --kind pack --theme body --level 1 --lang fr
 python -m hebbot.preview --kind root --level 2 --lang en

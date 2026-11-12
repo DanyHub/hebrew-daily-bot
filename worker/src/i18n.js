@@ -35,6 +35,7 @@ export const TEXT = {
     privateOnly: "Écris-moi en message privé pour régler ton niveau et ta langue. 🙂",
     unknown: "Je n'ai pas compris. Tape /help pour voir les commandes.",
     chooseLang: "Choisis ta langue :",
+    firstSend: "📬 Voici ta leçon du jour :",
   },
   en: {
     chooseLevel:
@@ -60,6 +61,7 @@ export const TEXT = {
     privateOnly: "Message me privately to set your level and language. 🙂",
     unknown: "I didn't understand. Type /help to see the commands.",
     chooseLang: "Choose your language:",
+    firstSend: "📬 Here's today's lesson:",
   },
 };
 
