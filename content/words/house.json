@@ -1,0 +1,40 @@
+{
+  "theme": "house",
+  "status": "draft",
+  "emoji": "🏠",
+  "title": {"fr": "La maison", "en": "The house"},
+  "words": [
+    {"id": "house-bayit", "level": 1, "he": "בית", "pos": "nm", "translit": {"fr": "baït", "en": "bayit"}, "meaning": {"fr": "Maison", "en": "House"}},
+    {"id": "house-delet", "level": 1, "he": "דלת", "pos": "nf", "translit": {"fr": "délét", "en": "delet"}, "meaning": {"fr": "Porte", "en": "Door"}},
+    {"id": "house-halon", "level": 1, "he": "חלון", "pos": "nm", "translit": {"fr": "h'alone", "en": "chalon"}, "meaning": {"fr": "Fenêtre", "en": "Window"}},
+    {"id": "house-mitbach", "level": 1, "he": "מטבח", "pos": "nm", "translit": {"fr": "mitbah'", "en": "mitbach"}, "meaning": {"fr": "Cuisine", "en": "Kitchen"}},
+    {"id": "house-heder", "level": 1, "he": "חדר", "pos": "nm", "translit": {"fr": "h'édère", "en": "cheder"}, "meaning": {"fr": "Chambre, pièce", "en": "Room"}},
+    {"id": "house-shulhan", "level": 1, "he": "שולחן", "pos": "nm", "translit": {"fr": "choulh'ane", "en": "shulchan"}, "meaning": {"fr": "Table", "en": "Table"}},
+    {"id": "house-kise", "level": 1, "he": "כיסא", "pos": "nm", "translit": {"fr": "kissé", "en": "kisse"}, "meaning": {"fr": "Chaise", "en": "Chair"}},
+    {"id": "house-mita", "level": 1, "he": "מטה", "pos": "nf", "translit": {"fr": "mita", "en": "mita"}, "meaning": {"fr": "Lit", "en": "Bed"}},
+    {"id": "house-mekarer", "level": 1, "he": "מקרר", "pos": "nm", "translit": {"fr": "mékarère", "en": "mekarer"}, "meaning": {"fr": "Réfrigérateur", "en": "Fridge"}},
+    {"id": "house-gag", "level": 1, "he": "גג", "pos": "nm", "translit": {"fr": "gag", "en": "gag"}, "meaning": {"fr": "Toit", "en": "Roof"}},
+
+    {"id": "house-mirpeset", "level": 2, "he": "מרפסת", "pos": "nf", "translit": {"fr": "mirpésète", "en": "mirpeset"}, "meaning": {"fr": "Balcon", "en": "Balcony"}},
+    {"id": "house-tikra", "level": 2, "he": "תקרה", "pos": "nf", "translit": {"fr": "tikra", "en": "tikra"}, "meaning": {"fr": "Plafond", "en": "Ceiling"}},
+    {"id": "house-ritspa", "level": 2, "he": "רצפה", "pos": "nf", "translit": {"fr": "ritspa", "en": "ritzpa"}, "meaning": {"fr": "Sol, plancher", "en": "Floor"}},
+    {"id": "house-madregot", "level": 2, "he": "מדרגות", "pos": "nfp", "translit": {"fr": "madréguot", "en": "madregot"}, "meaning": {"fr": "Escalier, marches", "en": "Stairs"}},
+    {"id": "house-maalit", "level": 2, "he": "מעלית", "pos": "nf", "translit": {"fr": "maalit", "en": "ma'alit"}, "meaning": {"fr": "Ascenseur", "en": "Elevator"}},
+    {"id": "house-dira", "level": 2, "he": "דירה", "pos": "nf", "translit": {"fr": "dira", "en": "dira"}, "meaning": {"fr": "Appartement", "en": "Apartment"}},
+    {"id": "house-vilon", "level": 2, "he": "וילון", "pos": "nm", "translit": {"fr": "vilone", "en": "vilon"}, "meaning": {"fr": "Rideau", "en": "Curtain"}},
+    {"id": "house-maftea", "level": 2, "he": "מפתח", "pos": "nm", "translit": {"fr": "maftéa'h", "en": "mafteach"}, "meaning": {"fr": "Clé", "en": "Key"}},
+    {"id": "house-kiyor", "level": 2, "he": "כיור", "pos": "nm", "translit": {"fr": "kiyor", "en": "kiyor"}, "meaning": {"fr": "Évier", "en": "Sink"}},
+    {"id": "house-mazgan", "level": 2, "he": "מזגן", "pos": "nm", "translit": {"fr": "mazgane", "en": "mazgan"}, "meaning": {"fr": "Climatiseur", "en": "Air conditioner"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "הבית שלנו קטן, עם דלת כחולה וחלון גדול.", "translit": {"fr": "Habayit chélanou katane, im délèt khola vèh'alone gadol.", "en": "Habayit shelanu katan, im delet kchula vechalon gadol."}, "translation": {"fr": "Notre maison est petite, avec une porte bleue et une grande fenêtre.", "en": "Our house is small, with a blue door and a big window."}},
+    {"level": 1, "he": "במטבח יש שולחן, ארבעה כיסאות ומקרר.", "translit": {"fr": "Bamitbah' yèch choulh'ane, arbaa kissé'ot oumékarère.", "en": "Bamitbach yesh shulchan, arba'a kisa'ot umekarer."}, "translation": {"fr": "Dans la cuisine il y a une table, quatre chaises et un frigo.", "en": "In the kitchen there's a table, four chairs and a fridge."}},
+    {"level": 1, "he": "בחדר שלי יש מיטה, ועל הגג יושבת ציפור.", "translit": {"fr": "Bah'édèr chéli yèch mita, vèal hagag yochévèt tsipor.", "en": "Bacheder sheli yesh mita, ve'al hagag yoshevet tzipor."}, "translation": {"fr": "Dans ma chambre il y a un lit, et sur le toit un oiseau est posé.", "en": "In my room there's a bed, and a bird is sitting on the roof."}},
+    {"level": 1, "he": "החלון פתוח, והדלת סגורה.", "translit": {"fr": "Hah'alone patouah', véhadélèt sgoura.", "en": "Hachalon patuach, vehadelet sgura."}, "translation": {"fr": "La fenêtre est ouverte et la porte est fermée.", "en": "The window is open and the door is closed."}},
+
+    {"level": 2, "he": "הדירה שלנו בקומה שלישית, ואין מעלית אז עולים במדרגות.", "translit": {"fr": "Hadira chélanou békouma chlichit, vèéïne maalit az olim bamadréguot.", "en": "Hadira shelanu bekoma shlishit, ve'ein ma'alit az olim bamadregot."}, "translation": {"fr": "Notre appartement est au troisième étage, il n'y a pas d'ascenseur donc on monte par l'escalier.", "en": "Our apartment is on the third floor and there's no elevator, so we take the stairs."}},
+    {"level": 2, "he": "בקיץ אנחנו יושבים במרפסת, ובפנים מדליקים מזגן.", "translit": {"fr": "Békayits anah'nou yochvim bamirpésète, oubifnim madlikim mazgane.", "en": "Bakayitz anachnu yoshvim bamirpeset, uvifnim madlikim mazgan."}, "translation": {"fr": "L'été nous nous asseyons au balcon, et à l'intérieur nous allumons la climatisation.", "en": "In summer we sit on the balcony, and inside we turn on the air conditioner."}},
+    {"level": 2, "he": "איבדתי את המפתח, ואני רואה אותו על הרצפה מתחת לווילון.", "translit": {"fr": "Ibadti èt hamaftéa'h, vèani roé oto al haritspa mitah'at lavilone.", "en": "Ibadti et hamafteach, ve'ani ro'e oto al haritzpa mitachat lavilon."}, "translation": {"fr": "J'ai perdu la clé, et je la vois par terre sous le rideau.", "en": "I lost the key, and I see it on the floor under the curtain."}},
+    {"level": 2, "he": "התקרה נמוכה, והכיור במטבח דולף.", "translit": {"fr": "Hatikra némoukha, vèhakiyor bamitbah' dolèf.", "en": "Hatikra nemucha, vehakiyor bamitbach dolef."}, "translation": {"fr": "Le plafond est bas et l'évier de la cuisine fuit.", "en": "The ceiling is low, and the kitchen sink is leaking."}}
+  ]
+}

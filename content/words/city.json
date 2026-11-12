@@ -1,0 +1,40 @@
+{
+  "theme": "city",
+  "status": "draft",
+  "emoji": "🏙️",
+  "title": {"fr": "La ville et les transports", "en": "City and transport"},
+  "words": [
+    {"id": "city-street", "level": 1, "he": "רחוב", "pos": "nm", "translit": {"fr": "réh'ov", "en": "rechov"}, "meaning": {"fr": "Rue", "en": "Street"}},
+    {"id": "city-bus", "level": 1, "he": "אוטובוס", "pos": "nm", "translit": {"fr": "otobous", "en": "otobus"}, "meaning": {"fr": "Bus", "en": "Bus"}},
+    {"id": "city-train", "level": 1, "he": "רכבת", "pos": "nf", "translit": {"fr": "rakévèt", "en": "rakevet"}, "meaning": {"fr": "Train", "en": "Train"}},
+    {"id": "city-car", "level": 1, "he": "מכונית", "pos": "nf", "translit": {"fr": "mékhonit", "en": "mechonit"}, "meaning": {"fr": "Voiture", "en": "Car"}},
+    {"id": "city-station-stop", "level": 1, "he": "תחנה", "pos": "nf", "translit": {"fr": "tah'ana", "en": "tachana"}, "meaning": {"fr": "Station, arrêt", "en": "Station, stop"}},
+    {"id": "city-shop", "level": 1, "he": "חנות", "pos": "nf", "translit": {"fr": "h'anout", "en": "chanut"}, "meaning": {"fr": "Magasin", "en": "Shop"}},
+    {"id": "city-city", "level": 1, "he": "עיר", "pos": "nf", "translit": {"fr": "ir", "en": "ir"}, "meaning": {"fr": "Ville", "en": "City"}},
+    {"id": "city-bridge", "level": 1, "he": "גשר", "pos": "nm", "translit": {"fr": "guéchèr", "en": "gesher"}, "meaning": {"fr": "Pont", "en": "Bridge"}},
+    {"id": "city-road", "level": 1, "he": "כביש", "pos": "nm", "translit": {"fr": "kvich", "en": "kvish"}, "meaning": {"fr": "Route", "en": "Road"}},
+    {"id": "city-taxi", "level": 1, "he": "מונית", "pos": "nf", "translit": {"fr": "monit", "en": "monit"}, "meaning": {"fr": "Taxi", "en": "Taxi"}},
+
+    {"id": "city-traffic-light", "level": 2, "he": "רמזור", "pos": "nm", "translit": {"fr": "ramzor", "en": "ramzor"}, "meaning": {"fr": "Feu de circulation", "en": "Traffic light"}},
+    {"id": "city-sidewalk", "level": 2, "he": "מדרכה", "pos": "nf", "translit": {"fr": "midrakha", "en": "midrecha"}, "meaning": {"fr": "Trottoir", "en": "Sidewalk"}},
+    {"id": "city-intersection", "level": 2, "he": "צומת", "pos": "nm", "translit": {"fr": "tsomèt", "en": "tzomet"}, "meaning": {"fr": "Carrefour", "en": "Intersection"}},
+    {"id": "city-parking", "level": 2, "he": "חניה", "pos": "nf", "translit": {"fr": "h'nia", "en": "chniya"}, "meaning": {"fr": "Parking, stationnement", "en": "Parking"}},
+    {"id": "city-port", "level": 2, "he": "נמל", "pos": "nm", "translit": {"fr": "namal", "en": "namal"}, "meaning": {"fr": "Port", "en": "Port"}},
+    {"id": "city-square", "level": 2, "he": "כיכר", "pos": "nf", "translit": {"fr": "kikar", "en": "kikar"}, "meaning": {"fr": "Place (publique)", "en": "Square"}},
+    {"id": "city-building", "level": 2, "he": "בניין", "pos": "nm", "translit": {"fr": "binyane", "en": "binyan"}, "meaning": {"fr": "Immeuble, bâtiment", "en": "Building"}},
+    {"id": "city-neighborhood", "level": 2, "he": "שכונה", "pos": "nf", "translit": {"fr": "chkhouna", "en": "shchuna"}, "meaning": {"fr": "Quartier", "en": "Neighborhood"}},
+    {"id": "city-city-hall", "level": 2, "he": "עירייה", "pos": "nf", "translit": {"fr": "iriya", "en": "iriya"}, "meaning": {"fr": "Mairie", "en": "City hall"}},
+    {"id": "city-market", "level": 2, "he": "שוק", "pos": "nm", "translit": {"fr": "chouk", "en": "shuk"}, "meaning": {"fr": "Marché", "en": "Market"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "אני גר בעיר גדולה, ברחוב שקט ליד גשר.", "translit": {"fr": "Ani gar baïr guédola, bèréh'ov chakète léyad guéchèr.", "en": "Ani gar ba'ir gdola, berechov shaket leyad gesher."}, "translation": {"fr": "J'habite dans une grande ville, dans une rue calme près d'un pont.", "en": "I live in a big city, on a quiet street near a bridge."}},
+    {"level": 1, "he": "אני נוסע לעבודה באוטובוס או ברכבת, ולפעמים במונית.", "translit": {"fr": "Ani nossé laavoda baotobous o bérakévèt, oulifamim bémonit.", "en": "Ani nose'a la'avoda ba'otobus o berakevet, ulefe'amim bemonit."}, "translation": {"fr": "Je vais au travail en bus ou en train, et parfois en taxi.", "en": "I go to work by bus or train, and sometimes by taxi."}},
+    {"level": 1, "he": "התחנה נמצאת ליד החנות, והכביש הראשי עמוס.", "translit": {"fr": "Hatah'ana nimtsèt léyad hah'anout, vèhakvich harachi amouss.", "en": "Hatachana nimtzet leyad hachanut, vehakvish harashi amus."}, "translation": {"fr": "L'arrêt est près du magasin, et la route principale est bondée.", "en": "The stop is next to the shop, and the main road is crowded."}},
+    {"level": 1, "he": "המכונית שלי בתיקון, אז אני מחכה בתחנה.", "translit": {"fr": "Hamékhonit chéli bitikoune, az ani mah'a bataah'ana.", "en": "Hamechonit sheli betikun, az ani mechake batachana."}, "translation": {"fr": "Ma voiture est en réparation, alors j'attends à l'arrêt.", "en": "My car is in the shop, so I'm waiting at the stop."}},
+
+    {"level": 2, "he": "עומדים ברמזור אדום, ואז עוברים בצומת.", "translit": {"fr": "Omdim barèmzor adom, vèaz ovrim batsomèt.", "en": "Omdim baramzor adom, ve'az ovrim batzomet."}, "translation": {"fr": "On s'arrête au feu rouge, puis on traverse le carrefour.", "en": "We stop at the red light, then cross the intersection."}},
+    {"level": 2, "he": "אין חניה ליד הבניין, אז הולכים ברגל על המדרכה.", "translit": {"fr": "Éïne h'nia léyad habinyane, az holkhim bèrègèl al hamidrakha.", "en": "Ein chniya leyad habinyan, az holchim beregel al hamidrecha."}, "translation": {"fr": "Il n'y a pas de parking près de l'immeuble, donc on marche sur le trottoir.", "en": "There's no parking near the building, so we walk on the sidewalk."}},
+    {"level": 2, "he": "בשכונה שלנו יש כיכר ושוק, והעירייה קרובה.", "translit": {"fr": "Bichkhouna chélanou yèch kikar vèchouk, vèha'iriya kérova.", "en": "Beshchuna shelanu yesh kikar veshuk, veha'iriya kerova."}, "translation": {"fr": "Dans notre quartier il y a une place et un marché, et la mairie est proche.", "en": "In our neighborhood there's a square and a market, and city hall is nearby."}},
+    {"level": 2, "he": "ספינה נכנסת לנמל.", "translit": {"fr": "Sfina nikhnèsèt lanamal.", "en": "Sfina nichneset lanamal."}, "translation": {"fr": "Un bateau entre dans le port.", "en": "A ship is entering the port."}}
+  ]
+}

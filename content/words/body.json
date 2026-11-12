@@ -1,0 +1,40 @@
+{
+  "theme": "body",
+  "status": "draft",
+  "emoji": "🫀",
+  "title": {"fr": "Le corps", "en": "The body"},
+  "words": [
+    {"id": "body-rosh", "level": 1, "he": "ראש", "pos": "nm", "translit": {"fr": "rosh", "en": "rosh"}, "meaning": {"fr": "Tête", "en": "Head"}},
+    {"id": "body-ayin", "level": 1, "he": "עין", "pos": "nf", "translit": {"fr": "aïn", "en": "ayin"}, "meaning": {"fr": "Œil", "en": "Eye"}},
+    {"id": "body-af", "level": 1, "he": "אף", "pos": "nm", "translit": {"fr": "af", "en": "af"}, "meaning": {"fr": "Nez", "en": "Nose"}},
+    {"id": "body-pe", "level": 1, "he": "פה", "pos": "nm", "translit": {"fr": "pé", "en": "peh"}, "meaning": {"fr": "Bouche", "en": "Mouth"}},
+    {"id": "body-ozen", "level": 1, "he": "אוזן", "pos": "nf", "translit": {"fr": "ozène", "en": "ozen"}, "meaning": {"fr": "Oreille", "en": "Ear"}},
+    {"id": "body-shen", "level": 1, "he": "שן", "pos": "nf", "translit": {"fr": "chène", "en": "shen"}, "meaning": {"fr": "Dent", "en": "Tooth"}},
+    {"id": "body-yad", "level": 1, "he": "יד", "pos": "nf", "translit": {"fr": "yad", "en": "yad"}, "meaning": {"fr": "Main", "en": "Hand"}},
+    {"id": "body-regel", "level": 1, "he": "רגל", "pos": "nf", "translit": {"fr": "réguel", "en": "regel"}, "meaning": {"fr": "Pied, jambe", "en": "Foot, leg"}},
+    {"id": "body-lev", "level": 1, "he": "לב", "pos": "nm", "translit": {"fr": "lév", "en": "lev"}, "meaning": {"fr": "Cœur", "en": "Heart"}},
+    {"id": "body-beten", "level": 1, "he": "בטן", "pos": "nf", "translit": {"fr": "bétène", "en": "beten"}, "meaning": {"fr": "Ventre", "en": "Belly"}},
+
+    {"id": "body-katef", "level": 2, "he": "כתף", "pos": "nf", "translit": {"fr": "katèf", "en": "katef"}, "meaning": {"fr": "Épaule", "en": "Shoulder"}},
+    {"id": "body-marpek", "level": 2, "he": "מרפק", "pos": "nm", "translit": {"fr": "marpèk", "en": "marpek"}, "meaning": {"fr": "Coude", "en": "Elbow"}},
+    {"id": "body-berekh", "level": 2, "he": "ברך", "pos": "nf", "translit": {"fr": "bérèkh", "en": "berech"}, "meaning": {"fr": "Genou", "en": "Knee"}},
+    {"id": "body-tsavar", "level": 2, "he": "צוואר", "pos": "nm", "translit": {"fr": "tsavar", "en": "tzavar"}, "meaning": {"fr": "Cou", "en": "Neck"}},
+    {"id": "body-etsem", "level": 2, "he": "עצם", "pos": "nf", "translit": {"fr": "étsèm", "en": "etzem"}, "meaning": {"fr": "Os", "en": "Bone"}},
+    {"id": "body-sherir", "level": 2, "he": "שריר", "pos": "nm", "translit": {"fr": "chrir", "en": "sherir"}, "meaning": {"fr": "Muscle", "en": "Muscle"}},
+    {"id": "body-or", "level": 2, "he": "עור", "pos": "nm", "translit": {"fr": "or", "en": "or"}, "meaning": {"fr": "Peau", "en": "Skin"}},
+    {"id": "body-karsol", "level": 2, "he": "קרסול", "pos": "nm", "translit": {"fr": "karsol", "en": "karsol"}, "meaning": {"fr": "Cheville", "en": "Ankle"}},
+    {"id": "body-yarekh", "level": 2, "he": "ירך", "pos": "nf", "translit": {"fr": "yarèkh", "en": "yarech"}, "meaning": {"fr": "Cuisse", "en": "Thigh"}},
+    {"id": "body-gav", "level": 2, "he": "גב", "pos": "nm", "translit": {"fr": "gav", "en": "gav"}, "meaning": {"fr": "Dos", "en": "Back"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "יש לי שתי עיניים, אף, פה ושתי אוזניים.", "translit": {"fr": "Yèch li chtéi énayim, af, pé ou chtéi oznayim.", "en": "Yesh li shtei einayim, af, peh ve-shtei oznayim."}, "translation": {"fr": "J'ai deux yeux, un nez, une bouche et deux oreilles.", "en": "I have two eyes, a nose, a mouth and two ears."}},
+    {"level": 1, "he": "הראש כואב לי והבטן ריקה.", "translit": {"fr": "Harosh koév li vèhabéténe réka.", "en": "Harosh ko'ev li vehaveten reka."}, "translation": {"fr": "J'ai mal à la tête et le ventre vide.", "en": "My head hurts and my stomach is empty."}},
+    {"level": 1, "he": "אני רץ על שתי רגליים והלב פועם חזק.", "translit": {"fr": "Ani rats al chtéi raglayim vèhalév poème h'azak.", "en": "Ani ratz al shtei raglayim vehalev po'em chazak."}, "translation": {"fr": "Je cours sur mes deux jambes et mon cœur bat fort.", "en": "I run on both legs and my heart beats hard."}},
+    {"level": 1, "he": "הילד שוטף את הידיים ומצחצח שיניים.", "translit": {"fr": "Hayéled choutèf èt hayadayim oumétsah'tséa'h chinayim.", "en": "Hayeled shotef et hayadayim umetzachtzeach shinayim."}, "translation": {"fr": "L'enfant se lave les mains et se brosse les dents.", "en": "The child washes his hands and brushes his teeth."}},
+
+    {"level": 2, "he": "כואבים לי הכתף, המרפק והברך אחרי האימון.", "translit": {"fr": "Koavim li hakatèf, hamarpèk vèhabérèkh ah'aré haïmoune.", "en": "Ko'avim li hakatef, hamarpek vehaberech acharei ha'imun."}, "translation": {"fr": "J'ai mal à l'épaule, au coude et au genou après l'entraînement.", "en": "My shoulder, elbow and knee hurt after the workout."}},
+    {"level": 2, "he": "הרופא בדק את הצוואר, את הגב ואת השריר הקרוע.", "translit": {"fr": "Harofé badak èt hatsavar, èt hagav vèèt hacharir hakaroua.", "en": "Harofe badak et hatzavar, et hagav ve'et hasherir hakarua."}, "translation": {"fr": "Le médecin a examiné le cou, le dos et le muscle déchiré.", "en": "The doctor examined the neck, the back and the torn muscle."}},
+    {"level": 2, "he": "הקרסול נפוח, אבל העצם לא שבורה.", "translit": {"fr": "Hakarsol nafoua'h, aval ha'étsèm lo chvoura.", "en": "Hakarsol nafu'ach, aval ha'etzem lo shvura."}, "translation": {"fr": "La cheville est enflée, mais l'os n'est pas cassé.", "en": "The ankle is swollen, but the bone isn't broken."}},
+    {"level": 2, "he": "העור על הירך אדום.", "translit": {"fr": "Ha'or al hayarèkh adom.", "en": "Ha'or al hayarech adom."}, "translation": {"fr": "La peau sur la cuisse est rouge.", "en": "The skin on the thigh is red."}}
+  ]
+}

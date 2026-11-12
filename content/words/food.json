@@ -1,0 +1,40 @@
+{
+  "theme": "food",
+  "status": "draft",
+  "emoji": "🍞",
+  "title": {"fr": "La nourriture", "en": "Food"},
+  "words": [
+    {"id": "food-bread", "level": 1, "he": "לחם", "pos": "nm", "translit": {"fr": "léh'em", "en": "lechem"}, "meaning": {"fr": "Pain", "en": "Bread"}},
+    {"id": "food-water", "level": 1, "he": "מים", "pos": "nmp", "translit": {"fr": "mayim", "en": "mayim"}, "meaning": {"fr": "Eau", "en": "Water"}},
+    {"id": "food-milk", "level": 1, "he": "חלב", "pos": "nm", "translit": {"fr": "h'alav", "en": "chalav"}, "meaning": {"fr": "Lait", "en": "Milk"}},
+    {"id": "food-egg", "level": 1, "he": "ביצה", "pos": "nf", "translit": {"fr": "beitsa", "en": "beitza"}, "meaning": {"fr": "Œuf", "en": "Egg"}},
+    {"id": "food-cheese", "level": 1, "he": "גבינה", "pos": "nf", "translit": {"fr": "guévina", "en": "gvina"}, "meaning": {"fr": "Fromage", "en": "Cheese"}},
+    {"id": "food-apple", "level": 1, "he": "תפוח", "pos": "nm", "translit": {"fr": "tapouah'", "en": "tapuach"}, "meaning": {"fr": "Pomme", "en": "Apple"}},
+    {"id": "food-banana", "level": 1, "he": "בננה", "pos": "nf", "translit": {"fr": "banana", "en": "banana"}, "meaning": {"fr": "Banane", "en": "Banana"}},
+    {"id": "food-chicken", "level": 1, "he": "עוף", "pos": "nm", "translit": {"fr": "of", "en": "of"}, "meaning": {"fr": "Poulet", "en": "Chicken"}},
+    {"id": "food-fish", "level": 1, "he": "דג", "pos": "nm", "translit": {"fr": "dag", "en": "dag"}, "meaning": {"fr": "Poisson", "en": "Fish"}},
+    {"id": "food-rice", "level": 1, "he": "אורז", "pos": "nm", "translit": {"fr": "orèz", "en": "orez"}, "meaning": {"fr": "Riz", "en": "Rice"}},
+
+    {"id": "food-vegetables", "level": 2, "he": "ירקות", "pos": "nmp", "translit": {"fr": "yérakote", "en": "yerakot"}, "meaning": {"fr": "Légumes", "en": "Vegetables"}},
+    {"id": "food-fruits", "level": 2, "he": "פירות", "pos": "nmp", "translit": {"fr": "péirote", "en": "peirot"}, "meaning": {"fr": "Fruits", "en": "Fruits"}},
+    {"id": "food-meat", "level": 2, "he": "בשר", "pos": "nm", "translit": {"fr": "basar", "en": "basar"}, "meaning": {"fr": "Viande", "en": "Meat"}},
+    {"id": "food-salad", "level": 2, "he": "סלט", "pos": "nm", "translit": {"fr": "salat", "en": "salat"}, "meaning": {"fr": "Salade", "en": "Salad"}},
+    {"id": "food-soup", "level": 2, "he": "מרק", "pos": "nm", "translit": {"fr": "marak", "en": "marak"}, "meaning": {"fr": "Soupe", "en": "Soup"}},
+    {"id": "food-honey", "level": 2, "he": "דבש", "pos": "nm", "translit": {"fr": "dvach", "en": "dvash"}, "meaning": {"fr": "Miel", "en": "Honey"}},
+    {"id": "food-oil", "level": 2, "he": "שמן", "pos": "nm", "translit": {"fr": "chémène", "en": "shemen"}, "meaning": {"fr": "Huile", "en": "Oil"}},
+    {"id": "food-salt", "level": 2, "he": "מלח", "pos": "nm", "translit": {"fr": "mélah'", "en": "melach"}, "meaning": {"fr": "Sel", "en": "Salt"}},
+    {"id": "food-flour", "level": 2, "he": "קמח", "pos": "nm", "translit": {"fr": "kémah'", "en": "kemach"}, "meaning": {"fr": "Farine", "en": "Flour"}},
+    {"id": "food-spice", "level": 2, "he": "תבלין", "pos": "nm", "translit": {"fr": "tavline", "en": "tavlin"}, "meaning": {"fr": "Épice", "en": "Spice"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "לארוחת בוקר אני אוכל לחם עם גבינה וביצה, ושותה חלב.", "translit": {"fr": "Léarouh'at boker ani okhèl léh'em im guévina ouvéitsa, vèchoté h'alav.", "en": "Le'aruchat boker ani ochel lechem im gvina uveitza, veshote chalav."}, "translation": {"fr": "Au petit-déjeuner je mange du pain avec du fromage et un œuf, et je bois du lait.", "en": "For breakfast I eat bread with cheese and an egg, and drink milk."}},
+    {"level": 1, "he": "לצהריים יש עוף עם אורז, או דג.", "translit": {"fr": "Létsohoraïm yèch of im orèz, o dag.", "en": "Letzohorayim yesh of im orez, o dag."}, "translation": {"fr": "Au déjeuner il y a du poulet avec du riz, ou du poisson.", "en": "For lunch there's chicken with rice, or fish."}},
+    {"level": 1, "he": "אני אוהב תפוח ובננה, ושותה הרבה מים.", "translit": {"fr": "Ani ohèv tapouah' ouvanana, vèchoté harbé mayim.", "en": "Ani ohev tapuach uvanana, veshote harbe mayim."}, "translation": {"fr": "J'aime la pomme et la banane, et je bois beaucoup d'eau.", "en": "I like apples and bananas, and I drink a lot of water."}},
+    {"level": 1, "he": "אני לא אוהב דג, אבל אני אוהב ביצה עם לחם.", "translit": {"fr": "Ani lo ohèv dag, aval ani ohèv béitsa im léh'em.", "en": "Ani lo ohev dag, aval ani ohev beitza im lechem."}, "translation": {"fr": "Je n'aime pas le poisson, mais j'aime l'œuf avec du pain.", "en": "I don't like fish, but I like egg with bread."}},
+
+    {"level": 2, "he": "בשבת אנחנו אוכלים מרק, בשר וסלט ירקות.", "translit": {"fr": "Bachabat anah'nou okhlim marak, basar vèsalat yérakote.", "en": "Beshabat anachnu ochlim marak, basar vesalat yerakot."}, "translation": {"fr": "Le shabbat nous mangeons de la soupe, de la viande et une salade de légumes.", "en": "On Shabbat we eat soup, meat and a vegetable salad."}},
+    {"level": 2, "he": "לסלט מוסיפים שמן, מלח וקצת תבלין.", "translit": {"fr": "Lassalat mossifim chémène, mélah' vèkétsat tavline.", "en": "Lasalat mosifim shemen, melach vekatzat tavlin."}, "translation": {"fr": "À la salade on ajoute de l'huile, du sel et un peu d'épices.", "en": "We add oil, salt and a little spice to the salad."}},
+    {"level": 2, "he": "לעוגה צריך קמח ודבש, ולקינוח פירות.", "translit": {"fr": "Laougua tsarikh kémah' vèdvach, oulékinouah' péirote.", "en": "La'uga tzarich kemach vedvash, ulekinuach peirot."}, "translation": {"fr": "Pour le gâteau il faut de la farine et du miel, et des fruits en dessert.", "en": "For the cake you need flour and honey, and fruit for dessert."}},
+    {"level": 2, "he": "אנחנו אוכלים הרבה ירקות ופירות, ופחות בשר.", "translit": {"fr": "Anah'nou okhlim harbé yérakote oupéirote, oufah'ote basar.", "en": "Anachnu ochlim harbe yerakot ufeirot, ufachot basar."}, "translation": {"fr": "Nous mangeons beaucoup de légumes et de fruits, et moins de viande.", "en": "We eat a lot of vegetables and fruit, and less meat."}}
+  ]
+}

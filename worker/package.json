@@ -1,0 +1,14 @@
+{
+  "name": "hebrew-daily-bot-worker",
+  "private": true,
+  "type": "module",
+  "description": "Telegram webhook for the Hebrew daily bot: onboarding, level and language choice, pause/resume.",
+  "scripts": {
+    "test": "node --test",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.161.0"
+  }
+}

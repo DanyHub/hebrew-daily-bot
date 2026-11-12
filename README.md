@@ -35,6 +35,24 @@ This project sends 5 advanced Hebrew words to your Telegram chat every morning u
 *   **Word Generation**: Uses Gemini to generate 5 new words that are *not* in `history.json`.
 *   **History**: It updates `history.json` automatically after each run to prevent duplicates.
 
+## New: curated content library (work in progress)
+
+The bot is moving from live Gemini generation to a curated library with
+**levels** (1 beginner, 2 intermediate), **themes** (body, house, ...) and
+**root families**, in **French and English**. See [`content/README.md`](content/README.md).
+The existing daily flow (`main.py`) is unchanged for now.
+
+```bash
+python -m hebbot.validate
+python -m hebbot.preview --kind pack --theme body --level 1 --lang fr
+python -m hebbot.daily --level 1 --lang fr --allow-draft   # today's theme + root
+```
+
+The `Curated daily` workflow sends one theme (with 4 sentences) and one root a day (Sun-Fri).
+A small Cloudflare Worker ([`worker/`](worker/README.md)) lets each person pick their level and
+language in Telegram; the workflow then sends everyone their own version. It only runs
+once merged into the default branch; use *Run workflow* with *dry run* to try it first.
+
 ## Testing Locally (Optional)
 
 1. Install dependencies:

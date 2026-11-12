@@ -1,0 +1,40 @@
+{
+  "theme": "animals",
+  "status": "draft",
+  "emoji": "🐾",
+  "title": {"fr": "Les animaux", "en": "Animals"},
+  "words": [
+    {"id": "animals-dog", "level": 1, "he": "כלב", "pos": "nm", "translit": {"fr": "kélèv", "en": "kelev"}, "meaning": {"fr": "Chien", "en": "Dog"}},
+    {"id": "animals-cat", "level": 1, "he": "חתול", "pos": "nm", "translit": {"fr": "h'atoul", "en": "chatul"}, "meaning": {"fr": "Chat", "en": "Cat"}},
+    {"id": "animals-horse", "level": 1, "he": "סוס", "pos": "nm", "translit": {"fr": "sous", "en": "sus"}, "meaning": {"fr": "Cheval", "en": "Horse"}},
+    {"id": "animals-cow", "level": 1, "he": "פרה", "pos": "nf", "translit": {"fr": "para", "en": "para"}, "meaning": {"fr": "Vache", "en": "Cow"}},
+    {"id": "animals-bird", "level": 1, "he": "ציפור", "pos": "nf", "translit": {"fr": "tsipor", "en": "tzipor"}, "meaning": {"fr": "Oiseau", "en": "Bird"}},
+    {"id": "animals-rabbit", "level": 1, "he": "ארנב", "pos": "nm", "translit": {"fr": "arnav", "en": "arnav"}, "meaning": {"fr": "Lapin", "en": "Rabbit"}},
+    {"id": "animals-lion", "level": 1, "he": "אריה", "pos": "nm", "translit": {"fr": "arié", "en": "arye"}, "meaning": {"fr": "Lion", "en": "Lion"}},
+    {"id": "animals-elephant", "level": 1, "he": "פיל", "pos": "nm", "translit": {"fr": "pil", "en": "pil"}, "meaning": {"fr": "Éléphant", "en": "Elephant"}},
+    {"id": "animals-monkey", "level": 1, "he": "קוף", "pos": "nm", "translit": {"fr": "kof", "en": "kof"}, "meaning": {"fr": "Singe", "en": "Monkey"}},
+    {"id": "animals-snake", "level": 1, "he": "נחש", "pos": "nm", "translit": {"fr": "nah'ach", "en": "nachash"}, "meaning": {"fr": "Serpent", "en": "Snake"}},
+
+    {"id": "animals-sheep", "level": 2, "he": "כבשה", "pos": "nf", "translit": {"fr": "kivsa", "en": "kivsa"}, "meaning": {"fr": "Brebis", "en": "Sheep"}},
+    {"id": "animals-goat", "level": 2, "he": "עז", "pos": "nf", "translit": {"fr": "ez", "en": "ez"}, "meaning": {"fr": "Chèvre", "en": "Goat"}},
+    {"id": "animals-donkey", "level": 2, "he": "חמור", "pos": "nm", "translit": {"fr": "h'amor", "en": "chamor"}, "meaning": {"fr": "Âne", "en": "Donkey"}},
+    {"id": "animals-camel", "level": 2, "he": "גמל", "pos": "nm", "translit": {"fr": "gamal", "en": "gamal"}, "meaning": {"fr": "Chameau", "en": "Camel"}},
+    {"id": "animals-wolf", "level": 2, "he": "זאב", "pos": "nm", "translit": {"fr": "zéév", "en": "zeev"}, "meaning": {"fr": "Loup", "en": "Wolf"}},
+    {"id": "animals-fox", "level": 2, "he": "שועל", "pos": "nm", "translit": {"fr": "choual", "en": "shual"}, "meaning": {"fr": "Renard", "en": "Fox"}},
+    {"id": "animals-bear", "level": 2, "he": "דוב", "pos": "nm", "translit": {"fr": "dov", "en": "dov"}, "meaning": {"fr": "Ours", "en": "Bear"}},
+    {"id": "animals-turtle", "level": 2, "he": "צב", "pos": "nm", "translit": {"fr": "tsav", "en": "tzav"}, "meaning": {"fr": "Tortue", "en": "Turtle"}},
+    {"id": "animals-scorpion", "level": 2, "he": "עקרב", "pos": "nm", "translit": {"fr": "akrav", "en": "akrav"}, "meaning": {"fr": "Scorpion", "en": "Scorpion"}},
+    {"id": "animals-mosquito", "level": 2, "he": "יתוש", "pos": "nm", "translit": {"fr": "yatouch", "en": "yatush"}, "meaning": {"fr": "Moustique", "en": "Mosquito"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "בחווה יש סוס, פרה, כלב וחתול.", "translit": {"fr": "Bah'ava yèch sous, para, kélèv vèh'atoul.", "en": "Bachava yesh sus, para, kelev vechatul."}, "translation": {"fr": "À la ferme il y a un cheval, une vache, un chien et un chat.", "en": "On the farm there's a horse, a cow, a dog and a cat."}},
+    {"level": 1, "he": "בגן החיות ראינו אריה, פיל וקוף.", "translit": {"fr": "Bagan hah'ayot raïnou arié, pil vèkof.", "en": "Bagan hachayot ra'inu arye, pil vekof."}, "translation": {"fr": "Au zoo nous avons vu un lion, un éléphant et un singe.", "en": "At the zoo we saw a lion, an elephant and a monkey."}},
+    {"level": 1, "he": "ציפור שרה על העץ, והארנב מפחד מהנחש.", "translit": {"fr": "Tsipor chara al haéts, vèha'arnav méfah'ad mèhanah'ach.", "en": "Tzipor shara al ha'etz, veha'arnav mefached mehanachash."}, "translation": {"fr": "Un oiseau chante sur l'arbre, et le lapin a peur du serpent.", "en": "A bird sings in the tree, and the rabbit is afraid of the snake."}},
+    {"level": 1, "he": "החתול רודף אחרי הציפור, והכלב ישן ליד הסוס.", "translit": {"fr": "Hah'atoul rodèf ah'aré hatsipor, vèhakélèv yachèn léyad hasous.", "en": "Hachatul rodef acharei hatzipor, vehakelev yashen leyad hasus."}, "translation": {"fr": "Le chat court après l'oiseau, et le chien dort près du cheval.", "en": "The cat chases the bird, and the dog sleeps next to the horse."}},
+
+    {"level": 2, "he": "הרועה שומר על הכבשה ועל העז מפני הזאב.", "translit": {"fr": "Haroé chomèr al hakivsa vèal haèz mipnéi hazéév.", "en": "Haro'e shomer al hakivsa ve'al ha'ez mipnei hazeev."}, "translation": {"fr": "Le berger protège la brebis et la chèvre du loup.", "en": "The shepherd protects the sheep and the goat from the wolf."}},
+    {"level": 2, "he": "במדבר רואים גמל וחמור, ולפעמים עקרב.", "translit": {"fr": "Bamidbar roïm gamal vèh'amor, oulifamim akrav.", "en": "Bamidbar ro'im gamal vechamor, ulefe'amim akrav."}, "translation": {"fr": "Dans le désert on voit un chameau et un âne, et parfois un scorpion.", "en": "In the desert you see a camel and a donkey, and sometimes a scorpion."}},
+    {"level": 2, "he": "השועל ערמומי, הדוב ישן בחורף, והצב איטי.", "translit": {"fr": "Hachoual armoumi, hadov yachèn bah'oref, vèhatsav iti.", "en": "Hashu'al armumi, hadov yashen bachoref, vehatzav iti."}, "translation": {"fr": "Le renard est rusé, l'ours dort l'hiver, et la tortue est lente.", "en": "The fox is cunning, the bear sleeps in winter, and the turtle is slow."}},
+    {"level": 2, "he": "יתוש עקץ אותי בלילה.", "translit": {"fr": "Yatouch akats oti balayla.", "en": "Yatush akatz oti balayla."}, "translation": {"fr": "Un moustique m'a piqué cette nuit.", "en": "A mosquito bit me last night."}}
+  ]
+}

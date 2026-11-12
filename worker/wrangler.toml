@@ -1,0 +1,11 @@
+name = "hebrew-daily-bot"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# The deploy workflow replaces REPLACE_WITH_D1_ID with the real database id
+# (it creates the database on the first run).
+[[d1_databases]]
+binding = "DB"
+database_name = "hebrew-daily-bot"
+database_id = "REPLACE_WITH_D1_ID"
+migrations_dir = "migrations"

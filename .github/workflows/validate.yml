@@ -1,0 +1,47 @@
+name: Validate content
+
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'hebbot/**'
+      - 'tests/**'
+      - 'worker/**'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'hebbot/**'
+      - 'tests/**'
+      - 'worker/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - run: python -m hebbot.validate
+      - run: python -m unittest discover -s tests -t .
+
+  worker:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: worker
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: worker/package-lock.json
+      - run: npm ci
+      - run: npm test
