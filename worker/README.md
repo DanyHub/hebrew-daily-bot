@@ -21,6 +21,8 @@ The first lesson is also sent when someone comes back with `/start` after a paus
 day's lesson twice: the day (Israel date) is stored in `last_sent`, and the scheduled send skips people already served.
 
 Commands: `/level` · `/language` (or `/niveau`, `/langue`) · `/status` · `/stop` (pause) · `/start` (resume) · `/help`.
+
+Changing the level or the language later (`/level`, `/language`) also sends today's lesson right away, in the new level/language, even if today's lesson was already sent. Picking the same value again sends nothing, and a paused person gets nothing.
 It only works in private chats (groups get a nudge to write privately), and a person who blocks the
 bot is paused automatically at the next send.
 

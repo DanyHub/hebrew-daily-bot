@@ -144,14 +144,14 @@ test("nobody gets the same day's lesson twice", async () => {
   assert.deepEqual(lessonMessages(tg), []);
 });
 
-test("changing language or level after onboarding does not resend a lesson", async () => {
+test("changing language then level after onboarding sends a lesson each time, and records the day", async () => {
   const db = fakeDb(), tg = fakeTg();
   db.rows.set(42, { chat_id: 42, lang: "fr", level: 1, active: 1, last_sent: "2026-11-11" });
   await run(press("lang:en"), db, tg);
   await run(press("lvl:2"), db, tg);
   assert.deepEqual([db.rows.get(42).lang, db.rows.get(42).level], ["en", 2]);
-  assert.deepEqual(lessonMessages(tg), []);
-  assert.equal(db.rows.get(42).last_sent, "2026-11-11");
+  assert.deepEqual(lessonMessages(tg), [...messagesFor("en", 1, TODAY), ...messagesFor("en", 2, TODAY)]);
+  assert.equal(db.rows.get(42).last_sent, TODAY);
 });
 
 test("if the lesson cannot be delivered, the day is not recorded (it can be retried)", async () => {
@@ -377,4 +377,37 @@ test("webhook rejects a missing or wrong secret and answers Telegram immediately
 
   assert.equal((await worker.fetch(new Request("https://w.example/"), env, ctx)).status, 200);
   assert.equal((await worker.fetch(new Request("https://w.example/nope"), env, ctx)).status, 404);
+});
+
+// --- changing level or language sends the lesson again -----------------------------
+
+test("changing level sends today's lesson for the new level, even if today's was already sent", async () => {
+  const db = fakeDb(), tg = fakeTg();
+  db.rows.set(42, { chat_id: 42, lang: "fr", level: 1, active: 1, last_sent: TODAY });
+  await run(press("lvl:2"), db, tg);
+  assert.equal(db.rows.get(42).level, 2);
+  assert.deepEqual(lessonMessages(tg), messagesFor("fr", 2, TODAY));
+  assert.equal(db.rows.get(42).last_sent, TODAY);
+});
+
+test("changing language sends today's lesson in the new language", async () => {
+  const db = fakeDb(), tg = fakeTg();
+  db.rows.set(42, { chat_id: 42, lang: "fr", level: 1, active: 1, last_sent: TODAY });
+  await run(press("lang:en"), db, tg);
+  assert.deepEqual(lessonMessages(tg), messagesFor("en", 1, TODAY));
+});
+
+test("choosing the same level or language again sends nothing", async () => {
+  const db = fakeDb(), tg = fakeTg();
+  db.rows.set(42, { chat_id: 42, lang: "fr", level: 1, active: 1, last_sent: TODAY });
+  await run(press("lvl:1"), db, tg);
+  await run(press("lang:fr"), db, tg);
+  assert.deepEqual(lessonMessages(tg), []);
+});
+
+test("a paused person changing level does not get a lesson", async () => {
+  const db = fakeDb(), tg = fakeTg();
+  db.rows.set(42, { chat_id: 42, lang: "fr", level: 1, active: 0, last_sent: "2026-11-11" });
+  await run(press("lvl:2"), db, tg);
+  assert.deepEqual(lessonMessages(tg), []);
 });

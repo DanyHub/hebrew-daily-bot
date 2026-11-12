@@ -44,12 +44,13 @@ export function parseCommand(text) {
 /**
  * Send today's lesson right away (the pack, then the root), unless this person already got today's.
  * The day is recorded only when everything was delivered, so a failed send can be retried.
- * Returns true when the lesson was delivered.
+ * `force` sends even if today's lesson already went out (used when the level or language changes: the
+ * new lesson is a different one). Returns true when the lesson was delivered.
  */
-export async function deliverToday(user, chatId, tg, db, deps = {}) {
+export async function deliverToday(user, chatId, tg, db, deps = {}, { force = false } = {}) {
   if (!user || !user.active || !isReady(user)) return false;
   const day = (deps.today ?? todayInIsrael)();
-  if (user.last_sent === day) return false;
+  if (user.last_sent === day && !force) return false;
   const messages = messagesFor(user.lang, user.level, day);
   if (messages.length === 0) return false;
 
@@ -151,6 +152,7 @@ async function handleCallback(query, { tg, db, deps }) {
       : tg.sendMessage(chatId, text, markup ? { reply_markup: markup } : {});
 
   if (kind === "lang" && LANGS.includes(value)) {
+    const previousLang = user.lang;
     await db.setLang(chatId, value);
     user = await db.get(chatId);
     await tg.answerCallbackQuery(query.id);
@@ -159,11 +161,13 @@ async function handleCallback(query, { tg, db, deps }) {
     } else {
       await edit(TEXT[value].ready(value, user.level));
       if (!wasReady) await deliverToday(user, chatId, tg, db, deps); // finished onboarding
+      else if (previousLang !== value) await deliverToday(user, chatId, tg, db, deps, { force: true }); // changed language
     }
     return;
   }
   if (kind === "lvl" && levels.includes(Number(value))) {
     const level = Number(value);
+    const previousLevel = user.level;
     await db.setLevel(chatId, level);
     user = await db.get(chatId);
     await tg.answerCallbackQuery(query.id);
@@ -174,6 +178,7 @@ async function handleCallback(query, { tg, db, deps }) {
     } else {
       await edit(TEXT[lang].ready(lang, level));
       if (!wasReady) await deliverToday(user, chatId, tg, db, deps); // finished onboarding
+      else if (previousLevel !== level) await deliverToday(user, chatId, tg, db, deps, { force: true }); // changed level
     }
     return;
   }
