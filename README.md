@@ -1,66 +1,56 @@
-# Daily Hebrew Word Bot
+# Hebrew Daily Bot
 
-This project sends 5 advanced Hebrew words to your Telegram chat every morning using GitHub Actions and the Gemini API.
+A Telegram bot that teaches Hebrew every morning (Sunday to Friday), in French or English, at two levels.
+Each person picks their language and level in Telegram, then receives:
 
-## Setup Instructions
+1. **A themed pack**: 10–15 words on a theme (body, house, family, food, emotions…) plus **4 sentences** that reuse them.
+2. **A root of the day** with its word family (e.g. כ־ת־ב: write, letter, headline…).
 
-### 1. Get Credentials
+The content is **curated and stored in this repository**. No AI runs when messages are sent.
 
-*   **Telegram Bot Token**:
-    1. Open Telegram and search for `@BotFather`.
-    2. Send `/newbot` and follow the instructions.
-    3. Copy the **HTTP API Token**.
-
-*   **Telegram Chat ID**:
-    1. Provide your Chat ID as you mentioned, OR:
-    2. Start a chat with your new bot (send `/start`).
-    3. Forward a message from that chat to `@userinfobot` to get your numeric ID.
-
-*   **Gemini API Key**:
-    1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey).
-    2. Create a new API key.
-
-### 2. Configure GitHub Secrets
-
-1. Go to your GitHub Repository -> **Settings** -> **Secrets and variables** -> **Actions**.
-2. Click **New repository secret**.
-3. Add the following secrets:
-    *   `TELEGRAM_BOT_TOKEN`: Your bot token.
-    *   `TELEGRAM_CHAT_ID`: Your numeric chat ID.
-    *   `GEMINI_API_KEY`: Your Google Gemini API key.
-
-## How it Works
-
-*   **Daily Trigger**: The bot runs automatically at 6:00 AM UTC via GitHub Actions.
-*   **Word Generation**: Uses Gemini to generate 5 new words that are *not* in `history.json`.
-*   **History**: It updates `history.json` automatically after each run to prevent duplicates.
-
-## New: curated content library (work in progress)
-
-The bot is moving from live Gemini generation to a curated library with
-**levels** (1 beginner, 2 intermediate), **themes** (body, house, ...) and
-**root families**, in **French and English**. See [`content/README.md`](content/README.md).
-The existing daily flow (`main.py`) is unchanged for now.
-
-```bash
-python -m hebbot.validate
-python -m hebbot.preview --kind pack --theme body --level 1 --lang fr
-python -m hebbot.daily --level 1 --lang fr --allow-draft   # today's theme + root
+```
+Telegram ──▶ Worker (worker/) ──▶ D1 database: who chose which level and language
+                                        ▲
+GitHub Actions "Curated daily" ─────────┘ builds today's messages from content/ and sends each person theirs
 ```
 
-The `Curated daily` workflow sends one theme (with 4 sentences) and one root a day (Sun-Fri).
-A small Cloudflare Worker ([`worker/`](worker/README.md)) lets each person pick their level and
-language in Telegram; the workflow then sends everyone their own version. It only runs
-once merged into the default branch; use *Run workflow* with *dry run* to try it first.
+## Parts
 
-## Testing Locally (Optional)
+| Folder | What it is |
+|---|---|
+| [`content/`](content/README.md) | The curated library: themes, sentences, root families. 11 themes, 46 roots, levels 1–2, French and English. |
+| `hebbot/` | Python: loads and validates the content, renders Telegram messages, picks the day's pack and root, sends to subscribers. |
+| [`worker/`](worker/README.md) | Cloudflare Worker: `/start`, level and language buttons, `/stop`, `/status`. |
+| `tests/` | Python tests. The Worker has its own in `worker/test/`. |
+| `.github/workflows/` | `curated-daily` (the daily send), `deploy-worker` (deploys the Worker), `validate` (CI). |
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Set environment variables (`TELEGRAM_BOT_TOKEN`, etc.) or create a `.env` file.
-3. Run:
-   ```bash
-   python main.py
-   ```
+## Setup
+
+1. Create the bot with `@BotFather` and keep its token.
+2. Add the repository secret `TELEGRAM_BOT_TOKEN`.
+3. Deploy the Worker so people can register: follow [`worker/README.md`](worker/README.md)
+   (a free Cloudflare account, two more secrets, one workflow run).
+4. People send `/start` to the bot. Run **Actions → Curated daily → Run workflow** to send right away;
+   otherwise it runs by itself Sunday to Friday at 05:30 UTC.
+
+Without the Cloudflare secrets the daily workflow falls back to one chat: set `TELEGRAM_CHAT_ID`
+(and optionally the repository variables `HEBBOT_LEVEL` and `HEBBOT_LANG`).
+
+## Try it locally
+
+```bash
+pip install -r requirements.txt
+python -m hebbot.validate                                   # check the content
+python -m unittest discover -s tests -t .                   # tests
+python -m hebbot.daily --level 1 --lang fr --allow-draft    # print today's messages
+python -m hebbot.daily --level 2 --lang en --date 2026-11-15 --allow-draft
+python -m hebbot.preview --kind root --level 2 --lang fr    # one root card
+```
+
+`--send` posts to Telegram (needs `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`).
+
+## Content status
+
+Everything is marked `draft` until a Hebrew speaker has reviewed it, and every message says so. See
+[`content/README.md`](content/README.md) for the format, the review workflow and the sources
+(the root sheets of Serge Frydman, Ort Villiers – hebreu.org, are credited on each of their roots).
