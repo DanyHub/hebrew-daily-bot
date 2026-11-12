@@ -103,7 +103,7 @@ def render_pack(pack, lang, show_draft=False):
     return "\n".join(lines)
 
 
-def render_root(root, lang, show_draft=False):
+def render_root(root, lang, show_draft=False, show_source=True):
     """A root card: the root, its core meaning and its family of words with examples."""
     _check_lang(lang)
     ui = UI[lang]
@@ -130,7 +130,7 @@ def render_root(root, lang, show_draft=False):
             ]
     if lines[-1] != "":
         lines.append("")
-    if root.get("source"):
+    if show_source and root.get("source"):
         lines.append(f"📚 {esc(ui['source'])} {esc(root['source'])}")
     if show_draft:
         lines.append(esc(ui["draft"]))

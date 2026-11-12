@@ -56,15 +56,11 @@ def build_daily(content, level, lang, day, allow_draft=False):
     messages = []
     pack = pick_pack(content, level, day, allow_draft)
     if pack:
-        messages.append(render.render_pack(pack, lang, show_draft=pack_is_draft(content, pack)))
+        messages.append(render.render_pack(pack, lang))
     root = pick_root(content, level, day, allow_draft)
     if root:
-        messages.append(render.render_root(root, lang, show_draft=root.get("status") == "draft"))
+        messages.append(render.render_root(root, lang, show_source=False))
     return messages
-
-
-def pack_is_draft(content, pack):
-    return content["themes"][pack["theme"]].get("status") == "draft"
 
 
 # Telegram answers these when the person blocked the bot, deleted the chat or the account is gone.
@@ -162,7 +158,7 @@ def main(argv=None):
     parser.add_argument("--lang", choices=content_lib.LANGS, default=os.environ.get("HEBBOT_LANG") or "fr")
     parser.add_argument("--date", type=date.fromisoformat, default=None, help="YYYY-MM-DD (default: today)")
     parser.add_argument("--allow-draft", action="store_true",
-                        help="also use content not yet marked 'reviewed' (shows a warning line)")
+                        help="also use content not yet marked 'reviewed'")
     parser.add_argument("--send", action="store_true", help="send to Telegram instead of printing")
     parser.add_argument("--subscribers", action="store_true",
                         help="send to everyone registered through the Worker (their own level and language)")
