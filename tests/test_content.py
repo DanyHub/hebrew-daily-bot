@@ -95,6 +95,19 @@ class RenderTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             render.render_pack(pack, "de")
 
+    def test_root_without_examples_renders_family_and_source(self):
+        root = next(r for r in self.content["roots"] if r["id"] == "rkv")
+        self.assertTrue(all("example" not in w for w in root["words"]))
+        text = render.render_root(root, "en")
+        self.assertIn("Source:", text)
+        self.assertIn("hebreu.org", text)
+        self.assertNotIn("🇮🇱", text)
+        self.assertEqual(text.count("<b>") - 2, len(root["words"]))  # title + family heading + one per word
+
+    def test_root_with_examples_still_shows_them(self):
+        root = next(r for r in self.content["roots"] if r["id"] == "ktv")
+        self.assertIn("🇮🇱", render.render_root(root, "fr"))
+
     def test_root_letters_formatting(self):
         self.assertEqual(render.format_root_letters("כתב"), "כ־ת־ב")
 

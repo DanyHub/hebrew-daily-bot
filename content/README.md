@@ -27,7 +27,8 @@ content/
 - `pos`: `nm`/`nf` (masc./fem. noun), `nmp`/`nfp` (plural), `v`, `adj`, `adv`.
 - `translit` is per language on purpose: French uses `ou`, `h'`, `ch`; English uses `u`, `ch`, `sh`.
 - `root` (optional): id of an entry in `roots.json`; powers the future "Family" button.
-- Root words additionally require an `example` (`he`, `translit.{fr,en}`, `translation.{fr,en}`).
+- Root words may carry an `example` (`he`, `translit.{fr,en}`, `translation.{fr,en}`); it is optional.
+- A root may carry a `source` string; it is shown at the bottom of the root card.
 
 ## Theme file
 
@@ -50,7 +51,11 @@ Themes (levels 1 and 2): body, house, family, food, clothes, animals, nature and
 weather, city and transport, time, emotions and character, health and physical
 state. The level 2 "emotions" and "health and physical state" sets are the cards
 from the "Les 1001 mots en hébreu" screenshots (Hebrew and French as shown there).
-Roots: ktv, lmd, ahv (level 1); shlh, ptch, shmr (level 2).
+Roots: 8 at level 1 and 38 at level 2. Six were written for this bot with example
+sentences (ktv, lmd, ahv, shlh, ptch, shmr); the others come from the root sheets of
+Serge Frydman (Ort Villiers, hebreu.org), shown with a source line. For those, the
+word choice follows the sheets while the glosses are re-written and English added.
+Get the author's permission before publishing them beyond a private study group.
 
 ## Daily push
 

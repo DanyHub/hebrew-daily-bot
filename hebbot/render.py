@@ -28,6 +28,7 @@ UI = {
         "root_meaning": "Sens de la racine :",
         "family": "Famille de mots",
         "draft": "⚠️ Contenu en cours de relecture",
+        "source": "Source :",
     },
     "en": {
         "level": "Level",
@@ -37,6 +38,7 @@ UI = {
         "root_meaning": "Root meaning:",
         "family": "Word family",
         "draft": "⚠️ Content pending review",
+        "source": "Source:",
     },
 }
 
@@ -101,15 +103,22 @@ def render_root(root, lang, show_draft=False):
         "",
     ]
     for i, w in enumerate(root["words"], 1):
-        ex = w["example"]
-        lines += [
+        lines.append(
             f"{i}. <b>{esc(w['he'])}</b> — {esc(w['meaning'][lang])} — "
-            f"<i>{esc(w['translit'][lang])}</i> ({esc(POS_LONG[lang][w['pos']])})",
-            f"🇮🇱 {esc(ex['he'])}",
-            f"🔤 <i>{esc(ex['translit'][lang])}</i>",
-            f"💬 {esc(ex['translation'][lang])}",
-            "",
-        ]
+            f"<i>{esc(w['translit'][lang])}</i> ({esc(POS_LONG[lang][w['pos']])})"
+        )
+        ex = w.get("example")
+        if ex:
+            lines += [
+                f"🇮🇱 {esc(ex['he'])}",
+                f"🔤 <i>{esc(ex['translit'][lang])}</i>",
+                f"💬 {esc(ex['translation'][lang])}",
+                "",
+            ]
+    if lines[-1] != "":
+        lines.append("")
+    if root.get("source"):
+        lines.append(f"📚 {esc(ui['source'])} {esc(root['source'])}")
     if show_draft:
         lines.append(esc(ui["draft"]))
     return "\n".join(lines).rstrip()

@@ -154,8 +154,8 @@ def validate(content):
             errors.append(f"{where}: no words")
         for word in root.get("words", []):
             _check_word(errors, where, word, seen_ids, root_ids)
-            if "example" not in word:
-                errors.append(f"{where} [{word.get('id')}]: root words need an example")
+        if "source" in root and not (isinstance(root["source"], str) and root["source"].strip()):
+            errors.append(f"{where}: 'source' must be a non-empty string")
 
     if errors:
         # Rendering malformed entries would crash; report the structural problems first.
