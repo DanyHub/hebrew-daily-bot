@@ -31,7 +31,7 @@ export const TEXT = {
     chooseLevel: chooseLevel("fr", "Quel est ton niveau ?", "Tu pourras changer quand tu veux."),
     ready: (lang, level) =>
       `✅ C'est réglé !\nLangue : ${LANG_NAMES[lang]} · Niveau : ${level} · ${LEVEL_NAMES[lang][level]}\n\n` +
-      "Du dimanche au vendredi, chaque matin :\n" +
+      "Du dimanche au vendredi, chaque jour à 13h (heure d'Israël) :\n" +
       "🏷️ un thème avec 4 phrases\n" +
       "🌳 une racine et sa famille de mots\n\n" +
       "Changer : /niveau · /langue\nPause : /stop · Réglages : /status",
@@ -42,7 +42,7 @@ export const TEXT = {
     stopped: "⏸️ C'est noté, tu ne recevras plus rien. Tape /start pour reprendre quand tu veux.",
     resumed: "▶️ Bon retour ! Les envois reprennent.",
     help:
-      "Je t'envoie chaque matin (dim–ven) un thème de vocabulaire hébreu avec 4 phrases, et une racine.\n\n" +
+      "Je t'envoie chaque jour à 13h, heure d'Israël (dim–ven), un thème de vocabulaire hébreu avec 4 phrases, et une racine.\n\n" +
       "/niveau : changer de niveau\n/langue : changer de langue\n/status : voir tes réglages\n/stop : pause · /start : reprendre",
     privateOnly: "Écris-moi en message privé pour régler ton niveau et ta langue. 🙂",
     unknown: "Je n'ai pas compris. Tape /help pour voir les commandes.",
@@ -53,7 +53,7 @@ export const TEXT = {
     chooseLevel: chooseLevel("en", "What's your level?", "You can change it any time."),
     ready: (lang, level) =>
       `✅ All set!\nLanguage: ${LANG_NAMES[lang]} · Level: ${level} · ${LEVEL_NAMES[lang][level]}\n\n` +
-      "Sunday to Friday, every morning:\n" +
+      "Sunday to Friday, every day at 1pm (Israel time):\n" +
       "🏷️ a theme with 4 sentences\n" +
       "🌳 a root and its word family\n\n" +
       "Change: /level · /language\nPause: /stop · Settings: /status",
@@ -64,7 +64,7 @@ export const TEXT = {
     stopped: "⏸️ Got it, you won't receive anything. Type /start to resume any time.",
     resumed: "▶️ Welcome back! Messages are on again.",
     help:
-      "Every morning (Sun–Fri) I send a Hebrew vocabulary theme with 4 sentences, and a root.\n\n" +
+      "Every day at 1pm Israel time (Sun–Fri) I send a Hebrew vocabulary theme with 4 sentences, and a root.\n\n" +
       "/level: change level\n/language: change language\n/status: see your settings\n/stop: pause · /start: resume",
     privateOnly: "Message me privately to set your level and language. 🙂",
     unknown: "I didn't understand. Type /help to see the commands.",
