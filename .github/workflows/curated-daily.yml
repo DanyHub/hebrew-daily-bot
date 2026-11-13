@@ -8,14 +8,18 @@ name: Curated daily (theme + root)
 
 on:
   schedule:
-    - cron: '30 5 * * 0-5' # Sun-Fri, 05:30 UTC (07:30/08:30 in Israel depending on DST)
+    # Sun-Fri at 13:00 Israel time. GitHub cron is UTC only, and Israel is UTC+3 in summer and UTC+2 in
+    # winter, so the job is scheduled at both 10:00 and 11:00 UTC and the "gate" step lets through only
+    # the run that falls at 13:xx in Israel (the other one stops there).
+    - cron: '0 10 * * 0-5'
+    - cron: '0 11 * * 0-5'
   workflow_dispatch:
     inputs:
       level:
-        description: 'Level (1 beginner, 2 intermediate)'
+        description: 'Level (1 beginner, 2 intermediate, 3 advanced)'
         default: '1'
         type: choice
-        options: ['1', '2']
+        options: ['1', '2', '3']
       lang:
         description: 'Language'
         default: 'fr'
@@ -36,16 +40,32 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Gate (scheduled runs only go through at 13:xx Israel time)
+        id: gate
+        run: |
+          HOUR=$(TZ=Asia/Jerusalem date +%H)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$HOUR" != "13" ]; then
+            echo "It is $HOUR:xx in Israel, not 13:xx: skipping this run (the other cron covers it)."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.gate.outputs.go == 'true'
+        uses: actions/checkout@v4
+      - if: steps.gate.outputs.go == 'true'
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: pip install -r requirements.txt
+      - if: steps.gate.outputs.go == 'true'
+        run: pip install -r requirements.txt
       - name: Validate content
+        if: steps.gate.outputs.go == 'true'
         run: python -m hebbot.validate
       - name: Content runway (warns when fresh content is running low)
+        if: steps.gate.outputs.go == 'true'
         run: python -m hebbot.order runway
       - name: Send daily messages
+        if: steps.gate.outputs.go == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

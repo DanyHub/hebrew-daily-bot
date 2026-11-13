@@ -1,0 +1,38 @@
+{
+  "theme": "daily",
+  "status": "draft",
+  "emoji": "💬",
+  "title": {"fr": "Mots utiles du quotidien", "en": "Useful everyday words"},
+  "words": [
+    {"id": "daily-01", "level": 1, "he": "שלום", "pos": "nm", "translit": {"fr": "chalom", "en": "shalom"}, "meaning": {"fr": "Bonjour, salut, paix", "en": "Hello, peace"}},
+    {"id": "daily-02", "level": 1, "he": "תודה", "pos": "nf", "translit": {"fr": "toda", "en": "toda"}, "meaning": {"fr": "Merci", "en": "Thank you"}},
+    {"id": "daily-03", "level": 1, "he": "בבקשה", "pos": "adv", "translit": {"fr": "bévakacha", "en": "bevakasha"}, "meaning": {"fr": "S'il vous plaît, de rien", "en": "Please, you're welcome"}},
+    {"id": "daily-04", "level": 1, "he": "סליחה", "pos": "nf", "translit": {"fr": "slih'a", "en": "slicha"}, "meaning": {"fr": "Pardon, excuse-moi", "en": "Sorry, excuse me"}},
+    {"id": "daily-05", "level": 1, "he": "להתראות", "pos": "expr", "translit": {"fr": "lèhitra'ot", "en": "lehitra'ot"}, "meaning": {"fr": "Au revoir", "en": "Goodbye"}},
+    {"id": "daily-06", "level": 1, "he": "כן", "pos": "adv", "translit": {"fr": "kène", "en": "ken"}, "meaning": {"fr": "Oui", "en": "Yes"}},
+    {"id": "daily-07", "level": 1, "he": "לא", "pos": "adv", "translit": {"fr": "lo", "en": "lo"}, "meaning": {"fr": "Non", "en": "No"}},
+    {"id": "daily-08", "level": 1, "he": "בסדר", "pos": "adv", "translit": {"fr": "békhèdèr", "en": "beseder"}, "meaning": {"fr": "D'accord, ça va", "en": "OK, fine"}},
+    {"id": "daily-09", "level": 1, "he": "אולי", "pos": "adv", "translit": {"fr": "oulaï", "en": "ulai"}, "meaning": {"fr": "Peut-être", "en": "Maybe"}},
+    {"id": "daily-10", "level": 1, "he": "בטח", "pos": "adv", "translit": {"fr": "bétah'", "en": "betach"}, "meaning": {"fr": "Bien sûr", "en": "Of course"}},
+    {"id": "daily-11", "level": 2, "he": "המום", "pos": "adj", "translit": {"fr": "hamoum", "en": "hamum"}, "meaning": {"fr": "Stupéfait, abasourdi", "en": "Stunned, dumbfounded"}},
+    {"id": "daily-12", "level": 2, "he": "מתוסכל", "pos": "adj", "translit": {"fr": "métouskal", "en": "mesukhal"}, "meaning": {"fr": "Frustré, découragé", "en": "Frustrated, discouraged"}},
+    {"id": "daily-13", "level": 2, "he": "מבולבל", "pos": "adj", "translit": {"fr": "mévoulbal", "en": "mevulbal"}, "meaning": {"fr": "Désorienté, confus", "en": "Confused, disoriented"}},
+    {"id": "daily-14", "level": 2, "he": "נודניק", "pos": "nm", "translit": {"fr": "noudnik", "en": "nudnik"}, "meaning": {"fr": "Casse-pieds, enquiquineur", "en": "Pest, nag"}},
+    {"id": "daily-15", "level": 2, "he": "חפיף", "pos": "adj", "translit": {"fr": "h'afif", "en": "chafif"}, "meaning": {"fr": "Bâclé, fait à la va-vite", "en": "Sloppy, done carelessly"}},
+    {"id": "daily-16", "level": 2, "he": "סתם ככה", "pos": "adv", "translit": {"fr": "stam kakha", "en": "stam kacha"}, "meaning": {"fr": "Comme ça, sans raison particulière", "en": "Just like that, for no reason"}},
+    {"id": "daily-17", "level": 2, "he": "מעצבן", "pos": "adj", "translit": {"fr": "méatsbène", "en": "me'atzben"}, "meaning": {"fr": "Énervant, agaçant", "en": "Annoying"}},
+    {"id": "daily-18", "level": 2, "he": "מוזר", "pos": "adj", "translit": {"fr": "mouzar", "en": "muzar"}, "meaning": {"fr": "Bizarre, étrange", "en": "Strange, weird"}},
+    {"id": "daily-19", "level": 2, "he": "מגניב", "pos": "adj", "translit": {"fr": "magniv", "en": "magniv"}, "meaning": {"fr": "Cool, génial", "en": "Cool"}},
+    {"id": "daily-20", "level": 2, "he": "חנון", "pos": "nm", "translit": {"fr": "h'anoune", "en": "chanun"}, "meaning": {"fr": "Intello, binoclard", "en": "Nerd"}}
+  ],
+  "sentences": [
+    {"level": 1, "he": "שלום, תודה ובבקשה.", "translit": {"fr": "Chalom, toda ouvévakacha.", "en": "Shalom, toda uvevakasha."}, "translation": {"fr": "Bonjour, merci et de rien.", "en": "Hello, thank you and you're welcome."}},
+    {"level": 1, "he": "סליחה, אולי אתה יודע איפה התחנה?", "translit": {"fr": "Slih'a, oulaï ata yoda éfo hatah'ana?", "en": "Slicha, ulai ata yode'a eifo hatachana?"}, "translation": {"fr": "Pardon, tu sais peut-être où est la station ?", "en": "Excuse me, maybe you know where the station is?"}},
+    {"level": 1, "he": "כן, בטח, זה בסדר.", "translit": {"fr": "Kène, bétah', zé békhèdèr.", "en": "Ken, betach, ze beseder."}, "translation": {"fr": "Oui, bien sûr, ça va.", "en": "Yes, of course, it's fine."}},
+    {"level": 1, "he": "לא, תודה. להתראות!", "translit": {"fr": "Lo, toda. Lèhitra'ot!", "en": "Lo, toda. Lehitra'ot!"}, "translation": {"fr": "Non, merci. Au revoir !", "en": "No, thanks. Goodbye!"}},
+    {"level": 2, "he": "אחרי המבחן הוא היה מבולבל והמום.", "translit": {"fr": "Ah'aré hamivh'ane hou haya mévoulbal vèhamoum.", "en": "Acharei hamivchan hu haya mevulbal vehamum."}, "translation": {"fr": "Après l'examen il était confus et abasourdi.", "en": "After the exam he was confused and stunned."}},
+    {"level": 2, "he": "אני מתוסכל כי המחשב לא עובד.", "translit": {"fr": "Ani métouskal ki hamakhchev lo ové'd.", "en": "Ani mesukhal ki hamachshev lo oved."}, "translation": {"fr": "Je suis frustré parce que l'ordinateur ne marche pas.", "en": "I'm frustrated because the computer doesn't work."}},
+    {"level": 2, "he": "הוא נודניק, הוא שואל אותה שאלה סתם ככה.", "translit": {"fr": "Hou noudnik, hou choèl ota chééla stam kakha.", "en": "Hu nudnik, hu shoel ota she'ela stam kacha."}, "translation": {"fr": "C'est un casse-pieds, il pose la même question sans raison.", "en": "He's a pest, he asks the same question for no reason."}},
+    {"level": 2, "he": "העבודה חפיפה, וזה מעצבן ומוזר.", "translit": {"fr": "Ha'avoda h'afifa, vèzé méatsbène oumouzar.", "en": "Ha'avoda chafifa, veze me'atzben umuzar."}, "translation": {"fr": "Le travail est bâclé, c'est énervant et bizarre.", "en": "The work is sloppy, which is annoying and strange."}}
+  ]
+}

@@ -15,7 +15,7 @@ What a person sees:
 1. `/start` → "Choisis ta langue · Choose your language" (buttons)
 2. Level buttons (1 Beginner, 2 Intermediate, 3 Advanced), listing only the levels that have enough content
 3. A confirmation, then **today's lesson right away** (a theme with 4 sentences, then a root), whatever the
-   time they register. After that, every morning (Sun–Fri), the same.
+   time they register. After that, every day at 13:00 Israel time (Sun–Fri), the same.
 
 The first lesson is also sent when someone comes back with `/start` after a pause. Nobody gets the same
 day's lesson twice: the day (Israel date) is stored in `last_sent`, and the scheduled send skips people already served.

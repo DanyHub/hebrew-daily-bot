@@ -35,7 +35,7 @@ GitHub Actions "Curated daily" ─────────┘ builds today's mes
 3. Deploy the Worker so people can register: follow [`worker/README.md`](worker/README.md)
    (a free Cloudflare account, two more secrets, one workflow run).
 4. People send `/start` to the bot. Run **Actions → Curated daily → Run workflow** to send right away;
-   otherwise it runs by itself Sunday to Friday at 05:30 UTC.
+   otherwise it runs by itself Sunday to Friday at 13:00 Israel time.
 
 Without the Cloudflare secrets the daily workflow falls back to one chat: set `TELEGRAM_CHAT_ID`
 (and optionally the repository variables `HEBBOT_LEVEL` and `HEBBOT_LANG`).
