@@ -40,7 +40,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Gate (scheduled safety-net runs: from 14:00 Israel time, never on Saturday)
+      - name: "Gate (scheduled safety-net runs from 14:00 Israel time, never on Saturday)"
         id: gate
         run: |
           HOUR=$(TZ=Asia/Jerusalem date +%-H)
