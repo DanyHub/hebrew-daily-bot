@@ -26,7 +26,7 @@ const COMMANDS = {
   stop: "stop",
 };
 
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const isReady = (user) => Boolean(user && user.lang && user.level);
 const levelsOf = (deps) => (deps && deps.levels) || offeredLevels(); // levels with enough content to offer
 

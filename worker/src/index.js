@@ -1,4 +1,7 @@
 import { handleUpdate } from "./bot.js";
+import { makeDb } from "./db.js";
+import { makeTelegram } from "./telegram.js";
+import { runDailySend } from "./daily-send.js";
 
 const SECRET_HEADER = "X-Telegram-Bot-Api-Secret-Token";
 
@@ -37,5 +40,14 @@ export default {
     }
 
     return new Response("not found", { status: 404 });
+  },
+
+  // Cron trigger (wrangler.toml): the daily lesson at 13:00 Israel time.
+  async scheduled(_event, env, ctx) {
+    ctx.waitUntil(
+      runDailySend({ db: makeDb(env.DB), tg: makeTelegram(env) }).catch((err) =>
+        console.error("daily send failed:", err && err.message),
+      ),
+    );
   },
 };
