@@ -8,13 +8,11 @@ name: Curated daily (theme + root)
 
 on:
   schedule:
-    # Sun-Fri at 13:00 Israel time. GitHub cron is UTC only, and Israel is UTC+3 in summer and UTC+2 in
-    # winter, so the job is scheduled at both 10:00 and 11:00 UTC. GitHub often starts scheduled runs
-    # hours late, so the gate below does not demand exactly 13:xx: any run that starts at 13:00 Israel time
-    # or later sends, and people who already got today's lesson are skipped (last_sent), so the second cron
-    # and late runs never double-send.
-    - cron: '0 10 * * 0-5'
-    - cron: '0 11 * * 0-5'
+    # Safety net only. The daily lesson is sent at 13:00 Israel time by the Cloudflare Worker's own cron
+    # (worker/wrangler.toml), which starts on time. This run is at 12:00 UTC (14:00 or 15:00 in Israel) and
+    # sends only to people the Worker has not served yet (last_sent), so normally it sends nothing. GitHub
+    # may start it hours late; the gate keeps it from running before 14:00 Israel time or on Saturday.
+    - cron: '0 12 * * 0-5'
   workflow_dispatch:
     inputs:
       level:
@@ -42,12 +40,12 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Gate (scheduled runs send from 13:00 Israel time, never before, never on Saturday)
+      - name: Gate (scheduled safety-net runs: from 14:00 Israel time, never on Saturday)
         id: gate
         run: |
           HOUR=$(TZ=Asia/Jerusalem date +%-H)
           DOW=$(TZ=Asia/Jerusalem date +%u)   # 6 = Saturday
-          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$HOUR" -lt 13 ] || [ "$DOW" = "6" ]; }; then
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$HOUR" -lt 14 ] || [ "$DOW" = "6" ]; }; then
             echo "It is $HOUR:xx in Israel (weekday $DOW): too early or Saturday, skipping this run."
             echo "go=false" >> "$GITHUB_OUTPUT"
           else

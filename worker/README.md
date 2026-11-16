@@ -93,3 +93,11 @@ the Python tests fail if it is stale, and committing it redeploys the Worker.
 | `test/bot.test.js` | Unit tests |
 
 Python side: `hebbot/subscribers.py` (D1 over the Cloudflare REST API) and `hebbot/daily.py` (`--subscribers`).
+
+## The daily send (13:00 Israel time)
+
+The Worker sends the daily lesson itself, from a Cloudflare cron trigger (`[triggers]` in `wrangler.toml`).
+The cron fires every 5 minutes between 10:00 and 14:59 UTC; the code does nothing until it is 13:00 in Israel
+(10:00 UTC in summer, 11:00 UTC in winter) and never sends on Saturday. Each run serves a small batch of people
+who have not had today's lesson (`last_sent`), so a failure is retried 5 minutes later and nobody gets it twice.
+People who blocked the bot are paused. The GitHub workflow "Curated daily" is only a safety net.

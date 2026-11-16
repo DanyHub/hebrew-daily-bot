@@ -37,6 +37,18 @@ export function makeDb(d1) {
         .bind(day, chatId)
         .run();
     },
+    /** Active, fully set-up people who have not had the lesson of `day` yet (at most `limit`). */
+    async dueUsers(day, limit) {
+      const { results } = await d1
+        .prepare(
+          "SELECT chat_id, lang, level, last_sent FROM users " +
+            "WHERE active = 1 AND lang IS NOT NULL AND level IS NOT NULL " +
+            "AND (last_sent IS NULL OR last_sent <> ?) ORDER BY chat_id LIMIT ?",
+        )
+        .bind(day, limit)
+        .all();
+      return results || [];
+    },
     async setActive(chatId, active) {
       await d1
         .prepare("UPDATE users SET active = ?, updated_at = datetime('now') WHERE chat_id = ?")

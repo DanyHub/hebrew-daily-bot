@@ -9,3 +9,8 @@ binding = "DB"
 database_name = "hebrew-daily-bot"
 database_id = "REPLACE_WITH_D1_ID"
 migrations_dir = "migrations"
+
+# The daily lesson. Fires every 5 minutes from 10:00 to 14:59 UTC; the code only sends from 13:00 Israel
+# time (10:00 UTC in summer, 11:00 UTC in winter), never on Saturday, and retries whoever is left.
+[triggers]
+crons = ["*/5 10-14 * * *"]
